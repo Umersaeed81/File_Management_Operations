@@ -13,12 +13,4 @@ destination_folder = "D:/Copy/Ali_Saeed"
 # Use the shutil.copy() function to copy the file
 shutil.copy(file_path, destination_folder)
 ```
-
-
-
-
-    'D:/Copy/Ali_Saeed\\Test.xlsx'
-
-
-
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
