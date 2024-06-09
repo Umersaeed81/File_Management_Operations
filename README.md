@@ -147,25 +147,23 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 This example combines the enhancements from previous examples. It excludes subfolders from the copy operation and handles potential overwrites by generating new filenames with incremental suffixes if a file with the same name already exists in the destination folder.
 
-###[Copying Files That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-21.md)
+### [Copying Files That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-21.md)
 
 This example demonstrates how to copy files from a source directory to a destination directory based on whether their base names (excluding extensions) end with the characters "_gl". The script iterates over the files in the source directory and copies those that match the condition to the destination folder.
 
-###[Copying Files That End with Specific Characters and Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-22.md)
+### [Copying Files That End with Specific Characters and Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-22.md)
 
 This example builds on the previous one by adding functionality to handle potential overwrites. If a file with the same name already exists in the destination folder, the script generates a new filename with an incremental suffix to avoid overwriting the existing file.
 
-###[Copying Files (Excluding Subfolders) That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-23.md)
+### [Copying Files (Excluding Subfolders) That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-23.md)
 
 In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that end with the specified characters.
 
-###[Copying Files (Excluding Subfolders) That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-24.md)
+### [Copying Files (Excluding Subfolders) That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-24.md)
 
 In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that end with the specified characters.
 
 
-![Copying Files (Excluding Subfolders) That End with Specific Characters and Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
 
-This example combines the enhancements from previous examples. It excludes subfolders from the copy operation and handles potential overwrites by generating new filenames with incremental suffixes if a file with the same name already exists in the destination folder.
 
 
