@@ -48,9 +48,9 @@ Copying files is one of the most fundamental and frequently performed operations
 
 The most basic form of copying involves duplicating a single file from one location to another. This operation preserves the original file while creating an identical copy at the target location.
 
-In this section, we will explore several examples that demonstrate different scenarios and techniques for copying files. Each example builds upon the previous one, introducing new checks and safeguards to handle common issues that can arise during file copying operations. These examples highlight the importance of verifying the existence of source files and destination directories, handling potential overwrites, and ensuring robust and error-free copy operations
+In this section, we will explore several examples that demonstrate different scenarios and techniques for copying files. Each example builds upon the previous one, introducing new checks and safeguards to handle common issues that can arise during file copying operations. These examples highlight the importance of verifying the existence of source files and destination directories, handling potential overwrites, and ensuring robust and error-free copy operations.
 
-[Example-1:Basic File Copy](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-01.md)
+[Example-1:Basic File Copy](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-01.md)<br>
 This example demonstrates how to copy a single file from a source location to a destination folder using the shutil.copy() function. This operation creates an exact copy of the file in the specified destination.
 
 
