@@ -9,7 +9,7 @@ MS Data Science, School of Business and Economics<br>
 
 # Checking Source File Existence
 
-Similar to Example 1, but it includes a check to ensure that the source file exists before attempting to copy it. If the file exists, it performs the copy operation; otherwise, it prints an error message.
+Similar to [Example 1](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Single_File_Copying_Techniques/Example-01.md), but it includes a check to ensure that the source file exists before attempting to copy it. If the file exists, it performs the copy operation; otherwise, it prints an error message.
 
 However, this code has the following limitations:
 
