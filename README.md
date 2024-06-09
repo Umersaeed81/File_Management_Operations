@@ -106,7 +106,7 @@ This example combines the functionality of filtering out subfolders and avoiding
 
 Conditional copying involves applying specific criteria to determine which files should be copied. This approach allows for more refined and controlled file copying operations based on file types, names, or other attributes. In this section, we explore examples where files are selectively copied based on their extensions and other conditions, ensuring that only the relevant files are transferred while handling potential overwrites and preserving metadata.
 
-## Copying Files Based on File Extensions
+### Copying Files Based on File Extensions
 
 In this subsection, we focus on copying files based on their file extensions. This method is useful when you only need to copy files with specific extensions from a directory, thereby avoiding unnecessary data transfer and saving time.
 
