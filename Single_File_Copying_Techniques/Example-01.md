@@ -1,5 +1,14 @@
 # Basic Copy Operation
 
+This code imports the **shutil** library, which provides functions for file operations. It sets the source file path and the destination folder path. Then, it uses **shutil.copy()** to copy the file from the source to the destination.
+
+However, this code has the following limitations:
+
+**1. Overwriting Existing Files:** If a file with the same name already exists in the destination folder, the existing file will be overwritten without any warning or confirmation, potentially leading to data loss.
+**2. Non-existent Source File:** If the source file does not exist, an error will occur.
+**3. Non-existent Destination Folder:** If the destination folder does not exist, the code will not copy the file correctly.
+
+
 
 ```python
 # Import the required library
