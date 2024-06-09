@@ -9,6 +9,15 @@ MS Data Science, School of Business and Economics<br>
 
 # Checking Source File Existence
 
+Similar to Example 1, but it includes a check to ensure that the source file exists before attempting to copy it. If the file exists, it performs the copy operation; otherwise, it prints an error message.
+
+However, this code has the following limitations:
+
+**1. Overwriting Existing Files:** If a file with the same name already exists in the destination folder, the existing file will be overwritten without any warning or confirmation, potentially leading to data loss.<br>
+**2. Non-existent Destination Folder:** If the destination folder does not exist, the code will not copy the file correctly.
+
+
+
 ```python
 # Import the required library
 import os
