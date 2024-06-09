@@ -6,7 +6,8 @@ MS Data Science, School of Business and Economics<br>
 **Mobile:**     +923018412180<br>
 **Email:**  umersaeed81@hotmail.com<br>
 **Address:** Dream Gardens,Defence Road, Lahore<br>
-#------------------------------------------------------------------------------------------------------------
+
+
 # Basic Copy Operation
 
 This code imports the **shutil** library, which provides functions for file operations. It sets the source file path and the destination folder path. Then, it uses **shutil.copy()** to copy the file from the source to the destination.
