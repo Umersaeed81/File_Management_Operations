@@ -9,6 +9,13 @@ MS Data Science, School of Business and Economics<br>
 
 # Creating Destination Folder
 
+This code creates the destination folder if it does not already exist and checks if the source file exists. If the source file is found, it copies the file; otherwise, it displays an error message.
+
+However, this code has the following limitations:<br>
+
+**Overwriting Existing Files:** If a file with the same name already exists in the destination folder, the existing file will be overwritten without any warning or confirmation, potentially leading to data loss.
+
+
 
 ```python
 # Import the required libraries
