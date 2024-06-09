@@ -11,11 +11,10 @@ file_path = "D:/Copy/Umer_Saeed/Test.xlsx"
 # Set the destination folder path
 destination_folder = "D:/Copy/Ali_Saeed"
 
-# Check if the destination folder exists, create it if not
-os.makedirs(destination_folder, exist_ok=True)
-
 # Check if the source file exists
 if os.path.exists(file_path):
+    # Check if the destination folder exists, create it if not
+    os.makedirs(destination_folder, exist_ok=True)
     # Use the shutil.copy() function to copy the file
     shutil.copy(file_path, destination_folder)
     print("File copied successfully!")
