@@ -76,7 +76,13 @@ This code creates the destination folder if it does not already exist and checks
 
 This example ensures that the copied file does not overwrite an existing file in the destination folder by appending an incremental suffix to the filename if a file with the same name already exists. This guarantees that all copies are retained uniquely.
 
+### [Selective Files Copy](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-07.md)
 
+This example demonstrates how to selectively copy multiple files from a list of source files to a destination folder. The code checks if each file exists and copies it if it does. If the destination folder does not exist, it is created.
+
+### [Selective Files Copy Avoiding Overwrites by Renaming](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-08.md)
+
+This example extends the selective files copy by adding functionality to avoid overwriting existing files in the destination folder. If a file with the same name already exists, the code generates a new filename with an incremental suffix to ensure that each file is copied without overwriting any existing files.
 
 
 
