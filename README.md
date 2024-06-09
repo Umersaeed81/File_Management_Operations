@@ -11,7 +11,25 @@ File manipulation is a cornerstone of many programming tasks. Whether you are or
 
 - **Workflow Optimization:** Streamlined file management processes contribute to more efficient and effective workflows.
 
-- 
+- **Copy Files:** Duplicating files from one location to another, ensuring a backup or creating copies for different tasks. This operation is fundamental when you need to preserve the original file while working on a copy.
+
+- **Move Files:** Relocating files to a new directory path, effectively changing their location within the filesystem. This is useful for organizing files into appropriate directories or transferring files to different storage locations.
+
+- **Delete Files:** Removing files from the filesystem, which is essential for freeing up space and managing storage. Proper file deletion helps maintain an organized and clutter-free directory structure.
+
+- **Create Directories:** Making new directories to organize files, allowing for a structured and hierarchical storage system. This is important for keeping related files together and simplifying file retrieval.
+
+- **Delete Directories:** Removing directories and their contents, often necessary when directories are no longer needed. This operation helps in maintaining an efficient and tidy file system by eliminating unused or outdated directories.
+
+- **Rename Files:** Changing the name of a file, which can be crucial for clarity, organization, or adhering to naming conventions. Renaming files helps in identifying and categorizing them appropriately.
+
+
+
+
+
+
+
+
 
 
 
