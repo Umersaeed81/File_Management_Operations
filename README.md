@@ -110,8 +110,20 @@ Conditional copying involves applying specific criteria to determine which files
 
 In this subsection, we focus on copying files based on their file extensions. This method is useful when you only need to copy files with specific extensions from a directory, thereby avoiding unnecessary data transfer and saving time.
 
+### [Copying Only Excel Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_File_Extensions/Example-13.md)
 
+This example demonstrates how to copy only .xlsx files from a source directory to a destination directory. It filters files based on their extensions and copies only the matching files.
 
+### [Copying Excel Files and Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_File_Extensions/Example-14.md)
 
+Building upon the previous example, this script adds functionality to avoid overwriting existing files in the destination folder. It generates new filenames with an incremental suffix if a file with the same name already exists.
+
+### [Copying Excel and Text Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_File_Extensions/Example-15.md)
+
+This example extends the filtering criteria to include both .xlsx and .txt files. It demonstrates how to copy multiple specific file types from a source directory to a destination directory.
+
+### [Copying Excel and Text Files with Renaming to Avoid Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_File_Extensions/Example-16.md)
+
+This example combines the functionality of copying specific file types and renaming files to avoid overwrites. It filters files by .xlsx and .txt extensions and ensures that if a file with the same name already exists in the destination folder, a new filename is generated to prevent overwriting.
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
