@@ -12,7 +12,7 @@ MS Data Science, School of Business and Economics<br>
 This version combines checks for both the existence of the source file and the destination folder before performing the copy operation, providing more comprehensive error handling compared to previous examples.
 
 However, this code has the following limitations:
-    - Overwriting Existing Files: If a file with the same name already exists in the destination folder, the existing file will be overwritten without any warning or confirmation, potentially leading to data loss.
+**Overwriting Existing Files:** If a file with the same name already exists in the destination folder, the existing file will be overwritten without any warning or confirmation, potentially leading to data loss.
 
 
 
