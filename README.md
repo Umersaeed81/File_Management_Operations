@@ -163,7 +163,7 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that end with the specified characters.
 
-[!](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
 
 
 
