@@ -6,8 +6,8 @@ This example demonstrates how to copy all files from a source directory to a des
 
 ## Limitations
 
-**Handling Subfolders:** This script does not distinguish between files and subfolders. If subfolders are present, they will cause errors.<br>
-**Overwriting Existing Files:** If files with the same names already exist in the destination folder, they will be overwritten without any warning, potentially leading to data loss.
+**1. Handling Subfolders:** This script does not distinguish between files and subfolders. If subfolders are present, they will cause errors.<br>
+**2. Overwriting Existing Files:** If files with the same names already exist in the destination folder, they will be overwritten without any warning, potentially leading to data loss.
 
 
 ```python
