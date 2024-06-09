@@ -128,6 +128,7 @@ This example combines the functionality of copying specific file types and renam
 
 ### Copying Files Based on Name Patterns
 
+In this section, we delve into more advanced file copying scenarios where the selection of files is based on specific conditions such as name patterns. This approach allows for greater flexibility and precision in managing file copying tasks. The following examples showcase how to copy files that meet specific naming criteria, with added checks to handle potential issues such as overwriting existing files and handling subfolders.
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
