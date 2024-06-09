@@ -84,7 +84,9 @@ This example demonstrates how to selectively copy multiple files from a list of 
 
 This example extends the selective files copy by adding functionality to avoid overwriting existing files in the destination folder. If a file with the same name already exists, the code generates a new filename with an incremental suffix to ensure that each file is copied without overwriting any existing files.
 
+## Copying Multiple Files
 
+Copying multiple files from one directory to another is a common requirement in many applications. This operation involves iterating over a set of files and duplicating each one at the target location. In this section, we will explore several examples that demonstrate different scenarios and techniques for copying multiple files. Each example builds upon the previous one, introducing new checks and safeguards to handle common issues that can arise during these operations. These examples highlight the importance of filtering out subfolders, handling potential overwrites, and ensuring robust and error-free copy operations.
 
 
 
