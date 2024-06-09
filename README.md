@@ -50,16 +50,31 @@ The most basic form of copying involves duplicating a single file from one locat
 
 In this section, we will explore several examples that demonstrate different scenarios and techniques for copying files. Each example builds upon the previous one, introducing new checks and safeguards to handle common issues that can arise during file copying operations. These examples highlight the importance of verifying the existence of source files and destination directories, handling potential overwrites, and ensuring robust and error-free copy operations.
 
-[Example-1:Basic File Copy](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-01.md)<br>
+[Basic File Copy](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-01.md)<br>
 
 This example demonstrates how to copy a single file from a source location to a destination folder using the **shutil.copy()** function. This operation creates an exact copy of the file in the specified destination.
 
+[File Copy with Existence Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-02.md)
+
+This example enhances the basic file copy by first checking if the source file exists before attempting to copy it. If the file is found, it is copied to the destination folder, and a success message is printed. If not, an error message is displayed.
 
 
+[File Copy with Destination Folder Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-03.md)
+
+This example further improves the file copy operation by checking if the destination folder exists. If the destination folder is not found, an error message is displayed, preventing the copy operation from proceeding.
+
+[Comprehensive Error Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-04.md)
+
+This version combines checks for both the existence of the source file and the destination folder before performing the copy operation, providing more comprehensive error handling compared to previous examples.
 
 
+[Creating Destination Folder](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-05.md)
 
+This code creates the destination folder if it does not already exist and checks if the source file exists. If the source file is found, it copies the file; otherwise, it displays an error message.
 
+[Avoiding Overwrites by Renaming](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Simple_File_Copy/Example-06.md)
+
+This example ensures that the copied file does not overwrite an existing file in the destination folder by appending an incremental suffix to the filename if a file with the same name already exists. This guarantees that all copies are retained uniquely.
 
 
 
