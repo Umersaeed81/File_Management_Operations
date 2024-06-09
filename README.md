@@ -126,4 +126,8 @@ This example extends the filtering criteria to include both .xlsx and .txt files
 
 This example combines the functionality of copying specific file types and renaming files to avoid overwrites. It filters files by .xlsx and .txt extensions and ensures that if a file with the same name already exists in the destination folder, a new filename is generated to prevent overwriting.
 
+### Copying Files Based on Name Patterns
+
+
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
