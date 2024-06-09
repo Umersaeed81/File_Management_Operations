@@ -23,6 +23,12 @@ File manipulation is a cornerstone of many programming tasks. Whether you are or
 
 - **Rename Files:** Changing the name of a file, which can be crucial for clarity, organization, or adhering to naming conventions. Renaming files helps in identifying and categorizing them appropriately.
 
+- **List Directory Contents:** Viewing the contents of a directory, providing a snapshot of the files and subdirectories within. This operation is useful for gaining an overview of what is stored in a particular directory and for verifying file presence.
+
+- **Zip Files:** Compressing files into a zip archive, which reduces their size for storage and transfer. Zipping files is essential for saving disk space and for efficient file sharing.
+
+- **Unzip Files:** Extracting files from a zip archive, allowing access to compressed files. Unzipping is necessary to retrieve the original files for use after they have been compressed for storage or transfer.
+
 
 
 
