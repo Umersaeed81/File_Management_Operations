@@ -187,6 +187,10 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 This example combines the enhancements from previous examples. It excludes subfolders from the copy operation and handles potential overwrites by generating new filenames with incremental suffixes if a file with the same name already exists in the destination folder.
 
+### Copying Files Based on Specific Keywords and Extensions
+
+This subsection focuses on scripts that copy files from a source directory to a destination directory based on specific keywords within the file names and particular file extensions. The examples provided demonstrate how to handle various scenarios such as files starting or ending with a certain keyword, or containing a keyword, and ensuring the file has a specified extension (e.g., ".xlsx"). Additionally, some examples incorporate methods to avoid overwriting existing files in the destination directory by generating unique filenames when conflicts arise. These scripts are useful for organizing files, creating backups, and managing data based on specific naming conventions and file types.
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
 
 
