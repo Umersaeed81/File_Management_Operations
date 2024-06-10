@@ -130,7 +130,7 @@ This example combines the functionality of copying specific file types and renam
 
 In this section, we delve into more advanced file copying scenarios where the selection of files is based on specific conditions such as name patterns. This approach allows for greater flexibility and precision in managing file copying tasks. The following examples showcase how to copy files that meet specific naming criteria, with added checks to handle potential issues such as overwriting existing files and handling subfolders.
 
-### Pre-fix
+### Prefix
 
 ### [Copying Files That Start with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-17.md)
 
@@ -149,7 +149,7 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 This example combines the enhancements from previous examples. It excludes subfolders from the copy operation and handles potential overwrites by generating new filenames with incremental suffixes if a file with the same name already exists in the destination folder.
 
-### sufix
+### Suffix
 
 ### [Copying Files That End with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-21.md)
 
@@ -167,6 +167,9 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that end with the specified characters.
 
+### Keywords
+
+### [umer saeed]
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
 
