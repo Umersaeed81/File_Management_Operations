@@ -217,6 +217,17 @@ This script copies files from a source directory to a destination directory if t
 
 ### [Copying Files That End with a Specific Keyword and Have a Specific Extension, Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-32.md)
 
+
+
+### [Copying Files That End with Multiple Keywords and Have Multiple Extensions](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-37.md)
+
+This script copies files from the source directory to the destination directory if their base names end with "AS" or "US" and have either a ".xlsx" or ".txt" extension.
+
+### [Copying Files That End with Multiple Keywords and Have Multiple Extensions, Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-38.md)
+
+This script copies files from the source directory to the destination directory if their base names end with "AS" or "US" and have either a ".xlsx" or ".txt" extension. It also ensures that files are not overwritten by generating unique filenames.
+
+
 This example builds on the previous one by adding functionality to handle potential overwrites. If a file with the same name already exists in the destination folder, the script generates a new filename with an incremental suffix to avoid overwriting the existing file.
 
 ### Copying Files Based on Specific Keywords and Extensions
@@ -227,6 +238,11 @@ This script copies files from a source directory to a destination directory if t
 ### [Copying Files with a Specific Extension and Containing a Specific Keyword, Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-34.md)
 This example builds on the previous one by adding functionality to handle potential overwrites. If a file with the same name already exists in the destination folder, the script generates a new filename with an incremental suffix to avoid overwriting the existing file.
 
+### [Copying Files That Contain Multiple Keywords and Have Multiple Extensions](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-39.md)
+This script copies files from the source directory to the destination directory if their names contain "AS" or "US" and have either a ".xlsx" or ".txt" extension.
+
+### [Copying Files That Contain Multiple Keywords and Have Multiple Extensions, Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-40.md)
+This script copies files from the source directory to the destination directory if their names contain "AS" or "US" and have either a ".xlsx" or ".txt" extension. It also ensures that files are not overwritten by generating unique filenames.
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/pic1.png?raw=true)
 
 
