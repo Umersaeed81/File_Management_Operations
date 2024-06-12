@@ -40,6 +40,6 @@ for file in files:
             base_filename, file_extension = os.path.splitext(destination_file_path)
             new_filename = os.path.join(destination_folder, f"{base_filename}_{counter}{file_extension}")
             counter += 1
-
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, new_filename)
 ```
