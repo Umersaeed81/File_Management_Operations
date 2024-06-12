@@ -25,6 +25,7 @@ for file_path in source_files:
     # Check if the destination folder exists, create it if not
     os.makedirs(destination_folder, exist_ok=True)
     if os.path.exists(file_path):
+        # Use the shutil.copy() function to copy the file
         shutil.copy(file_path, destination_folder)
         print(f"Copied: {file_path} to {destination_folder}")
     else:
