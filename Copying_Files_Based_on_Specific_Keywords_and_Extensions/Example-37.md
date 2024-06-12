@@ -33,5 +33,6 @@ for file in files:
     # Check if the file ends with "AS" and "US" and has a ".xlsx" and ".txt" extension
     if base_name.endswith(('AS','US')) and file.lower().endswith((".xlsx",".txt")):
         destination_file_path = os.path.join(destination_folder, file)
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, destination_file_path)
 ```
