@@ -27,5 +27,6 @@ for file in files:
     if file.endswith(".xlsx"):
         source_file_path = os.path.join(file_path, file)
         destination_file_path = os.path.join(destination_folder, file)
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, destination_file_path)
 ```
