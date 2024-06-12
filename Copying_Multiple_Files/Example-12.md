@@ -32,6 +32,6 @@ for file in files:
                 f"{base_filename}_{counter}{file_extension}")
         counter += 1
         destination_file_path = new_filename
-
+    # Use the shutil.copy() function to copy the file
     shutil.copy(source_file_path, destination_file_path)
 ```
