@@ -10,6 +10,7 @@ No significant limitations noted for this example as it handles file overwrites 
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
