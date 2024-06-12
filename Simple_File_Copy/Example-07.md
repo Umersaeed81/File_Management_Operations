@@ -10,6 +10,7 @@ This example demonstrates how to selectively copy multiple files from a list of 
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
