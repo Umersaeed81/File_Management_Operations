@@ -11,6 +11,7 @@ This example demonstrates how to copy files from a source directory to a destina
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
