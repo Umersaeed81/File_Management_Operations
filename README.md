@@ -184,7 +184,7 @@ This example builds on the previous one by adding functionality to handle potent
 
 ### [Copying Files (Excluding Subfolders) That Contain Specific Keywords](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-27.md)
 
-In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that contain the specified keyword, ensuring that no subfolders are mistakenly copied.
+In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that contain the specified keyword.
 
 ### [Copying Files (Excluding Subfolders) That Contain Specific Keywords and Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-28.md)
 
