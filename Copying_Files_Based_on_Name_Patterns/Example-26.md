@@ -10,6 +10,7 @@ This example builds on the previous one by adding functionality to handle potent
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
