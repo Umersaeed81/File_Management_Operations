@@ -10,6 +10,7 @@ This script copies files from the source directory to the destination directory 
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
