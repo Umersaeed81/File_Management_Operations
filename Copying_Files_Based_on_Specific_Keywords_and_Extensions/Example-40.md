@@ -25,7 +25,8 @@ target_substrings = ("AS", "US")
 files = os.listdir(file_path)
 
 # Filter files based on the conditions
-filtered_files = [file for file in files if file.endswith(('.xlsx', '.txt')) and any(substring in file for substring in target_substrings)]
+filtered_files = [file for file in files if file.endswith(('.xlsx', '.txt')) \
+            and any(substring in file for substring in target_substrings)]
 
 # Iterate over the filtered files and copy them
 for file in filtered_files:
