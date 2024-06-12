@@ -34,5 +34,6 @@ for item in items:
         # Check if the base name ends with "_gl"
         if base_name.endswith('_gl'):
             destination_item_path = os.path.join(destination_folder, item)
+            # Use the shutil.copy() function to copy the file
             shutil.copy(source_item_path, destination_item_path)
 ```
