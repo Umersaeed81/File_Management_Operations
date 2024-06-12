@@ -33,5 +33,6 @@ for file in files:
     # Check if the base name contains "Al"
     if 'Al' in base_name:
         destination_file_path = os.path.join(destination_folder, file)
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, destination_file_path)
 ```
