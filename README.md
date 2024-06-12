@@ -9,6 +9,26 @@ MS Data Science, School of Business and Economics<br>
 
 <h1 align="center">File Management Operations</h1>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Management Operations</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>File Management Operations</h1>
+</body>
+</html>
+
+
 
 
 In the realm of programming, file management is a fundamental skill that transcends experience levels. Proficient handling of file operations is crucial for a wide array of tasks, from simple file copying to complex data organization and workflow automation.
