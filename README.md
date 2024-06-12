@@ -45,11 +45,11 @@ File manipulation is a cornerstone of many programming tasks. Whether you are or
 
 These operations form the foundation of efficient and effective file handling, ensuring that you can manage files and directories proficiently in various programming scenarios.
 
-# File Copy Operations
+# 1. File Copy Operations
 
 Copying files is one of the most fundamental and frequently performed operations in file management. Whether you're duplicating files for backup purposes, distributing copies to different locations, or preparing files for further processing, understanding how to efficiently and effectively copy files is essential. This chapter delves into the various aspects of copy operations, providing practical insights and detailed examples to equip you with the necessary skills to handle file copying tasks in Python.
 
-## Simple File Copy
+## 1.1 Simple File Copy
 
 The most basic form of copying involves duplicating a single file from one location to another. This operation preserves the original file while creating an identical copy at the target location.
 
@@ -89,7 +89,7 @@ This example demonstrates how to selectively copy multiple files from a list of 
 
 This example extends the selective files copy by adding functionality to avoid overwriting existing files in the destination folder. If a file with the same name already exists, the code generates a new filename with an incremental suffix to ensure that each file is copied without overwriting any existing files.
 
-## Copying Multiple Files
+## 1.2 Copying Multiple Files
 
 Copying multiple files from one directory to another is a common requirement in many applications. This operation involves iterating over a set of files and duplicating each one at the target location. In this section, we will explore several examples that demonstrate different scenarios and techniques for copying multiple files. Each example builds upon the previous one, introducing new checks and safeguards to handle common issues that can arise during these operations. These examples highlight the importance of filtering out subfolders, handling potential overwrites, and ensuring robust and error-free copy operations.
 
@@ -107,11 +107,11 @@ This example refines the copying process by filtering out subfolders and only co
 
 This example combines the functionality of filtering out subfolders and avoiding overwrites by renaming files. It ensures that only files are copied, and if a file with the same name already exists in the destination folder, it generates a new filename to prevent overwriting.
 
-## Conditional Copying
+## 1.3 Conditional Copying
 
 Conditional copying involves applying specific criteria to determine which files should be copied. This approach allows for more refined and controlled file copying operations based on file types, names, or other attributes. In this section, we explore examples where files are selectively copied based on their extensions and other conditions, ensuring that only the relevant files are transferred while handling potential overwrites and preserving metadata.
 
-### Copying Files Based on File Extensions
+### 1.3.1 Copying Files Based on File Extensions
 
 In this subsection, we focus on copying files based on their file extensions. This method is useful when you only need to copy files with specific extensions from a directory, thereby avoiding unnecessary data transfer and saving time.
 
@@ -131,7 +131,7 @@ This example extends the filtering criteria to include both .xlsx and .txt files
 
 This example combines the functionality of copying specific file types and renaming files to avoid overwrites. It filters files by .xlsx and .txt extensions and ensures that if a file with the same name already exists in the destination folder, a new filename is generated to prevent overwriting.
 
-### Copying Files Based on Name Patterns
+### 1.3.2 Copying Files Based on Name Patterns
 
 In this section, we delve into more advanced file copying scenarios where the selection of files is based on specific conditions such as name patterns. This approach allows for greater flexibility and precision in managing file copying tasks. The following examples showcase how to copy files that meet specific naming criteria, with added checks to handle potential issues such as overwriting existing files and handling subfolders.
 
