@@ -10,6 +10,7 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
