@@ -172,7 +172,7 @@ In this example, the script is enhanced to exclude subfolders from the copy oper
 
 In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that end with the specified characters.
 
-### Copying Files Based on Specific Keywords
+### 1.3.3 Copying Files Based on Specific Keywords
 
 ### [Copying Files That Contain Specific Keywords](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-25.md)
 
