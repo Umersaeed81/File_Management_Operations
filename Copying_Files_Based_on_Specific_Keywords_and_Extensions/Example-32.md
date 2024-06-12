@@ -2,7 +2,7 @@
 
 ## Description
 
-This example combines the conditions of Example 31 with the overwrite handling of Example 30. It copies files whose base names end with "_Al" and have a ".xlsx" extension, and if a file with the same name already exists in the destination folder, it generates a new filename to avoid overwriting.
+This example builds on the previous one by adding functionality to handle potential overwrites. If a file with the same name already exists in the destination folder, the script generates a new filename with an incremental suffix to avoid overwriting the existing file.
 
 ## Limitations
 
