@@ -147,7 +147,7 @@ This example builds on the previous one by adding functionality to handle potent
 
 ### [Copying Files (Excluding Subfolders) That Start with Specific Characters](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-19.md)
 
-In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that start with the specified characters, ensuring that no subfolders are mistakenly copied.
+In this example, the script is enhanced to exclude subfolders from the copy operation. 
 
 
 ### [Copying Files (Excluding Subfolders) That Start with Specific Characters and Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Name_Patterns/Example-20.md)
