@@ -10,6 +10,7 @@ No limitations observed.
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
