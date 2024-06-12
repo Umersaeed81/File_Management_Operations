@@ -205,7 +205,7 @@ This script copies files from a source directory to a destination directory if t
 
 ### [Copying Files That End with a Specific Keyword and Have a Specific Extension, Handling Overwrites](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-32.md)
 
-This example combines the conditions of Example 31 with the overwrite handling of Example 30. It copies files whose base names end with "_Al" and have a ".xlsx" extension, and if a file with the same name already exists in the destination folder, it generates a new filename to avoid overwriting.
+This example builds on the previous one by adding functionality to handle potential overwrites. If a file with the same name already exists in the destination folder, the script generates a new filename with an incremental suffix to avoid overwriting the existing file.
 
 ### [Copying Files with a Specific Extension and Containing a Specific Keyword](https://github.com/Umersaeed81/File_Management_Operations/blob/main/Copying_Files_Based_on_Specific_Keywords_and_Extensions/Example-33.md)
 This script copies files from a source directory to a destination directory if their names contain the keyword "Al" and have a ".xlsx" extension. It ensures that only files matching these criteria are copied.
