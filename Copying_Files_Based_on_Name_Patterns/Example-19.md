@@ -29,5 +29,6 @@ for file in files:
     # Check if the item is a file and starts with "Al"
     if os.path.isfile(source_file_path) and file.startswith("Al"):
         destination_file_path = os.path.join(destination_folder, file)
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, destination_file_path)
 ```
