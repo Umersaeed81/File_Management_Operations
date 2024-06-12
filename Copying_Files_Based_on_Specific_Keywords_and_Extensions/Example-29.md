@@ -29,5 +29,6 @@ for file in files:
     # Check if the file starts with "AI" and has a ".xlsx" extension
     if file.startswith("Al") and file.lower().endswith(".xlsx"):
         destination_file_path = os.path.join(destination_folder, file)
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, destination_file_path)
 ```
