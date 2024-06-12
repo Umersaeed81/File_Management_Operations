@@ -2,7 +2,7 @@
 
 ## Description
 
-In this example, the script is enhanced to exclude subfolders from the copy operation. It only processes and copies files that start with the specified characters.
+In this example, the script is enhanced to exclude subfolders from the copy operation.
 
 ## Limitations
 
