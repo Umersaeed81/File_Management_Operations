@@ -10,6 +10,7 @@ No significant limitations observed. The script effectively handles subfolder ex
 
 
 ```python
+# Import the required library
 import os
 import shutil
 
