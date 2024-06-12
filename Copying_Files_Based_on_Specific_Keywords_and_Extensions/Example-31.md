@@ -32,5 +32,6 @@ for file in files:
     # Check if the base name ends with "_Al"
     if base_name.endswith('_Al') and file.lower().endswith(".xlsx"):
         destination_file_path = os.path.join(destination_folder, file)
+        # Use the shutil.copy() function to copy the file
         shutil.copy(source_file_path, destination_file_path)
 ```
