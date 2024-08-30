@@ -4,7 +4,7 @@ BSc Telecommunications Engineering, School of Engineering<br>
 MS Data Science, School of Business and Economics<br>
 **University of Management & Technology**<br>
 
-# WCML Complaints Location Extraction
+# WCMS Complaints Location Extraction
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/WCMS_Title.png?raw=true)
 
 ## Task Description
