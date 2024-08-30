@@ -9,7 +9,7 @@ MS Data Science, School of Business and Economics<br>
 
 ## Task Description
 
-PTML has provided the WCMS complaints data in an Excel file for analysis. The objective of this Python script is to extract the 'User Location' information from the 'Standard Comments' column.
+PTML has provided the WCMS complaints data in an Excel file for analysis. The objective of this Python script is to extract the 'User Address' information from the 'Standard Comments' column.
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/WCMS_Task_Description.png?raw=true)
 
