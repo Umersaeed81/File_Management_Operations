@@ -291,6 +291,7 @@ df = [file for pattern in patterns for file \
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that start with either of the specified prefixes (`US` or `AS`). By using a list of patterns and the `glob` function with `recursive=True`, it collects paths of all files matching these prefix patterns across multiple directory levels. This approach facilitates comprehensive file management and processing based on multiple naming conventions within a complex directory structure.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-21.png?raw=true)
 
 ```python
 # import required libraries
@@ -308,6 +309,7 @@ df = [file for pattern in patterns for file \
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` that have filenames ending with the specified suffixes (`US` or `AS`). By using a list of suffix patterns with `glob`, it collects the paths of all files that match these suffix patterns. This approach allows for selective management and processing of files based on their suffixes within the given directory.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-22.png?raw=true)
 
 ```python
 # import required libraries
@@ -325,6 +327,7 @@ df = [file for pattern in patterns for file \
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames ending with the specified suffixes (`US` or `AS`). By using a list of suffix patterns with `glob` and setting `recursive=True`, it collects the paths of all files that match these suffix patterns across multiple directory levels. This approach enables comprehensive file management and processing based on specific suffixes within a complex directory structure.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-23.png?raw=true)
 
 ```python
 # import required libraries
@@ -342,6 +345,7 @@ df = [file for pattern in patterns for file \
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` that contain any of the specified keywords (`US` or `AS`) in their filenames. It uses the `glob` function to match files based on these keyword patterns and then removes any duplicate file paths by converting the results to a set. The final output is a list of unique file paths that contain the specified keywords. This approach is useful for managing and processing files with certain keywords in their names while ensuring that duplicates are eliminated.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-24.png?raw=true)
 
 ```python
 # import required libraries
@@ -359,6 +363,7 @@ df = list(set(file for pattern in patterns for file \
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that contain any of the specified keywords (`US` or `AS`) in their filenames. By using the `glob` function with `recursive=True`, it matches files based on these keyword patterns and then removes duplicates by converting the results to a set. The final output is a list of unique file paths that include the specified keywords, ensuring comprehensive file management across multiple directory levels while eliminating redundancy.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-25.png?raw=true)
 
 ```python
 # import required libraries
@@ -376,6 +381,7 @@ df = list(set(file for pattern in patterns for file \
 
 The code generates and applies multiple file name patterns based on different prefixes (`AS`, `US`) and file extensions (`.xlsx`, `.txt`) to filter files from the directory `D:/Copy/Umer_Saeed/`. It uses `itertools.product` to create all possible combinations of base patterns and extensions, and then `glob` to match files according to these patterns. The results are combined using `itertools.chain` and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that match any of the specified prefix-extension combinations, enabling comprehensive file management based on multiple criteria.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-26.png?raw=true)
 
 ```python
 # import required libraries
@@ -401,6 +407,7 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match various combinations of prefixes (`AS`, `US`) and file extensions (`.xlsx`, `.txt`). By generating all possible patterns with these prefixes and extensions, it uses `glob` to find files that match any of these patterns. The results are then combined using `itertools.chain`, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified criteria, enabling comprehensive file management across multiple directory levels and criteria.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-27.png?raw=true)
 
 ```python
 # import required libraries
@@ -426,6 +433,7 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` based on different suffixes (`*AS`, `*US`) and file extensions (`.xlsx`, `.txt`). By generating patterns that combine these suffixes and extensions, it uses `glob` to match files according to these patterns. The results are then combined using `itertools.chain`, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that match any of the specified suffix-extension combinations, facilitating organized file management based on multiple criteria.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-28.png?raw=true)
 
 ```python
 # import required libraries
@@ -451,6 +459,7 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match a variety of suffixes (`*AS`, `*US`) and file extensions (`.xlsx`, `.txt`). By generating all possible patterns from these suffixes and extensions, it uses `glob` to find files that fit any of these patterns. The results are combined using `itertools.chain` to aggregate all matching files and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified suffix and extension criteria across multiple directory levels.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-29.png?raw=true)
 
 ```python
 # import required libraries
@@ -476,6 +485,7 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` based on various keyword patterns (`*AS*`, `*US*`) and file extensions (`.xlsx`, `.txt`). It generates all possible combinations of these keywords and extensions, then uses `glob` to find files matching any of these patterns. The results are combined using `itertools.chain` to aggregate all matching files, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that satisfy the specified keyword and extension criteria.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-30.png?raw=true)
 
 ```python
 # import required libraries
