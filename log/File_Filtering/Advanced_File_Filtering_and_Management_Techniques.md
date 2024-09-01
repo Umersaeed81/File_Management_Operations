@@ -174,6 +174,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US.*',recursive=True)
 
 The code uses the `glob` function to list all files in the directory `D:/Copy/Umer_Saeed/` that have filenames containing the keyword `US` and any file extension. By specifying the pattern `'*US*.*'`, the code retrieves the paths of all files where `US` appears anywhere in the filename. This is useful for filtering and managing files based on the presence of a specific keyword in their names.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-12.png?raw=true)
 
 ```python
 # import required libraries
