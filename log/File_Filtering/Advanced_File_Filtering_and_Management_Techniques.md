@@ -104,7 +104,7 @@ df = [file for pattern in patterns for file \
 
 The code recursively searches for and retrieves all files with specified extensions (`.xlsx` and `.txt`) from a given directory (`D:/Copy/Umer_Saeed/`) and its subdirectories. By combining a list of patterns with the `glob` function and setting `recursive=True`, the code collects the paths of all Excel and text files found across the directory and its nested subdirectories. This approach is useful for batch processing, file management, or analysis tasks that involve multiple file types across multiple directory levels.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-7.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-07.png?raw=true)
 
 ```python
 # import required libraries
