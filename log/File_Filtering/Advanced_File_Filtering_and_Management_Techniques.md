@@ -200,6 +200,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US*.*',recursive=True)
 
 The code uses the `glob` function to list all text files (`.txt`) in the directory `D:/Copy/Umer_Saeed/` that have filenames starting with the prefix `US`. By specifying the pattern `'US*.txt'`, the code retrieves the paths of all text files that begin with "US" in their names. This is useful for filtering and managing text files based on a specific prefix within a given directory.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-14.png?raw=true)
 
 ```python
 # import required libraries
@@ -212,6 +213,7 @@ df = glob('D:/Copy/Umer_Saeed/US*.txt')
 
 The code uses the `glob` function to recursively search for and retrieve all text files (`.txt`) within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames starting with the prefix US. By specifying the pattern `'**/US*.txt'` and setting `recursive=True`, the code collects the paths of all matching text files across multiple directory levels. This approach is useful for locating and managing text files with a specific prefix throughout a complex directory structure.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-15.png?raw=true)
 
 ```python
 # import required libraries
@@ -224,7 +226,7 @@ df = glob('D:/Copy/Umer_Saeed/**/US*.txt',recursive=True)
 
 The code uses the `glob` function to list all Excel files (`.xlsx`) in the directory `D:/Copy/Umer_Saeed/` that have filenames ending with the suffix `US`. By specifying the pattern `'*US.xlsx'`, the code retrieves the paths of all Excel files whose names end with "US" in the specified directory. This is useful for filtering and managing Excel files based on a specific suffix within a given directory.
 
-
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-16.png?raw=true)
 ```python
 # import required libraries
 from glob import glob
@@ -236,7 +238,7 @@ df = glob('D:/Copy/Umer_Saeed/*US.xlsx')
 
 The code uses the `glob` function to recursively search for and retrieve all Excel files (`.xlsx`) within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames ending with the suffix `US`. By specifying the pattern `'**/*US.xlsx'` and setting `recursive=True`, the code collects the paths of all matching Excel files across multiple directory levels. This is useful for locating and managing Excel files with a specific suffix within a complex directory structure.
 
-
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-17.png?raw=true)
 ```python
 # import required libraries
 from glob import glob
@@ -248,7 +250,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US.xlsx',recursive=True)
 
 The code uses the `glob` function to list all Excel files (`.xlsx`) in the directory `D:/Copy/Umer_Saeed/` that contain the keyword `US` anywhere in their filenames. By specifying the pattern `'*US*.xlsx'`, the code retrieves the paths of all Excel files that include "US" in their names. This is useful for filtering and managing Excel files based on the presence of a specific keyword within a given directory.
 
-
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-18.png?raw=true)
 ```python
 # import required libraries
 from glob import glob
@@ -260,7 +262,7 @@ df = glob('D:/Copy/Umer_Saeed/*US*.xlsx')
 
 The code uses the `glob` function to recursively search for and retrieve all Excel files (`.xlsx`) within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames containing the keyword `US`. By specifying the pattern `'**/*US*.xlsx'` and setting `recursive=True`, the code collects the paths of all matching Excel files across multiple directory levels. This approach is useful for locating and managing Excel files based on a specific keyword within a complex directory structure.
 
-
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-19.png?raw=true)
 ```python
 # import required libraries
 from glob import glob
@@ -272,7 +274,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US*.xlsx',recursive=True)
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` that start with either of the specified prefixes (`US` or `AS`). By using a list of patterns and the `glob` function, it collects paths of all files that match these prefix patterns. This approach allows for selective file management and processing based on multiple naming conventions within the given directory.
 
-
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-20.png?raw=true)
 ```python
 # import required libraries
 from glob import glob
