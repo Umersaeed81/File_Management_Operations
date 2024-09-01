@@ -47,7 +47,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
 
 **List of Files:** Return a list of all files from the subdirectories (but not from the specified directory itself) that match the pattern.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-3.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-03.png?raw=true)
 
 ```python
 # import required libraries
