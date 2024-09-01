@@ -885,6 +885,8 @@ df = [file for file in glob(f'{source_directory}/US*.txt') \
 
 The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and its subdirectories to identify text files that start with the prefix `'US'`. It filters these files to include only those that are smaller than 500 KB. The `glob` function with `recursive=True` is used to locate files matching the prefix and extension criteria throughout all subdirectories. The `os.path.getsize` function is then employed to filter out files based on their size, resulting in a list of file paths for text files with the specified prefix that are under 500 KB. This allows for focused management or processing of smaller text files that meet the given criteria.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-51.png?raw=true)
+
 
 ```python
 # import required libraries
@@ -900,6 +902,8 @@ df = [file for file in glob(f'{source_directory}/US*.txt',recursive=True) \
 ## 52. Filtering Excel Files with Specific Prefix Based on Size from a Directory
 
 The code filters Excel files in the directory `D:/Copy/Umer_Saeed/` that start with the prefix `'US'` and have an `.xlsx` extension, ensuring that only those smaller than 500 KB are included. It uses the `glob` function to locate files matching the prefix and extension criteria. The `os.path.getsize` function then filters these files based on their size. The result is a list of file paths for Excel files with the specified prefix that are under 500 KB, enabling targeted management or processing of these smaller files.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-52.png?raw=true)
 
 
 ```python
@@ -917,6 +921,8 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx') \
 
 The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and its subdirectories to find Excel files that start with the prefix `'US'` and have the `.xlsx` extension. It filters these files to include only those that are smaller than 500 KB. The `glob` function with `recursive=True` locates files matching the criteria throughout all subdirectories, while the `os.path.getsize` function ensures that only files under 500 KB are selected. The final output is a list of file paths for Excel files with the specified prefix that meet the size requirement, facilitating focused management or processing of these files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-53.png?raw=true)
+
 
 ```python
 # import required libraries
@@ -932,6 +938,8 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx',recursive=True) \
 ## 54. Filtering Excel Files Containing Keyword in Filename Based on Size from a Directory
 
 The code searches the directory `D:/Copy/Umer_Saeed/` for Excel files where the filename contains the keyword `'US'` and has the `.xlsx` extension. It filters these files to include only those that are smaller than 500 KB. The `glob` function is used to match files with the specified pattern, and the `os.path.getsize` function ensures that only files under 500 KB are selected. The final result is a list of file paths for Excel files containing 'US' in their filenames that meet the size criteria, enabling targeted management or processing of these smaller files.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-54.png?raw=true)
 
 
 ```python
@@ -949,6 +957,8 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx') \
 
 The code searches through the specified directory `D:/Copy/Umer_Saeed/` and its subdirectories for Excel files whose filenames contain the keyword `'US'` and have the `.xlsx` extension. It further filters these files to include only those that are smaller than 500 KB. The glob function with `recursive=True` is used to match files according to the pattern in the specified directory and its subdirectories. The `os.path.getsize` function is used to filter out files that exceed the size limit, ensuring that only smaller files are included in the final list.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-55.png?raw=true)
+
 
 ```python
 # import required libraries
@@ -964,6 +974,8 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx',recursive=True) \
 ## 56. Filtering Files with Multiple Prefixes and Extensions Based on Size Constraint
 
 The code filters files within the directory `D:/Copy/Umer_Saeed/` based on a combination of specified prefixes (`AS*`, `US*`) and file extensions (`.xlsx`, `.txt`). It generates patterns for all combinations of these prefixes and extensions, then searches for matching files. The resulting list is further filtered to include only those files that are smaller than 500 KB. The `glob` function is used to find files matching the patterns, and `os.path.getsize` is used to enforce the size constraint. The final output is a unique list of files that meet these criteria.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-56.png?raw=true)
 
 
 ```python
@@ -991,6 +1003,8 @@ df = list(set([
 ## 57. Filtering Files Based on Multiple Prefixes and Extensions with Size Constraint from Directories and Subdirectories
 
 The code filters files from the `D:/Copy/Umer_Saeed/` directory and its subdirectories based on specified prefixes (`AS*`, `US*`) and file extensions (`.xlsx`, `.txt`). It generates a list of file search patterns using all combinations of these prefixes and extensions. The `glob` function is used to locate files matching these patterns recursively within subdirectories. The files are then filtered to include only those that are smaller than 500 KB. The result is a unique list of file paths that meet these criteria.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-57.png?raw=true)
 
 
 ```python
@@ -1028,6 +1042,8 @@ The objective of this code is to:
 
 **4. Remove Duplicates:** Collect these files into a unique list, ensuring no duplicate file paths are included.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-58.png?raw=true)
+
 
 ```python
 # import required libraries
@@ -1055,6 +1071,8 @@ df = list(set([
 ## 59. Filtering Files by Suffix and Extension Based on Size in Directories and Subdirectories
 
 The code filters files from a specified source directory and its subdirectories based on their suffix and file extension. It retrieves files that match any of the defined suffix patterns (`*AS` or `*US`) and extensions (`.xlsx` or `.txt`). Additionally, it checks that the file size is less than 500 KB. The resulting list contains unique file paths for files that meet all the specified criteria.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-59.png?raw=true)
 
 
 ```python
@@ -1093,6 +1111,8 @@ The objective of this code is to:
 **3. Size Filtering:** Include only those files whose size is less than 500 KB.
 
 **4. Unique Results:** Return a list of unique file paths that match the criteria.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-60.png?raw=true)
 
 
 ```python
