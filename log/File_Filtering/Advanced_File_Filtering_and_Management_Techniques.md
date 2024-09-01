@@ -365,6 +365,7 @@ The code recursively searches for and retrieves files from the directory `D:/Cop
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-25.png?raw=true)
 
+
 ```python
 # import required libraries
 from glob import glob
