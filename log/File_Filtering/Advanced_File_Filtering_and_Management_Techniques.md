@@ -1102,15 +1102,7 @@ df = list(set([
 
 The code aims to filter and list files from a specified directory (`D:/Copy/Umer_Saeed/`) based on a combination of multiple keywords and file extensions. It looks for files that match patterns involving keywords (`*AS*`, `*US*`) and extensions (`.xlsx`, `.txt`). It then checks each file's size and includes only those files that are smaller than 500 KB in the final list. The search is performed within the specified directory but does not include subdirectories.
 
-The objective of this code is to:
 
-**1. Search for Files:** Identify files within a specified source directory and its subdirectories.
-
-**2. Pattern Matching:** Apply multiple keyword patterns (*AS*, *US*) combined with specific file extensions (.xlsx, .txt).
-
-**3. Size Filtering:** Include only those files whose size is less than 500 KB.
-
-**4. Unique Results:** Return a list of unique file paths that match the criteria.
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-60.png?raw=true)
 
