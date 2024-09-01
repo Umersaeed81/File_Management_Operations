@@ -60,6 +60,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=False)
 
 The code uses the `glob` function to retrieve all files with the `.csv` extension from the directory `D:/Copy/Umer_Saeed/`. By specifying the pattern `'*.csv'`, the code filters and lists only the CSV files located directly within the specified directory. This is useful for tasks such as processing or analyzing CSV files specifically in that directory
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-4.png?raw=true)
 
 ```python
 # import required libraries
@@ -72,6 +73,7 @@ df = glob('D:/Copy/Umer_Saeed/*.csv')
 
 The code uses the `glob` function to recursively list all files with a `.csv` extension within the directory `D:/Copy/Umer_Saeed/` and its subdirectories. By specifying the pattern `'**/*.csv'` and setting `recursive=True`, the code retrieves paths to all CSV files, including those located in any nested subdirectories. This is useful for comprehensive file searches and processing across multiple directory levels.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-5.png?raw=true)
 
 ```python
 # import required libraries
