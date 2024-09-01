@@ -148,6 +148,7 @@ df = glob('D:/Copy/Umer_Saeed/**/US*.*',recursive=True)
 
 The code uses the `glob` function to list all files in the directory `D:/Copy/Umer_Saeed/` that have filenames ending with the suffix `US` and any file extension. By specifying the pattern `'*US.*'`, the code retrieves paths of all files whose names end with "US" directly within the specified directory. This is useful for filtering files based on a specific suffix in their names for tasks such as file management, processing, or analysis.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-10.png?raw=true)
 
 ```python
 # import required libraries
@@ -160,6 +161,7 @@ df = glob('D:/Copy/Umer_Saeed/*US.*')
 
 The code uses the `glob` function to recursively search for and retrieve all files within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames ending with the suffix `US` and any file extension. By specifying the pattern `'**/*US.*'` and setting recursive=True, the code collects the paths of all files that meet this suffix criterion across multiple directory levels. This is useful for identifying and processing files based on a specific suffix within a complex directory structure.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-11.png)
 
 ```python
 # import required libraries
