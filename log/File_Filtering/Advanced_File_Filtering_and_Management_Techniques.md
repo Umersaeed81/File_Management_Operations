@@ -512,6 +512,8 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match various keyword patterns (`*AS*`, `*US*`) and file extensions (`.xlsx`, `.txt`). By generating all possible combinations of these patterns and extensions, it uses `glob` to find files that fit any of these criteria. The results are combined using `itertools.chain` to aggregate all matching files, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified keyword and extension criteria across multiple directory levels.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-31.png?raw=true)
+
 
 ```python
 # import required libraries
