@@ -29,6 +29,7 @@ df = glob('D:/Copy/Umer_Saeed/*.*')
 ## 2. Recursively Listing All Files in a Directory and Its Subdirectories
 
 The code uses the glob function to recursively list all files within the directory `D:/Copy/Umer_Saeed/` and its subdirectories. By using the pattern `**/*.*` and setting `recursive=True`, the code retrieves the paths of all files, regardless of their extensions, from the main directory and all its nested subdirectories. This approach is helpful for comprehensive directory searches, batch processing, and tasks involving large directory structures with multiple layers.
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-2.png?raw=true)
 
 ```python
