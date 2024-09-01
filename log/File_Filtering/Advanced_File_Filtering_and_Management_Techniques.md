@@ -73,7 +73,7 @@ df = glob('D:/Copy/Umer_Saeed/*.csv')
 
 The code uses the `glob` function to recursively list all files with a `.csv` extension within the directory `D:/Copy/Umer_Saeed/` and its subdirectories. By specifying the pattern `'**/*.csv'` and setting `recursive=True`, the code retrieves paths to all CSV files, including those located in any nested subdirectories. This is useful for comprehensive file searches and processing across multiple directory levels.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-5.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-05.png?raw=true)
 
 ```python
 # import required libraries
@@ -86,7 +86,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
 
 The code filters and retrieves all files with specified extensions (`.xlsx` and `.txt`) from a given directory (`D:/Copy/Umer_Saeed/`). It uses a list of patterns and the `glob` function to search for files matching each pattern. The resulting list `df` contains the paths of all Excel and text files found directly in the specified source directory. This is useful for selectively processing files of different types within a single directory.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-6.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-06.png?raw=true)
 
 ```python
 # import required libraries
