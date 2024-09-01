@@ -17,7 +17,7 @@ Together, these techniques provide a comprehensive toolkit for advanced file man
 
 The code uses the glob function to list all files in the directory `D:/Copy/Umer_Saeed/`. It retrieves the paths of all files, regardless of their extensions, within the specified directory and stores them in the `df` variable as a list. This can be useful for tasks such as file management, batch processing, or analyzing the contents of a directory.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-1.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-01.png?raw=true)
 
 ```python
 # import required libraries
