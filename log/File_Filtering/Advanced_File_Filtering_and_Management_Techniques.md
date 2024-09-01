@@ -135,6 +135,7 @@ df = glob('D:/Copy/Umer_Saeed/US*.*')
 
 The code uses the `glob` function to recursively search for and retrieve all files in the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames starting with the prefix US. By specifying the pattern `'**/US*.*'` and setting `recursive=True`, the code collects the paths of all files beginning with "US" across multiple directory levels, regardless of their file extensions. This is useful for filtering and processing files based on a specific naming pattern across a complex directory structure.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-9.png?raw=true)
 
 ```python
 # import required libraries
