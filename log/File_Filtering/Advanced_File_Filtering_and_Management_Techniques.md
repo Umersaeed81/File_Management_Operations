@@ -539,6 +539,7 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 
 The code filters files from the directory `D:/Copy/Umer_Saeed/` to include only those that are smaller than 500 KB. It uses `glob` to list all files in the directory and then applies a size check using `os.path.getsize` to filter out files exceeding the specified size limit. The final output is a list of file paths for files that are under 500 KB in size.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-32.png?raw=true)
 
 ```python
 # import required libraries
@@ -555,6 +556,7 @@ df = [file for file in glob(f'{source_directory}/*.*') \
 
 The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and its subdirectories to identify files smaller than 500 KB. It uses `glob` to find all files in the directory structure and `os.path.getsize` to check each file's size. The result is a list of file paths for files that are under 500 KB, allowing for targeted management or processing of smaller files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-33.png?raw=true)
 
 ```python
 # import required libraries
@@ -571,6 +573,7 @@ df = [file for file in glob(f'{source_directory}/*.*',recursive=True) \
 
 The code filters text files from the directory `D:/Copy/Umer_Saeed/` that end with the `.txt` extension and are smaller than 500 KB. It uses `glob` to search for all `.txt` files in the specified directory and then uses `os.path.getsize` to check the size of each file. The result is a list of text file paths that meet the specified size criteria, allowing for focused processing or analysis of smaller text files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-34.png?raw=true)
 
 ```python
 # import required libraries
@@ -587,6 +590,7 @@ df = [file for file in glob(f'{source_directory}/*.txt') \
 
 The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and its subdirectories to find text files that end with the `.txt` extension and are smaller than 500 KB. It uses glob with the `recursive=True` parameter to locate all `.txt` files within the directory and its subdirectories. Then, it uses `os.path.getsize` to filter files based on size. The result is a list of text file paths that are under 500 KB, allowing for selective management or processing of smaller text files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-35.png?raw=true)
 
 ```python
 # import required libraries
@@ -603,6 +607,8 @@ df = [file for file in glob(f'{source_directory}/*.txt',recursive=True) \
 
 The code filters Excel (`*.xlsx`) and text (`*.txt`) files from the directory `D:/Copy/Umer_Saeed/` based on their size, selecting only those smaller than 500 KB. It uses `glob` to find files matching the specified extensions and `os.path.getsize` to check each file's size. The result is a list of file paths for Excel and text files that meet the size criteria, allowing for efficient management or further processing of smaller files with these extensions.
 
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-36.png?raw=true)
 
 ```python
 # import required libraries
@@ -622,6 +628,7 @@ df = [file for pattern in patterns for file
 
 The code recursively filters Excel (`*.xlsx`) and text (`*.txt`) files from the directory `D:/Copy/Umer_Saeed/` and all its subdirectories, selecting only those files smaller than 500 KB. It uses `glob` with the `recursive=True` parameter to locate files matching the specified extensions in the directory and its subdirectories. Then, `os.path.getsize` is used to filter files based on their size. The output is a list of file paths that meet these criteria, allowing for efficient management or further processing of smaller Excel and text files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-37.png?raw=true)
 
 ```python
 # import required libraries
@@ -641,6 +648,7 @@ df = [file for pattern in patterns for file in \
 
 The code filters files with a specific prefix (e.g., files starting with 'US') from the directory `D:/Copy/Umer_Saeed/`, selecting only those that are smaller than 500 KB. It uses `glob` to locate files in the directory that match the specified prefix and any file extension. `os.path.getsize` is then used to check each file's size, ensuring only files under 500 KB are included. The result is a list of file paths that meet both the prefix and size criteria, allowing for focused management or processing of smaller files with the given prefix.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-38.png?raw=true)
 
 ```python
 # import required libraries
@@ -657,6 +665,7 @@ df = [file for file in glob(f'{source_directory}/US*.*') \
 
 The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and its subdirectories to find files that start with a specific prefix (e.g., 'US') and are smaller than 500 KB. It uses `glob` with the `recursive=True` parameter to locate files matching the prefix and any file extension. `os.path.getsize` is then used to filter out files exceeding the 500 KB size limit. The output is a list of file paths that meet both the prefix and size criteria, allowing for targeted management or processing of smaller files with the specified prefix.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-39.png?raw=true)
 
 ```python
 # import required libraries
