@@ -86,6 +86,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
 
 The code filters and retrieves all files with specified extensions (`.xlsx` and `.txt`) from a given directory (`D:/Copy/Umer_Saeed/`). It uses a list of patterns and the `glob` function to search for files matching each pattern. The resulting list `df` contains the paths of all Excel and text files found directly in the specified source directory. This is useful for selectively processing files of different types within a single directory.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-6.png?raw=true)
 
 ```python
 # import required libraries
@@ -103,6 +104,7 @@ df = [file for pattern in patterns for file \
 
 The code recursively searches for and retrieves all files with specified extensions (`.xlsx` and `.txt`) from a given directory (`D:/Copy/Umer_Saeed/`) and its subdirectories. By combining a list of patterns with the `glob` function and setting `recursive=True`, the code collects the paths of all Excel and text files found across the directory and its nested subdirectories. This approach is useful for batch processing, file management, or analysis tasks that involve multiple file types across multiple directory levels.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-7.png?raw=true)
 
 ```python
 # import required libraries
@@ -120,6 +122,7 @@ df = [file for pattern in patterns for file \
 
 The code uses the `glob` function to list all files in the directory `D:/Copy/Umer_Saeed/` that have filenames starting with the prefix `US`. By specifying the pattern `'US*.*'`, the code retrieves paths of all files whose names begin with "US" and have any file extension. This is useful for filtering files based on a naming convention or specific prefix for further processing or analysis.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-8.png?raw=true)
 
 ```python
 # import required libraries
