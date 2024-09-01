@@ -122,7 +122,7 @@ df = [file for pattern in patterns for file \
 
 The code uses the `glob` function to list all files in the directory `D:/Copy/Umer_Saeed/` that have filenames starting with the prefix `US`. By specifying the pattern `'US*.*'`, the code retrieves paths of all files whose names begin with "US" and have any file extension. This is useful for filtering files based on a naming convention or specific prefix for further processing or analysis.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-8.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-08.png?raw=true)
 
 ```python
 # import required libraries
