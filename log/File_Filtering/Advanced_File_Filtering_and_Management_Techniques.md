@@ -187,6 +187,7 @@ df = glob('D:/Copy/Umer_Saeed/*US*.*')
 
 The code uses the `glob` function to recursively search for and retrieve all files within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames containing the keyword US and any file extension. By specifying the pattern `'**/*US*.*'` and setting `recursive=True`, the code collects the paths of all files that include the keyword US anywhere in their names, across multiple directory levels. This is useful for identifying and processing files based on a specific keyword within a complex directory structure.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-13.png?raw=true)
 
 ```python
 # import required libraries
