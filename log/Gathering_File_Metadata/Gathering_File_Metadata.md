@@ -1,3 +1,13 @@
+#  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)
+Sr. RF Planning & Optimization Engineer<br>
+BSc Telecommunications Engineering, School of Engineering<br>
+MS Data Science, School of Business and Economics<br>
+**University of Management & Technology**<br>
+**Mobile:**     +923018412180<br>
+**Email:**  umersaeed81@hotmail.com<br>
+**Address:** Dream Gardens,Defence Road, Lahore<br>
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
+
 ## Retrieve and Display File Metadata Including Name, Size, Creation Date, Modification Date, Extension, and Directory Path
 
 The goal of this code is to gather and present detailed information about the files in a specific folder. It provides a list showing each file's name (without the extension), size, when it was created, when it was last modified, its type, and the folder it is located in.
@@ -422,3 +432,5 @@ df0
   </tbody>
 </table>
 </div>
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
