@@ -16,7 +16,7 @@
       <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
     </td>
     <td>
-      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="500"/>
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="300"/>
     </td>
   </tr>
 </table>
