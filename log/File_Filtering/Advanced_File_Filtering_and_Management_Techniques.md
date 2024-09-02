@@ -1320,7 +1320,7 @@ List all files modified within the last 24 hours.
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-70.png?raw=true)
 
 ```python
-# import required libraries
+# Import required libraries
 import os
 from glob import glob
 from datetime import datetime, timedelta
@@ -1328,9 +1328,9 @@ from datetime import datetime, timedelta
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/*.*'
 
-# Filter files based on modification time
+# Filter files based on modification time within the specified hours
 df = [file for file in glob(f'{source_directory}')
-    if datetime.fromtimestamp(os.path.getmtime(file)) > datetime.now() - timedelta(days=1)]
+    if datetime.fromtimestamp(os.path.getmtime(file)) > datetime.now() - timedelta(hours=24)]
 ```
 
 ## 71. Filter Files by Date in Filename
