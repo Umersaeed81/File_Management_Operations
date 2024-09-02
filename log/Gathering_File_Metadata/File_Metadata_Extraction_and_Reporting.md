@@ -8,6 +8,8 @@ The chapter demonstrates practical applications through various examples, such a
 
 Analyze the distribution of file sizes in a directory to identify large files or categorize them into size ranges.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-01.png?raw=true)
+
 
 ```python
 # import requird libraries
@@ -42,6 +44,7 @@ df0
 
 Summarize the types of files in a directory, including counts and sizes for each file type.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-02.png?raw=true)
 
 ```python
 # import requird libraries
@@ -71,6 +74,7 @@ df0
 
 Determine the age of files based on their creation or last modification dates to identify old or unused files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-03.png?raw=true)
 
 ```python
 # import requird libraries
@@ -108,6 +112,7 @@ df0
 
 The goal of this code is to gather and present detailed information about the files in a specific folder. It provides a list showing each file's name (without the extension), size, when it was created, when it was last modified, its type, and the folder it is located in.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-04.png?raw=true)
 
 ```python
 # import required libraries
