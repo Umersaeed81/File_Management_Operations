@@ -48,9 +48,7 @@ df0
 
 
 
-    .dataframe thead th {
-        text-align: right;
-    }
+  
 </style>
 <table border="1" class="dataframe">
   <thead>
