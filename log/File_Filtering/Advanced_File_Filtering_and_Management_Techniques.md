@@ -1142,7 +1142,7 @@ This code generates a list of file paths by combining specified base patterns an
 
 4. **Filter Files**: Searches for files matching the generated patterns recursively within the source directory, and filters out files whose size is less than 500 KB.
 
-The result is a list of file paths that meet the criteria specified.
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-61.png?raw=true)
 
 
 ```python
@@ -1172,6 +1172,7 @@ df = list(set([
 
 The objective of this code is to filter and list all files from the specified directory (`D:/Copy/Umer_Saeed/`) whose filenames contain at least one numeric character (0-9) using the `glob` function. The resulting list `df` will contain the paths of all such files that match the pattern.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-62.png?raw=true)
 
 ```python
 # import required libraries
@@ -1186,6 +1187,7 @@ df = [file for file in glob(f'{source_directory}/*[0-9]*.*')]
 
 The code aims to search for files in a specified source directory (`D:/Copy/Umer_Saeed/`) and all its subdirectories that have filenames containing numeric characters (0-9). It uses the `glob` function with a wildcard pattern (`*[0-9]*.*`) to match any files where the filename contains at least one numeric character. The `recursive=True` option allows the search to include all subdirectories within the specified source directory. The matched files are then stored in the list `df`.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-63.png?raw=true)
 
 ```python
 # import required libraries
@@ -1200,6 +1202,7 @@ df = [file for file in glob(f'{source_directory}/*[0-9]*.*',recursive=True)]
 
 The objective of this code is to filter and list all files in the specified directory (`'D:/Copy/Umer_Saeed/'`) that do not contain any digits in their filenames. It uses the `glob` function to retrieve all files and then applies a regular expression (`re.search(r'\d', file)`) to exclude files that have digits in their names. The resulting list (`df`) contains only files without any numeric characters in their filenames.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-64.png?raw=true)
 
 ```python
 # import required libraries
@@ -1218,6 +1221,7 @@ df = [file for file in glob(f'{source_directory}')\
 
 The objective of this code is to retrieve all files from a specified directory and its subdirectories that do not contain any digits in their filenames. The code uses the `glob` function with the `recursive=True` parameter to search for files recursively, and the `re.search()` function to exclude files with any numeric characters in their names. The resulting list `df` contains only the files without digits in their filenames.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-65.png?raw=true)
 
 ```python
 # import required libraries
@@ -1236,6 +1240,7 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
 
 The code filters files from a specified directory that contain both digits and letters in their filenames. It constructs a list of file paths by using the `glob` module to match all files in the directory with any extension. It then applies a filter to include only those files whose names contain at least one digit and one letter.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-66.png?raw=true)
 
 ```python
 # import required libraries
@@ -1251,6 +1256,7 @@ df = [file for file in glob(f'{source_directory}') if re.search(r'[0-9]', file) 
 
 This code searches for files within the specified source directory and all its subdirectories that have filenames containing both digits and letters. It uses the `glob` module to recursively search through directories and the `re` module to apply regular expressions for filtering filenames based on their content.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-67.png?raw=true)
 
 ```python
 # import required libraries
@@ -1267,6 +1273,7 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
 
 List files created within the last 5 days
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-68.png?raw=true)
 
 ```python
 # import required libraries
@@ -1286,6 +1293,7 @@ df = [file for file in glob(f'{source_directory}')
 
 This example filters files created within a specified date range.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-69.png?raw=true)
 
 ```python
 # import required libraries
@@ -1309,6 +1317,7 @@ df = [file for file in glob(f'{source_directory}')
 
 List all files modified within the last 24 hours.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-70.png?raw=true)
 
 ```python
 # import required libraries
@@ -1328,6 +1337,7 @@ df = [file for file in glob(f'{source_directory}')
 
 List all files where the filename contains a date in the format YYYY-MM-DD
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-71.png?raw=true)
 
 ```python
 # import required libraries
@@ -1349,6 +1359,7 @@ df = [file for file in glob(f'{source_directory}/*.*', recursive=True)
 
 List all files where the filename contains a date in the format YYYYMMDD.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-72.png?raw=true)
 
 ```python
 # import required libraries
@@ -1370,6 +1381,7 @@ df = [file for file in glob(f'{source_directory}')
 
 List all files within a specific size range (e.g., between 20 KB and 50 KB).
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-73.png?raw=true)
 
 ```python
 # import required libraries
@@ -1392,6 +1404,7 @@ df = [file for file in glob(f'{source_directory}')
 
 Filter files in the source directory to include only those with filenames (excluding extensions) that are 15 characters or fewer in length.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-74.png?raw=true)
 
 ```python
 # import required libraries
@@ -1413,6 +1426,7 @@ df = [file for file in glob(f'{source_directory}')
 
 Filter files in the source directory to include only those with filenames that are 20 characters or fewer in length.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-75.png?raw=true)
 
 ```python
 # import required libraries
@@ -1431,6 +1445,7 @@ df = [file for file in glob(f'{source_directory}')
 
 Filter files from specific subdirectories (`DA` and `BH`) within the source directory.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-76.png?raw=true)
 
 ```python
 # import required libraries
@@ -1452,6 +1467,7 @@ df = [file for subdir in subdirectories
 
 Collect files from the source directory and specific subdirectories (`DA` and `BH`).
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-77.png?raw=true)
 
 ```python
 # import required libraries
