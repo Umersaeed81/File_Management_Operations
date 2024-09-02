@@ -1331,11 +1331,20 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on modification time within the specified hours
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)) > datetime.now() - timedelta(hours=24)]
-'''
+```
+
+```python
+# Import required libraries
+import os
+from glob import glob
+from datetime import datetime, timedelta
+
+# Source directory
+source_directory = 'D:/Copy/Umer_Saeed/*.*'
+
 # Filter files based on modification date within the last 1 days (only date difference)
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)).date() >= (datetime.now() - timedelta(days=1)).date()]
-'''
 ```
 
 ## 71. Filter Files by Date in Filename
