@@ -3,15 +3,17 @@
 <h1 align="center"> Data Science Technologies</h1>
 <h2 align="center">File Management Operations</h2>
 
-#  [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)
-Sr. RF Planning & Optimization Engineer<br>
-BSc Telecommunications Engineering, School of Engineering<br>
-MS Data Science, School of Business and Economics<br>
-**University of Management & Technology**<br>
-**Mobile:**     +923018412180<br>
-**Email:**  umersaeed81@hotmail.com<br>
-**Address:** Dream Gardens,Defence Road, Lahore<br>
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
+![Bano Qabil Logo](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
+
+# [Umer Saeed](https://www.linkedin.com/in/engumersaeed/)
+Sr. RF Planning & Optimization Engineer  
+BSc Telecommunications Engineering, School of Engineering  
+MS Data Science, School of Business and Economics  
+**University of Management & Technology**  
+**Mobile:** +923018412180  
+**Email:** umersaeed81@hotmail.com  
+**Address:** Dream Gardens, Defence Road, Lahore  
+
 
 # <h1 align="center"> Table of contents
 
