@@ -20,7 +20,7 @@ MS Data Science, School of Business and Economics<br>
   -   **File Age Analysis**
   -   **Retrieve and Display File Metadata Including Name, Size, Creation Date, Modification Date, Extension, and Directory Path**
 - ## [**Chapter 2: Advanced File Filtering and Management Techniques**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Advanced_File_Filtering_and_Management_Techniques.md)
-- 
+  
   -  **Listing All Files in a Directory**
   -  **Recursively Listing All Files in a Directory and Its Subdirectories**
   -  **Listing Files in Subdirectories with Any Extension (Not Including Top-Level Directory)**
