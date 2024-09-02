@@ -15,8 +15,8 @@
       <strong>Email:</strong> umersaeed81@hotmail.com<br>
       <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
     </td>
-    <td style="vertical-align: top; padding-left: 20px;">
-      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="150"/>
+    <td style="vertical-align: top; padding-left: 40px;">
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="300"/>
     </td>
   </tr>
 </table>
