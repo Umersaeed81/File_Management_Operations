@@ -11,6 +11,8 @@ MS Data Science, School of Business and Economics<br>
 <h2 align="center">File Management Operations</h2>
 
 
+# <h1 align="center"> Table of contents
+
 - ## [**Chapter 1: File Metadata Extraction and Reporting**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md)
 - ## [**Chapter 2: Advanced File Filtering and Management Techniques**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Advanced_File_Filtering_and_Management_Techniques.md)
 
