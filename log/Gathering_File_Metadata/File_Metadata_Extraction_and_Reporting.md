@@ -1,4 +1,5 @@
 # File Metadata Extraction and Reporting
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.png?raw=true)
 
 In this chapter, we explore essential techniques for analyzing and managing file systems using Python. We start with functions that provide valuable insights into file characteristics, including size distribution, type categorization, and age analysis. These tools are crucial for organizing and understanding large datasets, helping users make informed decisions about file management and archival.
 
