@@ -422,8 +422,3 @@ df0
   </tbody>
 </table>
 </div>
-
-
-```python
-
-```
