@@ -70,6 +70,47 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\d.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+ 
 ## 3. Listing Files in Subdirectories with Any Extension (Not Including Top-Level Directory)
 
 **Search for Files:** Locate files within the specified source directory (`D:/Copy/Umer_Saeed/`) and its subdirectories.
@@ -88,6 +129,28 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=False)
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\d.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
 
 ## 4. Listing All CSV Files in a Directory
 
@@ -103,6 +166,8 @@ df = glob('D:/Copy/Umer_Saeed/*.csv')
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\03_PRS.csv', <br>
+'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
 ## 5. Recursively Listing All CSV Files in a Directory and Its Subdirectories
 
@@ -118,7 +183,12 @@ df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\d.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv']
+ 
 ## 6. Filtering Files with Multiple Extensions from a Directory
 
 The code filters and retrieves all files with specified extensions (`.xlsx` and `.txt`) from a given directory (`D:/Copy/Umer_Saeed/`). It uses a list of patterns and the `glob` function to search for files matching each pattern. The resulting list `df` contains the paths of all Excel and text files found directly in the specified source directory. This is useful for selectively processing files of different types within a single directory.
@@ -138,6 +208,21 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 7. Recursively Filtering Files with Multiple Extensions from a Directory and Its Subdirectories
 
@@ -159,6 +244,39 @@ df
 ```
 
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 
 ## 8. Listing All Files with a Specific Prefix from a Directory
 
@@ -175,6 +293,9 @@ df
 ```
 
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 9. Recursively Listing All Files with a Specific Prefix from a Directory and Its Subdirectories
 
@@ -190,7 +311,16 @@ df = glob('D:/Copy/Umer_Saeed/**/US*.*',recursive=True)
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+ 
 ## 10. Listing All Files with a Specific Suffix from a Directory
 
 The code uses the `glob` function to list all files in the directory `D:/Copy/Umer_Saeed/` that have filenames ending with the suffix `US` and any file extension. By specifying the pattern `'*US.*'`, the code retrieves paths of all files whose names end with "US" directly within the specified directory. This is useful for filtering files based on a specific suffix in their names for tasks such as file management, processing, or analysis.
@@ -206,7 +336,10 @@ df
 ```
 
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
 ## 11. Recursively Listing All Files with a Specific Suffix from a Directory and Its Subdirectories
 
