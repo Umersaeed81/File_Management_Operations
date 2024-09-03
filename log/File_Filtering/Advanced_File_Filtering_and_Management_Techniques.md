@@ -819,7 +819,11 @@ df
 ```
 
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+ 
 ## 29. Recursively Filtering Files with Multiple Suffixes and Extensions from a Directory and Its Subdirectories
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match a variety of suffixes (`*AS`, `*US`) and file extensions (`.xlsx`, `.txt`). By generating all possible patterns from these suffixes and extensions, it uses `glob` to find files that fit any of these patterns. The results are combined using `itertools.chain` to aggregate all matching files and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified suffix and extension criteria across multiple directory levels.
@@ -847,6 +851,13 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
 
 ## 30. Filtering Files with Multiple Keywords and Extensions from a Directory
 
@@ -875,7 +886,13 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 ## 31. Recursively Filtering Files with Multiple Keywords and Extensions from a Directory and Its Subdirectories
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match various keyword patterns (`*AS*`, `*US*`) and file extensions (`.xlsx`, `.txt`). By generating all possible combinations of these patterns and extensions, it uses `glob` to find files that fit any of these criteria. The results are combined using `itertools.chain` to aggregate all matching files, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified keyword and extension criteria across multiple directory levels.
@@ -904,7 +921,23 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+ 
 ## 32. Filtering Files Based on Size from a Directory
 
 The code filters files from the directory `D:/Copy/Umer_Saeed/` to include only those that are smaller than 500 KB. It uses `glob` to list all files in the directory and then applies a size check using `os.path.getsize` to filter out files exceeding the specified size limit. The final output is a list of file paths for files that are under 500 KB in size.
@@ -923,6 +956,21 @@ df = [file for file in glob(f'{source_directory}/*.*') \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 33. Filtering Files Based on Size from a Directory and Its Subdirectories 
 
@@ -942,6 +990,38 @@ df = [file for file in glob(f'{source_directory}/*.*',recursive=True) \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 34. Filtering Text Files Based on Size from a Directory
 
@@ -961,6 +1041,12 @@ df = [file for file in glob(f'{source_directory}/*.txt') \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 35. Recursively Filtering Text Files Based on Size from a Directory and Its Subdirectories
 
@@ -980,6 +1066,21 @@ df = [file for file in glob(f'{source_directory}/*.txt',recursive=True) \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 
 ## 36. Filtering Files with Multiple Extensions Based on Size from a Directory 
 
@@ -1003,6 +1104,20 @@ df = [file for pattern in patterns for file
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 37. Recursively Filtering Files with Multiple Extensions Based on Size from a Directory and Its Subdirectories
 
@@ -1025,7 +1140,36 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 ## 38. Filtering Files with a Specific Prefix Based on Size from a Directory 
 
 The code filters files with a specific prefix (e.g., files starting with 'US') from the directory `D:/Copy/Umer_Saeed/`, selecting only those that are smaller than 500 KB. It uses `glob` to locate files in the directory that match the specified prefix and any file extension. `os.path.getsize` is then used to check each file's size, ensuring only files under 500 KB are included. The result is a list of file paths that meet both the prefix and size criteria, allowing for focused management or processing of smaller files with the given prefix.
@@ -1044,7 +1188,8 @@ df = [file for file in glob(f'{source_directory}/US*.*') \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt', <br>
+'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 39. Recursively Filtering Files with a Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -1064,7 +1209,12 @@ df = [file for file in glob(f'{source_directory}/US*.*',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 40. Filtering Files with a Suffix Based on Size from a Directory
 
@@ -1084,7 +1234,9 @@ df = [file for file in glob(f'{source_directory}/*US.*') \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
 ## 41. Recursively Filtering Files with a Suffix Based on Size from a Directory and Its Subdirectories
 
@@ -1104,7 +1256,11 @@ df = [file for file in glob(f'{source_directory}/*US.*',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx']
 
 ## 42. Filtering Files with a Keyword in the Filename Based on Size from a Directory
 
@@ -1124,6 +1280,12 @@ df = [file for file in glob(f'{source_directory}/*US*.*') \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 43. Recursively Filtering Files with a Keyword in the Filename Based on Size from a Directory and Its Subdirectories
 
@@ -1143,7 +1305,20 @@ df = [file for file in glob(f'{source_directory}/*US*.*',recursive=True)\
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+ 
 ## 44. Filtering Files with Multiple Prefixes Based on Size from a Directory 
 
 The code filters files in the directory `D:/Copy/Umer_Saeed/` that match multiple prefix patterns (e.g., `'US*`.' and `'AS.*'`) and are smaller than 500 KB. It uses `glob` to locate files that start with the specified prefixes. The `os.path.getsize` function is then used to filter these files based on their size, ensuring only files under 500 KB are included. The result is a list of file paths for files that meet both the prefix and size criteria, enabling efficient management or processing of smaller files with the specified prefixes.
@@ -1164,7 +1339,9 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
 
 ## 45. Recursively Filtering Files with Multiple Prefixes Based on Size from a Directory and Its Subdirectories
 
@@ -1186,7 +1363,14 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 46. Filtering Files with Multiple Suffix Patterns Based on Size from a Directory
 
@@ -1208,7 +1392,12 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx', <br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+ 
 ## 47. Recursively Filtering Files with Multiple Suffix Patterns Based on Size from a Directory and Its Subdirectories
 
 The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and its subdirectories to find files that match multiple suffix patterns (e.g., `'US'` and `'AS'`) and are smaller than 500 KB. It uses `glob` with `recursive=True` to locate files that fit the specified suffix patterns in all subdirectories. The `os.path.getsize` function is then used to filter these files based on their size, ensuring that only files under 500 KB are included. The result is a list of file paths for files that meet both the suffix and size criteria, facilitating targeted management or processing of smaller files with the specified suffixes.
@@ -1230,7 +1419,16 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+ 
 ## 48. Filtering Files with Multiple Keyword Patterns Based on Size from a Directory
 
 The code filters files in the directory `D:/Copy/Umer_Saeed/` based on multiple keyword patterns (e.g., `'US'` and `'AS'`) and their size. It uses `glob` to locate files that match the specified keyword patterns. The `os.path.getsize` function is then used to ensure that only files smaller than 500 KB are included. The resulting list contains file paths of files that meet both the keyword and size criteria, facilitating the management or processing of smaller files with the specified patterns.
@@ -1253,7 +1451,16 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+ 
 ## 49. Recursively Filtering Files with Multiple Keyword Patterns Based on Size from a Directory and Its Subdirectories
 
 The code recursively searches through the directory source_directory and its subdirectories to identify files that match multiple keyword patterns (e.g., `'US'` and `'AS'`) and are smaller than 500 KB. It uses glob with `recursive=True` to locate files that fit the specified keyword patterns across all subdirectories. The `os.path.getsize` function is then used to filter these files based on their size, ensuring that only files under 500 KB are included. The resulting list contains file paths of files that meet both the keyword and size criteria, enabling targeted management or processing of smaller files with the specified keywords.
@@ -1275,7 +1482,26 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 50. Filtering Text Files with Specific Prefix Based on Size from a Directory 
 
@@ -1295,6 +1521,7 @@ df = [file for file in glob(f'{source_directory}/US*.txt') \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\US1234.txt]
 
 ## 51. Recursively Filtering Text Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -1315,7 +1542,10 @@ df = [file for file in glob(f'{source_directory}/US*.txt',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+ 
 ## 52. Filtering Excel Files with Specific Prefix Based on Size from a Directory
 
 The code filters Excel files in the directory `D:/Copy/Umer_Saeed/` that start with the prefix `'US'` and have an `.xlsx` extension, ensuring that only those smaller than 500 KB are included. It uses the `glob` function to locate files matching the prefix and extension criteria. The `os.path.getsize` function then filters these files based on their size. The result is a list of file paths for Excel files with the specified prefix that are under 500 KB, enabling targeted management or processing of these smaller files.
@@ -1335,6 +1565,8 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx') \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
 ## 53. Recursively Filtering Excel Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -1355,7 +1587,9 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 54. Filtering Excel Files Containing Keyword in Filename Based on Size from a Directory
 
@@ -1376,7 +1610,9 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx') \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 55. Filtering Excel Files with Keyword in Filename and Size Constraint from Subdirectories
 
@@ -1397,7 +1633,13 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+ 
 ## 56. Filtering Files with Multiple Prefixes and Extensions Based on Size Constraint
 
 The code filters files within the directory `D:/Copy/Umer_Saeed/` based on a combination of specified prefixes (`AS*`, `US*`) and file extensions (`.xlsx`, `.txt`). It generates patterns for all combinations of these prefixes and extensions, then searches for matching files. The resulting list is further filtered to include only those files that are smaller than 500 KB. The `glob` function is used to find files matching the patterns, and `os.path.getsize` is used to enforce the size constraint. The final output is a unique list of files that meet these criteria.
@@ -1428,7 +1670,10 @@ df = list(set([
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+ 
 ## 57. Filtering Files Based on Multiple Prefixes and Extensions with Size Constraint from Directories and Subdirectories
 
 The code filters files from the `D:/Copy/Umer_Saeed/` directory and its subdirectories based on specified prefixes (`AS*`, `US*`) and file extensions (`.xlsx`, `.txt`). It generates a list of file search patterns using all combinations of these prefixes and extensions. The `glob` function is used to locate files matching these patterns recursively within subdirectories. The files are then filtered to include only those that are smaller than 500 KB. The result is a unique list of file paths that meet these criteria.
@@ -1460,7 +1705,15 @@ df = list(set([
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt']
+ 
 ## 58. Filtering Files Based on Suffix and Size from a Directory Using Multiple Patterns
 
 The objective of this code is to:
@@ -1500,7 +1753,11 @@ df = list(set([
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+ 
 ## 59. Filtering Files by Suffix and Extension Based on Size in Directories and Subdirectories
 
 The code filters files from a specified source directory and its subdirectories based on their suffix and file extension. It retrieves files that match any of the defined suffix patterns (`*AS` or `*US`) and extensions (`.xlsx` or `.txt`). Additionally, it checks that the file size is less than 500 KB. The resulting list contains unique file paths for files that meet all the specified criteria.
@@ -1532,7 +1789,14 @@ df = list(set([
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
+ 
 ## 60. Filtering Files by Multiple Keywords and Extensions Based on Size
 
 The code aims to filter and list files from a specified directory (`D:/Copy/Umer_Saeed/`) based on a combination of multiple keywords and file extensions. It looks for files that match patterns involving keywords (`*AS*`, `*US*`) and extensions (`.xlsx`, `.txt`). It then checks each file's size and includes only those files that are smaller than 500 KB in the final list. The search is performed within the specified directory but does not include subdirectories.
@@ -1566,7 +1830,12 @@ df = list(set([
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
 
 ## 61. Filtering Files Based on Multiple Keywords and Extensions from Directory and Subdirectories, Limited by Size
 
