@@ -51,7 +51,7 @@ df0
 ```
 
 
-**Output**<br>
+**Output:**<br>
 
 <table border="1" class="dataframe">
   <thead>
