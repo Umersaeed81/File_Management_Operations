@@ -97,10 +97,7 @@ Changing the name of a file can be crucial for clarity, organization, or adherin
 Compressing files into a zip archive reduces their size for storage and transfer. Zipping files is essential for saving disk space and for efficient file sharing. Zipping files facilitates easier data transfer and storage by compressing multiple files into a single archive.
 
 
-
-
-
-## Unzip Files
+### Unzip Files
 
  Extracting files from a zip archive allows access to compressed files. Unzipping is necessary to retrieve the original files for use after they have been compressed for storage or transfer. Unzipping files ensures that compressed data can be accessed and used as needed, restoring files to their original state.
 
