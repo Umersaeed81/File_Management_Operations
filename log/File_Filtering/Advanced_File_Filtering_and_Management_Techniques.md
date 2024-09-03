@@ -44,7 +44,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/*.*')
 df
 ```
-**Output:** <br>
+### Output
 
     ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
      'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
