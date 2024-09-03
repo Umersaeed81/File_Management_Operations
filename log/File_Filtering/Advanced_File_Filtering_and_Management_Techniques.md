@@ -67,8 +67,9 @@ The code uses the glob function to recursively list all files within the directo
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
+df
 ```
-
+**Output:** <br>
 ## 3. Listing Files in Subdirectories with Any Extension (Not Including Top-Level Directory)
 
 **Search for Files:** Locate files within the specified source directory (`D:/Copy/Umer_Saeed/`) and its subdirectories.
@@ -84,7 +85,9 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=False)
+df
 ```
+**Output:** <br>
 
 ## 4. Listing All CSV Files in a Directory
 
@@ -97,7 +100,9 @@ The code uses the `glob` function to retrieve all files with the `.csv` extensio
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*.csv')
+df
 ```
+**Output:** <br>
 
 ## 5. Recursively Listing All CSV Files in a Directory and Its Subdirectories
 
@@ -110,7 +115,9 @@ The code uses the `glob` function to recursively list all files with a `.csv` ex
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
+df
 ```
+**Output:** <br>
 
 ## 6. Filtering Files with Multiple Extensions from a Directory
 
@@ -128,7 +135,9 @@ patterns = ['*.xlsx', '*.txt']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}{pattern}')]
+df
 ```
+**Output:** <br>
 
 ## 7. Recursively Filtering Files with Multiple Extensions from a Directory and Its Subdirectories
 
@@ -146,7 +155,10 @@ patterns = ['*.xlsx', '*.txt']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}{pattern}',recursive=True)]
+df
 ```
+
+**Output:** <br>
 
 ## 8. Listing All Files with a Specific Prefix from a Directory
 
@@ -159,7 +171,10 @@ The code uses the `glob` function to list all files in the directory `D:/Copy/Um
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/US*.*')
+df
 ```
+
+**Output:** <br>
 
 ## 9. Recursively Listing All Files with a Specific Prefix from a Directory and Its Subdirectories
 
@@ -172,7 +187,9 @@ The code uses the `glob` function to recursively search for and retrieve all fil
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/US*.*',recursive=True)
+df
 ```
+**Output:** <br>
 
 ## 10. Listing All Files with a Specific Suffix from a Directory
 
@@ -185,7 +202,11 @@ The code uses the `glob` function to list all files in the directory `D:/Copy/Um
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US.*')
+df
 ```
+
+**Output:** <br>
+
 
 ## 11. Recursively Listing All Files with a Specific Suffix from a Directory and Its Subdirectories
 
@@ -198,7 +219,9 @@ The code uses the `glob` function to recursively search for and retrieve all fil
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US.*',recursive=True)
+df
 ```
+**Output:** <br>
 
 ## 12. Listing All Files Containing a Specific Keyword in Their Name from a Directory 
 
@@ -211,7 +234,9 @@ The code uses the `glob` function to list all files in the directory `D:/Copy/Um
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US*.*')
+df
 ```
+**Output:** <br>
 
 ## 13. Recursively Listing All Files Containing a Specific Keyword in Their Name from a Directory and Its Subdirectories
 
@@ -224,7 +249,10 @@ The code uses the `glob` function to recursively search for and retrieve all fil
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US*.*',recursive=True)
+df
 ```
+
+**Output:** <br>
 
 ## 14. Listing All Text Files with a Specific Prefix from a Directory
 
@@ -237,7 +265,10 @@ The code uses the `glob` function to list all text files (`.txt`) in the directo
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/US*.txt')
+df
 ```
+
+**Output:** <br>
 
 ## 15. Recursively Listing All Text Files with a Specific Prefix from a Directory and Its Subdirectories
 
@@ -250,7 +281,10 @@ The code uses the `glob` function to recursively search for and retrieve all tex
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/US*.txt',recursive=True)
+df
 ```
+
+**Output:** <br>
 
 ## 16. Listing All Excel Files with a Specific Suffix from a Directory
 
@@ -262,7 +296,9 @@ The code uses the `glob` function to list all Excel files (`.xlsx`) in the direc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US.xlsx')
+df
 ```
+**Output:** <br>
 
 ## 17. Recursively Listing All Excel Files with a Specific Suffix from a Directory and Its Subdirectories 
 
@@ -274,7 +310,10 @@ The code uses the `glob` function to recursively search for and retrieve all Exc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US.xlsx',recursive=True)
+df
 ```
+**Output:** <br>
+
 
 ## 18. Listing All Excel Files Containing a Specific Keyword in Their Name from a Directory
 
@@ -286,7 +325,10 @@ The code uses the `glob` function to list all Excel files (`.xlsx`) in the direc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US*.xlsx')
+df
 ```
+
+**Output:** <br>
 
 ## 19. Recursively Listing All Excel Files Containing a Specific Keyword in Their Name from a Directory and Its Subdirectories
 
@@ -298,7 +340,10 @@ The code uses the `glob` function to recursively search for and retrieve all Exc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US*.xlsx',recursive=True)
+df
 ```
+
+**Output:** <br>
 
 ## 20. Filtering Files with Multiple Prefixes from a Directory
 
@@ -315,7 +360,9 @@ patterns = ['US*.*', 'AS*.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}')]
+df
 ```
+**Output:** <br>
 
 ## 21. Recursively Filtering Files with Multiple Prefixes from a Directory and Its Subdirectories
 
@@ -333,7 +380,10 @@ patterns = ['US*.*', 'AS*.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}',recursive=True)]
+df
 ```
+
+**Output:** <br>
 
 ## 22. Filtering Files with Multiple Suffixes from a Directory
 
@@ -351,7 +401,9 @@ patterns = ['*US.*', '*AS.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}')]
+df
 ```
+**Output:** <br>
 
 ## 23. Recursively Filtering Files with Multiple Suffixes from a Directory and Its Subdirectories
 
@@ -369,7 +421,9 @@ patterns = ['*US.*', '*AS.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}',recursive=True)]
+df
 ```
+**Output:** <br>
 
 ## 24. Filtering Files with Multiple Keywords from a Directory Using Glob and Removing Duplicates
 
@@ -387,7 +441,9 @@ patterns = ['*US*.*', '*AS*.*']
 # filter out required files
 df = list(set(file for pattern in patterns for file \
               in glob(f'{source_directory}/{pattern}')))
+df
 ```
+**Output:** <br>
 
 ## 25. Recursively Filtering Files with Multiple Keywords from a Directory and Its Subdirectories and Removing Duplicates
 
@@ -406,7 +462,9 @@ patterns = ['*US*.*', '*AS*.*']
 # filter out required files
 df = list(set(file for pattern in patterns for file \
          in glob(f'{source_directory}/{pattern}',recursive=True)))
+df
 ```
+**Output:** <br>
 
 ## 26. Combining Multiple Prefixes and Extensions to Filter Files from a Directory
 
@@ -432,7 +490,9 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
+df
 ```
+**Output:** <br>
 
 ## 27. Recursively Filtering Files with Multiple Prefixes and Extensions from a Directory and Its Subdirectories
 
@@ -458,7 +518,10 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
+df
 ```
+
+**Output:** <br>
 
 ## 28. Filtering Files with Multiple Suffixes and Extensions from a Directory
 
@@ -484,7 +547,10 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
+df
 ```
+
+**Output:** <br>
 
 ## 29. Recursively Filtering Files with Multiple Suffixes and Extensions from a Directory and Its Subdirectories
 
@@ -510,7 +576,9 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
+df
 ```
+**Output:** <br>
 
 ## 30. Filtering Files with Multiple Keywords and Extensions from a Directory
 
@@ -536,7 +604,9 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
+df
 ```
+**Output:** <br>
 
 ## 31. Recursively Filtering Files with Multiple Keywords and Extensions from a Directory and Its Subdirectories
 
@@ -563,7 +633,9 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
+df
 ```
+**Output:** <br>
 
 ## 32. Filtering Files Based on Size from a Directory
 
@@ -580,7 +652,9 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.*') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 33. Filtering Files Based on Size from a Directory and Its Subdirectories 
 
@@ -597,7 +671,9 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 34. Filtering Text Files Based on Size from a Directory
 
@@ -613,8 +689,10 @@ from glob import glob
 source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.txt') \
-      if os.path.getsize(file) < 500 * 1024]
+      if os.path.getsize(file) < 500 * 1024
+df
 ```
+**Output:** <br>
 
 ## 35. Recursively Filtering Text Files Based on Size from a Directory and Its Subdirectories
 
@@ -631,7 +709,9 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.txt',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 36. Filtering Files with Multiple Extensions Based on Size from a Directory 
 
@@ -652,7 +732,9 @@ patterns = ['*.xlsx', '*.txt']
 df = [file for pattern in patterns for file  
       in glob(f'{source_directory}{pattern}') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 37. Recursively Filtering Files with Multiple Extensions Based on Size from a Directory and Its Subdirectories
 
@@ -672,7 +754,9 @@ patterns = ['*.xlsx', '*.txt']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}{pattern}',recursive=True)\
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 38. Filtering Files with a Specific Prefix Based on Size from a Directory 
 
@@ -689,7 +773,10 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.*') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 39. Recursively Filtering Files with a Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -706,7 +793,10 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 40. Filtering Files with a Suffix Based on Size from a Directory
 
@@ -723,7 +813,10 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.*') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 41. Recursively Filtering Files with a Suffix Based on Size from a Directory and Its Subdirectories
 
@@ -740,7 +833,10 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 42. Filtering Files with a Keyword in the Filename Based on Size from a Directory
 
@@ -757,7 +853,9 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.*') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 43. Recursively Filtering Files with a Keyword in the Filename Based on Size from a Directory and Its Subdirectories
 
@@ -774,7 +872,9 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.*',recursive=True)\
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 44. Filtering Files with Multiple Prefixes Based on Size from a Directory 
 
@@ -793,7 +893,10 @@ patterns = ['US*.*', 'AS*.*']
 # filter out required files
 df = [file for pattern in patterns for file in glob(f'{source_directory}/{pattern}')\
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 45. Recursively Filtering Files with Multiple Prefixes Based on Size from a Directory and Its Subdirectories
 
@@ -812,7 +915,10 @@ patterns = ['US*.*', 'AS*.*']
 # filter out required files
 df = [file for pattern in patterns for file in glob(f'{source_directory}/{pattern}',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 46. Filtering Files with Multiple Suffix Patterns Based on Size from a Directory
 
@@ -831,7 +937,9 @@ patterns = ['*US.*', '*AS.*']
 # filter out required files
 df = [file for pattern in patterns for file in glob(f'{source_directory}/{pattern}') 
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 47. Recursively Filtering Files with Multiple Suffix Patterns Based on Size from a Directory and Its Subdirectories
 
@@ -851,7 +959,9 @@ patterns = ['*US.*', '*AS.*']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}/{pattern}',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 48. Filtering Files with Multiple Keyword Patterns Based on Size from a Directory
 
@@ -872,7 +982,9 @@ patterns = ['*US*.*', '*AS*.*']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}/{pattern}') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 49. Recursively Filtering Files with Multiple Keyword Patterns Based on Size from a Directory and Its Subdirectories
 
@@ -892,7 +1004,10 @@ patterns = ['*US*.*', '*AS*.*']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}/{pattern}',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 50. Filtering Text Files with Specific Prefix Based on Size from a Directory 
 
@@ -909,7 +1024,9 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.txt') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 51. Recursively Filtering Text Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -927,7 +1044,9 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.txt',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 52. Filtering Excel Files with Specific Prefix Based on Size from a Directory
 
@@ -945,7 +1064,9 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.xlsx') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 53. Recursively Filtering Excel Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -963,7 +1084,10 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.xlsx',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 54. Filtering Excel Files Containing Keyword in Filename Based on Size from a Directory
 
@@ -981,7 +1105,10 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.xlsx') \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
+
 
 ## 55. Filtering Excel Files with Keyword in Filename and Size Constraint from Subdirectories
 
@@ -999,7 +1126,9 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.xlsx',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+df
 ```
+**Output:** <br>
 
 ## 56. Filtering Files with Multiple Prefixes and Extensions Based on Size Constraint
 
@@ -1028,7 +1157,9 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern)
     if os.path.getsize(file) < 500 * 1024]))
+df
 ```
+**Output:** <br>
 
 ## 57. Filtering Files Based on Multiple Prefixes and Extensions with Size Constraint from Directories and Subdirectories
 
@@ -1058,7 +1189,9 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern,recursive=True)
     if os.path.getsize(file) < 500 * 1024]))
+df
 ```
+**Output:** <br>
 
 ## 58. Filtering Files Based on Suffix and Size from a Directory Using Multiple Patterns
 
@@ -1096,7 +1229,9 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern)
     if os.path.getsize(file) < 500 * 1024]))
+df
 ```
+**Output:** <br>
 
 ## 59. Filtering Files by Suffix and Extension Based on Size in Directories and Subdirectories
 
@@ -1126,7 +1261,9 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern,recursive=True)
     if os.path.getsize(file) < 500 * 1024]))
+df
 ```
+**Output:** <br>
 
 ## 60. Filtering Files by Multiple Keywords and Extensions Based on Size
 
@@ -1158,7 +1295,10 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern)
     if os.path.getsize(file) < 500 * 1024]))
+df
 ```
+**Output:** <br>
+
 
 ## 61. Filtering Files Based on Multiple Keywords and Extensions from Directory and Subdirectories, Limited by Size
 
@@ -1196,7 +1336,9 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern,recursive=True)
     if os.path.getsize(file) < 500 * 1024]))
+df
 ```
+**Output:** <br>
 
 ## 62. Filtering Files with Numeric Characters in Filenames from a Directory 
 
@@ -1211,7 +1353,9 @@ from glob import glob
 source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*[0-9]*.*')]
+df
 ```
+**Output:** <br>
 
 ## 63. Filtering Files from Directory and Subdirectories Based on Numeric Characters in Filenames
 
@@ -1226,7 +1370,9 @@ from glob import glob
 source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*[0-9]*.*',recursive=True)]
+df
 ```
+**Output:** <br>
 
 ## 64. Filtering Files Without Digits in Filenames from a Directory
 
@@ -1245,7 +1391,9 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # filter out required files
 df = [file for file in glob(f'{source_directory}')\
       if not re.search(r'\d', file)]
+df
 ```
+**Output:** <br>
 
 ## 65. Filter Files Without Digits in Filenames from Directory and Subdirectories
 
@@ -1264,7 +1412,10 @@ source_directory = 'D:/Copy/Umer_Saeed/**/*.*'
 # filter out required files
 df = [file for file in glob(f'{source_directory}',recursive=True) \
       if not re.search(r'\d', file)]
+df
 ```
+**Output:** <br>
+
 
 ## 66. Filtering Files Containing Both Digits and Letters in Their Names from a Directory
 
@@ -1280,7 +1431,9 @@ from glob import glob
 source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # filter out required files
 df = [file for file in glob(f'{source_directory}') if re.search(r'[0-9]', file) and re.search(r'[A-Za-z]', file)]
+df
 ```
+**Output:** <br>
 
 ## 67. Filtering Files Containing Both Digits and Letters from Directory and Subdirectories
 
@@ -1297,7 +1450,9 @@ source_directory = 'D:/Copy/Umer_Saeed/**/*.*'
 # filter out required files
 df = [file for file in glob(f'{source_directory}',recursive=True) \
       if re.search(r'[0-9]', file) and re.search(r'[A-Za-z]', file)]
+df
 ```
+**Output:** <br>
 
 ## 68. Filter Files Based on Creation Date
 
@@ -1317,7 +1472,9 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on creation time
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getctime(file)) > datetime.now() - timedelta(days=5)]
+df
 ```
+**Output:** <br>
 
 ## 69. Filter Files Based on File Creation Date Range
 
@@ -1341,7 +1498,9 @@ end_date = datetime(2024, 9, 30)
 # Filter files based on creation date
 df = [file for file in glob(f'{source_directory}')
     if start_date <= datetime.fromtimestamp(os.path.getctime(file)) <= end_date]
+df
 ```
+**Output:** <br>
 
 ## 70. Filter Files Modified in the Last 24 Hours
 
@@ -1361,7 +1520,9 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on modification time within the specified hours
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)) > datetime.now() - timedelta(hours=24)]
+df
 ```
+**Output:** <br>
 
 ```python
 # Import required libraries
@@ -1375,7 +1536,9 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on modification date within the last 1 days (only date difference)
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)).date() >= (datetime.now() - timedelta(days=1)).date()]
+df
 ```
+**Output:** <br>
 
 ## 71. Filter Files by Date in Filename
 
@@ -1397,7 +1560,9 @@ date_pattern = re.compile(r'\d{4}-\d{2}-\d{2}')
 # Filter files based on regex pattern
 df = [file for file in glob(f'{source_directory}/*.*', recursive=True)
     if date_pattern.search(os.path.basename(file))]
+df
 ```
+**Output:** <br>
 
 ## 72. Filtering Files by Date Pattern in Filenames Using Regex
 
@@ -1419,7 +1584,9 @@ date_pattern = re.compile(r'\d{8}')  # Matches 8 consecutive digits
 # Filter files based on regex pattern
 df = [file for file in glob(f'{source_directory}')
     if date_pattern.search(os.path.basename(file))]
+df
 ```
+**Output:** <br>
 
 ## 73. Filter Files Based on Size Range
 
@@ -1442,7 +1609,9 @@ max_size = 50 * 1024   # 50 KB
 # Filter files based on size range
 df = [file for file in glob(f'{source_directory}')
     if min_size < os.path.getsize(file) < max_size]
+df
 ```
+**Output:** <br>
 
 ## 74. Filter Files Based on File Name Length (Excluding File Extension)
 
@@ -1464,7 +1633,9 @@ max_length = 15
 # Filter files based on filename length without extension
 df = [file for file in glob(f'{source_directory}')
     if len(os.path.splitext(os.path.basename(file))[0]) <= max_length]
+df
 ```
+**Output:** <br>
 
 ## 75. Filter Files Based on File Name Length (Including File Extension)
 
@@ -1483,7 +1654,9 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on filename length
 df = [file for file in glob(f'{source_directory}')
     if len(os.path.basename(file)) <= 20]
+df
 ```
+**Output:** <br>
 
 ## 76. Filter Files Based on Specific Subdirectory Names
 
@@ -1505,7 +1678,9 @@ subdirectories = ['DA', 'BH']
 # Filter files based on subdirectory names
 df = [file for subdir in subdirectories
     for file in glob(f'{source_directory}/{subdir}/*.*', recursive=True)]
+df
 ```
+**Output:** <br>
 
 ## 77. Filtering Files from a Source Directory and Specified Subdirectories
 
@@ -1533,6 +1708,8 @@ df.extend(glob(f'{source_directory}/*.*'))
 # Include files from the specified subdirectories
 for subdir in subdirectories:
     df.extend(glob(f'{source_directory}{subdir}/*.*'))
+df
 ```
+**Output:** <br>
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
