@@ -2555,5 +2555,18 @@ df
      'D:/Copy/Umer_Saeed\\DA\\d.csv',
      'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
+
+'''python
+from glob import glob
+
+# Define the list of paths to search
+source_directory = ['D:/Copy/Umer_Saeed/**/*.csv', 'D:/Copy/Ali_Saeed/*.txt']
+
+# Collect all files from the specified paths using list comprehension
+df = [file for path in source_directory for file in glob(path,recursive=True)]
+
+# Display the result
+result
+'''
  
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
