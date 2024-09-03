@@ -717,16 +717,16 @@ find_duplicates('D:/Copy/Umer_Saeed')
 ```
 
 **Output:**<br>
-Duplicate Group: 1e0009d787ddc52a793c2073e373a89f
-  D:/Copy/Umer_Saeed\03_PRS.csv
-  D:/Copy/Umer_Saeed\Hello_US.csv
+Duplicate Group: 1e0009d787ddc52a793c2073e373a89f<br>
+  D:/Copy/Umer_Saeed\03_PRS.csv<br>
+  D:/Copy/Umer_Saeed\Hello_US.csv<br>
 
-Duplicate Group: d41d8cd98f00b204e9800998ecf8427e
-  D:/Copy/Umer_Saeed\1234_US_G.txt
-  D:/Copy/Umer_Saeed\15031984_AliSaeed.txt
-  D:/Copy/Umer_Saeed\gmail.txt
-  D:/Copy/Umer_Saeed\g_AS.txt
-  D:/Copy/Umer_Saeed\Pakistan_1947-08-14.txt
+Duplicate Group: d41d8cd98f00b204e9800998ecf8427e<br>
+  D:/Copy/Umer_Saeed\1234_US_G.txt<br>
+  D:/Copy/Umer_Saeed\15031984_AliSaeed.txt<br>
+  D:/Copy/Umer_Saeed\gmail.txt<br>
+  D:/Copy/Umer_Saeed\g_AS.txt<br>
+  D:/Copy/Umer_Saeed\Pakistan_1947-08-14.txt<br>
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
