@@ -83,7 +83,7 @@ Efficient file management includes maintaining different versions of files, whic
 
 Understanding and mastering various file management operations is vital for any programmer or system administrator. These operations form the foundation of efficient and effective file handling, ensuring that you can manage files and directories proficiently in various programming scenarios. Here are some key operations:
 
-### List Directory Contents
+### [List Directory Contents](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Advanced_File_Filtering_and_Management_Techniques.md)
 
 Viewing the contents of a directory provides a snapshot of the files and subdirectories within. This operation is useful for gaining an overview of what is stored in a particular directory and for verifying file presence. Listing directory contents helps in auditing files and ensures that necessary files are present in the correct locations.
 
