@@ -385,7 +385,6 @@ df = glob('D:/Copy/Umer_Saeed/*US*.*')
 df
 ```
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -445,7 +444,6 @@ df
 ```
 
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 15. Recursively Listing All Text Files with a Specific Prefix from a Directory and Its Subdirectories
@@ -463,7 +461,6 @@ df
 ```
 
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
@@ -533,7 +530,6 @@ df
 ```
 
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -561,7 +557,6 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
@@ -587,7 +582,6 @@ df
 ```
 
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
@@ -619,7 +613,6 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
-
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
