@@ -679,11 +679,79 @@ df0
 </table>
 </div>
 
-## 5. Duplicate File Finder
+## 5. Extracting and Analyzing File Information from a Directory
+
+The objective of this code is to collect and present comprehensive details about the files within a specified directory. It generates a list that includes each file's name (excluding the extension), size, creation date, last modification date, file type, and its directory path. Additionally, the code retrieves and displays the author name for each file, where available.
+
+```python
+# import required libraries
+import os
+import math
+import pandas as pd
+from glob import glob
+from docx import Document
+from openpyxl import load_workbook
+from PyPDF2 import PdfFileReader
+
+# Function to extract the author name from specific file types
+def extract_author(file_path):
+    try:
+        ext = os.path.splitext(file_path)[1].lower()
+        if ext == '.docx':  # Microsoft Word documents
+            doc = Document(file_path)
+            return doc.core_properties.author
+        elif ext == '.xlsx':  # Microsoft Excel files
+            wb = load_workbook(file_path, read_only=True)
+            return wb.properties.creator
+        elif ext == '.pdf':  # PDF documents
+            with open(file_path, 'rb') as f:
+                reader = PdfFileReader(f)
+                info = reader.getDocumentInfo()
+                return info.author if info else None
+        # Add more conditions for other file types if needed
+    except Exception as e:
+        return None  # If there's an error or no author info, return None
+
+# User-defined function to get file info
+def get_file_info(path):
+    # Get the list of files
+    file_list = glob(f'{path}/**/*.*', recursive=True)
+
+    # Using list comprehension to collect file details
+    file_info = [(os.path.splitext(os.path.basename(file_path))[0],  # File name without extension
+                  math.ceil(os.path.getsize(file_path) / 1024),  # File size in KB, rounded up
+                  pd.to_datetime(os.path.getctime(file_path), unit='s')  # File creation time in UTC
+                  .tz_localize('UTC')  # Localize to UTC
+                  .tz_convert('Asia/Karachi')  # Convert to your local timezone
+                  .strftime('%Y-%m-%d %I:%M %p'),  # Format as date and time
+                  pd.to_datetime(os.path.getmtime(file_path), unit='s')  # Last modification time in UTC
+                  .tz_localize('UTC')  # Localize to UTC
+                  .tz_convert('Asia/Karachi')  # Convert to your local timezone
+                  .strftime('%Y-%m-%d %I:%M %p'),  # Format as date and time
+                  os.path.splitext(file_path)[1].lower(),  # File extension
+                  os.path.dirname(file_path),  # Directory path without file name and extension
+                  extract_author(file_path)  # Extract author name if available
+                 )
+                 for file_path in file_list]
+
+    # Create a DataFrame
+    df = pd.DataFrame(file_info, columns=['File Name', 'File Size (KB)',
+                                          'Created Date', 'Modified Date',
+                                          'File Extension', 'Full File Path', 'Author Name'])
+    return df
+
+# Get file information from the source and destination directories
+df0 = get_file_info('D:/Copy/Umer_Saeed')
+
+# Display the DataFrame
+df0
+```
+
+## 6. Duplicate File Finder
 
 The objective of this code is to identify and group duplicate files within a specified directory based on their content. The script calculates a unique hash value for each file using the MD5 hashing algorithm. If two or more files have the same hash, they are considered duplicates and are grouped together. Files that do not have a matching hash with any other file are not considered duplicates and are excluded from the results. The program then outputs the duplicate groups, listing the file paths for each group. This is useful for cleaning up storage space, organizing files, and ensuring that only unique files are retained in a directory.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-05.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-06.png?raw=true)
 
 ```python
 # import required libraries
