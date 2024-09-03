@@ -682,7 +682,39 @@ df0
 ## 5. Duplicate File Finder
 
 The objective of this code is to identify and group duplicate files within a specified directory based on their content. The script calculates a unique hash value for each file using the MD5 hashing algorithm. If two or more files have the same hash, they are considered duplicates and are grouped together. Files that do not have a matching hash with any other file are not considered duplicates and are excluded from the results. The program then outputs the duplicate groups, listing the file paths for each group. This is useful for cleaning up storage space, organizing files, and ensuring that only unique files are retained in a directory.
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-05.png?raw=true)
+
+```python
+# import required libraries
+import os
+import hashlib
+import pandas as pd
+from glob import glob
+
+def find_duplicates(path):
+    file_list = glob(f'{path}/*.*')
+    file_hashes = {}
+    
+    for file_path in file_list:
+        with open(file_path, 'rb') as f:
+            file_hash = hashlib.md5(f.read()).hexdigest()
+            if file_hash in file_hashes:
+                file_hashes[file_hash].append(file_path)
+            else:
+                file_hashes[file_hash] = [file_path]
+    
+    duplicate_groups = {k: v for k, v in file_hashes.items() if len(v) > 1}
+    
+    for group, files in duplicate_groups.items():
+        print(f"Duplicate Group: {group}")
+        for file in files:
+            print(f"  {file}")
+        print()
+
+# Example usage
+find_duplicates('D:/Copy/Umer_Saeed')
+```
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
