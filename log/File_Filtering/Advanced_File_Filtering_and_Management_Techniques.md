@@ -179,7 +179,7 @@ df
 ```
 ### Output
 
-    ['D:/Copy/Umer_Saeed\\03_PRS.csv', <br>
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv',
     'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
 ## 5. Recursively Listing All CSV Files in a Directory and Its Subdirectories
