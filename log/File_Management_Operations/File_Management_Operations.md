@@ -133,6 +133,8 @@ Ensuring the security of sensitive files through encryption and access controls 
 
 Implementing best practices for file management helps in maintaining an organized and efficient system. Here are some key practices:
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Best_Practices_for_File_Management.png?raw=true)
+
 ### Consistent Naming Conventions
 
 Use clear and consistent naming conventions for files and directories to make them easily identifiable and searchable. Include relevant information in filenames, such as dates, project names, or versions.
