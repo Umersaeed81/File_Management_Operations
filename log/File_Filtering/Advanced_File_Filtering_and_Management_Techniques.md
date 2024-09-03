@@ -179,8 +179,8 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv', <br>
-'D:/Copy/Umer_Saeed\\Hello_US.csv']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv', <br>
+    'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
 ## 5. Recursively Listing All CSV Files in a Directory and Its Subdirectories
 
@@ -197,12 +197,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\DA\\a.csv'
- 'D:/Copy/Umer_Saeed\\DA\\d.csv'
- 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv']
- 
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\DA\\a.csv'
+     'D:/Copy/Umer_Saeed\\DA\\d.csv'
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv']
+     
 ## 6. Filtering Files with Multiple Extensions from a Directory
 
 The code filters and retrieves all files with specified extensions (`.xlsx` and `.txt`) from a given directory (`D:/Copy/Umer_Saeed/`). It uses a list of patterns and the `glob` function to search for files matching each pattern. The resulting list `df` contains the paths of all Excel and text files found directly in the specified source directory. This is useful for selectively processing files of different types within a single directory.
@@ -223,21 +223,21 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 7. Recursively Filtering Files with Multiple Extensions from a Directory and Its Subdirectories
 
@@ -260,39 +260,39 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\BH\\g.txt'
- 'D:/Copy/Umer_Saeed\\DA\\b.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\BH\\g.txt'
+     'D:/Copy/Umer_Saeed\\DA\\b.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 
 ## 8. Listing All Files with a Specific Prefix from a Directory
 
@@ -310,9 +310,9 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 9. Recursively Listing All Files with a Specific Prefix from a Directory and Its Subdirectories
 
@@ -329,15 +329,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
  
 ## 10. Listing All Files with a Specific Suffix from a Directory
 
@@ -355,10 +355,10 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
 ## 11. Recursively Listing All Files with a Specific Suffix from a Directory and Its Subdirectories
 
@@ -375,13 +375,13 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx']
 
 ## 12. Listing All Files Containing a Specific Keyword in Their Name from a Directory 
 
@@ -398,14 +398,14 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
  
 ## 13. Recursively Listing All Files Containing a Specific Keyword in Their Name from a Directory and Its Subdirectories
 
@@ -423,24 +423,24 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
 
 
 ## 14. Listing All Text Files with a Specific Prefix from a Directory
@@ -477,9 +477,9 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 
 ## 16. Listing All Excel Files with a Specific Suffix from a Directory
 
@@ -495,8 +495,8 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
-'D:/Copy/Umer_Saeed\\g_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+    'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
 ## 17. Recursively Listing All Excel Files with a Specific Suffix from a Directory and Its Subdirectories 
 
@@ -512,9 +512,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 18. Listing All Excel Files Containing a Specific Keyword in Their Name from a Directory
 
@@ -531,10 +531,11 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+     
 ## 19. Recursively Listing All Excel Files Containing a Specific Keyword in Their Name from a Directory and Its Subdirectories
 
 The code uses the `glob` function to recursively search for and retrieve all Excel files (`.xlsx`) within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames containing the keyword `US`. By specifying the pattern `'**/*US*.xlsx'` and setting `recursive=True`, the code collects the paths of all matching Excel files across multiple directory levels. This approach is useful for locating and managing Excel files based on a specific keyword within a complex directory structure.
@@ -550,15 +551,15 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
 ## 20. Filtering Files with Multiple Prefixes from a Directory
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` that start with either of the specified prefixes (`US` or `AS`). By using a list of patterns and the `glob` function, it collects paths of all files that match these prefix patterns. This approach allows for selective file management and processing based on multiple naming conventions within the given directory.
@@ -578,10 +579,10 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
 
 ## 21. Recursively Filtering Files with Multiple Prefixes from a Directory and Its Subdirectories
 
@@ -604,17 +605,17 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 22. Filtering Files with Multiple Suffixes from a Directory
 
@@ -636,12 +637,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 ## 23. Recursively Filtering Files with Multiple Suffixes from a Directory and Its Subdirectories
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames ending with the specified suffixes (`US` or `AS`). By using a list of suffix patterns with `glob` and setting `recursive=True`, it collects the paths of all files that match these suffix patterns across multiple directory levels. This approach enables comprehensive file management and processing based on specific suffixes within a complex directory structure.
@@ -662,17 +663,17 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 24. Filtering Files with Multiple Keywords from a Directory Using Glob and Removing Duplicates
 
@@ -694,15 +695,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 ## 25. Recursively Filtering Files with Multiple Keywords from a Directory and Its Subdirectories and Removing Duplicates
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that contain any of the specified keywords (`US` or `AS`) in their filenames. By using the `glob` function with `recursive=True`, it matches files based on these keyword patterns and then removes duplicates by converting the results to a set. The final output is a list of unique file paths that include the specified keywords, ensuring comprehensive file management across multiple directory levels while eliminating redundancy.
@@ -724,26 +725,26 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt']
+    ['D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt']
  
 ## 26. Combining Multiple Prefixes and Extensions to Filter Files from a Directory
 
@@ -773,10 +774,10 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 27. Recursively Filtering Files with Multiple Prefixes and Extensions from a Directory and Its Subdirectories
 
@@ -807,17 +808,17 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 28. Filtering Files with Multiple Suffixes and Extensions from a Directory
 
@@ -848,10 +849,10 @@ df
 
 ### Output
 
-['D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
  
 ## 29. Recursively Filtering Files with Multiple Suffixes and Extensions from a Directory and Its Subdirectories
 
@@ -881,13 +882,13 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
+    ['D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
 
 ## 30. Filtering Files with Multiple Keywords and Extensions from a Directory
 
@@ -917,13 +918,13 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 ## 31. Recursively Filtering Files with Multiple Keywords and Extensions from a Directory and Its Subdirectories
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match various keyword patterns (`*AS*`, `*US*`) and file extensions (`.xlsx`, `.txt`). By generating all possible combinations of these patterns and extensions, it uses `glob` to find files that fit any of these criteria. The results are combined using `itertools.chain` to aggregate all matching files, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified keyword and extension criteria across multiple directory levels.
@@ -953,22 +954,22 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
  
 ## 32. Filtering Files Based on Size from a Directory
 
@@ -989,21 +990,21 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 33. Filtering Files Based on Size from a Directory and Its Subdirectories 
 
@@ -1024,38 +1025,38 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\BH\\g.txt'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\b.txt'
- 'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\BH\\g.txt'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\b.txt'
+     'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 34. Filtering Text Files Based on Size from a Directory
 
@@ -1076,12 +1077,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 35. Recursively Filtering Text Files Based on Size from a Directory and Its Subdirectories
 
@@ -1102,21 +1103,21 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\BH\\g.txt'
- 'D:/Copy/Umer_Saeed\\DA\\b.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\BH\\g.txt'
+     'D:/Copy/Umer_Saeed\\DA\\b.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 
 ## 36. Filtering Files with Multiple Extensions Based on Size from a Directory 
 
@@ -1141,20 +1142,20 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 37. Recursively Filtering Files with Multiple Extensions Based on Size from a Directory and Its Subdirectories
 
@@ -1178,36 +1179,36 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\BH\\g.txt'
- 'D:/Copy/Umer_Saeed\\DA\\b.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\BH\\g.txt'
+     'D:/Copy/Umer_Saeed\\DA\\b.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
 
 ## 38. Filtering Files with a Specific Prefix Based on Size from a Directory 
 
@@ -1228,8 +1229,8 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt', <br>
-'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt', <br>
+    'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 39. Recursively Filtering Files with a Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -1250,12 +1251,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 40. Filtering Files with a Suffix Based on Size from a Directory
 
@@ -1276,9 +1277,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
 ## 41. Recursively Filtering Files with a Suffix Based on Size from a Directory and Its Subdirectories
 
@@ -1299,11 +1300,11 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx']
 
 ## 42. Filtering Files with a Keyword in the Filename Based on Size from a Directory
 
@@ -1324,12 +1325,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 43. Recursively Filtering Files with a Keyword in the Filename Based on Size from a Directory and Its Subdirectories
 
@@ -1350,19 +1351,19 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
  
 ## 44. Filtering Files with Multiple Prefixes Based on Size from a Directory 
 
@@ -1385,9 +1386,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
 
 ## 45. Recursively Filtering Files with Multiple Prefixes Based on Size from a Directory and Its Subdirectories
 
@@ -1410,14 +1411,14 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 46. Filtering Files with Multiple Suffix Patterns Based on Size from a Directory
 
@@ -1440,11 +1441,11 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\Cor_US.docx', <br>
- 'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\Cor_US.docx', <br>
+     'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
  
 ## 47. Recursively Filtering Files with Multiple Suffix Patterns Based on Size from a Directory and Its Subdirectories
 
@@ -1468,15 +1469,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
  
 ## 48. Filtering Files with Multiple Keyword Patterns Based on Size from a Directory
 
@@ -1501,15 +1502,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
  
 ## 49. Recursively Filtering Files with Multiple Keyword Patterns Based on Size from a Directory and Its Subdirectories
 
@@ -1533,26 +1534,26 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 50. Filtering Text Files with Specific Prefix Based on Size from a Directory 
 
@@ -1573,7 +1574,7 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt]
+    ['D:/Copy/Umer_Saeed\\US1234.txt]
 
 ## 51. Recursively Filtering Text Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -1595,9 +1596,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
  
 ## 52. Filtering Excel Files with Specific Prefix Based on Size from a Directory
 
@@ -1619,8 +1620,8 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
-'D:/Copy/Umer_Saeed\\g_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+    'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
 ## 53. Recursively Filtering Excel Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
 
@@ -1642,9 +1643,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 54. Filtering Excel Files Containing Keyword in Filename Based on Size from a Directory
 
@@ -1666,9 +1667,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 55. Filtering Excel Files with Keyword in Filename and Size Constraint from Subdirectories
 
@@ -1690,12 +1691,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
  
 ## 56. Filtering Files with Multiple Prefixes and Extensions Based on Size Constraint
 
@@ -1728,9 +1729,9 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
  
 ## 57. Filtering Files Based on Multiple Prefixes and Extensions with Size Constraint from Directories and Subdirectories
 
@@ -1764,15 +1765,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt']
- 
+    ['D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt']
+     
 ## 58. Filtering Files Based on Suffix and Size from a Directory Using Multiple Patterns
 
 The objective of this code is to:
@@ -1813,10 +1814,10 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
  
 ## 59. Filtering Files by Suffix and Extension Based on Size in Directories and Subdirectories
 
@@ -1850,13 +1851,13 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
+    ['D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
  
 ## 60. Filtering Files by Multiple Keywords and Extensions Based on Size
 
@@ -1892,12 +1893,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
 
 ## 61. Filtering Files Based on Multiple Keywords and Extensions from Directory and Subdirectories, Limited by Size
 
@@ -1939,19 +1940,19 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\1234_US_G.txt', <br>
- 'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt', <br>
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\US1234.txt', <br>
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt', <br>
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt', <br>
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx', <br>
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
+    ['D:/Copy/Umer_Saeed\\1234_US_G.txt', <br>
+     'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt', <br>
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\US1234.txt', <br>
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt', <br>
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt', <br>
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx', <br>
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
 
 ## 62. Filtering Files with Numeric Characters in Filenames from a Directory 
 
@@ -1970,15 +1971,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 63. Filtering Files from Directory and Subdirectories Based on Numeric Characters in Filenames
 
@@ -1997,24 +1998,24 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
  
 ## 64. Filtering Files Without Digits in Filenames from a Directory
 
@@ -2037,15 +2038,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
  
 ## 65. Filter Files Without Digits in Filenames from Directory and Subdirectories
 
@@ -2068,28 +2069,28 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed\\BH\\g.txt'
- 'D:/Copy/Umer_Saeed\\DA\\a.csv'
- 'D:/Copy/Umer_Saeed\\DA\\b.txt'
- 'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\d.csv'
- 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed\\BH\\g.txt'
+     'D:/Copy/Umer_Saeed\\DA\\a.csv'
+     'D:/Copy/Umer_Saeed\\DA\\b.txt'
+     'D:/Copy/Umer_Saeed\\DA\\c.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\d.csv'
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\Umer\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
 
 ## 66. Filtering Files Containing Both Digits and Letters in Their Names from a Directory
 
@@ -2109,16 +2110,16 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
- 
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+     
 ## 67. Filtering Files Containing Both Digits and Letters from Directory and Subdirectories
 
 This code searches for files within the specified source directory and all its subdirectories that have filenames containing both digits and letters. It uses the `glob` module to recursively search through directories and the `re` module to apply regular expressions for filtering filenames based on their content.
@@ -2138,24 +2139,24 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
  
 ## 68. Filter Files Based on Creation Date
 
@@ -2179,11 +2180,11 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt']
+    ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt']
  
 ## 69. Filter Files Based on File Creation Date Range
 
@@ -2211,12 +2212,12 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx']
+    ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx']
  
 ## 70. Filter Files Modified in the Last 24 Hours
 
@@ -2240,7 +2241,7 @@ df
 ```
 ### Output
 
-[]
+    []
 
 ```python
 # Import required libraries
@@ -2258,7 +2259,7 @@ df
 ```
 ### Output
 
-[]
+    []
 ## 71. Filter Files by Date in Filename
 
 List all files where the filename contains a date in the format YYYY-MM-DD
@@ -2283,8 +2284,8 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt']
+    ['D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt']
  
 ## 72. Filtering Files by Date Pattern in Filenames Using Regex
 
@@ -2310,8 +2311,8 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx']
+    ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx']
  
 ## 73. Filter Files Based on Size Range
 
@@ -2338,15 +2339,15 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+    ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
  
 ## 74. Filter Files Based on File Name Length (Excluding File Extension)
 
@@ -2372,21 +2373,21 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
  
 ## 75. Filter Files Based on File Name Length (Including File Extension)
 
@@ -2409,21 +2410,21 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx']
  
 ## 76. Filter Files Based on Specific Subdirectory Names
 
@@ -2449,16 +2450,16 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed//DA\\a.csv'
- 'D:/Copy/Umer_Saeed//DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed//DA\\b.txt'
- 'D:/Copy/Umer_Saeed//DA\\c.xlsx'
- 'D:/Copy/Umer_Saeed//DA\\d.csv'
- 'D:/Copy/Umer_Saeed//DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed//DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed//DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed//DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed//BH\\g.txt']
+    ['D:/Copy/Umer_Saeed//DA\\a.csv'
+     'D:/Copy/Umer_Saeed//DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed//DA\\b.txt'
+     'D:/Copy/Umer_Saeed//DA\\c.xlsx'
+     'D:/Copy/Umer_Saeed//DA\\d.csv'
+     'D:/Copy/Umer_Saeed//DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed//DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed//DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed//DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed//BH\\g.txt']
  
 ## 77. Filtering Files from a Source Directory and Specified Subdirectories
 
@@ -2490,33 +2491,33 @@ df
 ```
 ### Output
 
-['D:/Copy/Umer_Saeed\\03_PRS.csv'
- 'D:/Copy/Umer_Saeed\\1234_US_G.txt'
- 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
- 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
- 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
- 'D:/Copy/Umer_Saeed\\Cor_US.docx'
- 'D:/Copy/Umer_Saeed\\gmail.txt'
- 'D:/Copy/Umer_Saeed\\g_AS.txt'
- 'D:/Copy/Umer_Saeed\\g_US.xlsx'
- 'D:/Copy/Umer_Saeed\\Hello_US.csv'
- 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
- 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
- 'D:/Copy/Umer_Saeed\\Test.xlsx'
- 'D:/Copy/Umer_Saeed\\Test1.xlsx'
- 'D:/Copy/Umer_Saeed\\US1234.txt'
- 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
- 'D:/Copy/Umer_Saeed\\US_Test.xlsx'
- 'D:/Copy/Umer_Saeed/DA\\a.csv'
- 'D:/Copy/Umer_Saeed/DA\\AS_1234_US.xlsx'
- 'D:/Copy/Umer_Saeed/DA\\b.txt'
- 'D:/Copy/Umer_Saeed/DA\\c.xlsx'
- 'D:/Copy/Umer_Saeed/DA\\d.csv'
- 'D:/Copy/Umer_Saeed/DA\\Hello_t_US.csv'
- 'D:/Copy/Umer_Saeed/DA\\US1234_Salam.txt'
- 'D:/Copy/Umer_Saeed/DA\\US_123_AS_Hello.xlsx'
- 'D:/Copy/Umer_Saeed/DA\\US_Test_Hi.xlsx'
- 'D:/Copy/Umer_Saeed/BH\\g.txt']
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv'
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt'
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt'
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx'
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx'
+     'D:/Copy/Umer_Saeed\\Cor_US.docx'
+     'D:/Copy/Umer_Saeed\\gmail.txt'
+     'D:/Copy/Umer_Saeed\\g_AS.txt'
+     'D:/Copy/Umer_Saeed\\g_US.xlsx'
+     'D:/Copy/Umer_Saeed\\Hello_US.csv'
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx'
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt'
+     'D:/Copy/Umer_Saeed\\Test.xlsx'
+     'D:/Copy/Umer_Saeed\\Test1.xlsx'
+     'D:/Copy/Umer_Saeed\\US1234.txt'
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx'
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx'
+     'D:/Copy/Umer_Saeed/DA\\a.csv'
+     'D:/Copy/Umer_Saeed/DA\\AS_1234_US.xlsx'
+     'D:/Copy/Umer_Saeed/DA\\b.txt'
+     'D:/Copy/Umer_Saeed/DA\\c.xlsx'
+     'D:/Copy/Umer_Saeed/DA\\d.csv'
+     'D:/Copy/Umer_Saeed/DA\\Hello_t_US.csv'
+     'D:/Copy/Umer_Saeed/DA\\US1234_Salam.txt'
+     'D:/Copy/Umer_Saeed/DA\\US_123_AS_Hello.xlsx'
+     'D:/Copy/Umer_Saeed/DA\\US_Test_Hi.xlsx'
+     'D:/Copy/Umer_Saeed/BH\\g.txt']
  
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
