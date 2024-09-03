@@ -1876,7 +1876,19 @@ df = list(set([
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt', <br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt', <br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt', <br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt', <br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt', <br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx', <br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
 ## 62. Filtering Files with Numeric Characters in Filenames from a Directory 
 
 The objective of this code is to filter and list all files from the specified directory (`D:/Copy/Umer_Saeed/`) whose filenames contain at least one numeric character (0-9) using the `glob` function. The resulting list `df` will contain the paths of all such files that match the pattern.
@@ -1893,6 +1905,15 @@ df = [file for file in glob(f'{source_directory}/*[0-9]*.*')]
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
 ## 63. Filtering Files from Directory and Subdirectories Based on Numeric Characters in Filenames
 
@@ -1910,7 +1931,25 @@ df = [file for file in glob(f'{source_directory}/*[0-9]*.*',recursive=True)]
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+ 
 ## 64. Filtering Files Without Digits in Filenames from a Directory
 
 The objective of this code is to filter and list all files in the specified directory (`'D:/Copy/Umer_Saeed/'`) that do not contain any digits in their filenames. It uses the `glob` function to retrieve all files and then applies a regular expression (`re.search(r'\d', file)`) to exclude files that have digits in their names. The resulting list (`df`) contains only files without any numeric characters in their filenames.
@@ -1931,7 +1970,16 @@ df = [file for file in glob(f'{source_directory}')\
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+ 
 ## 65. Filter Files Without Digits in Filenames from Directory and Subdirectories
 
 The objective of this code is to retrieve all files from a specified directory and its subdirectories that do not contain any digits in their filenames. The code uses the `glob` function with the `recursive=True` parameter to search for files recursively, and the `re.search()` function to exclude files with any numeric characters in their names. The resulting list `df` contains only the files without digits in their filenames.
@@ -1952,7 +2000,28 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\d.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
 
 ## 66. Filtering Files Containing Both Digits and Letters in Their Names from a Directory
 
@@ -1971,7 +2040,16 @@ df = [file for file in glob(f'{source_directory}') if re.search(r'[0-9]', file) 
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+ 
 ## 67. Filtering Files Containing Both Digits and Letters from Directory and Subdirectories
 
 This code searches for files within the specified source directory and all its subdirectories that have filenames containing both digits and letters. It uses the `glob` module to recursively search through directories and the `re` module to apply regular expressions for filtering filenames based on their content.
@@ -1990,7 +2068,25 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
+ 
 ## 68. Filter Files Based on Creation Date
 
 List files created within the last 5 days
@@ -2012,7 +2108,12 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt']
+ 
 ## 69. Filter Files Based on File Creation Date Range
 
 This example filters files created within a specified date range.
@@ -2038,7 +2139,13 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx']
+ 
 ## 70. Filter Files Modified in the Last 24 Hours
 
 List all files modified within the last 24 hours.
@@ -2060,6 +2167,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+[]
 
 ```python
 # Import required libraries
@@ -2076,7 +2184,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+[]
 ## 71. Filter Files by Date in Filename
 
 List all files where the filename contains a date in the format YYYY-MM-DD
@@ -2100,7 +2208,9 @@ df = [file for file in glob(f'{source_directory}/*.*', recursive=True)
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt']
+ 
 ## 72. Filtering Files by Date Pattern in Filenames Using Regex
 
 List all files where the filename contains a date in the format YYYYMMDD.
@@ -2124,7 +2234,9 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx']
+ 
 ## 73. Filter Files Based on Size Range
 
 List all files within a specific size range (e.g., between 20 KB and 50 KB).
@@ -2149,7 +2261,16 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
+ 
 ## 74. Filter Files Based on File Name Length (Excluding File Extension)
 
 Filter files in the source directory to include only those with filenames (excluding extensions) that are 15 characters or fewer in length.
@@ -2173,7 +2294,22 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+ 
 ## 75. Filter Files Based on File Name Length (Including File Extension)
 
 Filter files in the source directory to include only those with filenames that are 20 characters or fewer in length.
@@ -2194,7 +2330,22 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+ 
 ## 76. Filter Files Based on Specific Subdirectory Names
 
 Filter files from specific subdirectories (`DA` and `BH`) within the source directory.
@@ -2218,7 +2369,17 @@ df = [file for subdir in subdirectories
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed//DA\\a.csv',<br>
+ 'D:/Copy/Umer_Saeed//DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed//DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed//DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed//DA\\d.csv',<br>
+ 'D:/Copy/Umer_Saeed//DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed//DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed//DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed//DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed//BH\\g.txt']
+ 
 ## 77. Filtering Files from a Source Directory and Specified Subdirectories
 
 Collect files from the source directory and specific subdirectories (`DA` and `BH`).
@@ -2248,5 +2409,33 @@ for subdir in subdirectories:
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
+ 'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\gmail.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed/DA\\a.csv',<br>
+ 'D:/Copy/Umer_Saeed/DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed/DA\\b.txt',<br>
+ 'D:/Copy/Umer_Saeed/DA\\c.xlsx',<br>
+ 'D:/Copy/Umer_Saeed/DA\\d.csv',<br>
+ 'D:/Copy/Umer_Saeed/DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed/DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed/DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed/DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed/BH\\g.txt']
+ 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
