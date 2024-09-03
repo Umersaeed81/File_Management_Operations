@@ -51,7 +51,7 @@ df0
 ```
 
 
-
+**Output**<br>
 
 <table border="1" class="dataframe">
   <thead>
@@ -128,7 +128,7 @@ def file_type_summary(path):
 df0= file_type_summary('D:/Copy/Umer_Saeed')
 df0
 ```
-
+**Output**<br>
 
 <table border="1" class="dataframe">
   <thead>
@@ -207,10 +207,7 @@ def file_age_analysis(path):
 df0 = file_age_analysis('D:/Copy/Umer_Saeed')
 df0
 ```
-
-
-
-
+**Output**<br>
 
 <table border="1" class="dataframe">
   <thead>
@@ -292,7 +289,7 @@ df0 = get_file_info('D:/Copy/Umer_Saeed')
 # Display the DataFrame
 df0
 ```
-
+**Output**<br>
 
 
 
