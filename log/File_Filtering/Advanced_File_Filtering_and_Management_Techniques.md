@@ -46,23 +46,23 @@ df
 ```
 ### Output
 
-    ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
-     'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
-     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
-     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
-     'D:/Copy/Umer_Saeed\\gmail.txt',<br>
-     'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
-     'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
-     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
-     'D:/Copy/Umer_Saeed\\Test.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\Test1.xlsx',<br>
-     'D:/Copy/Umer_Saeed\\US1234.txt',<br>
-     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv',
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt',
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',
+     'D:/Copy/Umer_Saeed\\Cor_US.docx',
+     'D:/Copy/Umer_Saeed\\gmail.txt',
+     'D:/Copy/Umer_Saeed\\g_AS.txt',
+     'D:/Copy/Umer_Saeed\\g_US.xlsx',
+     'D:/Copy/Umer_Saeed\\Hello_US.csv',
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',
+     'D:/Copy/Umer_Saeed\\Test.xlsx',
+     'D:/Copy/Umer_Saeed\\Test1.xlsx',
+     'D:/Copy/Umer_Saeed\\US1234.txt',
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',
      'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 2. Recursively Listing All Files in a Directory and Its Subdirectories
