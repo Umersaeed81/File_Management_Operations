@@ -78,7 +78,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -138,7 +138,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=False)
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
@@ -176,7 +176,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/*.csv')
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv', <br>
 'D:/Copy/Umer_Saeed\\Hello_US.csv']
@@ -194,7 +194,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
@@ -220,7 +220,7 @@ df = [file for pattern in patterns for file \
       in glob(f'{source_directory}{pattern}')]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -257,7 +257,7 @@ df = [file for pattern in patterns for file \
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -307,7 +307,7 @@ df = glob('D:/Copy/Umer_Saeed/US*.*')
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -326,7 +326,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/**/US*.*',recursive=True)
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -352,7 +352,7 @@ df = glob('D:/Copy/Umer_Saeed/*US.*')
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -372,7 +372,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/**/*US.*',recursive=True)
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -395,7 +395,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/*US*.*')
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -420,7 +420,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US*.*',recursive=True)
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -456,7 +456,7 @@ df = glob('D:/Copy/Umer_Saeed/US*.txt')
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt']
 
@@ -474,7 +474,7 @@ df = glob('D:/Copy/Umer_Saeed/**/US*.txt',recursive=True)
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
@@ -492,7 +492,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/*US.xlsx')
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
 'D:/Copy/Umer_Saeed\\g_US.xlsx']
@@ -509,7 +509,7 @@ from glob import glob
 df = glob('D:/Copy/Umer_Saeed/**/*US.xlsx',recursive=True)
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -528,7 +528,7 @@ df = glob('D:/Copy/Umer_Saeed/*US*.xlsx')
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -547,7 +547,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US*.xlsx',recursive=True)
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -575,7 +575,7 @@ df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}')]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -601,7 +601,7 @@ df = [file for pattern in patterns for file \
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -633,7 +633,7 @@ df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}')]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -659,7 +659,7 @@ df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}',recursive=True)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -691,7 +691,7 @@ df = list(set(file for pattern in patterns for file \
               in glob(f'{source_directory}/{pattern}')))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
@@ -721,7 +721,7 @@ df = list(set(file for pattern in patterns for file \
          in glob(f'{source_directory}/{pattern}',recursive=True)))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
@@ -770,7 +770,7 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -804,7 +804,7 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
@@ -845,7 +845,7 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
 
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
@@ -878,7 +878,7 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
@@ -914,7 +914,7 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
@@ -950,7 +950,7 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
@@ -986,7 +986,7 @@ df = [file for file in glob(f'{source_directory}/*.*') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -1021,7 +1021,7 @@ df = [file for file in glob(f'{source_directory}/*.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -1073,7 +1073,7 @@ df = [file for file in glob(f'{source_directory}/*.txt') \
       if os.path.getsize(file) < 500 * 1024
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -1099,7 +1099,7 @@ df = [file for file in glob(f'{source_directory}/*.txt',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -1138,7 +1138,7 @@ df = [file for pattern in patterns for file
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -1175,7 +1175,7 @@ df = [file for pattern in patterns for file in \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -1207,6 +1207,7 @@ df
  'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+
 ## 38. Filtering Files with a Specific Prefix Based on Size from a Directory 
 
 The code filters files with a specific prefix (e.g., files starting with 'US') from the directory `D:/Copy/Umer_Saeed/`, selecting only those that are smaller than 500 KB. It uses `glob` to locate files in the directory that match the specified prefix and any file extension. `os.path.getsize` is then used to check each file's size, ensuring only files under 500 KB are included. The result is a list of file paths that meet both the prefix and size criteria, allowing for focused management or processing of smaller files with the given prefix.
@@ -1224,7 +1225,7 @@ df = [file for file in glob(f'{source_directory}/US*.*') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt', <br>
 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
@@ -1246,7 +1247,7 @@ df = [file for file in glob(f'{source_directory}/US*.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1272,7 +1273,7 @@ df = [file for file in glob(f'{source_directory}/*US.*') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1295,7 +1296,7 @@ df = [file for file in glob(f'{source_directory}/*US.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1320,7 +1321,7 @@ df = [file for file in glob(f'{source_directory}/*US*.*') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -1346,7 +1347,7 @@ df = [file for file in glob(f'{source_directory}/*US*.*',recursive=True)\
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -1381,7 +1382,7 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1406,7 +1407,7 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1436,7 +1437,7 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx', <br>
@@ -1464,7 +1465,7 @@ df = [file for pattern in patterns for file in \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1497,7 +1498,7 @@ df = [file for pattern in patterns for file in \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -1529,7 +1530,7 @@ df = [file for pattern in patterns for file in \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -1569,7 +1570,7 @@ df = [file for file in glob(f'{source_directory}/US*.txt') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt]
 
@@ -1591,7 +1592,7 @@ df = [file for file in glob(f'{source_directory}/US*.txt',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
@@ -1615,7 +1616,7 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
 'D:/Copy/Umer_Saeed\\g_US.xlsx']
@@ -1638,7 +1639,7 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -1662,7 +1663,7 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx') \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -1686,7 +1687,7 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -1724,7 +1725,7 @@ df = list(set([
     if os.path.getsize(file) < 500 * 1024]))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1760,7 +1761,7 @@ df = list(set([
     if os.path.getsize(file) < 500 * 1024]))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US1234.txt',<br>
@@ -1809,7 +1810,7 @@ df = list(set([
     if os.path.getsize(file) < 500 * 1024]))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
@@ -1846,7 +1847,7 @@ df = list(set([
     if os.path.getsize(file) < 500 * 1024]))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
@@ -1888,7 +1889,7 @@ df = list(set([
     if os.path.getsize(file) < 500 * 1024]))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
@@ -1935,7 +1936,7 @@ df = list(set([
     if os.path.getsize(file) < 500 * 1024]))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt', <br>
  'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
@@ -1966,7 +1967,7 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 df = [file for file in glob(f'{source_directory}/*[0-9]*.*')]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -1993,7 +1994,7 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 df = [file for file in glob(f'{source_directory}/*[0-9]*.*',recursive=True)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -2033,7 +2034,7 @@ df = [file for file in glob(f'{source_directory}')\
       if not re.search(r'\d', file)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -2064,7 +2065,7 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
       if not re.search(r'\d', file)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -2105,7 +2106,7 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 df = [file for file in glob(f'{source_directory}') if re.search(r'[0-9]', file) and re.search(r'[A-Za-z]', file)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -2134,7 +2135,7 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
       if re.search(r'[0-9]', file) and re.search(r'[A-Za-z]', file)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -2175,7 +2176,7 @@ df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getctime(file)) > datetime.now() - timedelta(days=5)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
@@ -2207,7 +2208,7 @@ df = [file for file in glob(f'{source_directory}')
     if start_date <= datetime.fromtimestamp(os.path.getctime(file)) <= end_date]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
@@ -2236,7 +2237,7 @@ df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)) > datetime.now() - timedelta(hours=24)]
 df
 ```
-**Output:** <br>
+### Output
 
 []
 
@@ -2254,7 +2255,7 @@ df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)).date() >= (datetime.now() - timedelta(days=1)).date()]
 df
 ```
-**Output:** <br>
+### Output
 
 []
 ## 71. Filter Files by Date in Filename
@@ -2279,7 +2280,7 @@ df = [file for file in glob(f'{source_directory}/*.*', recursive=True)
     if date_pattern.search(os.path.basename(file))]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt']
@@ -2306,7 +2307,7 @@ df = [file for file in glob(f'{source_directory}')
     if date_pattern.search(os.path.basename(file))]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx']
@@ -2334,7 +2335,7 @@ df = [file for file in glob(f'{source_directory}')
     if min_size < os.path.getsize(file) < max_size]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -2368,7 +2369,7 @@ df = [file for file in glob(f'{source_directory}')
     if len(os.path.splitext(os.path.basename(file))[0]) <= max_length]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -2405,7 +2406,7 @@ df = [file for file in glob(f'{source_directory}')
     if len(os.path.basename(file)) <= 20]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
@@ -2445,7 +2446,7 @@ df = [file for subdir in subdirectories
     for file in glob(f'{source_directory}/{subdir}/*.*', recursive=True)]
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed//DA\\a.csv',<br>
  'D:/Copy/Umer_Saeed//DA\\AS_1234_US.xlsx',<br>
@@ -2486,7 +2487,7 @@ for subdir in subdirectories:
     df.extend(glob(f'{source_directory}{subdir}/*.*'))
 df
 ```
-**Output:** <br>
+### Output
 
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
