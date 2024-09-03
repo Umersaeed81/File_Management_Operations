@@ -1,3 +1,21 @@
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top;">
+      <h1><a href="https://www.linkedin.com/in/engumersaeed/">Umer Saeed</a></h1>
+      Sr. RF Planning & Optimization Engineer<br>
+      BSc Telecommunications Engineering, School of Engineering<br>
+      MS Data Science, School of Business and Economics<br>
+      <strong>University of Management & Technology</strong><br>
+      <strong>Mobile:</strong> +923018412180<br>
+      <strong>Email:</strong> umersaeed81@hotmail.com<br>
+      <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
+    </td>
+    <td style="vertical-align: top; padding-left: 100px;">
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="500"/>
+    </td>
+  </tr>
+</table>
+
 # File Management Operations
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/File_Management_Operations.png?raw=true)
@@ -158,3 +176,5 @@ Leverage automation tools for repetitive tasks such as backups, file transfers, 
 # Conclusion
 
 Mastering file management operations is essential for efficient programming and effective system administration. These operations—copying, moving, deleting, creating directories, renaming files, listing directory contents, and handling zip files—form the backbone of organized and efficient file handling. By understanding and implementing these operations, along with advanced concepts and best practices, you can ensure that your file systems remain well-organized, secure, and easily manageable. This ultimately contributes to more streamlined workflows, enhanced productivity, and robust data security.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
