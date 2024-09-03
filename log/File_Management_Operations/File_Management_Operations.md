@@ -92,7 +92,7 @@ Removing directories and their contents is often necessary when directories are 
 
 Changing the name of a file can be crucial for clarity, organization, or adhering to naming conventions. Renaming files helps in identifying and categorizing them appropriately. Renaming files allows for better organization and makes it easier to follow naming conventions, improving file manageability.
 
-## Zip Files
+### Zip Files
 
 Compressing files into a zip archive reduces their size for storage and transfer. Zipping files is essential for saving disk space and for efficient file sharing. Zipping files facilitates easier data transfer and storage by compressing multiple files into a single archive.
 
