@@ -2558,7 +2558,6 @@ df
 
 '''python
 from glob import glob
-
 # Define the list of paths to search
 source_directory = ['D:/Copy/Umer_Saeed/**/*.csv', 'D:/Copy/Ali_Saeed/*.txt']
 
