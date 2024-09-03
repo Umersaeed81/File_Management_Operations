@@ -45,6 +45,7 @@ df = glob('D:/Copy/Umer_Saeed/*.*')
 df
 ```
 **Output:** <br>
+
     ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
      'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
      'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -78,6 +79,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -137,6 +139,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=False)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\BH\\g.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
  'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
@@ -174,6 +177,7 @@ df = glob('D:/Copy/Umer_Saeed/*.csv')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv', <br>
 'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
@@ -191,6 +195,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
  'D:/Copy/Umer_Saeed\\DA\\a.csv',<br>
@@ -216,6 +221,7 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -252,6 +258,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -301,6 +308,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_Test.xlsx']
@@ -319,6 +327,7 @@ df = glob('D:/Copy/Umer_Saeed/**/US*.*',recursive=True)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
@@ -344,6 +353,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -363,6 +373,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US.*',recursive=True)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -385,6 +396,7 @@ df = glob('D:/Copy/Umer_Saeed/*US*.*')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -409,6 +421,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -444,6 +457,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt']
 
 ## 15. Recursively Listing All Text Files with a Specific Prefix from a Directory and Its Subdirectories
@@ -461,6 +475,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
@@ -478,6 +493,7 @@ df = glob('D:/Copy/Umer_Saeed/*US.xlsx')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
 'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
@@ -494,6 +510,7 @@ df = glob('D:/Copy/Umer_Saeed/**/*US.xlsx',recursive=True)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
@@ -512,6 +529,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -530,6 +548,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -557,6 +576,7 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
@@ -582,6 +602,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
@@ -613,6 +634,7 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -638,6 +660,7 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -669,6 +692,7 @@ df = list(set(file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\US1234.txt',<br>
@@ -698,6 +722,7 @@ df = list(set(file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
@@ -746,6 +771,7 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -779,6 +805,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US1234.txt',<br>
@@ -819,6 +846,7 @@ df
 ```
 
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -851,6 +879,7 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -886,6 +915,7 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\US1234.txt',<br>
@@ -921,6 +951,7 @@ df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in pa
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
@@ -956,6 +987,7 @@ df = [file for file in glob(f'{source_directory}/*.*') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
@@ -990,6 +1022,7 @@ df = [file for file in glob(f'{source_directory}/*.*',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
@@ -1041,6 +1074,7 @@ df = [file for file in glob(f'{source_directory}/*.txt') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\gmail.txt',<br>
@@ -1066,6 +1100,7 @@ df = [file for file in glob(f'{source_directory}/*.txt',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\gmail.txt',<br>
@@ -1104,6 +1139,7 @@ df = [file for pattern in patterns for file
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -1140,6 +1176,7 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -1188,6 +1225,7 @@ df = [file for file in glob(f'{source_directory}/US*.*') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt', <br>
 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 
@@ -1209,6 +1247,7 @@ df = [file for file in glob(f'{source_directory}/US*.*',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
@@ -1234,6 +1273,7 @@ df = [file for file in glob(f'{source_directory}/*US.*') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx']
@@ -1256,6 +1296,7 @@ df = [file for file in glob(f'{source_directory}/*US.*',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -1280,6 +1321,7 @@ df = [file for file in glob(f'{source_directory}/*US*.*') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1305,6 +1347,7 @@ df = [file for file in glob(f'{source_directory}/*US*.*',recursive=True)\
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1339,6 +1382,7 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
@@ -1363,6 +1407,7 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
@@ -1392,6 +1437,7 @@ df = [file for pattern in patterns for file in glob(f'{source_directory}/{patter
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx', <br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx', <br>
@@ -1419,6 +1465,7 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -1451,6 +1498,7 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1482,6 +1530,7 @@ df = [file for pattern in patterns for file in \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
@@ -1521,6 +1570,7 @@ df = [file for file in glob(f'{source_directory}/US*.txt') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt]
 
 ## 51. Recursively Filtering Text Files with Specific Prefix Based on Size from a Directory and Its Subdirectories
@@ -1542,6 +1592,7 @@ df = [file for file in glob(f'{source_directory}/US*.txt',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
@@ -1565,6 +1616,7 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
 'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
@@ -1587,6 +1639,7 @@ df = [file for file in glob(f'{source_directory}/*US.xlsx',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
@@ -1610,6 +1663,7 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx') \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
@@ -1633,6 +1687,7 @@ df = [file for file in glob(f'{source_directory}/*US*.xlsx',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1670,6 +1725,7 @@ df = list(set([
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
@@ -1705,6 +1761,7 @@ df = list(set([
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US1234.txt',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1753,6 +1810,7 @@ df = list(set([
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
@@ -1789,6 +1847,7 @@ df = list(set([
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
  'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
@@ -1830,6 +1889,7 @@ df = list(set([
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
  'D:/Copy/Umer_Saeed\\US1234.txt',<br>
@@ -1876,6 +1936,7 @@ df = list(set([
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\1234_US_G.txt', <br>
  'D:/Copy/Umer_Saeed\\g_AS.txt', <br>
  'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt', <br>
@@ -1889,6 +1950,7 @@ df
  'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx', <br>
  'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx', <br>
  'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt']
+
 ## 62. Filtering Files with Numeric Characters in Filenames from a Directory 
 
 The objective of this code is to filter and list all files from the specified directory (`D:/Copy/Umer_Saeed/`) whose filenames contain at least one numeric character (0-9) using the `glob` function. The resulting list `df` will contain the paths of all such files that match the pattern.
@@ -1905,6 +1967,7 @@ df = [file for file in glob(f'{source_directory}/*[0-9]*.*')]
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -1931,6 +1994,7 @@ df = [file for file in glob(f'{source_directory}/*[0-9]*.*',recursive=True)]
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -1970,6 +2034,7 @@ df = [file for file in glob(f'{source_directory}')\
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\gmail.txt',<br>
@@ -2000,6 +2065,7 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
  'D:/Copy/Umer_Saeed\\gmail.txt',<br>
@@ -2040,6 +2106,7 @@ df = [file for file in glob(f'{source_directory}') if re.search(r'[0-9]', file) 
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -2068,6 +2135,7 @@ df = [file for file in glob(f'{source_directory}',recursive=True) \
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
@@ -2108,6 +2176,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -2139,6 +2208,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -2167,6 +2237,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 []
 
 ```python
@@ -2184,6 +2255,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 []
 ## 71. Filter Files by Date in Filename
 
@@ -2208,6 +2280,7 @@ df = [file for file in glob(f'{source_directory}/*.*', recursive=True)
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',<br>
  'D:/Copy/Umer_Saeed\\Umer\\Pakistan_1947-08-14.txt']
  
@@ -2234,6 +2307,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
  'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx']
  
@@ -2261,6 +2335,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
  'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',<br>
@@ -2294,6 +2369,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -2330,6 +2406,7 @@ df = [file for file in glob(f'{source_directory}')
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
@@ -2369,6 +2446,7 @@ df = [file for subdir in subdirectories
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed//DA\\a.csv',<br>
  'D:/Copy/Umer_Saeed//DA\\AS_1234_US.xlsx',<br>
  'D:/Copy/Umer_Saeed//DA\\b.txt',<br>
@@ -2409,6 +2487,7 @@ for subdir in subdirectories:
 df
 ```
 **Output:** <br>
+
 ['D:/Copy/Umer_Saeed\\03_PRS.csv',<br>
  'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
  'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',<br>
