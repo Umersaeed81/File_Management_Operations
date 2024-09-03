@@ -683,6 +683,8 @@ df0
 
 The objective of this code is to collect and present comprehensive details about the files within a specified directory. It generates a list that includes each file's name (excluding the extension), size, creation date, last modification date, file type, and its directory path. Additionally, the code retrieves and displays the author name for each file, where available.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-05.png?raw=true)
+
 ```python
 # import required libraries
 import os
@@ -692,6 +694,8 @@ from glob import glob
 from docx import Document
 from openpyxl import load_workbook
 from PyPDF2 import PdfFileReader
+
+# pip install python-docx openpyxl PyPDF2
 
 # Function to extract the author name from specific file types
 def extract_author(file_path):
