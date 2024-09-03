@@ -2524,6 +2524,8 @@ df
 
 The goal of this code is to find all CSV files and empty folders inside a specific directory and its subdirectories. The code searches through all levels of the directory, lists all CSV files, checks for empty folders, and combines the results into a single list
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-78.png?raw=true)
+
 ```python
 # import required libraries
 import os
