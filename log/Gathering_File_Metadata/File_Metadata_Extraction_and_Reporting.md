@@ -59,7 +59,7 @@ df0
 ```
 
 
-**Output:**<br>
+### Output
 
 <table border="1" class="dataframe">
   <thead>
@@ -136,7 +136,7 @@ def file_type_summary(path):
 df0= file_type_summary('D:/Copy/Umer_Saeed')
 df0
 ```
-**Output:**<br>
+### Output
 
 <table border="1" class="dataframe">
   <thead>
@@ -215,7 +215,7 @@ def file_age_analysis(path):
 df0 = file_age_analysis('D:/Copy/Umer_Saeed')
 df0
 ```
-**Output:**<br>
+### Output
 
 <table border="1" class="dataframe">
   <thead>
@@ -297,7 +297,7 @@ df0 = get_file_info('D:/Copy/Umer_Saeed')
 # Display the DataFrame
 df0
 ```
-**Output:**<br>
+### Output
 
 
 
@@ -716,7 +716,8 @@ def find_duplicates(path):
 find_duplicates('D:/Copy/Umer_Saeed')
 ```
 
-**Output:**<br>
+### Output
+
 Duplicate Group: 1e0009d787ddc52a793c2073e373a89f<br>
   D:/Copy/Umer_Saeed\03_PRS.csv<br>
   D:/Copy/Umer_Saeed\Hello_US.csv<br>
