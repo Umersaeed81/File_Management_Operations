@@ -718,11 +718,11 @@ find_duplicates('D:/Copy/Umer_Saeed')
 
 ### Output
 ```python
-  **Duplicate Group: 1e0009d787ddc52a793c2073e373a89f**
+  Duplicate Group: 1e0009d787ddc52a793c2073e373a89f
     D:/Copy/Umer_Saeed\03_PRS.csv
     D:/Copy/Umer_Saeed\Hello_US.csv
   
-  **Duplicate Group: d41d8cd98f00b204e9800998ecf8427e**
+  Duplicate Group: d41d8cd98f00b204e9800998ecf8427e
     D:/Copy/Umer_Saeed\1234_US_G.txt
     D:/Copy/Umer_Saeed\15031984_AliSaeed.txt
     D:/Copy/Umer_Saeed\gmail.txt
