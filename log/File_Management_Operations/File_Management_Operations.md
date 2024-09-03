@@ -128,11 +128,11 @@ Beyond basic operations, advanced file management concepts help in tackling more
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Advanced_File_Management_Concepts.png?raw=true)
 
-### ![File Metadata Management](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md)
+### [File Metadata Management](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md)
 
 Metadata includes information about files such as creation date, modification date, author, and file type. Managing metadata efficiently allows for better organization and quick retrieval of files based on specific criteria. Metadata can also be used to automate processes, such as archiving files that have not been modified for a certain period.
 
-### ![Data Duplication](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md_
+### [Data Duplication](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md_
 
 Data duplication involves identifying and removing duplicate copies of data, reducing storage requirements and improving efficiency. This is particularly useful in environments where multiple backups or copies of similar files are maintained.
 
