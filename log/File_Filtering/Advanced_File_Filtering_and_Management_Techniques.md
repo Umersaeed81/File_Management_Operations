@@ -363,6 +363,13 @@ df = glob('D:/Copy/Umer_Saeed/**/*US.*',recursive=True)
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx']
 
 ## 12. Listing All Files Containing a Specific Keyword in Their Name from a Directory 
 
@@ -379,6 +386,15 @@ df
 ```
 **Output:** <br>
 
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+ 
 ## 13. Recursively Listing All Files Containing a Specific Keyword in Their Name from a Directory and Its Subdirectories
 
 The code uses the `glob` function to recursively search for and retrieve all files within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames containing the keyword US and any file extension. By specifying the pattern `'**/*US*.*'` and setting `recursive=True`, the code collects the paths of all files that include the keyword US anywhere in their names, across multiple directory levels. This is useful for identifying and processing files based on a specific keyword within a complex directory structure.
@@ -394,6 +410,25 @@ df
 ```
 
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
+
 
 ## 14. Listing All Text Files with a Specific Prefix from a Directory
 
@@ -411,6 +446,8 @@ df
 
 **Output:** <br>
 
+['D:/Copy/Umer_Saeed\\US1234.txt']
+
 ## 15. Recursively Listing All Text Files with a Specific Prefix from a Directory and Its Subdirectories
 
 The code uses the `glob` function to recursively search for and retrieve all text files (`.txt`) within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames starting with the prefix US. By specifying the pattern `'**/US*.txt'` and setting `recursive=True`, the code collects the paths of all matching text files across multiple directory levels. This approach is useful for locating and managing text files with a specific prefix throughout a complex directory structure.
@@ -427,6 +464,10 @@ df
 
 **Output:** <br>
 
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt']
+
 ## 16. Listing All Excel Files with a Specific Suffix from a Directory
 
 The code uses the `glob` function to list all Excel files (`.xlsx`) in the directory `D:/Copy/Umer_Saeed/` that have filenames ending with the suffix `US`. By specifying the pattern `'*US.xlsx'`, the code retrieves the paths of all Excel files whose names end with "US" in the specified directory. This is useful for filtering and managing Excel files based on a specific suffix within a given directory.
@@ -440,6 +481,8 @@ df = glob('D:/Copy/Umer_Saeed/*US.xlsx')
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx', <br>
+'D:/Copy/Umer_Saeed\\g_US.xlsx']
 
 ## 17. Recursively Listing All Excel Files with a Specific Suffix from a Directory and Its Subdirectories 
 
@@ -454,7 +497,9 @@ df = glob('D:/Copy/Umer_Saeed/**/*US.xlsx',recursive=True)
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
 
 ## 18. Listing All Excel Files Containing a Specific Keyword in Their Name from a Directory
 
@@ -470,7 +515,10 @@ df
 ```
 
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 ## 19. Recursively Listing All Excel Files Containing a Specific Keyword in Their Name from a Directory and Its Subdirectories
 
 The code uses the `glob` function to recursively search for and retrieve all Excel files (`.xlsx`) within the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames containing the keyword `US`. By specifying the pattern `'**/*US*.xlsx'` and setting `recursive=True`, the code collects the paths of all matching Excel files across multiple directory levels. This approach is useful for locating and managing Excel files based on a specific keyword within a complex directory structure.
@@ -486,6 +534,15 @@ df
 
 **Output:** <br>
 
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx']
 ## 20. Filtering Files with Multiple Prefixes from a Directory
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` that start with either of the specified prefixes (`US` or `AS`). By using a list of patterns and the `glob` function, it collects paths of all files that match these prefix patterns. This approach allows for selective file management and processing based on multiple naming conventions within the given directory.
@@ -504,6 +561,11 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx']
 
 ## 21. Recursively Filtering Files with Multiple Prefixes from a Directory and Its Subdirectories
 
@@ -526,6 +588,18 @@ df
 
 **Output:** <br>
 
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx']
+
 ## 22. Filtering Files with Multiple Suffixes from a Directory
 
 The code filters and retrieves files from the directory `D:/Copy/Umer_Saeed/` that have filenames ending with the specified suffixes (`US` or `AS`). By using a list of suffix patterns with `glob`, it collects the paths of all files that match these suffix patterns. This approach allows for selective management and processing of files based on their suffixes within the given directory.
@@ -546,6 +620,12 @@ df
 ```
 **Output:** <br>
 
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx']
 ## 23. Recursively Filtering Files with Multiple Suffixes from a Directory and Its Subdirectories
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that have filenames ending with the specified suffixes (`US` or `AS`). By using a list of suffix patterns with `glob` and setting `recursive=True`, it collects the paths of all files that match these suffix patterns across multiple directory levels. This approach enables comprehensive file management and processing based on specific suffixes within a complex directory structure.
@@ -565,6 +645,17 @@ df = [file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx']
 
 ## 24. Filtering Files with Multiple Keywords from a Directory Using Glob and Removing Duplicates
 
@@ -585,7 +676,15 @@ df = list(set(file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 ## 25. Recursively Filtering Files with Multiple Keywords from a Directory and Its Subdirectories and Removing Duplicates
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that contain any of the specified keywords (`US` or `AS`) in their filenames. By using the `glob` function with `recursive=True`, it matches files based on these keyword patterns and then removes duplicates by converting the results to a set. The final output is a list of unique file paths that include the specified keywords, ensuring comprehensive file management across multiple directory levels while eliminating redundancy.
@@ -606,7 +705,27 @@ df = list(set(file for pattern in patterns for file \
 df
 ```
 **Output:** <br>
-
+['D:/Copy/Umer_Saeed\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\g_AS.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\Hello_US.csv',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\1234_US_G.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\Cor_US.docx',<br>
+ 'D:/Copy/Umer_Saeed\\g_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt']
+ 
 ## 26. Combining Multiple Prefixes and Extensions to Filter Files from a Directory
 
 The code generates and applies multiple file name patterns based on different prefixes (`AS`, `US`) and file extensions (`.xlsx`, `.txt`) to filter files from the directory `D:/Copy/Umer_Saeed/`. It uses `itertools.product` to create all possible combinations of base patterns and extensions, and then `glob` to match files according to these patterns. The results are combined using `itertools.chain` and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that match any of the specified prefix-extension combinations, enabling comprehensive file management based on multiple criteria.
