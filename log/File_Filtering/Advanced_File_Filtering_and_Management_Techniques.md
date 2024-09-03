@@ -746,6 +746,10 @@ df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
 df
 ```
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 27. Recursively Filtering Files with Multiple Prefixes and Extensions from a Directory and Its Subdirectories
 
@@ -775,6 +779,17 @@ df
 ```
 
 **Output:** <br>
+['D:/Copy/Umer_Saeed\\DA\\US_Test_Hi.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US1234.txt',<br>
+ 'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US_123_AS_Hello.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\AS_1234_US.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\DA\\US1234_Salam.txt',<br>
+ 'D:/Copy/Umer_Saeed\\Umer\\US_Test.xlsx',<br>
+ 'D:/Copy/Umer_Saeed\\US_Test.xlsx']
 
 ## 28. Filtering Files with Multiple Suffixes and Extensions from a Directory
 
