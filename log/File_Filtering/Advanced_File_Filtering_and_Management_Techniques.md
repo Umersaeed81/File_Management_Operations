@@ -2519,5 +2519,39 @@ df
      'D:/Copy/Umer_Saeed/DA\\US_123_AS_Hello.xlsx'
      'D:/Copy/Umer_Saeed/DA\\US_Test_Hi.xlsx'
      'D:/Copy/Umer_Saeed/BH\\g.txt']
+
+## 78. Listing All CSV Files and Empty Directories in a Given Directory Recursively
+
+The goal of this code is to find all CSV files and empty folders inside a specific directory and its subdirectories. The code searches through all levels of the directory, lists all CSV files, checks for empty folders, and combines the results into a single list
+
+```python
+# import required libraries
+import os
+from glob import glob
+
+# Get all files matching the pattern
+files = glob('D:/Copy/Umer_Saeed/**/*.csv', recursive=True)
+
+# Get all directories including empty ones
+directories = []
+for dirpath, dirnames, filenames in os.walk('D:/Copy/Umer_Saeed'):
+    # Only include the directory if it is empty
+    if not filenames and not dirnames:
+        directories.append(dirpath)
+
+# Combine both files and empty directories
+df = sorted(files + directories)
+df
+```
+
+### Output
+
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv',
+     'D:/Copy/Umer_Saeed\\Corvit',
+     'D:/Copy/Umer_Saeed\\DA\\Hello_t_US.csv',
+     'D:/Copy/Umer_Saeed\\DA\\a.csv',
+     'D:/Copy/Umer_Saeed\\DA\\d.csv',
+     'D:/Copy/Umer_Saeed\\Hello_US.csv']
+
  
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
