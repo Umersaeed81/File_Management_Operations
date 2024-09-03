@@ -26,6 +26,8 @@
 
 # <h1 align="center"> Table of contents
 
+- ## [**Chapter 1: File Management Operations**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/File_Management_Operations.md)
+  
 - ## [**Chapter 2: File Metadata Extraction and Reporting**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md)
 
 - ## [**Chapter 3: Advanced File Filtering and Management Techniques**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Advanced_File_Filtering_and_Management_Techniques.md)
