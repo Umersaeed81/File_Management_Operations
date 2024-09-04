@@ -101,3 +101,11 @@ Data corruption can occur during the copy process, especially for large files or
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
 
 The `shutil` module in Python is a part of the standard library and provides a range of functions to perform high-level file operations. It is particularly useful for copying files and directories, as well as moving and removing them. Two of the most commonly used functions in the `shutil` module for copying files are `shutil.copy()` and `shutil.copy2()`.
+
+## `shutil.copy()`
+The `shutil.copy()` function is used to copy the content of a source file to a destination file or directory. It takes two arguments: `src` (the source path) and `dst` (the destination path). If `dst` is a directory, the file will be copied into that directory with its original name. This function also preserves the file's permission mode but not other metadata such as the modification and creation times.
+
+## `shutil.copy2()`
+The `shutil.copy2()` function works similarly to `shutil.copy()`, but it also attempts to preserve all file metadata. This includes the original file's creation and modification times, making it more suitable for use cases where preserving metadata is essential.
+
+Both of these functions are powerful tools in Python for managing files and directories, and they are often used in scripts for data backup, migration, and redundancy. The choice between `shutil.copy()` and `shutil.copy2()` depends on whether or not the file metadata needs to be preserved in the copying process.
