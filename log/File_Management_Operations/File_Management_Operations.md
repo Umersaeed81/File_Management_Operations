@@ -195,6 +195,7 @@ To use `shutil.disk_usage()`, you need to specify a directory path (e.g., `'/'` 
 
 The values returned by shutil.disk_usage() are in bytes, so to convert them to more human-readable units like gigabytes (GB), you divide by 1024<sup>3</sup>.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Managing_Disk_Space.png?raw=true)
 
 ## 1. Basic Disk Usage Information
 
