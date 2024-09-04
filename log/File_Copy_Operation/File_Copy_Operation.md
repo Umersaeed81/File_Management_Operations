@@ -99,3 +99,5 @@ Data corruption can occur during the copy process, especially for large files or
 # Examples of File Copy Operations
 
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
+
+The `shutil` module in Python is a part of the standard library and provides a range of functions to perform high-level file operations. It is particularly useful for copying files and directories, as well as moving and removing them. Two of the most commonly used functions in the `shutil` module for copying files are `shutil.copy()` and `shutil.copy2()`.
