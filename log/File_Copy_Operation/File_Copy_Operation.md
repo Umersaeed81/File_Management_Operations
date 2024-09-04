@@ -1,3 +1,21 @@
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top;">
+      <h1><a href="https://www.linkedin.com/in/engumersaeed/">Umer Saeed</a></h1>
+      Sr. RF Planning & Optimization Engineer<br>
+      BSc Telecommunications Engineering, School of Engineering<br>
+      MS Data Science, School of Business and Economics<br>
+      <strong>University of Management & Technology</strong><br>
+      <strong>Mobile:</strong> +923018412180<br>
+      <strong>Email:</strong> umersaeed81@hotmail.com<br>
+      <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
+    </td>
+    <td style="vertical-align: top; padding-left: 100px;">
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="500"/>
+    </td>
+  </tr>
+</table>
+
 # File Copy Operation
 
 The copy operation is one of the most fundamental and widely used file management tasks. It involves creating an exact replica of a file or directory from one location to another. This seemingly simple task is a cornerstone of data management, underpinning many critical functions in both personal and professional contexts. Whether you're a software developer, a system administrator, or an everyday computer user, understanding and efficiently implementing copy operations is essential for maintaining the integrity and accessibility of your data.
@@ -112,3 +130,6 @@ Both of these functions are powerful tools in Python for managing files and dire
 # Examples of File Copy Operations
 
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
+
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
