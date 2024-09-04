@@ -181,6 +181,19 @@ Leverage automation tools for repetitive tasks such as backups, file transfers, 
 
 In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
 
+## Understanding `shutil.disk_usage`
+
+The `shutil` module in Python provides a high-level interface for file operations, including disk space management. The `shutil.disk_usage()` function is particularly useful for retrieving disk usage statistics about a given path. It returns a tuple with three values:
+
+**1. Total:**: The total size of the filesystem in bytes.
+**2. Used:** The total amount of space used by files in bytes.
+**3. Free:** The total amount of free space available in bytes.
+
+To use `shutil.disk_usage()`, you need to specify a directory path (e.g., `'/'` for the root directory on Unix-based systems or `'C:/'` for the main drive on Windows). The function then calculates the disk space statistics for that particular path.
+
+The values returned by shutil.disk_usage() are in bytes, so to convert them to more human-readable units like gigabytes (GB), you divide by 
+1024^3.
+
 ## 1. Basic Disk Usage Information
 
 Show how to check the total, used, and free space on the main disk (root directory) of the system.
