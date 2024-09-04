@@ -95,3 +95,7 @@ Network interruptions or system crashes can halt copy operations. Use tools that
 
 ### Data Corruption
 Data corruption can occur during the copy process, especially for large files or network transfers. Verify the integrity of copied files using checksums or hashes to detect and address corruption.
+
+# Examples of File Copy Operations
+
+In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
