@@ -21,6 +21,8 @@ This chapter delves into the importance of the copy operation, its various use c
 
 The copy operation is crucial for several reasons.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Importance_of_the_Copy_Operation.png?raw=true)
+
 ### Data Backup
 
 Copying files to a different location ensures that you have a backup in case the original file is lost or corrupted. Regular backups are essential for data recovery and business continuity.
@@ -44,6 +46,8 @@ Copying files to different locations enables easy distribution of data among tea
 # Best Practices for Copy Operations
 
 Implementing copy operations effectively requires adhering to certain best practices:
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Best_Practices_for_Copy%20Operations.png?raw=true)
 
 ### Verify Copies
 
@@ -72,6 +76,8 @@ Anticipate potential errors during copy operations, such as network failures or 
 # Common Challenges and Solutions
 
 Copy operations can encounter various challenges. Here are some common issues and their solutions:
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Common_Challenges_and_Solutions.png?raw=true)
 
 ### Insufficient Storage Space 
 
