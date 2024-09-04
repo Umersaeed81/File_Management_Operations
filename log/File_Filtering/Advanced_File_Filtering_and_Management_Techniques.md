@@ -2708,6 +2708,8 @@ df
 
 The objective of the code is to find all the files in two specific folders (D:/Copy/Umer_Saeed/ and D:/Copy/Ali_Saeed/) and their subfolders. It uses the glob library to search for files with any name and extension. The list of found files is then stored in a variable called df.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Example-79.png?raw=true)
+
 ```python
 # import required libraries
 from glob import glob
