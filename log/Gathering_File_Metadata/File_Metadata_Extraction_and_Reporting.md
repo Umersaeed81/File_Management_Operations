@@ -55,6 +55,8 @@ def file_size_distribution(path):
 
 # Example usage
 df0= file_size_distribution('D:/Copy/Umer_Saeed')
+
+# Display the result
 df0
 ```
 
@@ -134,6 +136,8 @@ def file_type_summary(path):
 
 # Example usage
 df0= file_type_summary('D:/Copy/Umer_Saeed')
+
+# Display the result
 df0
 ```
 ### Output
@@ -213,6 +217,8 @@ def file_age_analysis(path):
 
 # Example usage
 df0 = file_age_analysis('D:/Copy/Umer_Saeed')
+
+# Display the result
 df0
 ```
 ### Output
@@ -294,7 +300,7 @@ def get_file_info(path):
 # Get file information from the source and destination directories
 df0 = get_file_info('D:/Copy/Umer_Saeed')
 
-# Display the DataFrame
+# Display the result
 df0
 ```
 ### Output
@@ -747,7 +753,7 @@ def get_file_info(path):
 # Get file information from the source and destination directories
 df0 = get_file_info('D:/Copy/Umer_Saeed')
 
-# Display the DataFrame
+# Display the result
 df0
 ```
 ### Output
