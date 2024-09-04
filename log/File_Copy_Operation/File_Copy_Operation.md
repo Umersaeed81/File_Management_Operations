@@ -96,9 +96,8 @@ Network interruptions or system crashes can halt copy operations. Use tools that
 ### Data Corruption
 Data corruption can occur during the copy process, especially for large files or network transfers. Verify the integrity of copied files using checksums or hashes to detect and address corruption.
 
-# Examples of File Copy Operations
 
-In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
+# shutil module
 
 The `shutil` module in Python is a part of the standard library and provides a range of functions to perform high-level file operations. It is particularly useful for copying files and directories, as well as moving and removing them. Two of the most commonly used functions in the `shutil` module for copying files are `shutil.copy()` and `shutil.copy2()`.
 
@@ -109,3 +108,7 @@ The `shutil.copy()` function is used to copy the content of a source file to a d
 The `shutil.copy2()` function works similarly to `shutil.copy()`, but it also attempts to preserve all file metadata. This includes the original file's creation and modification times, making it more suitable for use cases where preserving metadata is essential.
 
 Both of these functions are powerful tools in Python for managing files and directories, and they are often used in scripts for data backup, migration, and redundancy. The choice between `shutil.copy()` and `shutil.copy2()` depends on whether or not the file metadata needs to be preserved in the copying process.
+
+# Examples of File Copy Operations
+
+In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
