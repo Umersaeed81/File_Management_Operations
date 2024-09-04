@@ -40,8 +40,11 @@ The code uses the glob function to list all files in the directory `D:/Copy/Umer
 ```python
 # import required libraries
 from glob import glob
+
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*.*')
+
+# Display the result
 df
 ```
 ### Output
@@ -76,6 +79,7 @@ The code uses the glob function to recursively list all files within the directo
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=True)
+# Display the result
 df
 ```
 ### Output
@@ -137,6 +141,7 @@ df
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*.*',recursive=False)
+# Display the result
 df
 ```
 ### Output
@@ -175,6 +180,7 @@ The code uses the `glob` function to retrieve all files with the `.csv` extensio
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*.csv')
+# Display the result
 df
 ```
 ### Output
@@ -193,6 +199,7 @@ The code uses the `glob` function to recursively list all files with a `.csv` ex
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*.csv',recursive=True)
+# Display the result
 df
 ```
 ### Output
@@ -219,6 +226,7 @@ patterns = ['*.xlsx', '*.txt']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}{pattern}')]
+# Display the result
 df
 ```
 ### Output
@@ -255,6 +263,7 @@ patterns = ['*.xlsx', '*.txt']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}{pattern}',recursive=True)]
+# Display the result
 df
 ```
 
@@ -305,6 +314,7 @@ The code uses the `glob` function to list all files in the directory `D:/Copy/Um
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/US*.*')
+# Display the result
 df
 ```
 
@@ -325,6 +335,7 @@ The code uses the `glob` function to recursively search for and retrieve all fil
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/US*.*',recursive=True)
+# Display the result
 df
 ```
 ### Output
@@ -350,6 +361,7 @@ The code uses the `glob` function to list all files in the directory `D:/Copy/Um
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US.*')
+# Display the result
 df
 ```
 
@@ -371,6 +383,7 @@ The code uses the `glob` function to recursively search for and retrieve all fil
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US.*',recursive=True)
+# Display the result
 df
 ```
 ### Output
@@ -394,6 +407,7 @@ The code uses the `glob` function to list all files in the directory `D:/Copy/Um
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US*.*')
+# Display the result
 df
 ```
 ### Output
@@ -418,6 +432,7 @@ The code uses the `glob` function to recursively search for and retrieve all fil
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US*.*',recursive=True)
+# Display the result
 df
 ```
 
@@ -454,6 +469,7 @@ The code uses the `glob` function to list all text files (`.txt`) in the directo
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/US*.txt')
+# Display the result
 df
 ```
 
@@ -472,6 +488,7 @@ The code uses the `glob` function to recursively search for and retrieve all tex
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/US*.txt',recursive=True)
+# Display the result
 df
 ```
 
@@ -491,6 +508,7 @@ The code uses the `glob` function to list all Excel files (`.xlsx`) in the direc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US.xlsx')
+# Display the result
 df
 ```
 ### Output
@@ -508,6 +526,7 @@ The code uses the `glob` function to recursively search for and retrieve all Exc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US.xlsx',recursive=True)
+# Display the result
 df
 ```
 ### Output
@@ -526,6 +545,7 @@ The code uses the `glob` function to list all Excel files (`.xlsx`) in the direc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/*US*.xlsx')
+# Display the result
 df
 ```
 
@@ -546,6 +566,7 @@ The code uses the `glob` function to recursively search for and retrieve all Exc
 from glob import glob
 # filter out required files
 df = glob('D:/Copy/Umer_Saeed/**/*US*.xlsx',recursive=True)
+# Display the result
 df
 ```
 
@@ -575,6 +596,7 @@ patterns = ['US*.*', 'AS*.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}')]
+# Display the result
 df
 ```
 ### Output
@@ -600,6 +622,7 @@ patterns = ['US*.*', 'AS*.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}',recursive=True)]
+# Display the result
 df
 ```
 
@@ -633,6 +656,7 @@ patterns = ['*US.*', '*AS.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}')]
+# Display the result
 df
 ```
 ### Output
@@ -659,6 +683,7 @@ patterns = ['*US.*', '*AS.*']
 # filter out required files
 df = [file for pattern in patterns for file \
       in glob(f'{source_directory}/{pattern}',recursive=True)]
+# Display the result
 df
 ```
 ### Output
@@ -691,6 +716,7 @@ patterns = ['*US*.*', '*AS*.*']
 # filter out required files
 df = list(set(file for pattern in patterns for file \
               in glob(f'{source_directory}/{pattern}')))
+# Display the result
 df
 ```
 ### Output
@@ -721,6 +747,7 @@ patterns = ['*US*.*', '*AS*.*']
 # filter out required files
 df = list(set(file for pattern in patterns for file \
          in glob(f'{source_directory}/{pattern}',recursive=True)))
+# Display the result
 df
 ```
 ### Output
@@ -770,6 +797,8 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
+
+# Display the result
 df
 ```
 ### Output
@@ -803,6 +832,8 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
+
+# Display the result
 df
 ```
 
@@ -844,6 +875,8 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
+
+# Display the result
 df
 ```
 
@@ -878,6 +911,8 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
+
+# Display the result
 df
 ```
 ### Output
@@ -914,6 +949,8 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern) for pattern in patterns)))
+
+# Display the result
 df
 ```
 ### Output
@@ -925,6 +962,7 @@ df
      'D:/Copy/Umer_Saeed\\g_US.xlsx'
      'D:/Copy/Umer_Saeed\\AS_123_US.xlsx'
      'D:/Copy/Umer_Saeed\\US_Test.xlsx']
+
 ## 31. Recursively Filtering Files with Multiple Keywords and Extensions from a Directory and Its Subdirectories
 
 The code recursively searches for and retrieves files from the directory `D:/Copy/Umer_Saeed/` and its subdirectories that match various keyword patterns (`*AS*`, `*US*`) and file extensions (`.xlsx`, `.txt`). By generating all possible combinations of these patterns and extensions, it uses `glob` to find files that fit any of these criteria. The results are combined using `itertools.chain` to aggregate all matching files, and duplicates are removed by converting the results to a set. The final output is a list of unique file paths that meet the specified keyword and extension criteria across multiple directory levels.
@@ -950,6 +988,8 @@ patterns = [f'{source_directory}{base_pattern}{extension}' \
 
 # filter out required files
 df = list(set(chain.from_iterable(glob(pattern,recursive=True) for pattern in patterns)))
+
+# Display the result
 df
 ```
 ### Output
@@ -986,6 +1026,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.*') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1021,6 +1063,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1072,7 +1116,9 @@ from glob import glob
 source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.txt') \
-      if os.path.getsize(file) < 500 * 1024
+      if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1099,6 +1145,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*.txt',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1138,6 +1186,8 @@ patterns = ['*.xlsx', '*.txt']
 df = [file for pattern in patterns for file  
       in glob(f'{source_directory}{pattern}') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1175,6 +1225,8 @@ patterns = ['*.xlsx', '*.txt']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}{pattern}',recursive=True)\
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1225,6 +1277,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.*') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1273,6 +1327,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.*') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1296,6 +1352,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.*',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1321,6 +1379,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.*') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1347,6 +1407,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.*',recursive=True)\
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1375,13 +1437,18 @@ The code filters files in the directory `D:/Copy/Umer_Saeed/` that match multipl
 # import required libraries
 import os
 from glob import glob
+
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/'
+
 # Define the File name pattern
 patterns = ['US*.*', 'AS*.*']
+
 # filter out required files
 df = [file for pattern in patterns for file in glob(f'{source_directory}/{pattern}')\
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1400,13 +1467,18 @@ The code recursively searches through the directory `D:/Copy/Umer_Saeed/` and it
 # import required libraries
 import os
 from glob import glob
+
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/**/'
+
 # Define the File name pattern
 patterns = ['US*.*', 'AS*.*']
+
 # filter out required files
 df = [file for pattern in patterns for file in glob(f'{source_directory}/{pattern}',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1437,6 +1509,8 @@ patterns = ['*US.*', '*AS.*']
 # filter out required files
 df = [file for pattern in patterns for file in glob(f'{source_directory}/{pattern}') 
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1465,6 +1539,8 @@ patterns = ['*US.*', '*AS.*']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}/{pattern}',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1498,6 +1574,8 @@ patterns = ['*US*.*', '*AS*.*']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}/{pattern}') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1530,6 +1608,8 @@ patterns = ['*US*.*', '*AS*.*']
 df = [file for pattern in patterns for file in \
       glob(f'{source_directory}/{pattern}',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1570,6 +1650,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.txt') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1592,6 +1674,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/US*.txt',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1616,6 +1700,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.xlsx') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1639,6 +1725,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US.xlsx',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1663,6 +1751,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.xlsx') \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1687,6 +1777,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/'
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*US*.xlsx',recursive=True) \
       if os.path.getsize(file) < 500 * 1024]
+
+# Display the result
 df
 ```
 ### Output
@@ -1725,6 +1817,8 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern)
     if os.path.getsize(file) < 500 * 1024]))
+
+# Display the result
 df
 ```
 ### Output
@@ -1761,6 +1855,8 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern,recursive=True)
     if os.path.getsize(file) < 500 * 1024]))
+
+# Display the result
 df
 ```
 ### Output
@@ -1810,6 +1906,8 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern)
     if os.path.getsize(file) < 500 * 1024]))
+
+# Display the result
 df
 ```
 ### Output
@@ -1847,6 +1945,8 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern,recursive=True)
     if os.path.getsize(file) < 500 * 1024]))
+
+# Display the result
 df
 ```
 ### Output
@@ -1889,6 +1989,8 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern)
     if os.path.getsize(file) < 500 * 1024]))
+
+# Display the result
 df
 ```
 ### Output
@@ -1936,6 +2038,8 @@ df = list(set([
     file for pattern in patterns
     for file in glob(pattern,recursive=True)
     if os.path.getsize(file) < 500 * 1024]))
+
+# Display the result
 df
 ```
 ### Output
@@ -1963,10 +2067,14 @@ The objective of this code is to filter and list all files from the specified di
 ```python
 # import required libraries
 from glob import glob
+
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/'
+
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*[0-9]*.*')]
+
+# Display the result
 df
 ```
 ### Output
@@ -1990,10 +2098,14 @@ The code aims to search for files in a specified source directory (`D:/Copy/Umer
 ```python
 # import required libraries
 from glob import glob
+
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/**/'
+
 # filter out required files
 df = [file for file in glob(f'{source_directory}/*[0-9]*.*',recursive=True)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2034,6 +2146,8 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # filter out required files
 df = [file for file in glob(f'{source_directory}')\
       if not re.search(r'\d', file)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2065,6 +2179,8 @@ source_directory = 'D:/Copy/Umer_Saeed/**/*.*'
 # filter out required files
 df = [file for file in glob(f'{source_directory}',recursive=True) \
       if not re.search(r'\d', file)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2102,10 +2218,14 @@ The code filters files from a specified directory that contain both digits and l
 # import required libraries
 import re
 from glob import glob
+
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/*.*'
+
 # filter out required files
 df = [file for file in glob(f'{source_directory}') if re.search(r'[0-9]', file) and re.search(r'[A-Za-z]', file)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2130,11 +2250,15 @@ This code searches for files within the specified source directory and all its s
 # import required libraries
 import re
 from glob import glob
+
 # Source directory
 source_directory = 'D:/Copy/Umer_Saeed/**/*.*'
+
 # filter out required files
 df = [file for file in glob(f'{source_directory}',recursive=True) \
       if re.search(r'[0-9]', file) and re.search(r'[A-Za-z]', file)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2176,6 +2300,8 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on creation time
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getctime(file)) > datetime.now() - timedelta(days=5)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2208,6 +2334,8 @@ end_date = datetime(2024, 9, 30)
 # Filter files based on creation date
 df = [file for file in glob(f'{source_directory}')
     if start_date <= datetime.fromtimestamp(os.path.getctime(file)) <= end_date]
+
+# Display the result
 df
 ```
 ### Output
@@ -2237,6 +2365,8 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on modification time within the specified hours
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)) > datetime.now() - timedelta(hours=24)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2255,6 +2385,8 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on modification date within the last 1 days (only date difference)
 df = [file for file in glob(f'{source_directory}')
     if datetime.fromtimestamp(os.path.getmtime(file)).date() >= (datetime.now() - timedelta(days=1)).date()]
+
+# Display the result
 df
 ```
 ### Output
@@ -2280,6 +2412,8 @@ date_pattern = re.compile(r'\d{4}-\d{2}-\d{2}')
 # Filter files based on regex pattern
 df = [file for file in glob(f'{source_directory}/*.*', recursive=True)
     if date_pattern.search(os.path.basename(file))]
+
+# Display the result
 df
 ```
 ### Output
@@ -2307,6 +2441,8 @@ date_pattern = re.compile(r'\d{8}')  # Matches 8 consecutive digits
 # Filter files based on regex pattern
 df = [file for file in glob(f'{source_directory}')
     if date_pattern.search(os.path.basename(file))]
+
+# Display the result
 df
 ```
 ### Output
@@ -2335,6 +2471,8 @@ max_size = 50 * 1024   # 50 KB
 # Filter files based on size range
 df = [file for file in glob(f'{source_directory}')
     if min_size < os.path.getsize(file) < max_size]
+
+# Display the result
 df
 ```
 ### Output
@@ -2369,6 +2507,8 @@ max_length = 15
 # Filter files based on filename length without extension
 df = [file for file in glob(f'{source_directory}')
     if len(os.path.splitext(os.path.basename(file))[0]) <= max_length]
+
+# Display the result
 df
 ```
 ### Output
@@ -2406,6 +2546,8 @@ source_directory = 'D:/Copy/Umer_Saeed/*.*'
 # Filter files based on filename length
 df = [file for file in glob(f'{source_directory}')
     if len(os.path.basename(file)) <= 20]
+
+# Display the result
 df
 ```
 ### Output
@@ -2446,6 +2588,8 @@ subdirectories = ['DA', 'BH']
 # Filter files based on subdirectory names
 df = [file for subdir in subdirectories
     for file in glob(f'{source_directory}/{subdir}/*.*', recursive=True)]
+
+# Display the result
 df
 ```
 ### Output
@@ -2487,6 +2631,8 @@ df.extend(glob(f'{source_directory}/*.*'))
 # Include files from the specified subdirectories
 for subdir in subdirectories:
     df.extend(glob(f'{source_directory}{subdir}/*.*'))
+
+# Display the result
 df
 ```
 ### Output
@@ -2543,6 +2689,8 @@ for dirpath, dirnames, filenames in os.walk('D:/Copy/Umer_Saeed'):
 
 # Combine both files and empty directories
 df = sorted(files + directories)
+
+# Display the result
 df
 ```
 
