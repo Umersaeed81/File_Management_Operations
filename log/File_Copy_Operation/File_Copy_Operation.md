@@ -68,3 +68,24 @@ Automate copy operations using scripts or specialized software to handle repetit
 ### Plan for Errors
 
 Anticipate potential errors during copy operations, such as network failures or insufficient storage space. Implement error handling mechanisms to retry operations, alert administrators, or clean up partial copies.
+
+# Common Challenges and Solutions
+
+Copy operations can encounter various challenges. Here are some common issues and their solutions:
+
+### Insufficient Storage Space 
+
+When copying large files or directories, you may run into storage limitations. Ensure that the destination has enough space before starting the copy operation. Use tools that provide estimates of the required space.
+
+### File Conflicts  
+Conflicts can arise when files with the same name already exist in the destination. Decide on a strategy for handling conflicts, such as overwriting existing files, renaming copied files, or skipping duplicates.
+
+### Permission Issues
+
+Permission issues can prevent files from being copied or accessed correctly. Ensure that you have the necessary permissions for both the source and destination locations. Adjust file permissions as needed during the copy process.
+
+### Interrupted Copies
+Network interruptions or system crashes can halt copy operations. Use tools that support resuming interrupted copies and ensure that partial copies are cleaned up to avoid clutter.
+
+### Data Corruption
+Data corruption can occur during the copy process, especially for large files or network transfers. Verify the integrity of copied files using checksums or hashes to detect and address corruption.
