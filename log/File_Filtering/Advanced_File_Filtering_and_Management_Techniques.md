@@ -2556,16 +2556,48 @@ df
      'D:/Copy/Umer_Saeed\\Hello_US.csv']
 
 
-'''python
+## 79. Collecting All Files from Multiple Directories
+
+The objective of the code is to find all the files in two specific folders (D:/Copy/Umer_Saeed/ and D:/Copy/Ali_Saeed/) and their subfolders. It uses the glob library to search for files with any name and extension. The list of found files is then stored in a variable called df.
+
+```python
+# import required libraries
 from glob import glob
 # Define the list of paths to search
-source_directory = ['D:/Copy/Umer_Saeed/**/*.csv', 'D:/Copy/Ali_Saeed/*.txt']
+source_directory = ['D:/Copy/Umer_Saeed/*.*', 'D:/Copy/Ali_Saeed/*.*']
 
 # Collect all files from the specified paths using list comprehension
-df = [file for path in source_directory for file in glob(path,recursive=True)]
+df = [file for path in source_directory for file in glob(path)]
 
 # Display the result
-result
-'''
+df
+```
+
+### Output
+
+
+    ['D:/Copy/Umer_Saeed\\03_PRS.csv',
+     'D:/Copy/Umer_Saeed\\1234_US_G.txt',
+     'D:/Copy/Umer_Saeed\\15031984_AliSaeed.txt',
+     'D:/Copy/Umer_Saeed\\19980802_UmerSaeed.xlsx',
+     'D:/Copy/Umer_Saeed\\AS_123_US.xlsx',
+     'D:/Copy/Umer_Saeed\\Babar_Azam.xlsx',
+     'D:/Copy/Umer_Saeed\\Cor_US.docx',
+     'D:/Copy/Umer_Saeed\\gmail.txt',
+     'D:/Copy/Umer_Saeed\\g_AS.txt',
+     'D:/Copy/Umer_Saeed\\g_US.xlsx',
+     'D:/Copy/Umer_Saeed\\Hello_US.csv',
+     'D:/Copy/Umer_Saeed\\Ijlal_Khan.xlsx',
+     'D:/Copy/Umer_Saeed\\Pakistan_1947-08-14.txt',
+     'D:/Copy/Umer_Saeed\\Test.xlsx',
+     'D:/Copy/Umer_Saeed\\Test1.xlsx',
+     'D:/Copy/Umer_Saeed\\US1234.txt',
+     'D:/Copy/Umer_Saeed\\US_123_AS.xlsx',
+     'D:/Copy/Umer_Saeed\\US_Test.xlsx',
+     'D:/Copy/Ali_Saeed\\AS_123_US.xlsx',
+     'D:/Copy/Ali_Saeed\\US1234.txt',
+     'D:/Copy/Ali_Saeed\\US_123_AS.xlsx',
+     'D:/Copy/Ali_Saeed\\US_Test.xlsx']
+
  
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
