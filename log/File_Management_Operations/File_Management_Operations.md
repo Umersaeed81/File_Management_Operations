@@ -176,6 +176,9 @@ Maintain thorough documentation of your file management processes and structures
 
 Leverage automation tools for repetitive tasks such as backups, file transfers, and cleanup operations. Automation not only saves time but also reduces the risk of human error.
 
+# Basic Functions of the `os` Library
+
+he os library in Python provides a way of interacting with the operating system. It includes numerous functions for handling files, directories, processes, and system-level operations. Here are some basic functions of the os library that are essential for file and directory management:
 
 # Managing Disk Space
 
