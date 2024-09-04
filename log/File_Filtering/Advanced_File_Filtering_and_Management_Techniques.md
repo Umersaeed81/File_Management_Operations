@@ -38,6 +38,8 @@ Combining multiple filtering techniques, such as **name patterns, size restricti
 
 # Importance of File Filtering from Directories and Subdirectories
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Importance_of_File_Filtering_from_Directories_and_Subdirectories.png?raw=true)
+
 The ability to filter files efficiently from directories and subdirectories is crucial for several reasons.
 
 ### Targeted Data Processing
@@ -59,6 +61,8 @@ Filtering by modification dates or file types can optimize backup and archiving 
 
 # Best Practices for File Filtering Operations
 Implementing file filtering effectively requires following best practices:
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Best_Practices_for_File_Filtering_Operations.png?raw=true)
 
 ### Use Clear Naming Conventions
 Ensure files follow a consistent naming convention to make pattern-based filtering more effective and easier to manage.
@@ -82,6 +86,8 @@ Consider the performance impact of filtering operations, especially when working
 # Common Challenges and Solutions
 File filtering operations can encounter various challenges. Here are some common issues and their solutions:
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Common_Challenges_and_Solutions.png?raw=true)
+
 ### Complex Directory Structures
 Navigating and filtering through deeply nested directories can be challenging. Use recursive filtering techniques to handle such structures effectively.
 
@@ -101,6 +107,8 @@ Unexpected errors can occur during filtering operations. Implement error handlin
 
 # Tools and Libraries for File Filtering
 The chapter introduces various tools and libraries, such as Python’s `os`, `glob`, and `re` modules, which offer powerful functionalities for filtering files based on different criteria.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Tools_and_Libraries_for_File_Filtering.png?raw=true)
 
 # Examples of File Filtering Operations
 
