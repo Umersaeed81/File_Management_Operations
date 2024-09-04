@@ -186,7 +186,9 @@ In addition to performing basic file operations, it is crucial to monitor and ma
 The `shutil` module in Python provides a high-level interface for file operations, including disk space management. The `shutil.disk_usage()` function is particularly useful for retrieving disk usage statistics about a given path. It returns a tuple with three values:
 
 **1. Total:**: The total size of the filesystem in bytes.
+
 **2. Used:** The total amount of space used by files in bytes.
+
 **3. Free:** The total amount of free space available in bytes.
 
 To use `shutil.disk_usage()`, you need to specify a directory path (e.g., `'/'` for the root directory on Unix-based systems or `'C:/'` for the main drive on Windows). The function then calculates the disk space statistics for that particular path.
