@@ -17,6 +17,7 @@
 </table>
 
 # File Copy Operation
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/File_Copy_Operation.png?raw=true)
 
 The copy operation is one of the most fundamental and widely used file management tasks. It involves creating an exact replica of a file or directory from one location to another. This seemingly simple task is a cornerstone of data management, underpinning many critical functions in both personal and professional contexts. Whether you're a software developer, a system administrator, or an everyday computer user, understanding and efficiently implementing copy operations is essential for maintaining the integrity and accessibility of your data.
 
