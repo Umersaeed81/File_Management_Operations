@@ -176,6 +176,13 @@ Maintain thorough documentation of your file management processes and structures
 
 Leverage automation tools for repetitive tasks such as backups, file transfers, and cleanup operations. Automation not only saves time but also reduces the risk of human error.
 
+
+# Managing Disk Space
+
+In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
+
+
+
 # Conclusion
 
 Mastering file management operations is essential for efficient programming and effective system administration. These operations—copying, moving, deleting, creating directories, renaming files, listing directory contents, and handling zip files—form the backbone of organized and efficient file handling. By understanding and implementing these operations, along with advanced concepts and best practices, you can ensure that your file systems remain well-organized, secure, and easily manageable. This ultimately contributes to more streamlined workflows, enhanced productivity, and robust data security.
