@@ -199,6 +199,7 @@ print(f"Total: {usage.total / (1024**3):.2f} GB")
 print(f"Used: {usage.used / (1024**3):.2f} GB")
 print(f"Free: {usage.free / (1024**3):.2f} GB")
 ```
+### Output
 
     Total: 291.54 GB
     Used: 147.70 GB
@@ -224,6 +225,7 @@ print(f"Used: {usage.used / (1024**3):.2f} GB")
 print(f"Free: {usage.free / (1024**3):.2f} GB")
 
 ```
+### Output
 
     Total: 293.27 GB
     Used: 259.72 GB
@@ -257,6 +259,7 @@ try:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
+### Output
 
     Total: 293.27 GB
     Used: 259.72 GB
@@ -289,6 +292,7 @@ for path in paths:
     except PermissionError:
         print(f"Permission denied to access {path}.")
 ```
+### Output
 
     Drive C:/:
       Total: 291.54 GB
