@@ -119,6 +119,8 @@ Data corruption can occur during the copy process, especially for large files or
 
 When it comes to performing file copy operations in Python, the `shutil` module stands out as one of the most powerful and versatile tools available in the standard library. The `shutil` module offers a range of high-level functions for file and directory manipulation, making it indispensable for tasks involving copying, moving, and removing files. Among these functions, `shutil.copy()` and `shutil.copy2()` are two of the most commonly used for copying files, each with distinct features that cater to different needs.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Tools_and_Libraries_for_File_Copy.png?raw=true)
+
 ## `shutil.copy()`
 The `shutil.copy()` function is a straightforward tool used to copy the contents of a source file to a destination file or directory. It requires two arguments: `src` (the source path) and `dst` (the destination path). If the destination (`dst`) is a directory, the source file will be copied into that directory, retaining its original name. This function preserves the file's permission mode but does not retain other metadata such as creation and modification times. This makes `shutil.copy()` ideal for situations where the primary goal is to duplicate file contents without the need to maintain specific file attributes.
 
@@ -126,19 +128,6 @@ The `shutil.copy()` function is a straightforward tool used to copy the contents
 The `shutil.copy2()` function provides enhanced functionality compared to `shutil.copy()`. While it copies the contents of the file just like `shutil.copy()`, it also attempts to preserve all the original file metadata, including creation and modification times. This is especially useful in scenarios where maintaining the file's metadata is important, such as during data backups, migrations, or archival processes. By retaining this additional information, `shutil.copy2()` ensures that the copied file remains as true to the original as possible, making it suitable for more comprehensive data management tasks.
 
 Both `shutil.copy()` and `shutil.copy2()` are powerful tools for managing files and directories in Python. They are often employed in scripts that deal with data backup, migration, and redundancy, where efficient and reliable file operations are crucial. The choice between `shutil.copy()` and `shutil.copy2()` depends on whether it is necessary to preserve file metadata during the copying process. Understanding the differences and use cases for each function can help you choose the right tool for your specific file management needs.
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # Examples of File Copy Operations
 
