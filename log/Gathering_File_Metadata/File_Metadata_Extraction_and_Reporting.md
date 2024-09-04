@@ -1194,7 +1194,7 @@ df0
 
 ## 6. Duplicate File Finder
 
-The objective of this code is to identify and group duplicate files within a specified directory based on their content. The script calculates a unique hash value for each file using the MD5 hashing algorithm. If two or more files have the same hash, they are considered duplicates and are grouped together. Files that do not have a matching hash with any other file are not considered duplicates and are excluded from the results. The program then outputs the duplicate groups, listing the file paths for each group. This is useful for cleaning up storage space, organizing files, and ensuring that only unique files are retained in a directory.
+The objective of this code is to identify and group duplicate files within a specified directory based on their content. The script calculates a unique hash value for each file using the [MD5 hashing algorithm](https://www.geeksforgeeks.org/what-is-the-md5-algorithm/). If two or more files have the same hash, they are considered duplicates and are grouped together. Files that do not have a matching hash with any other file are not considered duplicates and are excluded from the results. The program then outputs the duplicate groups, listing the file paths for each group. This is useful for cleaning up storage space, organizing files, and ensuring that only unique files are retained in a directory.
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/Example-06.png?raw=true)
 
