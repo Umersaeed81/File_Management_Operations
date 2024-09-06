@@ -329,7 +329,7 @@ print(f"After Change: {os.getcwd()}")
     After Change: D:\os_library
     
 
-**Using Backslashes (`\`) without Raw Strings:** If you use backslashes in regular strings without specifying them as raw strings, you might encounter issues due to escape sequences being interpreted by Python.
+- **Using Backslashes (`\`) without Raw Strings:** If you use backslashes in regular strings without specifying them as raw strings, you might encounter issues due to [escape sequences being interpreted by Python](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Handling_Special_Characters_in_Strings_and_File_Paths.md).
 
     
 
