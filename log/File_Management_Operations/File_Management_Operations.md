@@ -256,6 +256,8 @@ Here is a summary of the key points about the `os.getcwd()` function and its use
 
 ## Retrieving the Current Working Directory
 
+The objective of the code is to find and display the current working directory where Python is running. The code uses the os module to retrieve this directory path.
+
 ```python
 import os
 os.getcwd()
