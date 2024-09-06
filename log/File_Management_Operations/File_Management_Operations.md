@@ -512,11 +512,11 @@ os.listdir()
 
 ## 6. `os.makedirs()`
 
-**Purpose:** Creates a directory tree, i.e., it can create intermediate directories if they do not exist.
+- **Purpose:** Creates a directory tree, i.e., it can create intermediate directories if they do not exist.
 
-**Usage:** It can create multiple directories at once, including all necessary parent directories.
+- **Usage:** It can create multiple directories at once, including all necessary parent directories.
 
-**Syntax:** `os.makedirs(name, mode=0o777, exist_ok=False)`
+- **Syntax:** `os.makedirs(name, mode=0o777, exist_ok=False)`
 
    - **`name`**: The path of the directory to create, including any intermediate directories.
     
@@ -524,6 +524,9 @@ os.listdir()
     
    - **`exist_ok`**: Optional. If `True`, it will not raise an error if the target directory already exists (default is `False`).
 
+## Creating a Directory Tree with Intermediate Directories 
+
+The objective of the code is to create a directory tree with multiple nested directories (`parent_dir/child_dir/grandchild_dir`). It uses the `os.makedirs` function to create all the necessary directories, including any intermediate ones that do not exist. If the directory tree is created successfully, it prints a confirmation message; otherwise, it handles and displays any errors that occur, such as permission issues.
 
 ```python
 import os
