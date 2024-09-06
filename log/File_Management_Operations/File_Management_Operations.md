@@ -575,6 +575,9 @@ os.listdir()
 
   - **`path`**: The path to the directory you want to remove.
 
+## Removing an Empty Directory with Error Handling
+
+The objective of the code is to remove an empty directory (`new_directory`) using Python's `os.rmdir` function. The code attempts to delete the specified directory and, if successful, prints a confirmation message. If the directory does not exist (`FileNotFoundError`) or if there is an error (such as the directory not being empty), it catches the error and displays an appropriate message.
 
 ```python
 import os
@@ -667,8 +670,9 @@ os.listdir()
      - `src`: The current path of the file or directory you want to rename or move.
      - `dst`: The new path (including the new name) of the file or directory.
 
-## Renaming a File
+## Renaming a File with Error Handling
 
+The objective of the code is to rename a file from `New Text Document.txt` to `Kashif_Hameed.txt` using Python's `os.rename` function. The code attempts to change the file name and, if successful, prints a confirmation message. If the original file does not exist (`FileNotFoundError`), if there is no permission to rename the file (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
 
 ```python
 import os
@@ -693,8 +697,9 @@ except Exception as e:
     File renamed from 'New Text Document.txt' to 'Kashif_Hameed.txt'.
     
 
-## Renaming a Directory
+## Renaming a Directorywith Error Handling in Python
 
+The objective of the code is to rename a directory from `AhmedSaeed` to `AhmadSaeed` using Python's `os.rename` function. The code attempts to rename the specified directory and, if successful, prints a confirmation message. If the original directory does not exist (`FileNotFoundError`), if there is no permission to rename the directory (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
 
 ```python
 import os
@@ -719,6 +724,8 @@ except Exception as e:
     
 
 ## Moving a File to a Different Directory
+
+The objective of the code is to move a file named `Kashif_Hameed.txt` to a new directory named `UmerSaeed` using Python's `os.rename` function. The code first checks if the target directory exists, and if not, it creates the directory using `os.makedirs`. It then attempts to move the file to the new location. If the file is moved successfully, it prints a confirmation message. If the file does not exist (`FileNotFoundError`), if there is no permission to move the file (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
 
 
 ```python
@@ -783,6 +790,19 @@ The `os.stat()` function in Python provides detailed information about a file or
 
 ## Basic File Information
 
+The objective of the code is to retrieve and display detailed information about a file named `Bilal_Iqbal.accdb` using Python's `os.stat` function. The code gathers various file statistics, including:
+
+- The file size in gigabytes (GB)
+- The last modified time
+- The last accessed time
+- The file's permission mode
+- The inode number
+- The device ID
+- The number of hard links
+- The user ID of the file owner
+- The group ID of the file owner
+
+This information is then formatted and printed to the screen for reference.
 
 ```python
 import os
@@ -820,6 +840,18 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
 
 ## Directory Information
 
+The objective of the code is to retrieve and display detailed information about a directory named `D://os_library` using Python's `os.stat` function. The code collects various statistics about the directory, including:
+
+- The directory size in gigabytes (GB)
+- The last modified time
+- The last accessed time
+- The directory's permission mode
+- The inode number
+- The device ID
+- The number of hard links
+- The user ID of the directory owner
+- The group ID of the directory owner
+This information is then formatted and printed to provide insights into the directory's properties and status.
 
 ```python
 import os
