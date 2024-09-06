@@ -440,13 +440,17 @@ except PermissionError:
 
 ## 5. `os.mkdir()`
 
-**Purpose:** Creates a single directory at the specified path.
+- **Purpose:** Creates a single directory at the specified path.
 
-**Usage:** It can create only one directory at a time and will raise an `OSError` if the directory already exists or if the parent directory does not exist.
+- **Usage:** It can create only one directory at a time and will raise an `OSError` if the directory already exists or if the parent directory does not exist.
 
-**Syntax:** `os.mkdir(path, mode=0o777)`
+- **Syntax:** `os.mkdir(path, mode=0o777)`
   - **`path`**: The path to the directory you want to create.
   - **`mode`:** Optional. The permissions for the directory, represented as an octal number (default is `0o777`).
+
+## Creating a Directory with Error Handling
+
+The objective of the code is to create a new directory with a specified name (`new_directory`) using Python's `os` module. The code checks for potential errors: if the directory already exists (`FileExistsError`), if there is no permission to create the directory (`PermissionError`), or any other unexpected error. If the directory is created successfully, it prints a confirmation message; otherwise, it provides an appropriate error message.
 
 
 ```python
@@ -467,6 +471,7 @@ except Exception as e:
     print(f"An error occurred: {e}")
 ```
 
+### Output
     Directory 'new_directory' created successfully.
     
 
@@ -475,8 +480,7 @@ except Exception as e:
 os.listdir()
 ```
 
-
-
+### Output
 
     ['AhmedSaeed',
      'AliSaeed',
