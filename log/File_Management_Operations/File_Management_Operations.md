@@ -345,6 +345,7 @@ The `os.listdir()` function in Python is used to **list all files and directorie
 
 ## Listing the Contents of the Current Directory
 
+### Method-1
 
 ```python
 import os
@@ -359,6 +360,7 @@ print(contents)
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
 
+### Method-2
 
 ```python
 import os
@@ -373,6 +375,7 @@ print(contents)
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
 
+### Method-3
 
 ```python
 import os
