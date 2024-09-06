@@ -43,7 +43,7 @@ print("Hello\tWorld")
     Hello	World
     
 
-## 3. Single Quote (`\'`)
+## 3. Single Quote (`'\'`)
 -  Used to include a single quote within a single-quoted string.
 
 
@@ -54,7 +54,7 @@ print('It\'s a nice day.')
     It's a nice day.
     
 
-## 4. Double Quote (`\"`)
+## 4. Double Quote (`"\"`)
 - Used to include a double quote within a double-quoted string.
 
 
