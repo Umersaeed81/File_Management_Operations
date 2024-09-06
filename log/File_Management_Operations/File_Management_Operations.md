@@ -354,7 +354,7 @@ contents = os.listdir('.')
 print("Current Directory Contents:")
 print(contents)
 ```
-
+### Output
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
@@ -368,7 +368,7 @@ contents = os.listdir()
 print("Current Directory Contents:")
 print(contents)
 ```
-
+### Output
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
@@ -382,6 +382,7 @@ contents = os.listdir(os.curdir)
 print("Current Directory Contents:")
 print(contents)
 ```
+### Output
 
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
@@ -401,7 +402,7 @@ contents = os.listdir(directory_path)
 print(f"Contents of {directory_path}:")
 print(contents)
 ```
-
+### Output
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
@@ -424,7 +425,7 @@ except FileNotFoundError:
 except PermissionError:
     print(f"Error: You do not have permission to access '{directory_path}'.")
 ```
-
+### Output
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
