@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Mastering File and Directory Management with Python's OS Library
+# Mastering File and Directory Management with Python's `os` Library
 
 Effective file and directory management is a cornerstone of efficient programming and system administration. In every computing environment, files and directories serve as the primary means of organizing and storing data. At the heart of this organization are directories (or folders) that contain files and subdirectories, forming a hierarchical structure. A directory is essentially a container that holds files and other directories, while subdirectories are nested within these directories, allowing for a more granular organization of data.
 
