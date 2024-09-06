@@ -677,8 +677,6 @@ import os
 original_file = 'New Text Document.txt'
 new_file = 'Kashif_Hameed.txt'
 
-
-
 # Rename the file
 try:
     os.rename(original_file, new_file)
@@ -691,6 +689,7 @@ except Exception as e:
     print(f"Error renaming file: {e}")
 ```
 
+### Output
     File renamed from 'New Text Document.txt' to 'Kashif_Hameed.txt'.
     
 
@@ -715,7 +714,7 @@ except PermissionError:
 except Exception as e:
     print(f"Error renaming file: {e}")
 ```
-
+### Output
     File renamed from 'AhmedSaeed' to 'AhmadSaeed'.
     
 
@@ -744,7 +743,7 @@ except PermissionError:
 except Exception as e:
     print(f"Error moving file: {e}")
 ```
-
+### Output
     File moved to 'UmerSaeed\Kashif_Hameed.txt'.
     
 
@@ -795,8 +794,6 @@ file_path = 'Bilal_Iqbal.accdb'
 # Get file statistics
 stat_info = os.stat(file_path)
 
-
-
 # Print file information
 print(f"Directory size: {stat_info.st_size / (1024 ** 3):.2f} GB")
 print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
@@ -808,6 +805,7 @@ print(f"Number of hard links: {stat_info.st_nlink}")
 print(f"User ID of the file owner: {stat_info.st_uid}")
 print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```
+### Output
 
     Directory size: 0.00 GB
     Last modified: Thu Sep  5 14:49:34 2024
@@ -844,6 +842,7 @@ print(f"Number of hard links: {stat_info.st_nlink}")
 print(f"User ID of the file owner: {stat_info.st_uid}")
 print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```
+### Output
 
     Directory size: 0.00 GB
     Last modified: Thu Sep  5 22:41:21 2024
@@ -866,7 +865,7 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```python
 print(os.path.exists('D:\\os_library'))
 ```
-
+### Output
     True
     
 
@@ -874,7 +873,7 @@ print(os.path.exists('D:\\os_library'))
 ```python
 print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
-
+### Output
     True
     
 
@@ -882,7 +881,7 @@ print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```python
 print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 ```
-
+### Output
     False
     
 
@@ -890,12 +889,12 @@ print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 
 - Checks specifically whether a specified path exists **and is a directory**.
 - Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
-
+### Output
 
 ```python
 print(os.path.isdir('D:\\os_library'))
 ```
-
+### Output
     True
     
 
@@ -903,7 +902,7 @@ print(os.path.isdir('D:\\os_library'))
 ```python
 print(os.path.isdir('D:\\os_library1'))
 ```
-
+### Output
     False
     
 
@@ -911,7 +910,7 @@ print(os.path.isdir('D:\\os_library1'))
 ```python
 print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
-
+### Output
     False
     
 
@@ -923,7 +922,7 @@ The `os.path.isfile()` function in Python is used to check whether a given path 
 ```python
 print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
-
+### Output
     True
     
 
@@ -931,7 +930,7 @@ print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```python
 print(os.path.isfile('D:\\os_library'))
 ```
-
+### Output
     False
     
 
@@ -939,7 +938,7 @@ print(os.path.isfile('D:\\os_library'))
 ```python
 print(os.path.isfile('D:\\os_library\\Umer_Saeed.accdb'))
 ```
-
+### Output
     False
     
 
@@ -985,7 +984,7 @@ if os.access(path_to_check, os.X_OK):
 else:
     print(f"The file or directory '{path_to_check}' is not executable.")    
 ```
-
+### Output
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' exists.
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is readable.
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is writable.
@@ -1029,10 +1028,68 @@ with os.scandir(directory_path) as entries:
         print("-" * 40)
 ```
 
-<div style="display: flex; align-items: flex-start;">
+### Output
 
-<div style="flex: 1; margin-right: 10px;">
-
+    Name: AhmadSaeed
+    Path: D://OS_Library\AhmadSaeed
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 18:09:56 2024
+    Inode number: 38562071809366986
+    Filesystem path: D://OS_Library\AhmadSaeed
+    ----------------------------------------
+    Name: AliSaeed
+    Path: D://OS_Library\AliSaeed
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 14:50:32 2024
+    Inode number: 40813871623052306
+    Filesystem path: D://OS_Library\AliSaeed
+    ----------------------------------------
+    Name: Bilal_Iqbal.accdb
+    Path: D://OS_Library\Bilal_Iqbal.accdb
+    Is File: True
+    Is Directory: False
+    Is Symlink: False
+    File size: 495616 bytes
+    Last modified: Fri Sep  6 00:19:43 2024
+    Inode number: 40813871623052307
+    Filesystem path: D://OS_Library\Bilal_Iqbal.accdb
+    ----------------------------------------
+    Name: Ijlal_Khan
+    Path: D://OS_Library\Ijlal_Khan
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 20:04:24 2024
+    Inode number: 42502721483316406
+    Filesystem path: D://OS_Library\Ijlal_Khan
+    ----------------------------------------
+    Name: Umer.txt
+    Path: D://OS_Library\Umer.txt
+    Is File: True
+    Is Directory: False
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Fri Sep  6 00:12:34 2024
+    Inode number: 42221246506606416
+    Filesystem path: D://OS_Library\Umer.txt
+    ----------------------------------------
+    Name: UmerSaeed
+    Path: D://OS_Library\UmerSaeed
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 22:41:21 2024
+    Inode number: 42784196460027090
+    Filesystem path: D://OS_Library\UmerSaeed
+    ----------------------------------------
 # Managing Disk Space
 
 In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
