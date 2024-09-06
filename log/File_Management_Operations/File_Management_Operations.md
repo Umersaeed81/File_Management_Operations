@@ -265,7 +265,7 @@ os.getcwd()
 
 In Python, the `os.chdir()` function is used to change the current working directory. The path you provide to `os.chdir()` can be specified in several ways, depending on the format and type of path you use. Below are different approaches to change the directory:
 
-**Using Forward Slashes (`/`):** Forward slashes are universally accepted as path separators in Python, even on Windows systems. This approach is straightforward and avoids issues with escape sequences.
+- **Using Forward Slashes (`/`):** Forward slashes are universally accepted as path separators in Python, even on Windows systems. This approach is straightforward and avoids issues with escape sequences.
 
 
 ```python
@@ -280,12 +280,14 @@ os.chdir('D:/os_library')  # Use forward slashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
+### Output
 
     Before Change: C:\Users\UWX161178\File_Management_Operations
     After Change: D:\os_library
     
 
-**Using Double Forward Slashes (`//`)**: Double forward slashes are sometimes used to separate directories. While this can work, it is less conventional and might cause unexpected behavior in some cases.
+- **Using Double Forward Slashes (`//`)**: Double forward slashes are sometimes used to separate directories. While this can work, it is less conventional and might cause unexpected behavior in some cases.
+
 
 
 ```python
@@ -300,12 +302,12 @@ os.chdir('D://os_library')  # Use double forward slashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
-
+### Output
     Before Change: D:\os_library
     After Change: D:\os_library
     
 
-**Using Backslashes (`\`) in Raw Strings:** On Windows, backslashes (`\`) are typically used as path separators. To avoid problems with escape characters, you can use raw strings by prefixing the string with r, which treats backslashes as literal characters.
+- **Using Backslashes (`\`) in Raw Strings:** On Windows, backslashes (`\`) are typically used as path separators. To avoid problems with escape characters, you can use raw strings by prefixing the string with r, which treats backslashes as literal characters.
 
 
 ```python
@@ -320,6 +322,8 @@ os.chdir(r'D:\os_library')  # Use raw string to handle backslashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
+
+### Output
 
     Before Change: D:\os_library
     After Change: D:\os_library
