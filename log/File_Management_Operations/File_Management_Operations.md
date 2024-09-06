@@ -274,7 +274,10 @@ os.getcwd()
 
 In Python, the `os.chdir()` function is used to change the current working directory. The path you provide to `os.chdir()` can be specified in several ways, depending on the format and type of path you use. Below are different approaches to change the directory:
 
-- **Using Forward Slashes (`/`):** Forward slashes are universally accepted as path separators in Python, even on Windows systems. This approach is straightforward and avoids issues with escape sequences.
+## Changing the Current Working Directory Using Forward Slashes
+
+-  Forward slashes are universally accepted as path separators in Python, even on Windows systems. This approach is straightforward and avoids issues with escape sequences.
+- The objective is to change the current working directory to `D:/os_library` using forward slashes and verify the change by printing the current directory before and after the change.
 
 
 ```python
@@ -294,8 +297,10 @@ print(f"After Change: {os.getcwd()}")
     Before Change: C:\Users\UWX161178\File_Management_Operations
     After Change: D:\os_library
     
+## Changing the Current Working Directory Using Double Forward Slashes
 
-- **Using Double Forward Slashes (`//`)**: Double forward slashes are sometimes used to separate directories. While this can work, it is less conventional and might cause unexpected behavior in some cases.
+- Double forward slashes are sometimes used to separate directories. While this can work, it is less conventional and might cause unexpected behavior in some cases.
+- The objective is to change the current working directory to `D://os_library` using double forward slashes and verify the change by printing the current directory before and after the change.
 
 
 
@@ -314,9 +319,11 @@ print(f"After Change: {os.getcwd()}")
 ### Output
     Before Change: D:\os_library
     After Change: D:\os_library
-    
 
-- **Using Backslashes (`\`) in Raw Strings:** On Windows, backslashes (`\`) are typically used as path separators. To avoid problems with escape characters, you can use raw strings by prefixing the string with r, which treats backslashes as literal characters.
+## Changing the Current Working Directory Using a Raw String for Backslashes    
+
+-  On Windows, backslashes (`\`) are typically used as path separators. To avoid problems with escape characters, you can use raw strings by prefixing the string with r, which treats backslashes as literal characters.
+- The objective is to change the current working directory to `D:\os_library` using a raw string to handle backslashes and verify the change by printing the current directory before and after the change.
 
 
 ```python
@@ -338,7 +345,9 @@ print(f"After Change: {os.getcwd()}")
     After Change: D:\os_library
     
 
-- **Using Backslashes (`\`) without Raw Strings:** If you use backslashes in regular strings without specifying them as raw strings, you might encounter issues due to [escape sequences being interpreted by Python](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Handling_Special_Characters_in_Strings_and_File_Paths.md).
+## Using Backslashes (`\`) without Raw Strings
+
+- If you use backslashes in regular strings without specifying them as raw strings, you might encounter issues due to [escape sequences being interpreted by Python](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Handling_Special_Characters_in_Strings_and_File_Paths.md).
 
     
 
