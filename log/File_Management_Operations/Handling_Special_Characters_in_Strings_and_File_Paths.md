@@ -20,18 +20,20 @@
 
 In Python, special characters in strings are represented using escape sequences. These sequences start with a backslash (`\`) and have specific meanings. Here's a brief explanation of common escape sequences:
 
-- **Newline (`\n`)**: Represents a new line. When included in a string, it moves the text that follows it to the next line.
+## Newline (`\n`)
+-  Represents a new line. When included in a string, it moves the text that follows it to the next line.
 
 
 ```python
 print("Hello\nWorld")
 ```
-
+### Output   
     Hello
     World
-    
+ 
 
-- **Tab (`\t`)**: Represents a horizontal tab. It inserts a tab space in the string.
+## Tab (`\t`)
+-  Represents a horizontal tab. It inserts a tab space in the string.
 
 
 ```python
@@ -41,33 +43,36 @@ print("Hello\tWorld")
     Hello	World
     
 
-- **Single Quote (`\'`)**: Used to include a single quote within a single-quoted string.
+## Single Quote (`\'`)
+-  Used to include a single quote within a single-quoted string.
 
 
 ```python
 print('It\'s a nice day.')
 ```
-
+### Output   
     It's a nice day.
     
 
-- **Double Quote (`\"`):** Used to include a double quote within a double-quoted string.
+## Double Quote (`\"`)
+- Used to include a double quote within a double-quoted string.
 
 
 ```python
 print("She said, \"Hello!\"")
 ```
-
+### Output   
     She said, "Hello!"
     
 
-- **Backslash (`\\`):** Represents a literal backslash in the string.
+## Backslash (`\\`)
+- Represents a literal backslash in the string.
 
 
 ```python
 print("This is a backslash: \\")
 ```
-
+### Output   
     This is a backslash: \
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)    
