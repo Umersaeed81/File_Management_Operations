@@ -547,7 +547,7 @@ except Exception as e:
 
     Directory tree 'parent_dir/child_dir/grandchild_dir' created successfully.
     
-
+To confirm that the directory tree has been created correctly, we can use the `os.listdir()` function to display the contents of the specified directory
 
 ```python
 os.listdir()
