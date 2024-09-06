@@ -20,7 +20,7 @@
 
 In Python, special characters in strings are represented using escape sequences. These sequences start with a backslash (`\`) and have specific meanings. Here's a brief explanation of common escape sequences:
 
-## Newline (`\n`)
+## 1. Newline (`\n`)
 -  Represents a new line. When included in a string, it moves the text that follows it to the next line.
 
 
@@ -32,7 +32,7 @@ print("Hello\nWorld")
     World
  
 
-## Tab (`\t`)
+## 2. Tab (`\t`)
 -  Represents a horizontal tab. It inserts a tab space in the string.
 
 
@@ -43,7 +43,7 @@ print("Hello\tWorld")
     Hello	World
     
 
-## Single Quote (`\'`)
+## 3. Single Quote (`\'`)
 -  Used to include a single quote within a single-quoted string.
 
 
@@ -54,7 +54,7 @@ print('It\'s a nice day.')
     It's a nice day.
     
 
-## Double Quote (`\"`)
+## 4. Double Quote (`\"`)
 - Used to include a double quote within a double-quoted string.
 
 
@@ -65,7 +65,7 @@ print("She said, \"Hello!\"")
     She said, "Hello!"
     
 
-## Backslash (`\\`)
+## 5. Backslash (`\\`)
 - Represents a literal backslash in the string.
 
 
