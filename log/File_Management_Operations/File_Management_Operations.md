@@ -198,6 +198,8 @@ You can use `os.name` to perform platform-specific operations:
 
 ## Determining the Operating System
 
+The objective of the code is to find out the name of the operating system that Python is running on. The code uses the `os` module to retrieve this information.
+
 ```python
 import os
 os.name
@@ -208,9 +210,14 @@ os.name
 
     'nt'
 
-
-
 ## Detecting and Printing the Operating System Platform
+
+The objective of the code is to determine the type of operating system Python is running on and print a message accordingly. 
+- If the system is Windows, it prints "Running on Windows."
+- If it's a Unix-like system (such as Linux or macOS), it prints "Running on a Unix-like system."
+- For any other or unknown platforms, it prints "Running on an unknown platform."
+
+
 
 ```python
 import os
