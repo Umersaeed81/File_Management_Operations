@@ -925,6 +925,8 @@ print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 - Checks specifically whether a specified path exists **and is a directory**.
 - Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
 
+## Checking If Paths Are Directories
+The objective of the code is to check and print whether the specified paths are directories.
 
 ```python
 print(os.path.isdir('D:\\os_library'))
@@ -953,6 +955,10 @@ print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
 
 The `os.path.isfile()` function in Python is used to check whether a given path refers to an **existing regular file** (not a directory, symbolic link, or other type of entry). It returns `True` if the path is a file and exists; otherwise, it returns `False`.
 
+## Checking If Paths Are Files Using
+
+
+The objective of the code is to check and print whether the specified paths are files.
 
 ```python
 print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
@@ -989,6 +995,9 @@ print(os.path.isfile('D:\\os_library\\Umer_Saeed.accdb'))
 - Returns `True` if the specified access is allowed, False otherwise.
 - `os.access()` is often used to check file accessibility rather than just existence.
 
+## Checking File or Directory Access Permissions 
+
+The objective of the code is to check and print the accessibility and permissions of a specified file or directory (`D:\\OS_Library\\Bilal_Iqbal.accdb`). It verifies whether the path exists, and checks if it is readable, writable, and executable.
 
 ```python
 import os
@@ -1034,6 +1043,10 @@ else:
 
 - Efficient and provides a way to access file or directory metadata without making separate system calls.
 
+## Exploring Directory Contents and Retrieving File Information
+
+
+The objective of the code is to explore and print detailed information about the contents of a specified directory (`D://OS_Library`). Using `os.scandir`, it retrieves and displays the name, full path, type (file or directory), and symbolic link status of each entry. Additionally, it provides file size, last modified time, inode number, and filesystem path representation for each entry.
 
 ```python
 import os
@@ -1125,6 +1138,7 @@ with os.scandir(directory_path) as entries:
     Inode number: 42784196460027090
     Filesystem path: D://OS_Library\UmerSaeed
     ----------------------------------------
+
 # Managing Disk Space
 
 In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
