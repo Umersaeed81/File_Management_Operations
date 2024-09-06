@@ -178,7 +178,7 @@ Leverage automation tools for repetitive tasks such as backups, file transfers, 
 
 # Basic Functions of the `os` Library
 
-he os library in Python provides a way of interacting with the operating system. It includes numerous functions for handling files, directories, processes, and system-level operations. Here are some basic functions of the os library that are essential for file and directory management:
+The `os` library in Python provides a way of interacting with the operating system. It includes numerous functions for handling files, directories, processes, and system-level operations. Here are some basic functions of the os library that are essential for file and directory management:
 
 
 
