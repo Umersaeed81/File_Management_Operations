@@ -235,18 +235,19 @@ The `os.getcwd()` function in Python is used to **get the current working direct
 
 Here is a summary of the key points about the `os.getcwd()` function and its usefulness:
 
-**Returns an Absolute Path:** `os.getcwd()` returns the absolute path of the current working directory, which includes the full directory path starting from the root of the filesystem.
+- **Returns an Absolute Path:** `os.getcwd()` returns the absolute path of the current working directory, which includes the full directory path starting from the root of the filesystem.
 
-**Useful for File Operations:** When you want to perform file operations, knowing the current working directory is crucial, especially when using relative paths.
+- **Useful for File Operations:** When you want to perform file operations, knowing the current working directory is crucial, especially when using relative paths.
 
-**Does Not Change the Directory:**  It only returns the current directory path and does not change it. If you want to change the working directory, you would use `os.chdir()`.
+- **Does Not Change the Directory:**  It only returns the current directory path and does not change it. If you want to change the working directory, you would use `os.chdir()`.
 
-**Building File Paths Dynamically:** When you need to create or access files relative to the current working directory.
+- **Building File Paths Dynamically:** When you need to create or access files relative to the current working directory.
 
-**Debugging:** Helps to understand where the script is executing, especially when dealing with relative paths.
+- **Debugging:** Helps to understand where the script is executing, especially when dealing with relative paths.
 
-**Cross-Platform Compatibility:** Useful for writing code that needs to run on different operating systems without hardcoding file paths.
+- **Cross-Platform Compatibility:** Useful for writing code that needs to run on different operating systems without hardcoding file paths.
 
+## Retrieving the Current Working Directory
 
 ```python
 import os
@@ -254,7 +255,7 @@ os.getcwd()
 ```
 
 
-
+### Output
 
     'C:\\Users\\UWX161178\\File_Management_Operations'
 
