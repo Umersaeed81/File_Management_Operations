@@ -196,6 +196,7 @@ Here is a breakdown of the possible values for `os.name`:
 
 You can use `os.name` to perform platform-specific operations:
 
+## Determining the Operating System
 
 ```python
 import os
@@ -203,12 +204,13 @@ os.name
 ```
 
 
-
+### Output
 
     'nt'
 
 
 
+## Detecting and Printing the Operating System Platform
 
 ```python
 import os
@@ -220,6 +222,7 @@ elif os.name == 'posix':
 else:
     print("Running on an unknown platform")
 ```
+### Output
 
     Running on Windows
     
