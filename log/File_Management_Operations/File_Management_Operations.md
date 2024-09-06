@@ -346,7 +346,7 @@ The `os.listdir()` function in Python is used to **list all files and directorie
 ## Listing the Contents of the Current Directory
 
 
-The objective of the code is to list all the files and folders in the current working directory using Python's os module. The code retrieves the names of the contents of the current directory and prints them to the screen.
+The objective of the code is to list all the files and folders in the current working directory using Python's `os` module. The code retrieves the names of the contents of the current directory and prints them to the screen.
 
 ### Method-1
 
@@ -396,6 +396,7 @@ print(contents)
 
 ## Listing the Contents of a Specific Directory
 
+The objective of the code is to list all the files and folders in a specific directory (`D:/os_library`) using Python's `os` module. The code specifies the directory path, retrieves the names of the contents in that directory, and prints them to the screen.
 
 ```python
 import os
