@@ -543,6 +543,7 @@ except PermissionError:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
+### Output
 
     Directory tree 'parent_dir/child_dir/grandchild_dir' created successfully.
     
@@ -551,8 +552,6 @@ except Exception as e:
 ```python
 os.listdir()
 ```
-
-
 
 
     ['AhmedSaeed',
@@ -568,11 +567,11 @@ os.listdir()
 
 ## 7. `os.rmdir()`
 
-**Purpose:** Removes a single empty directory.
+- **Purpose:** Removes a single empty directory.
 
-**Usage:** This function can only remove directories that are empty. It will raise an OSError if the directory is not empty or if it does not exist.
+- **Usage:** This function can only remove directories that are empty. It will raise an OSError if the directory is not empty or if it does not exist.
 
-**Syntax:** `os.rmdir(path)`
+- **Syntax:** `os.rmdir(path)`
 
   - **`path`**: The path to the directory you want to remove.
 
@@ -593,16 +592,12 @@ except OSError as e:
     print(f"Error removing directory '{directory_path}': {e}")
 ```
 
-    Directory 'new_directory' does not exist.
-    
-
+## Output
+    Directory 'new_directory' does not exist.    
 
 ```python
 os.listdir()
 ```
-
-
-
 
     ['AhmedSaeed',
      'AliSaeed',
@@ -623,6 +618,9 @@ os.listdir()
 - **Syntax:** `os.removedirs(name)`
    - **`name:`** The path to the directory you want to remove, including any empty parent directories.
 
+## Removing a Nested Directory Structure
+
+The objective of the code is to remove a nested directory structure (`D:\os_library\parent_dir\child_dir\grandchild_dir`). It uses the `os.removedirs` function to delete the directories, including any empty intermediate ones. If the directory structure is removed successfully, it prints a confirmation message. If the directory does not exist or if an error occurs during the removal, it handles and displays an appropriate error message.
 
 ```python
 import os
@@ -641,16 +639,14 @@ except OSError as e:
     print(f"Error removing directory tree '{nested_directory_path}': {e}")
 ```
 
+### Output
+
     Directory tree 'D:\os_library\parent_dir\child_dir\grandchild_dir' removed successfully.
     
-
 
 ```python
 os.listdir()
 ```
-
-
-
 
     ['AhmedSaeed',
      'AliSaeed',
