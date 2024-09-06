@@ -893,6 +893,9 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
 
 - Returns `True` if the path exists and `False` otherwise.
 
+## Checking File and Directory Existence
+
+The objective of the code is to verify and display whether the specified directory and files exist at the given paths
 
 ```python
 print(os.path.exists('D:\\os_library'))
