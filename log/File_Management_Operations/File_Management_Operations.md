@@ -416,11 +416,12 @@ print(contents)
 
 ## Handling Errors While Listing Directory Contents
 
+The objective of the code is to safely attempt to list all files and folders in a specified directory using Python's `os` module. The code handles potential errors such as the directory not existing (`FileNotFoundError`) or insufficient permissions to access the directory (`PermissionError`). If the directory is accessible, it prints its contents; otherwise, it displays an appropriate error message.
 
 ```python
 import os
 
-directory_path = 'D:/os_library'  # Replace with a path that may not exist
+directory_path = 'D:/os_library'  
 
 try:
     # Attempt to list the directory contents
