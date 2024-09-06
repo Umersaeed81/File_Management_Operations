@@ -889,7 +889,7 @@ print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 
 - Checks specifically whether a specified path exists **and is a directory**.
 - Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
-### Output
+
 
 ```python
 print(os.path.isdir('D:\\os_library'))
