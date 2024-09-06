@@ -180,9 +180,7 @@ Leverage automation tools for repetitive tasks such as backups, file transfers, 
 
 he os library in Python provides a way of interacting with the operating system. It includes numerous functions for handling files, directories, processes, and system-level operations. Here are some basic functions of the os library that are essential for file and directory management:
 
-# Managing Disk Space
 
-In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
 
 ## 1. `os.name`
 
@@ -994,133 +992,9 @@ with os.scandir(directory_path) as entries:
 ```
 
 
-```python
-# for dirpath, dirnames, filenames in os.walk(os.getcwd()):
-#     print('Current Path:', dirpath)
-#     print('Directories:', dirnames)
-#     print('Files', filenames)
-#     print('----------------')
-```
+# Managing Disk Space
 
-
-```python
-
-```
-
-
-```python
-# # walkd
-# import os
-
-# for root, dirs, files in os.walk('.'):
-#     print(f'Root: {root}, Dirs: {dirs}, Files: {files}')
-```
-
-
-```python
-# import os
-
-# # Get the directory path from user input
-# user_dir = input("Please enter the directory path: ")
-
-# # Ensure the provided path is absolute
-# user_dir = os.path.abspath(user_dir)
-
-# # List all functions and attributes in the os.path module
-# path_functions = dir(os.path)
-# print("\nFunctions and attributes in os.path:")
-# for func in path_functions:
-#     print(func)
-
-# print("\nImportant functions from os.path:")
-
-# # Join paths
-# example_file = 'example_file.txt'
-# joined_path = os.path.join(user_dir, example_file)
-# print(f"\nJoined path: {joined_path}")
-
-# # Check if a path exists
-# exists = os.path.exists(joined_path)
-# print(f"Does the path exist? {exists}")
-
-# # Get the base name of a file
-# base_name = os.path.basename(joined_path)
-# print(f"Base name of the file: {base_name}")
-
-# # Get the directory name
-# dir_name = os.path.dirname(joined_path)
-# print(f"Directory name: {dir_name}")
-
-# # Check if the path is a directory
-# is_directory = os.path.isdir(dir_name)
-# print(f"Is the directory? {is_directory}")
-
-# # Check if the path is a file
-# is_file = os.path.isfile(joined_path)
-# print(f"Is the file? {is_file}")
-
-# # Get the file size
-# if is_file:
-#     file_size = os.path.getsize(joined_path)
-#     print(f"File size: {file_size} bytes")
-# else:
-#     print("The specified file does not exist.")
-
-```
-
-
-```python
-# import os
-
-# # Get the directory path from user input
-# user_dir = input("Please enter the directory path: ")
-
-# # Ensure the provided path is absolute
-# user_dir = os.path.abspath(user_dir)
-
-# print(f"\nListing all files and subdirectories in: {user_dir}")
-
-# # Walk the directory tree
-# for root, dirs, files in os.walk(user_dir):
-#     # List directories
-#     for dir_name in dirs:
-#         dir_path = os.path.join(root, dir_name)
-#         print(f"Directory: {dir_path}")
-    
-#     # List files
-#     for file_name in files:
-#         file_path = os.path.join(root, file_name)
-#         print(f"File: {file_path}")
-
-```
-
-
-```python
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#-------------------------------------------------------------------------------------------#
-
+In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
 ## Understanding `shutil.disk_usage`
 
 The `shutil` module in Python provides a high-level interface for file operations, including disk space management. The `shutil.disk_usage()` function is particularly useful for retrieving disk usage statistics about a given path. It returns a tuple with three values:
