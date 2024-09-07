@@ -1178,10 +1178,9 @@ import os
 os.path.expanduser('~')
 ```
 
+### Output
 
-
-
-    'C:\\Users\\UWX161178'
+    'C:\\Users\\Pakistan'
 
 
 
@@ -1193,10 +1192,9 @@ import os
 os.path.expanduser('~/Daily_Audits_26052024')
 ```
 
+### Output
 
-
-
-    'C:\\Users\\UWX161178/Daily_Audits_26052024'
+    'C:\\Users\\Pakistan/Daily_Audits_26052024'
 
 
 
@@ -1215,8 +1213,8 @@ if os.path.exists(expanded_path):
 else:
     print("The path does not exist.")
 ```
-
-    Expanded Path: C:\Users\UWX161178/Daily_Audits_26052024
+### Output
+    Expanded Path: C:\Users\Pakistan/Daily_Audits_26052024
     The path exists.
     
 
@@ -1230,25 +1228,24 @@ The `os.path.split` function separates a path into its head and tail components:
 
 
 ```python
-os.path.split('C:/Users/UWX161178/Downloads/File_Management/Chapter-03')
+os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03')
 ```
 
+### Output
 
 
-
-    ('C:/Users/UWX161178/Downloads/File_Management', 'Chapter-03')
+    ('C:/Users/Pakistan/Downloads/File_Management', 'Chapter-03')
 
 
 
 
 ```python
-os.path.split('C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png')
+os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png')
 ```
 
+### Output
 
-
-
-    ('C:/Users/UWX161178/Downloads/File_Management/Chapter-03',
+    ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03',
      'Tools_and_Libraries_for_File_Filtering.png')
 
 
@@ -1258,7 +1255,7 @@ os.path.split('C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and
 os.path.split('')
 ```
 
-
+### Output
 
 
     ('', '')
@@ -1267,25 +1264,25 @@ os.path.split('')
 
 
 ```python
-path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03"
+path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03"
 head, tail = os.path.split(path)
 print(head)  
 print(tail)  
 ```
-
-    C:/Users/UWX161178/Downloads/File_Management
+### Output
+    C:/Users/Pakistan/Downloads/File_Management
     Chapter-03
     
 
 
 ```python
-path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
 head, tail = os.path.split(path)
 print(head)  
 print(tail) 
 ```
-
-    C:/Users/UWX161178/Downloads/File_Management/Chapter-03
+### Output
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     Tools_and_Libraries_for_File_Filtering.png
     
 
@@ -1296,7 +1293,7 @@ head, tail = os.path.split(path)
 print(head)  
 print(tail) 
 ```
-
+### Output
     ~/Daily_Audits_26052024
     03_LTE_Old.ipynb
     
@@ -1307,26 +1304,26 @@ The `os.path.splitext` function in Python is used to split a path into its root 
 
 
 ```python
-os.path.splitext("C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png")
+os.path.splitext("C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png")
 ```
 
+### Output
 
 
-
-    ('C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
+    ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
      '.png')
 
 
 
 
 ```python
-file_path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
 root, ext = os.path.splitext(file_path)
 print(root)  
 print(ext)   
 ```
-
-    C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
+### Output
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
     .png
     
 
@@ -1340,17 +1337,17 @@ file_path = "D:/os_library/Bilal_Iqbal.accdb"
 basename = os.path.basename(file_path)
 print(basename)  
 ```
-
+### Output
     Bilal_Iqbal.accdb
     
 
 
 ```python
-file_path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
 basename = os.path.basename(file_path)
 print(basename)  
 ```
-
+### Output
     Tools_and_Libraries_for_File_Filtering.png
     
 
@@ -1364,18 +1361,18 @@ file_path = "D:/os_library/Bilal_Iqbal.accdb"
 dirname = os.path.dirname(file_path)
 print(dirname)  
 ```
-
+### Output
     D:/os_library
     
 
 
 ```python
-file_path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
 dirname = os.path.dirname(file_path)
 print(dirname) 
 ```
-
-    C:/Users/UWX161178/Downloads/File_Management/Chapter-03
+### Output
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     
 
 
@@ -1398,7 +1395,7 @@ file_path = "D:/os_library/Bilal_Iqbal.accdb"
 size = os.path.getsize(file_path)
 print(f"Size of {file_path}: {size} bytes")
 ```
-
+### Output
     Size of D:/os_library/Bilal_Iqbal.accdb: 495616 bytes
     
 
