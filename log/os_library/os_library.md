@@ -127,7 +127,7 @@ os.getcwd()
 ```
 ### Output
 
-    'C:\\Users\\UWX161178\\File_Management_Operations'
+    'C:\\Users\\Pakistan\\File_Management_Operations'
 
 
 
@@ -155,7 +155,7 @@ print(f"After Change: {os.getcwd()}")
 ```
 ### Output
 
-    Before Change: C:\Users\UWX161178\File_Management_Operations
+    Before Change: C:\Users\Pakistan\File_Management_Operations
     After Change: D:\os_library
     
 ## Changing the Current Working Directory Using Double Forward Slashes
