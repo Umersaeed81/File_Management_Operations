@@ -1166,6 +1166,252 @@ with os.scandir(directory_path) as entries:
       Filesystem path: D://OS_Library\UmerSaeed
       ----------------------------------------
 
+## 18. `os.path.expanduser()`
+
+The `os.path.expanduser` function in Python is used to expand the `~ `(tilde) symbol to the full path of the user's home directory. This is particularly useful when writing cross-platform code where you want to refer to a user's home directory without hardcoding the path.
+
+## Basic Usage with `~`
+
+
+```python
+import os
+os.path.expanduser('~')
+```
+
+
+
+
+    'C:\\Users\\UWX161178'
+
+
+
+## Expanding the Home Directory Path Using `os.path.expanduser`
+
+
+```python
+import os
+os.path.expanduser('~/Daily_Audits_26052024')
+```
+
+
+
+
+    'C:\\Users\\UWX161178/Daily_Audits_26052024'
+
+
+
+## Expanding and Validating a User Directory Path with `os.path.expanduser` and `os.path.exists`
+
+
+```python
+import os
+
+expanded_path = os.path.expanduser('~/Daily_Audits_26052024')
+print(f"Expanded Path: {expanded_path}")
+
+# Check if the path exists
+if os.path.exists(expanded_path):
+    print("The path exists.")
+else:
+    print("The path does not exist.")
+```
+
+    Expanded Path: C:\Users\UWX161178/Daily_Audits_26052024
+    The path exists.
+    
+
+## 19. `os.path.split`
+
+The `os.path.split` function separates a path into its head and tail components:
+
+   - **Head:** The directory path, which is everything except the last component.
+    
+   - **Tail:** The last component of the path, which is typically the filename or the last directory.
+
+
+```python
+os.path.split('C:/Users/UWX161178/Downloads/File_Management/Chapter-03')
+```
+
+
+
+
+    ('C:/Users/UWX161178/Downloads/File_Management', 'Chapter-03')
+
+
+
+
+```python
+os.path.split('C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png')
+```
+
+
+
+
+    ('C:/Users/UWX161178/Downloads/File_Management/Chapter-03',
+     'Tools_and_Libraries_for_File_Filtering.png')
+
+
+
+
+```python
+os.path.split('')
+```
+
+
+
+
+    ('', '')
+
+
+
+
+```python
+path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03"
+head, tail = os.path.split(path)
+print(head)  
+print(tail)  
+```
+
+    C:/Users/UWX161178/Downloads/File_Management
+    Chapter-03
+    
+
+
+```python
+path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+head, tail = os.path.split(path)
+print(head)  
+print(tail) 
+```
+
+    C:/Users/UWX161178/Downloads/File_Management/Chapter-03
+    Tools_and_Libraries_for_File_Filtering.png
+    
+
+
+```python
+path = "~/Daily_Audits_26052024/03_LTE_Old.ipynb"
+head, tail = os.path.split(path)
+print(head)  
+print(tail) 
+```
+
+    ~/Daily_Audits_26052024
+    03_LTE_Old.ipynb
+    
+
+## 20. `os.path.splitext()`
+
+The `os.path.splitext` function in Python is used to split a path into its root and extension components. This is particularly useful when you want to separate the filename from its extension, or when you need to handle files based on their extensions.
+
+
+```python
+os.path.splitext("C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png")
+```
+
+
+
+
+    ('C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
+     '.png')
+
+
+
+
+```python
+file_path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+root, ext = os.path.splitext(file_path)
+print(root)  
+print(ext)   
+```
+
+    C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
+    .png
+    
+
+## 21. `os.path.basename()`
+
+The `os.path.basename` function in Python is used to extract the base name of a file or directory from a given path. The base name is the final component of the path, which could be a filename or the name of the last directory.
+
+
+```python
+file_path = "D:/os_library/Bilal_Iqbal.accdb"
+basename = os.path.basename(file_path)
+print(basename)  
+```
+
+    Bilal_Iqbal.accdb
+    
+
+
+```python
+file_path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+basename = os.path.basename(file_path)
+print(basename)  
+```
+
+    Tools_and_Libraries_for_File_Filtering.png
+    
+
+## 22. `os.path.dirname()`
+
+The `os.path.dirname` function in Python is used to extract the directory path from a given file path. Essentially, it returns everything in the path except for the last component, which could be a file name or the name of the last directory.
+
+
+```python
+file_path = "D:/os_library/Bilal_Iqbal.accdb"
+dirname = os.path.dirname(file_path)
+print(dirname)  
+```
+
+    D:/os_library
+    
+
+
+```python
+file_path = "C:/Users/UWX161178/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+dirname = os.path.dirname(file_path)
+print(dirname) 
+```
+
+    C:/Users/UWX161178/Downloads/File_Management/Chapter-03
+    
+
+
+```python
+file_path = "D:/os_library"
+dirname = os.path.dirname(file_path)
+print(dirname) 
+```
+
+    D:/
+    
+
+## 23. `os.path.getsize()`
+
+The `os.path.getsize` function in Python is used to obtain the size of a file or directory. It returns the size of the file in bytes. If you provide a directory path, it will raise a `TypeError` because `os.path.getsize` does not support directories.
+
+
+```python
+file_path = "D:/os_library/Bilal_Iqbal.accdb"
+size = os.path.getsize(file_path)
+print(f"Size of {file_path}: {size} bytes")
+```
+
+    Size of D:/os_library/Bilal_Iqbal.accdb: 495616 bytes
+    
+
+
+```python
+file_path = "D:/os_library"
+size = os.path.getsize(file_path)
+print(f"Size of {file_path}: {size} bytes")
+```
+
+    Size of D:/os_library: 4096 bytes
+    
+
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
