@@ -55,10 +55,7 @@ The objective of the code is to find out the name of the operating system that P
 import os
 os.name
 ```
-
-
 ### Output
-
     'nt'
 
 ## Detecting and Printing the Operating System Platform
@@ -67,8 +64,6 @@ The objective of the code is to determine the type of operating system Python is
 - If the system is Windows, it prints "Running on Windows."
 - If it's a Unix-like system (such as Linux or macOS), it prints "Running on a Unix-like system."
 - For any other or unknown platforms, it prints "Running on an unknown platform."
-
-
 
 ```python
 import os
@@ -113,8 +108,6 @@ The objective of the code is to find and display the current working directory w
 import os
 os.getcwd()
 ```
-
-
 ### Output
 
     'C:\\Users\\UWX161178\\File_Management_Operations'
@@ -152,8 +145,6 @@ print(f"After Change: {os.getcwd()}")
 
 - Double forward slashes are sometimes used to separate directories. While this can work, it is less conventional and might cause unexpected behavior in some cases.
 - The objective is to change the current working directory to `D://os_library` using double forward slashes and verify the change by printing the current directory before and after the change.
-
-
 
 ```python
 import os
@@ -332,6 +323,33 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=True):
         print(f" - {filename}")
     print()  # Newline for better readability
 ```
+### Output
+
+      Current Directory: D://OS_Library
+      Subdirectories:
+       - AhmedSaeed
+       - AliSaeed
+       - Ijlal_Khan
+       - UmerSaeed
+      Files:
+       - Bilal_Iqbal.accdb
+       - New Text Document.txt
+
+      Current Directory: D://OS_Library\AhmedSaeed
+      Subdirectories:
+      Files:
+
+      Current Directory: D://OS_Library\AliSaeed
+      Subdirectories:
+      Files:
+      
+      Current Directory: D://OS_Library\Ijlal_Khan
+      Subdirectories:
+      Files:
+      
+      Current Directory: D://OS_Library\UmerSaeed
+      Subdirectories:
+      Files:
 
 ## Bottom-Up Directory Traversal with `os.walk()`
 
