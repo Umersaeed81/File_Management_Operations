@@ -307,7 +307,7 @@ except PermissionError:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
     
 
-## 5. `os.mkdir()`
+## 7. `os.mkdir()`
 
 - **Purpose:** Creates a single directory at the specified path.
 
@@ -361,7 +361,7 @@ os.listdir()
 
 
 
-## 6. `os.makedirs()`
+## 8. `os.makedirs()`
 
 - **Purpose:** Creates a directory tree, i.e., it can create intermediate directories if they do not exist.
 
@@ -416,7 +416,7 @@ os.listdir()
 
 
 
-## 7. `os.rmdir()`
+## 9. `os.rmdir()`
 
 - **Purpose:** Removes a single empty directory.
 
@@ -463,7 +463,7 @@ os.listdir()
 
 
 
-## 8. `os.removedirs()`
+## 10. `os.removedirs()`
 
 - **Purpose:** Removes a directory tree, meaning it will remove the specified directory and any empty parent directories.
 
@@ -511,7 +511,7 @@ os.listdir()
 
 
 
-## 9. `os.rename()`
+## 11. `os.rename()`
 
 - **Purpose:** Renames or moves a file or directory
 
@@ -605,7 +605,7 @@ except Exception as e:
     File moved to 'UmerSaeed\Kashif_Hameed.txt'.
     
 
-## 10. `os.stat()`
+## 12. `os.stat()`
 
 The `os.stat()` function in Python provides detailed information about a file or directory. It returns a `os.stat_result` object that contains various attributes related to the file or directory, such as its size, permissions, and modification times.
 
@@ -738,7 +738,7 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
     Group ID of the file owner: 0
     
 
-## 11. `os.path.exists(path)`
+## 13. `os.path.exists(path)`
 
 - Checks whether a specified path exists, **regardless of whether it is a file, directory, or symbolic link**.
 
@@ -771,7 +771,7 @@ print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
     False
     
 
-## 12. `os.path.isdir(path)`
+## 14. `os.path.isdir(path)`
 
 - Checks specifically whether a specified path exists **and is a directory**.
 - Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
@@ -802,7 +802,7 @@ print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
     False
     
 
-## 13. `isfile()`
+## 15. `isfile()`
 
 The `os.path.isfile()` function in Python is used to check whether a given path refers to an **existing regular file** (not a directory, symbolic link, or other type of entry). It returns `True` if the path is a file and exists; otherwise, it returns `False`.
 
@@ -834,7 +834,7 @@ print(os.path.isfile('D:\\os_library\\Umer_Saeed.accdb'))
     False
     
 
-## 14.`os.access(path, mode)`
+## 16.`os.access(path, mode)`
 
 - Checks the **access permissions** of a given path for the current process.
 
@@ -886,7 +886,7 @@ else:
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is executable.
     
 
-## 15. `os.scandir()`
+## 17. `os.scandir()`
 
 - Used to iterate over the contents of a directory, providing detailed information about each entry (file, directory, or symbolic link).
 
