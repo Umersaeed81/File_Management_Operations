@@ -1454,12 +1454,7 @@ print("Directory replaced successfully.")
 
 ## Output
     Directory replaced successfully.
-    
 
-
-```python
-
-```
 
 
 
