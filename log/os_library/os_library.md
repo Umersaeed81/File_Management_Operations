@@ -486,13 +486,13 @@ os.listdir()
 
 ### Output
 
-    ['AhmedSaeed',
-   'AliSaeed',
-   'Bilal_Iqbal.accdb',
-   'Ijlal_Khan',
-   'New Text Document.txt',
-   'new_directory',
-   'UmerSaeed']
+      ['AhmedSaeed',
+      'AliSaeed',
+      'Bilal_Iqbal.accdb',
+      'Ijlal_Khan',
+      'New Text Document.txt',
+      'new_directory',
+      'UmerSaeed']
 
 
 
