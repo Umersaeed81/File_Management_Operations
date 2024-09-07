@@ -375,6 +375,34 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=False):
 
 ```
 
+### Output
+
+      Current Directory: D://OS_Library\AhmedSaeed
+      Subdirectories:
+      Files:
+      
+      Current Directory: D://OS_Library\AliSaeed
+      Subdirectories:
+      Files:
+      
+      Current Directory: D://OS_Library\Ijlal_Khan
+      Subdirectories:
+      Files:
+      
+      Current Directory: D://OS_Library\UmerSaeed
+      Subdirectories:
+      Files:
+      
+      Current Directory: D://OS_Library
+      Subdirectories:
+       - AhmedSaeed
+       - AliSaeed
+       - Ijlal_Khan
+       - UmerSaeed
+      Files:
+       - Bilal_Iqbal.accdb
+       - New Text Document.txt
+
 ## 6. `os.path.join()`
 
 The `os.path.join()` function in Python is used to construct file and directory paths in a way that is compatible with the operating system’s path conventions. It ensures that the paths are correctly joined with the appropriate separators, making your code more portable across different operating systems (e.g., Windows, macOS, Linux).
@@ -410,7 +438,15 @@ for root, dirs, files in os.walk(dir):
     File: D://OS_Library\Bilal_Iqbal.accdb
     File: D://OS_Library\Umer.txt
     File: D://OS_Library\UmerSaeed\Kashif_Hameed.txt
-   
+
+### Output
+
+      Directory: D://OS_Library\AhmedSaeed
+      Directory: D://OS_Library\AliSaeed
+      Directory: D://OS_Library\Ijlal_Khan
+      Directory: D://OS_Library\UmerSaeed
+      File: D://OS_Library\Bilal_Iqbal.accdb
+      File: D://OS_Library\New Text Document.txt
 
 ## 7. `os.mkdir()`
 
@@ -457,12 +493,12 @@ os.listdir()
 ### Output
 
     ['AhmedSaeed',
-     'AliSaeed',
-     'Bilal_Iqbal.accdb',
-     'Ijlal_Khan',
-     'New Text Document.txt',
-     'new_directory',
-     'UmerSaeed']
+   'AliSaeed',
+   'Bilal_Iqbal.accdb',
+   'Ijlal_Khan',
+   'New Text Document.txt',
+   'new_directory',
+   'UmerSaeed']
 
 
 
@@ -552,7 +588,7 @@ except OSError as e:
 ```
 
 ## Output
-    Directory 'new_directory' does not exist.    
+    Directory 'new_directory' removed successfully.   
 
 ```python
 os.listdir()
@@ -612,7 +648,7 @@ os.listdir()
      'Bilal_Iqbal.accdb',
      'Ijlal_Khan',
      'New Text Document.txt',
-     'UmerSaeed']
+     'UmerSaeed]
 
 
 
@@ -653,6 +689,18 @@ except Exception as e:
     File renamed from 'New Text Document.txt' to 'Kashif_Hameed.txt'.
     
 
+```python
+os.listdir()
+```
+
+    ['AhmedSaeed',
+     'AliSaeed',
+     'Bilal_Iqbal.accdb',
+     'Ijlal_Khan',
+     'Kashif_Hameed.txt',
+     'UmerSaeed]
+
+
 ## Renaming a Directorywith Error Handling in Python
 
 The objective of the code is to rename a directory from `AhmedSaeed` to `AhmadSaeed` using Python's `os.rename` function. The code attempts to rename the specified directory and, if successful, prints a confirmation message. If the original directory does not exist (`FileNotFoundError`), if there is no permission to rename the directory (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
@@ -679,10 +727,28 @@ except Exception as e:
     File renamed from 'AhmedSaeed' to 'AhmadSaeed'.
     
 
+```python
+os.listdir()
+```
+
+    ['AhmadSaeed',
+     'AliSaeed',
+     'Bilal_Iqbal.accdb',
+     'Ijlal_Khan',
+     'Kashif_Hameed.txt',
+     'UmerSaeed]
+
+
+
 ## Moving a File to a Different Directory
 
 The objective of the code is to move a file named `Kashif_Hameed.txt` to a new directory named `UmerSaeed` using Python's `os.rename` function. The code first checks if the target directory exists, and if not, it creates the directory using `os.makedirs`. It then attempts to move the file to the new location. If the file is moved successfully, it prints a confirmation message. If the file does not exist (`FileNotFoundError`), if there is no permission to move the file (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
 
+
+```python
+os.listdir('D:/os_library/UmerSaeed')
+```
+    []
 
 ```python
 import os
@@ -708,7 +774,11 @@ except Exception as e:
 ```
 ### Output
     File moved to 'UmerSaeed\Kashif_Hameed.txt'.
-    
+
+  ```python
+os.listdir('D:/os_library/UmerSaeed')
+```
+    ['Kashif_Hameed.txt']  
 
 ## 12. `os.stat()`
 
@@ -783,15 +853,15 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```
 ### Output
 
-    Directory size: 0.00 GB
-    Last modified: Thu Sep  5 14:49:34 2024
-    Last accessed: Thu Sep  5 22:38:32 2024
-    File permissions: 0o100666
-    Inode number: 40813871623052307
-    Device ID: 1347891562
-    Number of hard links: 1
-    User ID of the file owner: 0
-    Group ID of the file owner: 0
+      Directory size: 0.00 GB
+      Last modified: Thu Sep  5 14:49:34 2024
+      Last accessed: Sat Sep  7 12:36:12 2024
+      File permissions: 0o100666
+      Inode number: 39406496739499728
+      Device ID: 1347891562
+      Number of hard links: 1
+      User ID of the file owner: 0
+      Group ID of the file owner: 0
     
 
 ## Directory Information
@@ -832,15 +902,15 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```
 ### Output
 
-    Directory size: 0.00 GB
-    Last modified: Thu Sep  5 22:41:21 2024
-    Last accessed: Thu Sep  5 22:52:08 2024
-    File permissions: 0o40777
-    Inode number: 42221246506606085
-    Device ID: 1347891562
-    Number of hard links: 1
-    User ID of the file owner: 0
-    Group ID of the file owner: 0
+      Directory size: 0.00 GB
+      Last modified: Sat Sep  7 12:36:53 2024
+      Last accessed: Sat Sep  7 12:36:53 2024
+      File permissions: 0o40777
+      Inode number: 42221246506606085
+      Device ID: 1347891562
+      Number of hard links: 1
+      User ID of the file owner: 0
+      Group ID of the file owner: 0
     
 
 ## 13. `os.path.exists(path)`
@@ -1034,66 +1104,57 @@ with os.scandir(directory_path) as entries:
 
 ### Output
 
-    Name: AhmadSaeed
-    Path: D://OS_Library\AhmadSaeed
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 18:09:56 2024
-    Inode number: 38562071809366986
-    Filesystem path: D://OS_Library\AhmadSaeed
-    ----------------------------------------
-    Name: AliSaeed
-    Path: D://OS_Library\AliSaeed
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 14:50:32 2024
-    Inode number: 40813871623052306
-    Filesystem path: D://OS_Library\AliSaeed
-    ----------------------------------------
-    Name: Bilal_Iqbal.accdb
-    Path: D://OS_Library\Bilal_Iqbal.accdb
-    Is File: True
-    Is Directory: False
-    Is Symlink: False
-    File size: 495616 bytes
-    Last modified: Fri Sep  6 00:19:43 2024
-    Inode number: 40813871623052307
-    Filesystem path: D://OS_Library\Bilal_Iqbal.accdb
-    ----------------------------------------
-    Name: Ijlal_Khan
-    Path: D://OS_Library\Ijlal_Khan
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 20:04:24 2024
-    Inode number: 42502721483316406
-    Filesystem path: D://OS_Library\Ijlal_Khan
-    ----------------------------------------
-    Name: Umer.txt
-    Path: D://OS_Library\Umer.txt
-    Is File: True
-    Is Directory: False
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Fri Sep  6 00:12:34 2024
-    Inode number: 42221246506606416
-    Filesystem path: D://OS_Library\Umer.txt
-    ----------------------------------------
-    Name: UmerSaeed
-    Path: D://OS_Library\UmerSaeed
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 22:41:21 2024
-    Inode number: 42784196460027090
-    Filesystem path: D://OS_Library\UmerSaeed
-    ----------------------------------------
+      Name: AhmadSaeed
+      Path: D://OS_Library\AhmadSaeed
+      Is File: False
+      Is Directory: True
+      Is Symlink: False
+      File size: 0 bytes
+      Last modified: Thu Sep  5 18:09:56 2024
+      Inode number: 40250921669631690
+      Filesystem path: D://OS_Library\AhmadSaeed
+      ----------------------------------------
+      Name: AliSaeed
+      Path: D://OS_Library\AliSaeed
+      Is File: False
+      Is Directory: True
+      Is Symlink: False
+      File size: 0 bytes
+      Last modified: Thu Sep  5 14:50:32 2024
+      Inode number: 39406496739499723
+      Filesystem path: D://OS_Library\AliSaeed
+      ----------------------------------------
+      Name: Bilal_Iqbal.accdb
+      Path: D://OS_Library\Bilal_Iqbal.accdb
+      Is File: True
+      Is Directory: False
+      Is Symlink: False
+      File size: 495616 bytes
+      Last modified: Thu Sep  5 14:49:34 2024
+      Inode number: 39406496739499728
+      Filesystem path: D://OS_Library\Bilal_Iqbal.accdb
+      ----------------------------------------
+      Name: Ijlal_Khan
+      Path: D://OS_Library\Ijlal_Khan
+      Is File: False
+      Is Directory: True
+      Is Symlink: False
+      File size: 0 bytes
+      Last modified: Thu Sep  5 20:04:24 2024
+      Inode number: 38843546786078417
+      Filesystem path: D://OS_Library\Ijlal_Khan
+      ----------------------------------------
+      Name: UmerSaeed
+      Path: D://OS_Library\UmerSaeed
+      Is File: False
+      Is Directory: True
+      Is Symlink: False
+      File size: 0 bytes
+      Last modified: Sat Sep  7 12:36:53 2024
+      Inode number: 45317471250423507
+      Filesystem path: D://OS_Library\UmerSaeed
+      ----------------------------------------
+
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
