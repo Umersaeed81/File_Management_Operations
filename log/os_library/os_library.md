@@ -1381,7 +1381,7 @@ file_path = "D:/os_library"
 dirname = os.path.dirname(file_path)
 print(dirname) 
 ```
-
+### Output
     D:/
     
 
@@ -1405,7 +1405,7 @@ file_path = "D:/os_library"
 size = os.path.getsize(file_path)
 print(f"Size of {file_path}: {size} bytes")
 ```
-
+### Output
     Size of D:/os_library: 4096 bytes
     
 
