@@ -305,7 +305,94 @@ except PermissionError:
 ### Output
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'UmerSaeed']
+
+ ## 5. `os.walk()`
+
+The `os.walk()` function in Python is a powerful utility for navigating through directories and subdirectories in a file system. It generates the file names in a directory tree, rooted at a specified directory, and allows you to iterate over all the directories and files within that tree.
+
+## Top-Down Directory Traversal with `os.walk()`
+
+This example demonstrates how to use `os.walk()` with the `topdown=True` parameter to traverse a directory tree from the top directory down to its subdirectories and files.
+
+
+```python
+import os
+
+# Directory to start from
+root_dir = 'D://OS_Library'
+
+# Traverse the directory tree
+for dirpath, dirnames, filenames in os.walk(root_dir,topdown=True):
+    print(f"Current Directory: {dirpath}")
+    print("Subdirectories:")
+    for dirname in dirnames:
+        print(f" - {dirname}")
+    print("Files:")
+    for filename in filenames:
+        print(f" - {filename}")
+    print()  # Newline for better readability
+```
+
+## Bottom-Up Directory Traversal with `os.walk()`
+
+This example illustrates the use of `os.walk()` with the `topdown=False` parameter to traverse a directory tree from the bottom subdirectories up to the top directory.
+
+
+```python
+import os
+
+# Directory to start from
+root_dir = 'D://OS_Library'
+
+# Traverse the directory tree
+for dirpath, dirnames, filenames in os.walk(root_dir,topdown=False):
+    print(f"Current Directory: {dirpath}")
+    print("Subdirectories:")
+    for dirname in dirnames:
+        print(f" - {dirname}")
+    print("Files:")
+    for filename in filenames:
+        print(f" - {filename}")
+    print()  # Newline for better readability
+
+```
+
+## 6. `os.path.join()`
+
+The `os.path.join()` function in Python is used to construct file and directory paths in a way that is compatible with the operating system’s path conventions. It ensures that the paths are correctly joined with the appropriate separators, making your code more portable across different operating systems (e.g., Windows, macOS, Linux).
+
+## Listing All Directories and Files in a Directory Tree Using `os.walk()` and `os.path.join()`
+
+The objective of this code is to traverse a specified directory tree and list all directories and files within it. Using `os.walk()`, the code iterates through each directory and subdirectory starting from the given root directory. For each directory and file encountered, it constructs their full paths using `os.path.join()` and prints them. This approach provides a comprehensive view of the directory structure and file organization, facilitating tasks such as directory auditing, file management, and system analysis.
+
+
+```python
+import os
+
+# Ensure the provided path is absolute
+dir = 'D://OS_Library'
+
+# Walk the directory tree
+for root, dirs, files in os.walk(dir):
+    # List directories
+    for dir_name in dirs:
+        dir_path = os.path.join(root, dir_name)
+        print(f"Directory: {dir_path}")
     
+    # List files
+    for file_name in files:
+        file_path = os.path.join(root, file_name)
+        print(f"File: {file_path}")
+```
+
+    Directory: D://OS_Library\AhmadSaeed
+    Directory: D://OS_Library\AliSaeed
+    Directory: D://OS_Library\Ijlal_Khan
+    Directory: D://OS_Library\UmerSaeed
+    File: D://OS_Library\Bilal_Iqbal.accdb
+    File: D://OS_Library\Umer.txt
+    File: D://OS_Library\UmerSaeed\Kashif_Hameed.txt
+   
 
 ## 7. `os.mkdir()`
 
