@@ -431,13 +431,7 @@ for root, dirs, files in os.walk(dir):
         print(f"File: {file_path}")
 ```
 
-    Directory: D://OS_Library\AhmadSaeed
-    Directory: D://OS_Library\AliSaeed
-    Directory: D://OS_Library\Ijlal_Khan
-    Directory: D://OS_Library\UmerSaeed
-    File: D://OS_Library\Bilal_Iqbal.accdb
-    File: D://OS_Library\Umer.txt
-    File: D://OS_Library\UmerSaeed\Kashif_Hameed.txt
+
 
 ### Output
 
