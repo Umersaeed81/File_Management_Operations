@@ -1408,6 +1408,58 @@ print(f"Size of {file_path}: {size} bytes")
 ### Output
     Size of D:/os_library: 4096 bytes
     
+## 24. `os.replace()`
+
+The `os.replace()` function in Python is used to replace a file or directory at a given path with a new file or directory. If the destination file already exists, it will be replaced by the source file. This function is particularly useful when you need to replace files while ensuring that no data is lost or corrupted during the replacement process.
+
+## Replacing a File
+
+Suppose you have a file `New_version.xlsx` and you want to replace it with `Old_version.xlsx`. You can use `os.replace()` to perform this operation.
+
+
+```python
+import os
+
+# Paths to the source and destination files
+src = 'D:/os_library/New_version.xlsx'
+dst = 'D:/os_library/old_version.xlsx'  # Fully qualified path
+
+# Replace the old version with the new version
+os.replace(src, dst)
+
+print("File replaced successfully.")
+
+```
+## Output
+    File replaced successfully.
+    
+
+## Replacing a Directory
+
+Similarly, you can use `os.replace()` to replace a directory.
+
+
+```python
+import os
+
+# Paths to the source and destination files
+src = 'D:/os_library/AhmadSaeed'
+dst = 'D:/os_library/AhmedSaeed'
+
+# Replace the old data directory with the new data directory
+os.replace(src, dst)
+
+print("Directory replaced successfully.")
+```
+
+## Output
+    Directory replaced successfully.
+    
+
+
+```python
+
+```
 
 
 
