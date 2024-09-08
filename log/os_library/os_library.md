@@ -222,6 +222,9 @@ print(f"After Change: {os.getcwd()}")
 
 - If you use backslashes in regular strings without specifying them as raw strings, you might encounter issues due to [escape sequences being interpreted by Python](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Handling_Special_Characters_in_Strings_and_File_Paths.md).
 
+## Listing Directory Contents
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-18.png?raw=true)
 
 ## 4. `os.listdir()`
 
@@ -350,7 +353,8 @@ except PermissionError:
 
 - Efficient and provides a way to access file or directory metadata without making separate system calls.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-18.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-27.png?raw=true)
+
 
 ## Exploring Directory Contents and Retrieving File Information
 
