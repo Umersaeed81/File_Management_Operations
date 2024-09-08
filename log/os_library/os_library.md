@@ -128,7 +128,7 @@ os.getcwd()
 
 
 
-    'C:\\Users\\UWX161178\\File_handing_book'
+    'C:\\Users\\Pakistan\\File_handing_book'
 
 
 
@@ -157,7 +157,7 @@ os.chdir('D:/os_library')  # Use forward slashes
 print(f"After Change: {os.getcwd()}")
 ```
 
-    Before Change: C:\Users\UWX161178\File_handing_book
+    Before Change: C:\Users\Pakistan\File_handing_book
     After Change: D:\os_library
     
 
@@ -1419,7 +1419,7 @@ os.path.expanduser('~')
 
 
 
-    'C:\\Users\\UWX161178'
+    'C:\\Users\\Pakistan'
 
 
 
@@ -1434,7 +1434,7 @@ os.path.expanduser('~/Daily_Audits_26052024')
 
 
 
-    'C:\\Users\\UWX161178/Daily_Audits_26052024'
+    'C:\\Users\\Pakistan/Daily_Audits_26052024'
 
 
 
@@ -1454,7 +1454,7 @@ else:
     print("The path does not exist.")
 ```
 
-    Expanded Path: C:\Users\UWX161178/Daily_Audits_26052024
+    Expanded Path: C:\Users\Pakistan/Daily_Audits_26052024
     The path exists.
     
 
