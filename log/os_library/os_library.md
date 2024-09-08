@@ -44,7 +44,7 @@ The `os` library is an essential tool for Python developers and system administr
 
 - Navigating the file system (`os.getcwd()`, `os.chdir()`)
 - Creating and deleting directories (`os.mkdir()`, `os.rmdir()`)
-- Listing directory contents (`os.listdir()`)
+- Listing directory contents (`os.listdir()`,`os.scandir()`)
 - Renaming and moving files (`os.rename()`, `os.replace()`)
 - Handling file paths (`os.path module`)
 
