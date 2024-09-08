@@ -74,7 +74,7 @@ import os
 os.name
 ```
 ### Output
-      'nt'
+    'nt'
 
 ## Detecting and Printing the Operating System Platform
 
