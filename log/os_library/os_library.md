@@ -99,7 +99,7 @@ else:
     Running on Windows
     
 
-## 2. `getcwd()`
+## 2. `os.getcwd()`
 
 The `os.getcwd()` function in Python is used to **get the current working directory** of a Python script or interpreter session. The "current working directory" is the folder from which the Python script is being run or where the interpreter is currently located.
 
