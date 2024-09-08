@@ -98,6 +98,7 @@ else:
 
     Running on Windows
     
+## Navigating the file system
 
 ## 2. `os.getcwd()`
 
@@ -493,7 +494,7 @@ for root, dirs, files in os.walk(dir):
     File: D://OS_Library\New_version.xlsx
     
 
-## `os.mkdir` -vs- `os.makedirs()`
+## Creating Directories
 
 - **`os.mkdir()`:** Creates a single directory. If the directory you want to create already exists, it will give an error.
 
@@ -622,7 +623,7 @@ os.listdir()
 
 
 
-## `os.rmdir()` -vs- `os.removedirs()`
+## Deleting Directories
 
 - **`os.rmdir()`:** Removes a single, empty directory. If the directory isn’t empty, it will give an error.
 
@@ -740,7 +741,7 @@ os.listdir()
 
 
 
-## `os.rename()` -vs-  `os.replace()`
+## Renaming and Moving Files
 
 **`os.rename()`:** Renames a file or directory. If the target name already exists, it will give an error.
 
