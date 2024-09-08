@@ -135,7 +135,7 @@ os.getcwd()
 
 
 
-## 3. `os.chdir`
+## 3. `os.chdir()`
 
 In Python, the `os.chdir()` function is used to change the current working directory. The path you provide to `os.chdir()` can be specified in several ways, depending on the format and type of path you use. Below are different approaches to change the directory:
 
