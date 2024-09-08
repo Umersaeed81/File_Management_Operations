@@ -1270,7 +1270,7 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
 
 The objective of the code is to verify and display whether the specified directory and files exist at the given paths.
 
-
+### Example
 ```python
 print(os.path.exists('D:\\os_library'))
 ```
@@ -1278,7 +1278,7 @@ print(os.path.exists('D:\\os_library'))
     True
     
 
-
+### Example
 ```python
 print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
@@ -1286,7 +1286,7 @@ print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
     True
     
 
-
+### Example
 ```python
 print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 ```
@@ -1305,7 +1305,7 @@ print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 
 The objective of the code is to check and print whether the specified paths are directories.
 
-
+### Example
 ```python
 print(os.path.isdir('D:\\os_library'))
 ```
@@ -1313,7 +1313,7 @@ print(os.path.isdir('D:\\os_library'))
     True
     
 
-
+### Example
 ```python
 print(os.path.isdir('D:\\os_library1'))
 ```
@@ -1321,7 +1321,7 @@ print(os.path.isdir('D:\\os_library1'))
     False
     
 
-
+### Example
 ```python
 print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
@@ -1339,7 +1339,7 @@ The `os.path.isfile()` function in Python is used to check whether a given path 
 
 The objective of the code is to check and print whether the specified paths are files.
 
-
+### Example
 ```python
 print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
@@ -1347,7 +1347,7 @@ print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
     True
     
 
-
+### Example
 ```python
 print(os.path.isfile('D:\\os_library'))
 ```
@@ -1355,7 +1355,7 @@ print(os.path.isfile('D:\\os_library'))
     False
     
 
-
+### Example
 ```python
 print(os.path.isfile('D:\\os_library\\Umer_Saeed.accdb'))
 ```
