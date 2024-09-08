@@ -71,7 +71,10 @@ The objective of the code is to find out the name of the operating system that P
 
 ```python
 import os
+os.name
 ```
+### Output
+      'nt'
 
 ## Detecting and Printing the Operating System Platform
 
