@@ -342,7 +342,114 @@ except PermissionError:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
     
 
- ## 5. `os.walk()`
+## 5. `os.scandir()`
+
+- Used to iterate over the contents of a directory, providing detailed information about each entry (file, directory, or symbolic link).
+
+- Returns `DirEntry` objects that have methods like `.is_file()`, `.is_dir()`, and `.is_symlink()` to check the type of each entry.
+
+- Efficient and provides a way to access file or directory metadata without making separate system calls.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-18.png?raw=true)
+
+## Exploring Directory Contents and Retrieving File Information
+
+The objective of the code is to explore and print detailed information about the contents of a specified directory (`D://OS_Library`). Using `os.scandir`, it retrieves and displays the name, full path, type (file or directory), and symbolic link status of each entry. Additionally, it provides file size, last modified time, inode number, and filesystem path representation for each entry.
+
+
+```python
+import os
+
+# Specify the directory path
+directory_path = 'D://OS_Library'
+
+# Use os.scandir to get DirEntry objects
+with os.scandir(directory_path) as entries:
+    for entry in entries:
+        print(f"Name: {entry.name}")  # Base name of the entry
+        print(f"Path: {entry.path}")  # Full path of the entry
+        print(f"Is File: {entry.is_file()}")  # Is it a file?
+        print(f"Is Directory: {entry.is_dir()}")  # Is it a directory?
+        print(f"Is Symlink: {entry.is_symlink()}")  # Is it a symbolic link?")
+        
+        # Get file status information
+        stat_info = entry.stat()
+        print(f"File size: {stat_info.st_size} bytes")
+        print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
+        
+        # Get inode number
+        print(f"Inode number: {entry.inode()}")
+
+        # File system path representation
+        print(f"Filesystem path: {entry.__fspath__()}")
+        print("-" * 40)
+
+```
+### Output
+
+    Name: AhmedSaeed
+    Path: D://OS_Library\AhmedSaeed
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 18:09:56 2024
+    Inode number: 57702370225695269
+    Filesystem path: D://OS_Library\AhmedSaeed
+    ----------------------------------------
+    Name: AliSaeed
+    Path: D://OS_Library\AliSaeed
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 14:50:32 2024
+    Inode number: 47569271064111657
+    Filesystem path: D://OS_Library\AliSaeed
+    ----------------------------------------
+    Name: Bilal_Iqbal.accdb
+    Path: D://OS_Library\Bilal_Iqbal.accdb
+    Is File: True
+    Is Directory: False
+    Is Symlink: False
+    File size: 495616 bytes
+    Last modified: Thu Sep  5 14:49:34 2024
+    Inode number: 36591746972396065
+    Filesystem path: D://OS_Library\Bilal_Iqbal.accdb
+    ----------------------------------------
+    Name: Ijlal_Khan
+    Path: D://OS_Library\Ijlal_Khan
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 20:04:24 2024
+    Inode number: 63894819713329706
+    Filesystem path: D://OS_Library\Ijlal_Khan
+    ----------------------------------------
+    Name: old_version.xlsx
+    Path: D://OS_Library\old_version.xlsx
+    Is File: True
+    Is Directory: False
+    Is Symlink: False
+    File size: 30549 bytes
+    Last modified: Sun Sep  8 11:39:37 2024
+    Inode number: 210261807602870820
+    Filesystem path: D://OS_Library\old_version.xlsx
+    ----------------------------------------
+    Name: UmerSaeed
+    Path: D://OS_Library\UmerSaeed
+    Is File: False
+    Is Directory: True
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Sun Sep  8 15:11:28 2024
+    Inode number: 45317471250426414
+    Filesystem path: D://OS_Library\UmerSaeed
+    ----------------------------------------
+
+
+ ## 6. `os.walk()`
 
 The `os.walk()` function in Python is a powerful utility for navigating through directories and subdirectories in a file system. It generates the file names in a directory tree, rooted at a specified directory, and allows you to iterate over all the directories and files within that tree.
 
@@ -456,7 +563,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=False):
     
     
 
-## 6. `os.path.join()`
+## 7. `os.path.join()`
 
 The `os.path.join()` function in Python is used to construct file and directory paths in a way that is compatible with the operating system’s path conventions. It ensures that the paths are correctly joined with the appropriate separators, making your code more portable across different operating systems (e.g., Windows, macOS, Linux).
 
@@ -504,7 +611,7 @@ for root, dirs, files in os.walk(dir):
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-07.png?raw=true)
 
-## 7. `os.mkdir()`
+## 8. `os.mkdir()`
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-07a.png?raw=true)
 
@@ -562,7 +669,7 @@ os.listdir()
 
 
 
-## 8. `os.makedirs()`
+## 9. `os.makedirs()`
 
 - **Purpose:** Creates a directory tree, i.e., it can create intermediate directories if they do not exist.
 
@@ -633,7 +740,7 @@ os.listdir()
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-09.png?raw=true)
 
-## 9. `os.rmdir()`
+## 10. `os.rmdir()`
 
 - **Purpose:** Removes a single empty directory.
 
@@ -688,7 +795,7 @@ os.listdir()
 
 
 
-## 10. `os.removedirs()`
+## 11. `os.removedirs()`
 
 - **Purpose:** Removes a directory tree, meaning it will remove the specified directory and any empty parent directories.
 
@@ -751,7 +858,7 @@ os.listdir()
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-11.png?raw=true)
 
-## 11. `os.rename()`
+## 12. `os.rename()`
 
 - **Purpose:** Renames or moves a file or directory.
 
@@ -918,7 +1025,7 @@ os.listdir('D:/os_library/UmerSaeed')
 
 
 
-## 12. `os.replace()`
+## 13. `os.replace()`
 
 The `os.replace()` function in Python is used to replace a file or directory at a given path with a new file or directory. If the destination file already exists, it will be replaced by the source file. This function is particularly useful when you need to replace files while ensuring that no data is lost or corrupted during the replacement process.
 
@@ -1002,7 +1109,7 @@ os.listdir()
 
 
 
-## 13. `os.stat()`
+## 14. `os.stat()`
 
 The `os.stat()` function in Python provides detailed information about a file or directory. It returns a `os.stat_result` object that contains various attributes related to the file or directory, such as its size, permissions, and modification times.
 
@@ -1147,7 +1254,7 @@ print(f"Group ID of the file owner: {stat_info.st_gid}")
     Group ID of the file owner: 0
     
 
-## 14. `os.path.exists(path)`
+## 15. `os.path.exists(path)`
 
 - Checks whether a specified path exists, **regardless of whether it is a file, directory, or symbolic link**.
 
@@ -1183,7 +1290,7 @@ print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
     False
     
 
-## 15. `os.path.isdir(path)`
+## 16. `os.path.isdir(path)`
 
 - Checks specifically whether a specified path exists **and is a directory**.
 - Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
@@ -1218,7 +1325,7 @@ print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
     False
     
 
-## 16. `isfile()`
+## 17. `isfile()`
 
 The `os.path.isfile()` function in Python is used to check whether a given path refers to an **existing regular file** (not a directory, symbolic link, or other type of entry). It returns `True` if the path is a file and exists; otherwise, it returns `False`.
 
@@ -1252,7 +1359,7 @@ print(os.path.isfile('D:\\os_library\\Umer_Saeed.accdb'))
     False
     
 
-## 17.`os.access(path, mode)`
+## 18.`os.access(path, mode)`
 
 - Checks the **access permissions** of a given path for the current process.
 
@@ -1312,111 +1419,6 @@ else:
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is executable.
     
 
-## 18. `os.scandir()`
-
-- Used to iterate over the contents of a directory, providing detailed information about each entry (file, directory, or symbolic link).
-
-- Returns `DirEntry` objects that have methods like `.is_file()`, `.is_dir()`, and `.is_symlink()` to check the type of each entry.
-
-- Efficient and provides a way to access file or directory metadata without making separate system calls.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-18.png?raw=true)
-
-## Exploring Directory Contents and Retrieving File Information
-
-The objective of the code is to explore and print detailed information about the contents of a specified directory (`D://OS_Library`). Using `os.scandir`, it retrieves and displays the name, full path, type (file or directory), and symbolic link status of each entry. Additionally, it provides file size, last modified time, inode number, and filesystem path representation for each entry.
-
-
-```python
-import os
-
-# Specify the directory path
-directory_path = 'D://OS_Library'
-
-# Use os.scandir to get DirEntry objects
-with os.scandir(directory_path) as entries:
-    for entry in entries:
-        print(f"Name: {entry.name}")  # Base name of the entry
-        print(f"Path: {entry.path}")  # Full path of the entry
-        print(f"Is File: {entry.is_file()}")  # Is it a file?
-        print(f"Is Directory: {entry.is_dir()}")  # Is it a directory?
-        print(f"Is Symlink: {entry.is_symlink()}")  # Is it a symbolic link?")
-        
-        # Get file status information
-        stat_info = entry.stat()
-        print(f"File size: {stat_info.st_size} bytes")
-        print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
-        
-        # Get inode number
-        print(f"Inode number: {entry.inode()}")
-
-        # File system path representation
-        print(f"Filesystem path: {entry.__fspath__()}")
-        print("-" * 40)
-
-```
-### Output
-
-    Name: AhmedSaeed
-    Path: D://OS_Library\AhmedSaeed
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 18:09:56 2024
-    Inode number: 57702370225695269
-    Filesystem path: D://OS_Library\AhmedSaeed
-    ----------------------------------------
-    Name: AliSaeed
-    Path: D://OS_Library\AliSaeed
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 14:50:32 2024
-    Inode number: 47569271064111657
-    Filesystem path: D://OS_Library\AliSaeed
-    ----------------------------------------
-    Name: Bilal_Iqbal.accdb
-    Path: D://OS_Library\Bilal_Iqbal.accdb
-    Is File: True
-    Is Directory: False
-    Is Symlink: False
-    File size: 495616 bytes
-    Last modified: Thu Sep  5 14:49:34 2024
-    Inode number: 36591746972396065
-    Filesystem path: D://OS_Library\Bilal_Iqbal.accdb
-    ----------------------------------------
-    Name: Ijlal_Khan
-    Path: D://OS_Library\Ijlal_Khan
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Thu Sep  5 20:04:24 2024
-    Inode number: 63894819713329706
-    Filesystem path: D://OS_Library\Ijlal_Khan
-    ----------------------------------------
-    Name: old_version.xlsx
-    Path: D://OS_Library\old_version.xlsx
-    Is File: True
-    Is Directory: False
-    Is Symlink: False
-    File size: 30549 bytes
-    Last modified: Sun Sep  8 11:39:37 2024
-    Inode number: 210261807602870820
-    Filesystem path: D://OS_Library\old_version.xlsx
-    ----------------------------------------
-    Name: UmerSaeed
-    Path: D://OS_Library\UmerSaeed
-    Is File: False
-    Is Directory: True
-    Is Symlink: False
-    File size: 0 bytes
-    Last modified: Sun Sep  8 15:11:28 2024
-    Inode number: 45317471250426414
-    Filesystem path: D://OS_Library\UmerSaeed
-    ----------------------------------------
     
 
 ## 19. `os.path.expanduser()`
