@@ -721,8 +721,11 @@ Takes an additional argument mode to specify the type of access check:
 
 
 | 1   | `os.F_OK`   | Check if the path exists (similar to `os.path.exists()`).  |
+
 | 2   | `os.R_OK`   | Check if the path is readable.   |
+
 | 3   | `os.W_OK`   | Check if the path is writable.   |
+
 | 4   | `os.X_OK`   | Check if the path is executable  |
 
 ### 1. os.F_OK
