@@ -26,13 +26,21 @@ Effective management of files and directories is essential for maintaining a wel
 
 A **directory** (often referred to as a folder) is a container that holds files and other directories. It serves as a primary means of organizing and storing data, providing a structured way to categorize related files. Directories enable users to logically group files, making it easier to locate and manage them. For example, a directory named "Projects" might contain multiple files related to various ongoing projects, providing a single location to manage and access them efficiently.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Directory.png?raw=true)
+
 ## Understanding Subdirectories
 
 A **subdirectory** is a directory nested within another directory. Subdirectories offer a more granular level of organization, allowing users to further categorize data under specific themes or projects. For instance, within the "Projects" directory, you might have subdirectories like "Project_A" and "Project_B," each containing its own set of files. This hierarchical structure supports deeper organization, making it easier to maintain, navigate, and manage larger sets of data.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Subdirectory.png?raw=true)
+
 ## What is a File?
 
 A **file** is a basic unit of storage that contains data, such as text, images, code, or any other type of content. Files are the primary objects that directories and subdirectories are designed to manage. Each file is stored with a specific name and extension (e.g., `.txt`, `.jpg`, `.py`), which helps in identifying its type and purpose. Managing files involves operations like creating, reading, writing, deleting, and renaming, which are fundamental to any file management system.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/File.png?raw=true)
+
+This chapter will guide you through the practical applications of the `os` library, demonstrating how to automate repetitive file operations, implement effective directory structures, and manage files with ease. Whether you are organizing datasets, managing configuration files, or maintaining backups, mastering the `os` library will enhance your ability to create a robust and organized file system.
 
 # The Role of the `os` Library in Python
 
@@ -42,15 +50,13 @@ With a clear understanding of directories, subdirectories, and files, the next s
 
 The `os` library is an essential tool for Python developers and system administrators who need to handle file and directory operations efficiently. By leveraging its comprehensive functions, you can perform tasks such as:
 
-- Navigating the file system (`os.getcwd()`, `os.chdir()`)
-- Creating and deleting directories (`os.mkdir()`, `os.rmdir()`)
-- Listing directory contents (`os.listdir()`,`os.scandir()`)
-- Renaming and moving files (`os.rename()`, `os.replace()`)
-- Handling file paths (`os.path module`)
+## 1. Understanding the Operating System
 
-This chapter will guide you through the practical applications of the `os` library, demonstrating how to automate repetitive file operations, implement effective directory structures, and manage files with ease. Whether you are organizing datasets, managing configuration files, or maintaining backups, mastering the `os` library will enhance your ability to create a robust and organized file system.
+When working with file and directory management in Python, it's crucial to have a basic understanding of the operating system on which your code is running. Different operating systems, such as Windows, macOS, and Linux, have their own file structures, path conventions, and system commands. This can affect how certain operations are performed, such as navigating directories, checking file paths, and managing file permissions. By understanding the underlying operating system, you can write more robust and adaptable code that works seamlessly across different environments.
 
-## 1. `os.name`
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/understanding_the%20os.png?raw=true)
+
+## a). `os.name`
 
 In Python, `os.name` provides a simple way to identify the platform or operating system on which the Python interpreter is currently running. The output `'nt'` indicates that the operating system is **Windows**.
 
@@ -73,8 +79,13 @@ The objective of the code is to find out the name of the operating system that P
 import os
 os.name
 ```
-### Output
+
+
+
+
     'nt'
+
+
 
 ## Detecting and Printing the Operating System Platform
 
@@ -94,33 +105,48 @@ elif os.name == 'posix':
 else:
     print("Running on an unknown platform")
 ```
-### Output
 
     Running on Windows
     
-## Navigating the file system
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-25.png?raw=true)
+## 2. Navigating the File System
 
-## 2. `os.getcwd()`
+Navigating the file system is a fundamental aspect of managing files and directories in any programming environment. It involves moving between different directories, identifying the current location, and accessing specific files or folders. This is crucial for tasks such as reading from or writing to files, organizing data, and automating workflows. A solid grasp of how to navigate the file system allows you to interact efficiently with the operating system, making it easier to handle files and directories dynamically within your programs. Understanding these basic operations lays the foundation for more advanced file management techniques
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/navigating_the_file_system.png?raw=true)
+
+Key `os` Functions for Navigating the File System are;
+
+- `os.getcwd()`
+- `os.chdir()`
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Navigating_the_File_System.png?raw=true)
+
+## a). `os.getcwd()`
 
 The `os.getcwd()` function in Python is used to **get the current working directory** of a Python script or interpreter session. The "current working directory" is the folder from which the Python script is being run or where the interpreter is currently located.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-02.png?raw=true)
-
 Here is a summary of the key points about the `os.getcwd()` function and its usefulness:
 
-- **Returns an Absolute Path:** `os.getcwd()` returns the absolute path of the current working directory, which includes the full directory path starting from the root of the filesystem.
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/get_the_current_working_directory.png?raw=true)
 
-- **Useful for File Operations:** When you want to perform file operations, knowing the current working directory is crucial, especially when using relative paths.
+### Returns an Absolute Path 
+`os.getcwd()` returns the absolute path of the current working directory, which includes the full directory path starting from the root of the filesystem.
 
-- **Does Not Change the Directory:**  It only returns the current directory path and does not change it. If you want to change the working directory, you would use `os.chdir()`.
+### Useful for File Operations 
+When you want to perform file operations, knowing the current working directory is crucial, especially when using relative paths.
 
-- **Building File Paths Dynamically:** When you need to create or access files relative to the current working directory.
+### Does Not Change the Directory
+It only returns the current directory path and does not change it. If you want to change the working directory, you would use `os.chdir()`.
 
-- **Debugging:** Helps to understand where the script is executing, especially when dealing with relative paths.
+### Building File Paths Dynamically
+When you need to create or access files relative to the current working directory.
 
-- **Cross-Platform Compatibility:** Useful for writing code that needs to run on different operating systems without hardcoding file paths.
+### Debugging
+Helps to understand where the script is executing, especially when dealing with relative paths.
+
+### Cross-Platform Compatibility
+Useful for writing code that needs to run on different operating systems without hardcoding file paths.
 
 ## Retrieving the Current Working Directory
 
@@ -132,21 +158,22 @@ import os
 os.getcwd()
 ```
 
-### Output
+
+
 
     'C:\\Users\\Pakistan\\File_handing_book'
 
 
 
-## 3. `os.chdir()`
+## b). `os.chdir()`
 
 In Python, the `os.chdir()` function is used to change the current working directory. The path you provide to `os.chdir()` can be specified in several ways, depending on the format and type of path you use. 
 
 Below are different approaches to change the directory:
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-03.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_chdir.png?raw=true)
 
-## Changing the Current Working Directory Using Forward Slashes
+### Changing the Current Working Directory Using Forward Slashes
 
 -  Forward slashes are universally accepted as path separators in Python, even on Windows systems. This approach is straightforward and avoids issues with escape sequences.
 - The objective is to change the current working directory to `D:/os_library` using forward slashes and verify the change by printing the current directory before and after the change.
@@ -164,13 +191,12 @@ os.chdir('D:/os_library')  # Use forward slashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
-### Output
 
     Before Change: C:\Users\Pakistan\File_handing_book
     After Change: D:\os_library
     
 
-## Changing the Current Working Directory Using Double Forward Slashes
+### Changing the Current Working Directory Using Double Forward Slashes
 
 - Double forward slashes are sometimes used to separate directories. While this can work, it is less conventional and might cause unexpected behavior in some cases.
 - The objective is to change the current working directory to `D://os_library` using double forward slashes and verify the change by printing the current directory before and after the change.
@@ -188,13 +214,12 @@ os.chdir('D://os_library')  # Use double forward slashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
-### Output
 
     Before Change: D:\os_library
     After Change: D:\os_library
     
 
-## Changing the Current Working Directory Using a Raw String for Backslashes    
+### Changing the Current Working Directory Using a Raw String for Backslashes
 
 -  On Windows, backslashes (`\`) are typically used as path separators. To avoid problems with escape characters, you can use raw strings by prefixing the string with r, which treats backslashes as literal characters.
 - The objective is to change the current working directory to `D:\os_library` using a raw string to handle backslashes and verify the change by printing the current directory before and after the change.
@@ -212,25 +237,33 @@ os.chdir(r'D:\os_library')  # Use raw string to handle backslashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
-### Output
 
     Before Change: D:\os_library
     After Change: D:\os_library
     
 
-## Using Backslashes (`\`) without Raw Strings
+### Using Backslashes (`\`) without Raw Strings
 
 - If you use backslashes in regular strings without specifying them as raw strings, you might encounter issues due to [escape sequences being interpreted by Python](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Handling_Special_Characters_in_Strings_and_File_Paths.md).
 
-## Listing Directory Contents
+## 3. Listing Directory Contents
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-18.png?raw=true)
+Listing the contents of a directory is a fundamental operation that allows you to view all files and subdirectories within a specified location. This is essential for understanding the structure of the file system, locating specific files, and performing bulk operations, such as copying, moving, or deleting files. By listing directory contents, you can also gather information about file types, names, sizes, and modification dates, which is helpful for data analysis, cleanup tasks, and managing large collections of files. Effective directory listing is a key step in many automation and data management workflows.
 
-## 4. `os.listdir()`
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/listing_contents.png?raw=true)
+
+Key `os` Functions for Listing Directory Contents System are;
+
+- `os.listdir()`
+- `os.scandir()`
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Listing_Directory_Contents.png?raw=true)
+
+## a). `os.listdir()`
 
 The `os.listdir()` function in Python is used to **list all files and directories** in a specified directory. If no directory is specified, it defaults to listing the contents of the current working directory.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-04.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-02.png?raw=true)
 
 - **Function Signature:** `os.listdir(path='.')`:
   - `path (optional):` The directory path you want to list. If omitted, it defaults to the current working directory `('.')`.
@@ -238,7 +271,6 @@ The `os.listdir()` function in Python is used to **list all files and directorie
 - **Return Value:** `os.listdir()` returns a list of names of the entries in the specified directory. This list includes both files and directories.
 
 - The `os.curdir` is a constant in the `os` module that represents the current directory, denoted by `'.'`. When you use os.curdir as an argument in `os.listdir()`, it behaves the same as using `'.'` directly or omitting the argument altogether.
-
 
 ## Listing the Contents of the Current Directory
 
@@ -255,7 +287,6 @@ contents = os.listdir('.')
 print("Current Directory Contents:")
 print(contents)
 ```
-### Output
 
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -272,7 +303,6 @@ contents = os.listdir()
 print("Current Directory Contents:")
 print(contents)
 ```
-### Output
 
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -289,7 +319,6 @@ contents = os.listdir(os.curdir)
 print("Current Directory Contents:")
 print(contents)
 ```
-### Output
 
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -298,6 +327,7 @@ print(contents)
 ## Listing the Contents of a Specific Directory
 
 The objective of the code is to list all the files and folders in a specific directory (`D:/os_library`) using Python's `os` module. The code specifies the directory path, retrieves the names of the contents in that directory, and prints them to the screen.
+
 
 
 ```python
@@ -312,8 +342,6 @@ print(f"Contents of {directory_path}:")
 print(contents)
 ```
 
-### Output
-
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
     
@@ -321,7 +349,6 @@ print(contents)
 ## Handling Errors While Listing Directory Contents
 
 The objective of the code is to safely attempt to list all files and folders in a specified directory using Python's `os` module. The code handles potential errors such as the directory not existing (`FileNotFoundError`) or insufficient permissions to access the directory (`PermissionError`). If the directory is accessible, it prints its contents; otherwise, it displays an appropriate error message.
-
 
 
 ```python
@@ -339,13 +366,12 @@ except FileNotFoundError:
 except PermissionError:
     print(f"Error: You do not have permission to access '{directory_path}'.")
 ```
-### Output
 
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
     
 
-## 5. `os.scandir()`
+## b). `os.scandir()`
 
 - Used to iterate over the contents of a directory, providing detailed information about each entry (file, directory, or symbolic link).
 
@@ -353,8 +379,7 @@ except PermissionError:
 
 - Efficient and provides a way to access file or directory metadata without making separate system calls.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-27.png?raw=true)
-
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_scandir.png?raw=true)
 
 ## Exploring Directory Contents and Retrieving File Information
 
@@ -363,7 +388,7 @@ The objective of the code is to explore and print detailed information about the
 
 ```python
 import os
-
+import time
 # Specify the directory path
 directory_path = 'D://OS_Library'
 
@@ -387,9 +412,7 @@ with os.scandir(directory_path) as entries:
         # File system path representation
         print(f"Filesystem path: {entry.__fspath__()}")
         print("-" * 40)
-
 ```
-### Output
 
     Name: AhmedSaeed
     Path: D://OS_Library\AhmedSaeed
@@ -398,7 +421,7 @@ with os.scandir(directory_path) as entries:
     Is Symlink: False
     File size: 0 bytes
     Last modified: Thu Sep  5 18:09:56 2024
-    Inode number: 57702370225695269
+    Inode number: 35465847065551877
     Filesystem path: D://OS_Library\AhmedSaeed
     ----------------------------------------
     Name: AliSaeed
@@ -408,7 +431,7 @@ with os.scandir(directory_path) as entries:
     Is Symlink: False
     File size: 0 bytes
     Last modified: Thu Sep  5 14:50:32 2024
-    Inode number: 47569271064111657
+    Inode number: 35747322042262534
     Filesystem path: D://OS_Library\AliSaeed
     ----------------------------------------
     Name: Bilal_Iqbal.accdb
@@ -418,7 +441,7 @@ with os.scandir(directory_path) as entries:
     Is Symlink: False
     File size: 495616 bytes
     Last modified: Thu Sep  5 14:49:34 2024
-    Inode number: 36591746972396065
+    Inode number: 36028797018973191
     Filesystem path: D://OS_Library\Bilal_Iqbal.accdb
     ----------------------------------------
     Name: Ijlal_Khan
@@ -428,18 +451,28 @@ with os.scandir(directory_path) as entries:
     Is Symlink: False
     File size: 0 bytes
     Last modified: Thu Sep  5 20:04:24 2024
-    Inode number: 63894819713329706
+    Inode number: 35465847065551880
     Filesystem path: D://OS_Library\Ijlal_Khan
     ----------------------------------------
-    Name: old_version.xlsx
-    Path: D://OS_Library\old_version.xlsx
+    Name: New Text Document.txt
+    Path: D://OS_Library\New Text Document.txt
+    Is File: True
+    Is Directory: False
+    Is Symlink: False
+    File size: 0 bytes
+    Last modified: Thu Sep  5 14:49:38 2024
+    Inode number: 36591746972394506
+    Filesystem path: D://OS_Library\New Text Document.txt
+    ----------------------------------------
+    Name: New_version.xlsx
+    Path: D://OS_Library\New_version.xlsx
     Is File: True
     Is Directory: False
     Is Symlink: False
     File size: 30549 bytes
     Last modified: Sun Sep  8 11:39:37 2024
-    Inode number: 210261807602870820
-    Filesystem path: D://OS_Library\old_version.xlsx
+    Inode number: 36591746972394507
+    Filesystem path: D://OS_Library\New_version.xlsx
     ----------------------------------------
     Name: UmerSaeed
     Path: D://OS_Library\UmerSaeed
@@ -447,19 +480,356 @@ with os.scandir(directory_path) as entries:
     Is Directory: True
     Is Symlink: False
     File size: 0 bytes
-    Last modified: Sun Sep  8 15:11:28 2024
-    Inode number: 45317471250426414
+    Last modified: Thu Sep  5 20:13:37 2024
+    Inode number: 36873221949105164
     Filesystem path: D://OS_Library\UmerSaeed
     ----------------------------------------
+    
+
+## 4. Checking Path Existence and Access
+
+Checking path existence and access is a crucial step in file and directory management. It involves verifying whether a specified path exists, and if so, determining whether it is a file or directory. Additionally, this process ensures that your program has the necessary permissions to read from or write to the path. By confirming these aspects, you can prevent errors and handle exceptions gracefully, making your code more reliable and robust. This is particularly important in scenarios where the presence or type of files and directories impacts the functionality of your application or script.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/path_existence_and_access.png?raw=true)
+
+Key `os` Functions are;
+
+- `os.path.exists(path)`
+- `os.path.isdir(path)`
+- `os.path.isfile(path)`
+- `os.access(path, mode)`
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_exists_isdir.png?raw=true)
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_isfile_access.png?raw=true)
+
+## a). `os.path.exists(path)`
+
+- Checks whether a specified path exists, **regardless of whether it is a file, directory, or symbolic link**.
+
+- Returns `True` if the path exists and `False` otherwise.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_exists.png?raw=true)
+
+## Checking Path Existence Using `os.path.exists()`
+
+The objective of the code is to verify and display whether the specified directory and files exist at the given paths.
+
+### Example
 
 
- ## 6. `os.walk()`
+```python
+import os
+print(os.path.exists('D:\\os_library'))
+```
+
+    True
+    
+
+This example checks whether the directory `D:\os_library` exists. Since the output is `True`, it means that the directory `D:\os_library` is present in the file system.
+
+### Example
+
+
+```python
+import os
+print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
+```
+
+    True
+    
+
+This example checks if the file `Bilal_Iqbal.accdb` exists within the directory `D:\os_library`. The output is `True`, indicating that the file `Bilal_Iqbal.accdb` exists in the specified location.
+
+### Example
+
+
+```python
+import os
+print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
+```
+
+    False
+    
+
+Here, it checks if the file `Umer_Saeed.csv` exists within the directory `D:\os_library`. The output is `False`, which means that there is no file named `Umer_Saeed.csv` in that directory.
+
+### Example
+
+
+```python
+import os
+print(os.path.exists('D:\\os_library1'))
+```
+
+    False
+    
+
+This example checks for the existence of a directory named `D:\os_library1`. The output is `False`, indicating that the directory `D:\os_library1` does not exist in the file system.
+
+## b). `os.path.isdir(path)`
+
+- Checks specifically whether a specified path exists **and is a directory**.
+
+- Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_isdir.png?raw=true)
+
+## Determining If a Path is a Directory Using `os.path.isdir()`
+
+The objective of the code is to check and print whether the specified paths are directories.
+
+### Example
+
+
+```python
+import os
+print(os.path.isdir('D:\\os_library'))
+```
+
+    True
+    
+
+This example checks if the path `D:\os_library` is an existing directory. Since the output is `True`, it confirms that `D:\os_library` exists and is indeed a directory.
+
+### Example
+
+
+```python
+import os
+print(os.path.isdir('D:\\os_library1'))
+```
+
+    False
+    
+
+Here, it checks whether `D:\os_library1` is a directory. The output is `False`, indicating that `D:\os_library1` does not exist, or it is not recognized as a directory in the file system.
+
+### Example
+
+
+```python
+import os
+print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
+```
+
+    False
+    
+
+This example checks if the path `D:\os_library\Bilal_Iqbal.accdb` is a directory. The output is `False` because `Bilal_Iqbal.accdb` is not a directory; it is a file (likely a Microsoft Access database file).
+
+### Example
+
+
+```python
+import os
+print(os.path.isdir('D:\\os_library\\UmerSaeed.csv'))
+```
+
+    False
+    
+
+This example checks if `D:\os_library\UmerSaeed.csv` is a directory. The output is `False` because `UmerSaeed.csv` is a file (likely a CSV file), not a directory.
+
+## c). `os.path.isfile(path)`
+
+The `os.path.isfile()` function in Python is used to check whether a given path refers to an **existing regular file** (not a directory, symbolic link, or other type of entry). It returns `True` if the path is a file and exists; otherwise, it returns `False`.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/isfile.png?raw=true)
+
+## Checking if a Path is a File Using `os.path.isfile()`
+
+The objective of the code is to check and print whether the specified paths are files.
+
+### Example
+
+
+```python
+import os
+print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
+```
+
+    True
+    
+
+This example checks if the path `D:\os_library\Bilal_Iqbal.accdb` is an existing file. Since the output is `True`, it confirms that `Bilal_Iqbal.accdb` is present in the directory `D:\os_library` and is indeed a file.
+
+### Example
+
+
+```python
+import os
+print(os.path.isfile('D:\\os_library\\UmerSaeed.csv'))
+```
+
+    False
+    
+
+This example checks if the path `D:\os_library\UmerSaeed.csv` is an existing file. The output is `False`, indicating that the file `UmerSaeed.csv` does not exist in the specified directory.
+
+### Example
+
+
+```python
+import os
+print(os.path.isfile('D:\\os_library'))
+```
+
+    False
+    
+
+This example checks if the path `D:\os_library` is a file. The output is `False` because `D:\os_library` is a directory, not a file. The `os.path.isfile()` function will only return `True` for paths that are files.
+
+### Example
+
+
+```python
+import os
+print(os.path.isfile('D:\\os_library1'))
+```
+
+    False
+    
+
+This example checks if the path `D:\os_library1` is a file. The output is `False` because `D:\os_library1` does not exist at all in the file system. Since it doesn't exist, it cannot be a file.
+
+## d) `os.access(path, mode)`
+
+- Checks the **access permissions** of a given path for the current process.
+
+Takes an additional argument mode to specify the type of access check:
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_access.png?raw=true)
+
+### 1. os.F_OK
+
+Check if the path exists (similar to `os.path.exists()`).
+
+### 2. os.R_OK
+Check if the path is readable.
+
+### 3. os.W_OK
+Check if the path is writable. 
+
+### 4. os.X_OK
+Check if the path is executable.
+
+- Returns `True` if the specified access is allowed, `False` otherwise.
+
+- `os.access()` is often used to check file accessibility rather than just existence.
+
+## Checking File or Directory Access Permissions 
+
+The objective of the code is to check and print the accessibility and permissions of a specified file or directory (`D:\\OS_Library\\Bilal_Iqbal.accdb`). It verifies whether the path exists, and checks if it is readable, writable, and executable.
+
+
+
+```python
+import os
+
+path_to_check = 'D:\\OS_Library\\Bilal_Iqbal.accdb'
+
+# Check if the path exists and is accessible
+if os.access(path_to_check, os.F_OK):
+    print(f"The file or directory '{path_to_check}' exists.")
+else:
+    print(f"The file or directory '{path_to_check}' does not exist.")
+
+# Check if the path is readable
+if os.access(path_to_check, os.R_OK):
+    print(f"The file or directory '{path_to_check}' is readable.")
+else:
+    print(f"The file or directory '{path_to_check}' is not readable.")
+
+# Check if the path is writable
+if os.access(path_to_check, os.W_OK):
+    print(f"The file or directory '{path_to_check}' is writable.")
+else:
+    print(f"The file or directory '{path_to_check}' is not writable.")
+
+# Check if the path is executable
+if os.access(path_to_check, os.X_OK):
+    print(f"The file or directory '{path_to_check}' is executable.")
+else:
+    print(f"The file or directory '{path_to_check}' is not executable.")    
+
+```
+
+    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' exists.
+    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is readable.
+    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is writable.
+    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is executable.
+    
+
+## 5. Traversing Directories
+
+Traversing directories involves systematically exploring and accessing directories and their subdirectories to locate files or gather information about the directory structure. This process is essential for tasks such as searching for specific files, performing batch operations across multiple directories, and generating comprehensive directory reports. By traversing directories, you can navigate through hierarchical file systems efficiently, enabling automation of tasks like backup, synchronization, and data analysis. Effective directory traversal ensures that you can handle complex directory structures and manage large sets of files with ease.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/traversing_walk.png?raw=true)
+
+Key `os` Functions are;
+
+- `os.walk()`
+
+## a). `os.walk()`
 
 The `os.walk()` function in Python is a powerful utility for navigating through directories and subdirectories in a file system. It generates the file names in a directory tree, rooted at a specified directory, and allows you to iterate over all the directories and files within that tree.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-05.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_walk.png?raw=true)
+
+## Example-1
+
+
+```python
+import os
+
+# Directory to start from
+root_dir = 'D://OS_Library'
+
+# Traverse the directory tree
+for dirpath, dirnames, filenames in os.walk(root_dir):
+    print(f"Current Directory: {dirpath}")
+    print("Subdirectories:")
+    for dirname in dirnames:
+        print(f" - {dirname}")
+    print("Files:")
+    for filename in filenames:
+        print(f" - {filename}")
+    print()  # Newline for better readability
+```
+
+    Current Directory: D://OS_Library
+    Subdirectories:
+     - AhmedSaeed
+     - AliSaeed
+     - Ijlal_Khan
+     - UmerSaeed
+    Files:
+     - Bilal_Iqbal.accdb
+     - New Text Document.txt
+     - New_version.xlsx
+    
+    Current Directory: D://OS_Library\AhmedSaeed
+    Subdirectories:
+    Files:
+    
+    Current Directory: D://OS_Library\AliSaeed
+    Subdirectories:
+    Files:
+    
+    Current Directory: D://OS_Library\Ijlal_Khan
+    Subdirectories:
+    Files:
+    
+    Current Directory: D://OS_Library\UmerSaeed
+    Subdirectories:
+    Files:
+    
+    
 
 ## Top-Down Directory Traversal with `os.walk()`
+
+## Example-2
 
 This example demonstrates how to use `os.walk()` with the `topdown=True` parameter to traverse a directory tree from the top directory down to its subdirectories and files.
 
@@ -481,7 +851,6 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=True):
         print(f" - {filename}")
     print()  # Newline for better readability
 ```
-### Output
 
     Current Directory: D://OS_Library
     Subdirectories:
@@ -512,10 +881,13 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=True):
     
     
 
+Examples 1 and 2 perform the same operation because, by default, `os.walk()` traverses the directory tree from top to bottom. In Example-2, `topdown=True` is explicitly specified, but this is unnecessary since `topdown=True` is the default behavior of `os.walk()`. Both examples will output the current directory, subdirectories, and files in each directory from the root to the leaf nodes.
+
 ## Bottom-Up Directory Traversal with `os.walk()`
 
-This example illustrates the use of `os.walk()` with the `topdown=False` parameter to traverse a directory tree from the bottom subdirectories up to the top directory.
+## Example-3
 
+This example illustrates the use of `os.walk()` with the `topdown=False` parameter to traverse a directory tree from the bottom subdirectories up to the top directory.
 
 
 ```python
@@ -534,9 +906,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=False):
     for filename in filenames:
         print(f" - {filename}")
     print()  # Newline for better readability
-
 ```
-### Output
 
     Current Directory: D://OS_Library\AhmedSaeed
     Subdirectories:
@@ -567,11 +937,36 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=False):
     
     
 
-## 7. `os.path.join()`
+## 6. Path Construction and Manipulation
+
+Path construction and manipulation involve creating and modifying file and directory paths to manage files and directories effectively. This includes joining paths, splitting them into components, extracting file extensions, and determining base names and directories. Proper path handling is crucial for ensuring that your code can correctly locate and access files, regardless of the operating system or file system structure. By mastering path construction and manipulation, you can build flexible and portable code that adapts to different environments and directory layouts, making file operations more robust and reliable.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/path_construction.png?raw=true)
+
+Key `os` Functions are;
+
+- `os.path.join()`
+- `os.path.split()`
+- `os.path.splitext()`
+- `os.path.basename()`
+- `os.path.dirname()`
+- `os.path.expanduser()`
+
+The `os.path` functions (`os.path.join()`, `os.path.split()`, `os.path.splitext()`, `os.path.basename()`, `os.path.dirname()`, `os.path.expanduser()`) work even when a file or directory does not exist is because they are purely **string manipulation functions**.
+
+The reason these `os.path` functions work without a valid file or directory is because they are simply processing the path as a string. They do not interact with the actual file system or validate the existence of the path, making them fast and useful for preparing paths for further file system operations.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/path_con_1.png?raw=true)
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/path_con_2.png?raw=true)
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/path_con_3.png?raw=true)
+
+## a). `os.path.join()`
 
 The `os.path.join()` function in Python is used to construct file and directory paths in a way that is compatible with the operating system’s path conventions. It ensures that the paths are correctly joined with the appropriate separators, making your code more portable across different operating systems (e.g., Windows, macOS, Linux).
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-06.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_join.png?raw=true)
 
 ## Listing All Directories and Files in a Directory Tree Using `os.walk()` and `os.path.join()`
 
@@ -596,7 +991,6 @@ for root, dirs, files in os.walk(dir):
         file_path = os.path.join(root, file_name)
         print(f"File: {file_path}")
 ```
-### Output
 
     Directory: D://OS_Library\AhmedSaeed
     Directory: D://OS_Library\AliSaeed
@@ -607,23 +1001,503 @@ for root, dirs, files in os.walk(dir):
     File: D://OS_Library\New_version.xlsx
     
 
-## Creating Directories
+## b). `os.path.split()`
 
-- **`os.mkdir()`:** Creates a single directory. If the directory you want to create already exists, it will give an error.
+The `os.path.split` function separates a path into its head and tail components:
 
-- **`os.makedirs()`:** Creates all the directories in a path. For example, if you want to create a folder inside another folder, it will create both folders if they don’t exist. It won't give an error if the directories already exist.
+### Head 
+The directory path, which is everything except the last component.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-07.png?raw=true)
+### Tail
+The last component of the path, which is typically the filename or the last directory.
 
-## 8. `os.mkdir()`
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_split.png?raw=true)
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-07a.png?raw=true)
+### Example
 
-- **Purpose:** Creates a single directory at the specified path.
 
-- **Usage:** It can create only one directory at a time and will raise an `OSError` if the directory already exists or if the parent directory does not exist.
+```python
+import os
+os.path.split('')
+```
 
-- **Syntax:** `os.mkdir(path, mode=0o777)`
+
+
+
+    ('', '')
+
+
+
+### Example
+
+
+```python
+import os
+os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03')
+```
+
+
+
+
+    ('C:/Users/Pakistan/Downloads/File_Management', 'Chapter-03')
+
+
+
+### Example
+
+
+```python
+import os
+os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png')
+```
+
+
+
+
+    ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03',
+     'Tools_and_Libraries_for_File_Filtering.png')
+
+
+
+### Example
+
+
+```python
+import os
+path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03"
+head, tail = os.path.split(path)
+print(head)  
+print(tail) 
+```
+
+    C:/Users/Pakistan/Downloads/File_Management
+    Chapter-03
+    
+
+### Example
+
+
+```python
+import os
+path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+head, tail = os.path.split(path)
+print(head)  
+print(tail) 
+```
+
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
+    Tools_and_Libraries_for_File_Filtering.png
+    
+
+## c). `os.path.splitext()`
+
+The `os.path.splitext` function in Python is used to split a path into its root and extension components. This is particularly useful when you want to separate the filename from its extension, or when you need to handle files based on their extensions.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_splitext.png?raw=true)
+
+### Example
+
+
+```python
+import os
+os.path.splitext("C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png")
+```
+
+
+
+
+    ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
+     '.png')
+
+
+
+### Example
+
+
+```python
+import os
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+root, ext = os.path.splitext(file_path)
+print(root)  
+print(ext)
+```
+
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
+    .png
+    
+
+### Example
+
+
+```python
+import os
+file_path = "C:/Users/Pakistan1/Tools_and_Libraries_for_File_Filtering.png"
+root, ext = os.path.splitext(file_path)
+print(root)  
+print(ext)
+```
+
+    C:/Users/Pakistan1/Tools_and_Libraries_for_File_Filtering
+    .png
+    
+
+## d). `os.path.basename()`
+
+The `os.path.basename` function in Python is used to extract the base name of a file or directory from a given path. The base name is the final component of the path, which could be a filename or the name of the last directory.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_basename.png?raw=true)
+
+### Example
+
+
+```python
+import os
+file_path = "D:/os_library/Bilal_Iqbal.accdb"
+basename = os.path.basename(file_path)
+print(basename)
+```
+
+    Bilal_Iqbal.accdb
+    
+
+### Example
+
+
+```python
+import os
+file_path = "D:/os_library/UmerSaeed.csv"
+basename = os.path.basename(file_path)
+print(basename)
+```
+
+    UmerSaeed.csv
+    
+
+### Example
+
+
+```python
+import os
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+basename = os.path.basename(file_path)
+print(basename) 
+```
+
+    Tools_and_Libraries_for_File_Filtering.png
+    
+
+## e). `os.path.dirname()`
+
+The `os.path.dirname` function in Python is used to extract the directory path from a given file path. Essentially, it returns everything in the path except for the last component, which could be a file name or the name of the last directory.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_dirname.png?raw=true)
+
+### Example
+
+
+```python
+import os
+file_path = "D:/os_library/Bilal_Iqbal.accdb"
+dirname = os.path.dirname(file_path)
+print(dirname)  
+```
+
+    D:/os_library
+    
+
+### Example
+
+
+```python
+import os
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+dirname = os.path.dirname(file_path)
+print(dirname) 
+```
+
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
+    
+
+### Example
+
+
+```python
+import os
+file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
+dirname = os.path.dirname(file_path)
+print(dirname) 
+```
+
+    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
+    
+
+### Example
+
+
+```python
+import os
+file_path = "D:/os_library"
+dirname = os.path.dirname(file_path)
+print(dirname) 
+```
+
+    D:/
+    
+
+## f). `os.path.expanduser()`
+
+The `os.path.expanduser` function in Python is used to expand the `~ `(tilde) symbol to the full path of the user's home directory. This is particularly useful when writing cross-platform code where you want to refer to a user's home directory without hardcoding the path.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_expanduser.png?raw=true)
+
+### Example
+
+
+```python
+import os
+os.path.expanduser('~')
+```
+
+
+
+
+    'C:\\Users\\Pakistan'
+
+
+
+## Expanding the Home Directory Path Using os.path.expanduser
+
+
+```python
+import os
+os.path.expanduser('~/Daily_Audits_26052024')
+```
+
+
+
+
+    'C:\\Users\\Pakistan/Daily_Audits_26052024'
+
+
+
+## Expanding and Validating a User Directory Path with `os.path.expanduser` and `os.path.exists`
+
+
+```python
+import os
+
+expanded_path = os.path.expanduser('~/Daily_Audits_26052024')
+print(f"Expanded Path: {expanded_path}")
+
+# Check if the path exists
+if os.path.exists(expanded_path):
+    print("The path exists.")
+else:
+    print("The path does not exist.")
+```
+
+    Expanded Path: C:\Users\Pakistan/Daily_Audits_26052024
+    The path exists.
+    
+
+## 7. Retrieving File Information
+
+Retrieving file information involves accessing metadata about files, such as their size, creation and modification dates, and various attributes. This information is essential for tasks such as monitoring file changes, managing storage, and performing data analysis. By obtaining detailed file information, you can make informed decisions about file handling, optimize performance, and ensure that your applications handle files appropriately based on their properties. This capability is crucial for both system administration and application development, enabling efficient and effective file management.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/file_information.png?raw=true)
+
+Key `os` Functions are;
+
+- `os.stat()`
+- `os.path.getsize()`
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/file_size_info.png?raw=true)
+
+## a). `os.stat()`
+
+The `os.stat()` function in Python provides detailed information about a file or directory. It returns a `os.stat_result` object that contains various attributes related to the file or directory, such as its size, permissions, and modification times.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_stats.png?raw=true)
+
+### Purpose
+Retrieves information about a specified file or directory.
+
+### Usage 
+Provides a `os.stat_result` object with multiple attributes that describe the file or directory.
+
+### Syntax:`os.stat(path)`
+
+   - `path:` The path to the file or directory you want to get information about.
+
+### Attributes of os.stat_result
+The `os.stat_result` object has several attributes, including:
+
+### 1. st_mode
+File mode (permissions and type).
+
+### 2. st_ino
+Inode number.
+
+### 3. st_dev
+Device ID.
+
+### 4. st_nlink 
+Number of hard links.
+
+### 5. st_uid
+User ID of the file owner.
+
+### 6. st_gid
+Group ID of the file owner.
+
+### 7. st_size
+Size of the file in bytes.
+
+### 8. st_atime 
+Last access time (in seconds since the epoch).
+
+### 9. st_mtime
+Last modification time (in seconds since the epoch).
+
+### 10. st_ctime 
+Creation time (in seconds since the epoch) or metadata change time, depending on the platform.
+
+## Basic File Information
+
+The objective of the code is to retrieve and display detailed information about a file named `Bilal_Iqbal.accdb` using Python's `os.stat` function.
+
+
+```python
+import os
+import time
+
+# Specify the path to the file
+file_path = 'D:/os_library/Bilal_Iqbal.accdb'
+
+# Get file statistics
+stat_info = os.stat(file_path)
+
+# Print file information
+print(f"Directory size: {stat_info.st_size / (1024 ** 3):.2f} GB")
+print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
+print(f"Last accessed: {time.ctime(stat_info.st_atime)}")
+print(f"File permissions: {oct(stat_info.st_mode)}")
+print(f"Inode number: {stat_info.st_ino}")
+print(f"Device ID: {stat_info.st_dev}")
+print(f"Number of hard links: {stat_info.st_nlink}")
+print(f"User ID of the file owner: {stat_info.st_uid}")
+print(f"Group ID of the file owner: {stat_info.st_gid}")
+```
+
+    Directory size: 0.00 GB
+    Last modified: Thu Sep  5 14:49:34 2024
+    Last accessed: Tue Sep 10 20:37:17 2024
+    File permissions: 0o100666
+    Inode number: 36028797018973191
+    Device ID: 1347891562
+    Number of hard links: 1
+    User ID of the file owner: 0
+    Group ID of the file owner: 0
+    
+
+## Directory Information
+
+The objective of the code is to retrieve and display detailed information about a directory named `D://os_library` using Python's `os.stat` function.
+
+
+```python
+import os
+import time
+
+# Specify the path to the directory
+directory_path = 'D://os_library'
+
+# Get directory statistics
+stat_info = os.stat(directory_path)
+
+# Print directory information
+print(f"Directory size: {stat_info.st_size / (1024 ** 3):.2f} GB")
+print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
+print(f"Last accessed: {time.ctime(stat_info.st_atime)}")
+print(f"File permissions: {oct(stat_info.st_mode)}")
+print(f"Inode number: {stat_info.st_ino}")
+print(f"Device ID: {stat_info.st_dev}")
+print(f"Number of hard links: {stat_info.st_nlink}")
+print(f"User ID of the file owner: {stat_info.st_uid}")
+print(f"Group ID of the file owner: {stat_info.st_gid}")
+```
+
+    Directory size: 0.00 GB
+    Last modified: Tue Sep 10 20:37:17 2024
+    Last accessed: Tue Sep 10 20:39:36 2024
+    File permissions: 0o40777
+    Inode number: 42221246506606085
+    Device ID: 1347891562
+    Number of hard links: 1
+    User ID of the file owner: 0
+    Group ID of the file owner: 0
+    
+
+## b). `os.path.getsize()`
+
+The `os.path.getsize` function in Python is used to obtain the size of a file or directory. It returns the size of the file in bytes. If you provide a directory path, it will raise a `TypeError` because `os.path.getsize` does not support directories.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_size.png?raw=true)
+
+### Example
+
+The objective of the code is to find and display the size of the file `Bilal_Iqbal.accdb` located in the `D:/os_library` directory. It uses the `os.path.getsize()` function to get the file size in bytes and then prints the file size along with its path.
+
+
+```python
+import os
+file_path = "D:/os_library/Bilal_Iqbal.accdb"
+size = os.path.getsize(file_path)
+print(f"Size of {file_path}: {size} bytes")
+```
+
+    Size of D:/os_library/Bilal_Iqbal.accdb: 495616 bytes
+    
+
+### Example
+
+The objective of the code is to find and display the size of the directory entry `D:/os_library` in bytes. However, this size is not the total size of all files and subdirectories within `D:/os_library`; it only shows the size of the directory entry itself.
+
+
+```python
+import os
+file_path = "D:/os_library"
+size = os.path.getsize(file_path)
+print(f"Size of {file_path}: {size} bytes")
+```
+
+    Size of D:/os_library: 4096 bytes
+    
+
+## 8. Creating Directories
+
+Creating directories is a fundamental operation for organizing files and structuring data on a file system. It involves generating new folders to group related files, manage data hierarchies, and maintain a clean and organized storage environment. This operation is essential for setting up project structures, organizing data for applications, and ensuring that files are stored in appropriate locations. By effectively creating directories, you can streamline file management, enhance accessibility, and support the logical organization of information.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/cr_dir.png?raw=true)
+
+Key `os` Functions are;
+
+- `os.mkdir()`
+- `os.makedirs()`
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/creating_directories.png?raw=true)
+
+## a). `os.mkdir()`
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_mkdir.png?raw=true)
+
+### Purpose 
+Creates a single directory at the specified path.
+
+### Usage 
+It can create only one directory at a time and will raise an `OSError` if the directory already exists or if the parent directory does not exist.
+
+## Syntax: `os.mkdir(path, mode=0o777)`
   - **`path`**: The path to the directory you want to create.
   - **`mode`:** Optional. The permissions for the directory, represented as an octal number (default is `0o777`).
 
@@ -636,7 +1510,7 @@ The objective of the code is to create a new directory with a specified name (`n
 import os
 
 # Specify the directory path
-directory_path = 'new_directory'
+directory_path = 'D:/os_library/new_directory'
 
 # Create a single directory
 try:
@@ -649,17 +1523,18 @@ except PermissionError:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
-### Output
 
-    Directory 'new_directory' created successfully.
+    Directory 'D:/os_library/new_directory' created successfully.
     
 
-`os.listdir()` is used to list the files and directories in the current working directory. If `new_directory` appears in the list, it confirms that the directory was created successfully
+`os.listdir()` is used to list the files and directories in the current working directory. If `new_directory` appears in the list, it confirms that the directory was created successfully.
 
 
 ```python
 os.listdir()
 ```
+
+
 
 
     ['AhmedSaeed',
@@ -673,13 +1548,15 @@ os.listdir()
 
 
 
-## 9. `os.makedirs()`
+## b). `os.makedirs()`
 
-- **Purpose:** Creates a directory tree, i.e., it can create intermediate directories if they do not exist.
+### Purpose 
+Creates a directory tree, i.e., it can create intermediate directories if they do not exist.
 
-- **Usage:** It can create multiple directories at once, including all necessary parent directories.
+### Usage
+It can create multiple directories at once, including all necessary parent directories.
 
-- **Syntax:** `os.makedirs(name, mode=0o777, exist_ok=False)`
+### Syntax: `os.makedirs(name, mode=0o777, exist_ok=False)`
 
   - **`name`**: The path of the directory to create, including any intermediate directories.
     
@@ -687,7 +1564,7 @@ os.listdir()
     
    - **`exist_ok`**: Optional. If `True`, it will not raise an error if the target directory already exists (default is `False`). 
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-08.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_makedirs.png?raw=true)
 
 ## Creating a Directory Tree with Intermediate Directories 
 
@@ -698,7 +1575,7 @@ The objective of the code is to create a directory tree with multiple nested dir
 import os
 
 # Specify the directory path with intermediate directories
-directory_path = 'parent_dir/child_dir/grandchild_dir'
+directory_path = 'D:/os_library/parent_dir/child_dir/grandchild_dir'
 
 # Create a directory tree
 try:
@@ -709,16 +1586,15 @@ except PermissionError:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
-### Output
 
-    Directory tree 'parent_dir/child_dir/grandchild_dir' created successfully.
+    Directory tree 'D:/os_library/parent_dir/child_dir/grandchild_dir' created successfully.
     
 
 To confirm that the directory tree has been created correctly, we can use the `os.listdir()` function to display the contents of the specified directory.
 
 
 ```python
-os.listdir()
+os.listdir('D:/os_library')
 ```
 
 
@@ -736,25 +1612,32 @@ os.listdir()
 
 
 
-## Deleting Directories
+## 9. Deleting Directories
 
-- **`os.rmdir()`:** Removes a single, empty directory. If the directory isn’t empty, it will give an error.
+Deleting directories is an essential task for managing file systems, allowing you to remove unwanted or obsolete folders and their contents. This operation helps in freeing up storage space, maintaining an organized file structure, and cleaning up after file operations or completed projects. When deleting directories, it’s important to ensure that they are no longer needed and that their removal will not impact other files or processes. Proper handling of directory deletion can help prevent accidental loss of important data and maintain an efficient and clutter-free file system.
 
-- **`os.removedirs()`**: Removes a directory and its parent directories, but only if they are empty. It works in a path-like manner, removing the last directory first and then checking the parent directories. If any parent directory isn’t empty, it stops and won’t remove that directory.
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/del_dir.png?raw=true)
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-09.png?raw=true)
+Key `os` Functions are;
 
-## 10. `os.rmdir()`
+- `os.rmdir()`
+- `os.removedirs()`
 
-- **Purpose:** Removes a single empty directory.
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/deleting_directories.png?raw=true)
 
-- **Usage:** This function can only remove directories that are empty. It will raise an `OSError` if the directory is not empty or if it does not exist.
+## a). `os.rmdir()`
 
-- **Syntax:** `os.rmdir(path)`
+### Purpose
+Removes a single empty directory.
+
+### Usage
+This function can only remove directories that are empty. It will raise an `OSError` if the directory is not empty or if it does not exist.
+
+### Syntax: `os.rmdir(path)`
 
   - **`path`**: The path to the directory you want to remove.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-09a.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_rmdir.png?raw=true)
 
 ## Removing an Empty Directory with Error Handling
 
@@ -776,7 +1659,6 @@ except FileNotFoundError:
 except OSError as e:
     print(f"Error removing directory '{directory_path}': {e}")
 ```
-### Output
 
     Directory 'new_directory' removed successfully.
     
@@ -787,6 +1669,9 @@ except OSError as e:
 ```python
 os.listdir()
 ```
+
+
+
 
     ['AhmedSaeed',
      'AliSaeed',
@@ -799,21 +1684,22 @@ os.listdir()
 
 
 
-## 11. `os.removedirs()`
+## b). `os.removedirs()`
 
-- **Purpose:** Removes a directory tree, meaning it will remove the specified directory and any empty parent directories.
+### Purpose 
+Removes a directory tree, meaning it will remove the specified directory and any empty parent directories.
 
-- **Usage:** This function removes the target directory and its empty parent directories recursively. It will raise an `OSError` if any directory in the path is not empty.
+### Usage 
+This function removes the target directory and its empty parent directories recursively. It will raise an `OSError` if any directory in the path is not empty.
 
-- **Syntax:** `os.removedirs(name)`
+### Syntax: `os.removedirs(name)`
    - **`name:`** The path to the directory you want to remove, including any empty parent directories.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-10.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_removedirs.png?raw=true)
 
 ## Removing a Nested Directory Structure
 
 The objective of the code is to remove a nested directory structure (`D:\os_library\parent_dir\child_dir\grandchild_dir`). It uses the `os.removedirs` function to delete the directories, including any empty intermediate ones. If the directory structure is removed successfully, it prints a confirmation message. If the directory does not exist or if an error occurs during the removal, it handles and displays an appropriate error message.
-
 
 
 ```python
@@ -832,7 +1718,6 @@ except FileNotFoundError:
 except OSError as e:
     print(f"Error removing directory tree '{nested_directory_path}': {e}")
 ```
-### Output
 
     Directory tree 'D:\os_library\parent_dir\child_dir\grandchild_dir' removed successfully.
     
@@ -844,6 +1729,9 @@ except OSError as e:
 os.listdir()
 ```
 
+
+
+
     ['AhmedSaeed',
      'AliSaeed',
      'Bilal_Iqbal.accdb',
@@ -854,30 +1742,36 @@ os.listdir()
 
 
 
-## Renaming and Moving Files
+## 10. Renaming and Moving Files
 
-**`os.rename()`:** Renames a file or directory. If the target name already exists, it will give an error.
+Renaming and moving files are key operations for managing and organizing data within a file system. Renaming allows you to change a file's name to make it more descriptive or consistent with a naming convention. Moving files, on the other hand, involves relocating them from one directory to another, which is useful for reorganization, archiving, or distributing files across different locations. These operations help maintain a structured file system, improve accessibility, and ensure that files are logically grouped and easy to find. Proper handling of file renaming and moving is essential for effective data management and efficient workflow.
 
-**`os.replace()`:** Also renames or moves a file or directory, but it will overwrite the target file if it already exists. This makes it a bit safer for operations where you want to ensure the target file is replaced without causing an error.
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/file_manag_cycle.png?raw=true)
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-11.png?raw=true)
+Key `os` Functions are;
 
-## 12. `os.rename()`
+- `os.rename()`
+- `os.replace()`
 
-- **Purpose:** Renames or moves a file or directory.
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/renaming_and_moving_files.png?raw=true)
 
-- **Usage**: You provide the current path and the new path (which can include a new name and/or location). If the new path is in a different directory, the file or directory will be moved to that new location.
+## a). `os.rename()`
 
-- **Syntax:** `os.rename(src, dst)`
+### Purpose 
+Renames or moves a file or directory.
+
+### Usage
+You provide the current path and the new path (which can include a new name and/or location). If the new path is in a different directory, the file or directory will be moved to that new location.
+
+### Syntax: `os.rename(src, dst)`
   - `src`: The current path of the file or directory you want to rename or move.
   - `dst`: The new path (including the new name) of the file or directory.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-11a.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_rename.png?raw=true)
 
 ## Renaming a File with Error Handling
 
 The objective of the code is to rename a file from `New Text Document.txt` to `Kashif_Hameed.txt` using Python's `os.rename` function. The code attempts to change the file name and, if successful, prints a confirmation message. If the original file does not exist (`FileNotFoundError`), if there is no permission to rename the file (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
-
 
 
 ```python
@@ -899,8 +1793,6 @@ except Exception as e:
     print(f"Error renaming file: {e}")
 ```
 
-### Output
-
     File renamed from 'New Text Document.txt' to 'Kashif_Hameed.txt'.
     
 
@@ -910,6 +1802,9 @@ To verify the renaming operation, use `os.listdir()` to list the files in the cu
 ```python
 os.listdir()
 ```
+
+
+
 
     ['AhmedSaeed',
      'AliSaeed',
@@ -924,7 +1819,6 @@ os.listdir()
 ## Renaming a Directorywith Error Handling in Python
 
 The objective of the code is to rename a directory from `AhmedSaeed` to `AhmadSaeed` using Python's `os.rename` function. The code attempts to rename the specified directory and, if successful, prints a confirmation message. If the original directory does not exist (`FileNotFoundError`), if there is no permission to rename the directory (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
-
 
 
 ```python
@@ -945,7 +1839,6 @@ except PermissionError:
 except Exception as e:
     print(f"Error renaming file: {e}")
 ```
-### Output
 
     File renamed from 'AhmedSaeed' to 'AhmadSaeed'.
     
@@ -956,6 +1849,9 @@ To verify the renaming operation, use `os.listdir()` to list the files and direc
 ```python
 os.listdir()
 ```
+
+
+
 
     ['AhmadSaeed',
      'AliSaeed',
@@ -970,7 +1866,6 @@ os.listdir()
 ## Moving a File to a Different Directory
 
 The objective of the code is to move a file named `Kashif_Hameed.txt` to a new directory named `UmerSaeed` using Python's `os.rename` function. The code first checks if the target directory exists, and if not, it creates the directory using `os.makedirs`. It then attempts to move the file to the new location. If the file is moved successfully, it prints a confirmation message. If the file does not exist (`FileNotFoundError`), if there is no permission to move the file (`PermissionError`), or if any other error occurs, it catches the error and displays an appropriate message.
-
 
 
 ```python
@@ -1010,8 +1905,6 @@ except Exception as e:
     print(f"Error moving file: {e}")
 ```
 
-### Output
-
     File moved to 'UmerSaeed\Kashif_Hameed.txt'.
     
 
@@ -1029,11 +1922,11 @@ os.listdir('D:/os_library/UmerSaeed')
 
 
 
-## 13. `os.replace()`
+## b). `os.replace()`
 
 The `os.replace()` function in Python is used to replace a file or directory at a given path with a new file or directory. If the destination file already exists, it will be replaced by the source file. This function is particularly useful when you need to replace files while ensuring that no data is lost or corrupted during the replacement process.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-12.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_replace.png?raw=true)
 
 ## Replacing a File
 
@@ -1052,7 +1945,7 @@ os.replace(src, dst)
 
 print("File replaced successfully.")
 ```
-### Output
+
     File replaced successfully.
     
 
@@ -1093,7 +1986,6 @@ os.replace(src, dst)
 print("Directory replaced successfully.")
 ```
 
-### Output
     Directory replaced successfully.
     
 
@@ -1104,6 +1996,9 @@ After executing `os.replace(src, dst)`, use `os.listdir()` to list the files and
 os.listdir()
 ```
 
+
+
+
     ['AhmedSaeed',
      'AliSaeed',
      'Bilal_Iqbal.accdb',
@@ -1112,576 +2007,5 @@ os.listdir()
      'UmerSaeed']
 
 
-
-## 14. `os.stat()`
-
-The `os.stat()` function in Python provides detailed information about a file or directory. It returns a `os.stat_result` object that contains various attributes related to the file or directory, such as its size, permissions, and modification times.
-
-- **Purpose:** Retrieves information about a specified file or directory.
-
-- **Usage:** Provides a `os.stat_result` object with multiple attributes that describe the file or directory.
-
-- **Syntax:** `os.stat(path)`
-
-   - `path:` The path to the file or directory you want to get information about.
-
-
-**Attributes of os.stat_result:** The `os.stat_result` object has several attributes, including:
-
-- **st_mode:** File mode (permissions and type).
-
-- **st_ino:** Inode number.
-
-- **st_dev:** Device ID.
-
-- **st_nlink:** Number of hard links.
-
-- **st_uid:** User ID of the file owner.
-
-- **st_gid:** Group ID of the file owner.
-
-- **st_size:** Size of the file in bytes.
-
-- **st_atime:** Last access time (in seconds since the epoch).
-
-- **st_mtime:** Last modification time (in seconds since the epoch).
-
-- **st_ctime:** Creation time (in seconds since the epoch) or metadata change time, depending on the platform.
-
-
-## Basic File Information
-
-The objective of the code is to retrieve and display detailed information about a file named `Bilal_Iqbal.accdb` using Python's `os.stat` function. The code gathers various file statistics, including:
-
-
-
-- The file size in gigabytes (GB)
-- The last modified time
-- The last accessed time
-- The file's permission mode
-- The inode number
-- The device ID
-- The number of hard links
-- The user ID of the file owner
-- The group ID of the file owner
-
-
-This information is then formatted and printed to the screen for reference.
-
-
-```python
-import os
-import time
-
-# Specify the path to the file
-file_path = 'Bilal_Iqbal.accdb'
-
-# Get file statistics
-stat_info = os.stat(file_path)
-
-# Print file information
-print(f"Directory size: {stat_info.st_size / (1024 ** 3):.2f} GB")
-print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
-print(f"Last accessed: {time.ctime(stat_info.st_atime)}")
-print(f"File permissions: {oct(stat_info.st_mode)}")
-print(f"Inode number: {stat_info.st_ino}")
-print(f"Device ID: {stat_info.st_dev}")
-print(f"Number of hard links: {stat_info.st_nlink}")
-print(f"User ID of the file owner: {stat_info.st_uid}")
-print(f"Group ID of the file owner: {stat_info.st_gid}")
-```
-
-### Output
-
-    Directory size: 0.00 GB
-    Last modified: Thu Sep  5 14:49:34 2024
-    Last accessed: Sun Sep  8 15:08:36 2024
-    File permissions: 0o100666
-    Inode number: 36591746972396065
-    Device ID: 1347891562
-    Number of hard links: 1
-    User ID of the file owner: 0
-    Group ID of the file owner: 0
-    
-
-## Directory Information
-
-The objective of the code is to retrieve and display detailed information about a directory named `D://os_library` using Python's `os.stat` function. The code collects various statistics about the directory, including:
-
-- The directory size in gigabytes (GB)
-- The last modified time
-- The last accessed time
-- The directory's permission mode
-- The inode number
-- The device ID
-- The number of hard links
-- The user ID of the directory owner
-- The group ID of the directory owner
-
-
-
-This information is then formatted and printed to provide insights into the directory's properties and status.
-
-
-```python
-import os
-import time
-
-# Specify the path to the directory
-directory_path = 'D://os_library'
-
-# Get directory statistics
-stat_info = os.stat(directory_path)
-
-# Print directory information
-print(f"Directory size: {stat_info.st_size / (1024 ** 3):.2f} GB")
-print(f"Last modified: {time.ctime(stat_info.st_mtime)}")
-print(f"Last accessed: {time.ctime(stat_info.st_atime)}")
-print(f"File permissions: {oct(stat_info.st_mode)}")
-print(f"Inode number: {stat_info.st_ino}")
-print(f"Device ID: {stat_info.st_dev}")
-print(f"Number of hard links: {stat_info.st_nlink}")
-print(f"User ID of the file owner: {stat_info.st_uid}")
-print(f"Group ID of the file owner: {stat_info.st_gid}")
-```
-
-### Output
-
-    Directory size: 0.00 GB
-    Last modified: Sun Sep  8 15:11:46 2024
-    Last accessed: Sun Sep  8 15:11:53 2024
-    File permissions: 0o40777
-    Inode number: 42221246506606085
-    Device ID: 1347891562
-    Number of hard links: 1
-    User ID of the file owner: 0
-    Group ID of the file owner: 0
-    
-
-## 15. `os.path.exists(path)`
-
-- Checks whether a specified path exists, **regardless of whether it is a file, directory, or symbolic link**.
-
-- Returns `True` if the path exists and `False` otherwise.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-14.png?raw=true)
-
-## Checking File and Directory Existence
-
-The objective of the code is to verify and display whether the specified directory and files exist at the given paths.
-
-### Example
-```python
-print(os.path.exists('D:\\os_library'))
-```
-### Output
-    True
-    
-
-### Example
-```python
-print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
-```
-### Output
-    True
-    
-
-### Example
-```python
-print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
-```
-### Output
-    False
-    
-
-## 16. `os.path.isdir(path)`
-
-- Checks specifically whether a specified path exists **and is a directory**.
-- Returns `True` if the path exists **and is a directory**, otherwise returns `False`.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-15.png?raw=true)
-
-## Checking If Paths Are Directories
-
-The objective of the code is to check and print whether the specified paths are directories.
-
-### Example
-```python
-print(os.path.isdir('D:\\os_library'))
-```
-### Output
-    True
-    
-
-### Example
-```python
-print(os.path.isdir('D:\\os_library1'))
-```
-### Output
-    False
-    
-
-### Example
-```python
-print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
-```
-### Output
-    False
-    
-
-## 17. `isfile()`
-
-The `os.path.isfile()` function in Python is used to check whether a given path refers to an **existing regular file** (not a directory, symbolic link, or other type of entry). It returns `True` if the path is a file and exists; otherwise, it returns `False`.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-16.png?raw=true)
-
-## Checking If Paths Are Files Using
-
-The objective of the code is to check and print whether the specified paths are files.
-
-### Example
-```python
-print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
-```
-### Output
-    True
-    
-
-### Example
-```python
-print(os.path.isfile('D:\\os_library'))
-```
-### Output
-    False
-    
-
-### Example
-```python
-print(os.path.isfile('D:\\os_library\\Umer_Saeed.accdb'))
-```
-### Output
-    False
-    
-
-## 18.`os.access(path, mode)`
-
-- Checks the **access permissions** of a given path for the current process.
-
-- Takes an additional argument mode to specify the type of access check:
-    - **os.F_OK**: Check if the path exists (similar to `os.path.exists()`).
-    - **os.R_OK:** Check if the path is readable.
-    - **os.W_OK:** Check if the path is writable.
-    - **os.X_OK:** Check if the path is executable.
-
-- Returns `True` if the specified access is allowed, False otherwise.
-
-
-- `os.access()` is often used to check file accessibility rather than just existence.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-17.png?raw=true)
-
-## Checking File or Directory Access Permissions 
-
-The objective of the code is to check and print the accessibility and permissions of a specified file or directory (`D:\\OS_Library\\Bilal_Iqbal.accdb`). It verifies whether the path exists, and checks if it is readable, writable, and executable.
-
-
-
-```python
-import os
-
-path_to_check = 'D:\\OS_Library\\Bilal_Iqbal.accdb'
-
-# Check if the path exists and is accessible
-if os.access(path_to_check, os.F_OK):
-    print(f"The file or directory '{path_to_check}' exists.")
-else:
-    print(f"The file or directory '{path_to_check}' does not exist.")
-
-# Check if the path is readable
-if os.access(path_to_check, os.R_OK):
-    print(f"The file or directory '{path_to_check}' is readable.")
-else:
-    print(f"The file or directory '{path_to_check}' is not readable.")
-
-# Check if the path is writable
-if os.access(path_to_check, os.W_OK):
-    print(f"The file or directory '{path_to_check}' is writable.")
-else:
-    print(f"The file or directory '{path_to_check}' is not writable.")
-
-# Check if the path is executable
-if os.access(path_to_check, os.X_OK):
-    print(f"The file or directory '{path_to_check}' is executable.")
-else:
-    print(f"The file or directory '{path_to_check}' is not executable.")    
-```
-### Output
-
-    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' exists.
-    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is readable.
-    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is writable.
-    The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is executable.
-    
-
-    
-
-## 19. `os.path.expanduser()`
-
-
-
-The `os.path.expanduser` function in Python is used to expand the `~ `(tilde) symbol to the full path of the user's home directory. This is particularly useful when writing cross-platform code where you want to refer to a user's home directory without hardcoding the path.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-19.png?raw=true)
-
-## Basic Usage with `~`
-
-
-```python
-import os
-os.path.expanduser('~')
-```
-
-
-### Output
-
-    'C:\\Users\\Pakistan'
-
-
-
-## Expanding the Home Directory Path Using `os.path.expanduser`
-
-
-```python
-import os
-os.path.expanduser('~/Daily_Audits_26052024')
-```
-
-### Output
-
-
-    'C:\\Users\\Pakistan/Daily_Audits_26052024'
-
-
-
-## Expanding and Validating a User Directory Path with `os.path.expanduser` and `os.path.exists`
-
-
-```python
-import os
-
-expanded_path = os.path.expanduser('~/Daily_Audits_26052024')
-print(f"Expanded Path: {expanded_path}")
-
-# Check if the path exists
-if os.path.exists(expanded_path):
-    print("The path exists.")
-else:
-    print("The path does not exist.")
-```
-
-### Output
-    Expanded Path: C:\Users\Pakistan/Daily_Audits_26052024
-    The path exists.
-    
-
-## 20. `os.path.split`
-
-The `os.path.split` function separates a path into its head and tail components:
-
-   - **Head:** The directory path, which is everything except the last component.
-    
-   - **Tail:** The last component of the path, which is typically the filename or the last directory.
-
-
-```python
-os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03')
-```
-
-
-### Output
-
-    ('C:/Users/Pakistan/Downloads/File_Management', 'Chapter-03')
-
-
-
-
-```python
-os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png')
-```
-
-
-### Output
-
-    ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03',
-     'Tools_and_Libraries_for_File_Filtering.png')
-
-
-
-
-```python
-os.path.split('')
-```
-### Output
-
-
-
-    ('', '')
-
-
-
-
-```python
-path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03"
-head, tail = os.path.split(path)
-print(head)  
-print(tail) 
-```
-### Output
-    C:/Users/Pakistan/Downloads/File_Management
-    Chapter-03
-    
-
-
-```python
-path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
-head, tail = os.path.split(path)
-print(head)  
-print(tail) 
-```
-### Output
-    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
-    Tools_and_Libraries_for_File_Filtering.png
-    
-
-
-```python
-path = "~/Daily_Audits_26052024/03_LTE_Old.ipynb"
-head, tail = os.path.split(path)
-print(head)  
-print(tail) 
-```
-### Output
-    ~/Daily_Audits_26052024
-    03_LTE_Old.ipynb
-    
-
-## 21. `os.path.splitext()`
-
-The `os.path.splitext` function in Python is used to split a path into its root and extension components. This is particularly useful when you want to separate the filename from its extension, or when you need to handle files based on their extensions.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-21.png?raw=true)
-
-
-```python
-os.path.splitext("C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png")
-```
-
-### Output
-
-
-    ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
-     '.png')
-
-
-
-
-```python
-file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
-root, ext = os.path.splitext(file_path)
-print(root)  
-print(ext)
-```
-### Output
-    C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
-    .png
-    
-
-## 22. `os.path.basename()`
-
-The `os.path.basename` function in Python is used to extract the base name of a file or directory from a given path. The base name is the final component of the path, which could be a filename or the name of the last directory.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-22.png?raw=true)
-
-
-```python
-file_path = "D:/os_library/Bilal_Iqbal.accdb"
-basename = os.path.basename(file_path)
-print(basename)
-```
-### Output
-    Bilal_Iqbal.accdb
-    
-
-
-```python
-file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
-basename = os.path.basename(file_path)
-print(basename) 
-```
-### Output
-    Tools_and_Libraries_for_File_Filtering.png
-    
-
-## 23. `os.path.dirname()`
-
-The `os.path.dirname` function in Python is used to extract the directory path from a given file path. Essentially, it returns everything in the path except for the last component, which could be a file name or the name of the last directory.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-23.png?raw=true)
-
-
-```python
-file_path = "D:/os_library/Bilal_Iqbal.accdb"
-dirname = os.path.dirname(file_path)
-print(dirname)  
-```
-### Output
-    D:/os_library
-    
-
-
-```python
-file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
-dirname = os.path.dirname(file_path)
-print(dirname) 
-```
-### Output
-    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
-    
-
-
-```python
-file_path = "D:/os_library"
-dirname = os.path.dirname(file_path)
-print(dirname) 
-```
-### Output
-    D:/
-    
-
-## 24. `os.path.getsize()`
-
-The `os.path.getsize` function in Python is used to obtain the size of a file or directory. It returns the size of the file in bytes. If you provide a directory path, it will raise a `TypeError` because `os.path.getsize` does not support directories.
-
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Example-24.png?raw=true)
-
-
-```python
-file_path = "D:/os_library/Bilal_Iqbal.accdb"
-size = os.path.getsize(file_path)
-print(f"Size of {file_path}: {size} bytes")
-```
-### Output
-    Size of D:/os_library/Bilal_Iqbal.accdb: 495616 bytes
-    
-
-
-```python
-file_path = "D:/os_library"
-size = os.path.getsize(file_path)
-print(f"Size of {file_path}: {size} bytes")
-```
-### Output
-    Size of D:/os_library: 4096 bytes
-    
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
