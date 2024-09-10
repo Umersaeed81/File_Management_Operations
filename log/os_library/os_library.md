@@ -1141,7 +1141,9 @@ os.path.splitext("C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_a
      '.png')
 
 The `os.path.splitext()` function splits the path into two parts:
+
 **Root:** `C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering`
+
 **Extension:** `.png`
 
 ### Example-2
@@ -1160,7 +1162,9 @@ print(ext)
     .png
 
 This example is similar to Example 1, but here the result is stored in variables `root` and `ext`, which are then printed separately:
+
 **Root:** `C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering`
+
 **Extension:** `.png`   
 
 
