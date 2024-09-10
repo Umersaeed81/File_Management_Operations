@@ -18,11 +18,11 @@
 
 # Handling Special Characters in Strings and File Paths
 
-! [](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/special_characters_t.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/special_characters_t.png?raw=true)
 
 In Python, special characters in strings are represented using escape sequences. These sequences start with a backslash (`\`) and have specific meanings. Here's a brief explanation of common escape sequences:
 
-! [](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/special_characters.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/special_characters.png?raw=true)
 
 ## 1. Newline (`\n`)
 -  Represents a new line. When included in a string, it moves the text that follows it to the next line.
