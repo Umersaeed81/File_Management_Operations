@@ -1126,7 +1126,7 @@ The `os.path.splitext` function in Python is used to split a path into its root 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_splitext.png?raw=true)
 
-### Example
+### Example-1
 
 
 ```python
@@ -1140,9 +1140,11 @@ os.path.splitext("C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_a
     ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
      '.png')
 
+The `os.path.splitext()` function splits the path into two parts:
+**Root:** `C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering`
+**Extension:** `.png`
 
-
-### Example
+### Example-2
 
 
 ```python
@@ -1156,22 +1158,13 @@ print(ext)
 
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
     .png
-    
 
-### Example
+This example is similar to Example 1, but here the result is stored in variables `root` and `ext`, which are then printed separately:
+**Root:** `C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering`
+**Extension:** `.png`   
 
 
-```python
-import os
-file_path = "C:/Users/Pakistan1/Tools_and_Libraries_for_File_Filtering.png"
-root, ext = os.path.splitext(file_path)
-print(root)  
-print(ext)
-```
-### Output
 
-    C:/Users/Pakistan1/Tools_and_Libraries_for_File_Filtering
-    .png
     
 
 ## d). `os.path.basename()`
