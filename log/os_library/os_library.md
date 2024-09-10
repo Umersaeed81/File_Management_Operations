@@ -80,8 +80,7 @@ import os
 os.name
 ```
 
-
-
+### Output
 
     'nt'
 
@@ -105,7 +104,7 @@ elif os.name == 'posix':
 else:
     print("Running on an unknown platform")
 ```
-
+### Output
     Running on Windows
     
 
@@ -158,8 +157,7 @@ import os
 os.getcwd()
 ```
 
-
-
+### Output
 
     'C:\\Users\\Pakistan\\File_handing_book'
 
@@ -191,6 +189,7 @@ os.chdir('D:/os_library')  # Use forward slashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
+### Output
 
     Before Change: C:\Users\Pakistan\File_handing_book
     After Change: D:\os_library
@@ -214,6 +213,7 @@ os.chdir('D://os_library')  # Use double forward slashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
+### Output
 
     Before Change: D:\os_library
     After Change: D:\os_library
@@ -237,6 +237,7 @@ os.chdir(r'D:\os_library')  # Use raw string to handle backslashes
 # Verify the change using os.getcwd()
 print(f"After Change: {os.getcwd()}")
 ```
+### Output
 
     Before Change: D:\os_library
     After Change: D:\os_library
@@ -288,6 +289,8 @@ print("Current Directory Contents:")
 print(contents)
 ```
 
+### Output
+
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
     
@@ -303,6 +306,7 @@ contents = os.listdir()
 print("Current Directory Contents:")
 print(contents)
 ```
+### Output
 
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -319,6 +323,7 @@ contents = os.listdir(os.curdir)
 print("Current Directory Contents:")
 print(contents)
 ```
+### Output
 
     Current Directory Contents:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -341,6 +346,8 @@ contents = os.listdir(directory_path)
 print(f"Contents of {directory_path}:")
 print(contents)
 ```
+
+### Output
 
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -366,6 +373,7 @@ except FileNotFoundError:
 except PermissionError:
     print(f"Error: You do not have permission to access '{directory_path}'.")
 ```
+### Output
 
     Contents of D:/os_library:
     ['AhmedSaeed', 'AliSaeed', 'Bilal_Iqbal.accdb', 'Ijlal_Khan', 'New Text Document.txt', 'New_version.xlsx', 'UmerSaeed']
@@ -413,6 +421,7 @@ with os.scandir(directory_path) as entries:
         print(f"Filesystem path: {entry.__fspath__()}")
         print("-" * 40)
 ```
+### Output
 
     Name: AhmedSaeed
     Path: D://OS_Library\AhmedSaeed
@@ -522,7 +531,7 @@ The objective of the code is to verify and display whether the specified directo
 import os
 print(os.path.exists('D:\\os_library'))
 ```
-
+### Output
     True
     
 
@@ -535,7 +544,7 @@ This example checks whether the directory `D:\os_library` exists. Since the outp
 import os
 print(os.path.exists('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
-
+### Output
     True
     
 
@@ -548,7 +557,7 @@ This example checks if the file `Bilal_Iqbal.accdb` exists within the directory 
 import os
 print(os.path.exists('D:\\os_library\\Umer_Saeed.csv'))
 ```
-
+### Output
     False
     
 
@@ -561,7 +570,7 @@ Here, it checks if the file `Umer_Saeed.csv` exists within the directory `D:\os_
 import os
 print(os.path.exists('D:\\os_library1'))
 ```
-
+### Output
     False
     
 
@@ -586,6 +595,7 @@ The objective of the code is to check and print whether the specified paths are 
 import os
 print(os.path.isdir('D:\\os_library'))
 ```
+### Output
 
     True
     
@@ -599,6 +609,7 @@ This example checks if the path `D:\os_library` is an existing directory. Since 
 import os
 print(os.path.isdir('D:\\os_library1'))
 ```
+### Output
 
     False
     
@@ -613,6 +624,8 @@ import os
 print(os.path.isdir('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
 
+### Output
+
     False
     
 
@@ -625,6 +638,7 @@ This example checks if the path `D:\os_library\Bilal_Iqbal.accdb` is a directory
 import os
 print(os.path.isdir('D:\\os_library\\UmerSaeed.csv'))
 ```
+### Output
 
     False
     
@@ -648,6 +662,7 @@ The objective of the code is to check and print whether the specified paths are 
 import os
 print(os.path.isfile('D:\\os_library\\Bilal_Iqbal.accdb'))
 ```
+### Output
 
     True
     
@@ -661,6 +676,7 @@ This example checks if the path `D:\os_library\Bilal_Iqbal.accdb` is an existing
 import os
 print(os.path.isfile('D:\\os_library\\UmerSaeed.csv'))
 ```
+### Output
 
     False
     
@@ -674,6 +690,7 @@ This example checks if the path `D:\os_library\UmerSaeed.csv` is an existing fil
 import os
 print(os.path.isfile('D:\\os_library'))
 ```
+### Output
 
     False
     
@@ -687,6 +704,7 @@ This example checks if the path `D:\os_library` is a file. The output is `False`
 import os
 print(os.path.isfile('D:\\os_library1'))
 ```
+### Output
 
     False
     
@@ -754,6 +772,7 @@ else:
     print(f"The file or directory '{path_to_check}' is not executable.")    
 
 ```
+### Output
 
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' exists.
     The file or directory 'D:\OS_Library\Bilal_Iqbal.accdb' is readable.
@@ -797,6 +816,8 @@ for dirpath, dirnames, filenames in os.walk(root_dir):
         print(f" - {filename}")
     print()  # Newline for better readability
 ```
+
+### Output
 
     Current Directory: D://OS_Library
     Subdirectories:
@@ -851,6 +872,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=True):
         print(f" - {filename}")
     print()  # Newline for better readability
 ```
+### Output
 
     Current Directory: D://OS_Library
     Subdirectories:
@@ -907,6 +929,7 @@ for dirpath, dirnames, filenames in os.walk(root_dir,topdown=False):
         print(f" - {filename}")
     print()  # Newline for better readability
 ```
+### Output
 
     Current Directory: D://OS_Library\AhmedSaeed
     Subdirectories:
@@ -991,6 +1014,7 @@ for root, dirs, files in os.walk(dir):
         file_path = os.path.join(root, file_name)
         print(f"File: {file_path}")
 ```
+### Output
 
     Directory: D://OS_Library\AhmedSaeed
     Directory: D://OS_Library\AliSaeed
@@ -1021,7 +1045,7 @@ import os
 os.path.split('')
 ```
 
-
+### Output
 
 
     ('', '')
@@ -1036,8 +1060,7 @@ import os
 os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03')
 ```
 
-
-
+### Output
 
     ('C:/Users/Pakistan/Downloads/File_Management', 'Chapter-03')
 
@@ -1051,7 +1074,7 @@ import os
 os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png')
 ```
 
-
+### Output
 
 
     ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03',
@@ -1069,7 +1092,7 @@ head, tail = os.path.split(path)
 print(head)  
 print(tail) 
 ```
-
+### Output
     C:/Users/Pakistan/Downloads/File_Management
     Chapter-03
     
@@ -1084,6 +1107,7 @@ head, tail = os.path.split(path)
 print(head)  
 print(tail) 
 ```
+### Output
 
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     Tools_and_Libraries_for_File_Filtering.png
@@ -1104,7 +1128,7 @@ os.path.splitext("C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_a
 ```
 
 
-
+### Output
 
     ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering',
      '.png')
@@ -1121,6 +1145,7 @@ root, ext = os.path.splitext(file_path)
 print(root)  
 print(ext)
 ```
+### Output
 
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering
     .png
@@ -1136,6 +1161,7 @@ root, ext = os.path.splitext(file_path)
 print(root)  
 print(ext)
 ```
+### Output
 
     C:/Users/Pakistan1/Tools_and_Libraries_for_File_Filtering
     .png
@@ -1157,6 +1183,8 @@ basename = os.path.basename(file_path)
 print(basename)
 ```
 
+### Output
+
     Bilal_Iqbal.accdb
     
 
@@ -1169,6 +1197,7 @@ file_path = "D:/os_library/UmerSaeed.csv"
 basename = os.path.basename(file_path)
 print(basename)
 ```
+### Output
 
     UmerSaeed.csv
     
@@ -1182,6 +1211,7 @@ file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Li
 basename = os.path.basename(file_path)
 print(basename) 
 ```
+### Output
 
     Tools_and_Libraries_for_File_Filtering.png
     
@@ -1201,6 +1231,7 @@ file_path = "D:/os_library/Bilal_Iqbal.accdb"
 dirname = os.path.dirname(file_path)
 print(dirname)  
 ```
+### Output
 
     D:/os_library
     
@@ -1215,6 +1246,8 @@ dirname = os.path.dirname(file_path)
 print(dirname) 
 ```
 
+### Output
+
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     
 
@@ -1227,6 +1260,7 @@ file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Li
 dirname = os.path.dirname(file_path)
 print(dirname) 
 ```
+### Output
 
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     
@@ -1240,6 +1274,8 @@ file_path = "D:/os_library"
 dirname = os.path.dirname(file_path)
 print(dirname) 
 ```
+
+### Output
 
     D:/
     
@@ -1259,7 +1295,7 @@ os.path.expanduser('~')
 ```
 
 
-
+### Output
 
     'C:\\Users\\Pakistan'
 
@@ -1273,8 +1309,7 @@ import os
 os.path.expanduser('~/Daily_Audits_26052024')
 ```
 
-
-
+### Output
 
     'C:\\Users\\Pakistan/Daily_Audits_26052024'
 
@@ -1295,6 +1330,7 @@ if os.path.exists(expanded_path):
 else:
     print("The path does not exist.")
 ```
+### Output
 
     Expanded Path: C:\Users\Pakistan/Daily_Audits_26052024
     The path exists.
@@ -1388,6 +1424,7 @@ print(f"Number of hard links: {stat_info.st_nlink}")
 print(f"User ID of the file owner: {stat_info.st_uid}")
 print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```
+### Output
 
     Directory size: 0.00 GB
     Last modified: Thu Sep  5 14:49:34 2024
@@ -1426,7 +1463,7 @@ print(f"Number of hard links: {stat_info.st_nlink}")
 print(f"User ID of the file owner: {stat_info.st_uid}")
 print(f"Group ID of the file owner: {stat_info.st_gid}")
 ```
-
+### Output
     Directory size: 0.00 GB
     Last modified: Tue Sep 10 20:37:17 2024
     Last accessed: Tue Sep 10 20:39:36 2024
@@ -1455,6 +1492,7 @@ file_path = "D:/os_library/Bilal_Iqbal.accdb"
 size = os.path.getsize(file_path)
 print(f"Size of {file_path}: {size} bytes")
 ```
+### Output
 
     Size of D:/os_library/Bilal_Iqbal.accdb: 495616 bytes
     
@@ -1470,6 +1508,7 @@ file_path = "D:/os_library"
 size = os.path.getsize(file_path)
 print(f"Size of {file_path}: {size} bytes")
 ```
+### Output
 
     Size of D:/os_library: 4096 bytes
     
@@ -1523,6 +1562,8 @@ except PermissionError:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
+
+### Output
 
     Directory 'D:/os_library/new_directory' created successfully.
     
@@ -1586,6 +1627,8 @@ except PermissionError:
 except Exception as e:
     print(f"An error occurred: {e}")
 ```
+
+### Output
 
     Directory tree 'D:/os_library/parent_dir/child_dir/grandchild_dir' created successfully.
     
@@ -1660,6 +1703,8 @@ except OSError as e:
     print(f"Error removing directory '{directory_path}': {e}")
 ```
 
+### Output
+
     Directory 'new_directory' removed successfully.
     
 
@@ -1718,6 +1763,8 @@ except FileNotFoundError:
 except OSError as e:
     print(f"Error removing directory tree '{nested_directory_path}': {e}")
 ```
+
+### Output
 
     Directory tree 'D:\os_library\parent_dir\child_dir\grandchild_dir' removed successfully.
     
@@ -1793,6 +1840,8 @@ except Exception as e:
     print(f"Error renaming file: {e}")
 ```
 
+### Output
+
     File renamed from 'New Text Document.txt' to 'Kashif_Hameed.txt'.
     
 
@@ -1839,6 +1888,8 @@ except PermissionError:
 except Exception as e:
     print(f"Error renaming file: {e}")
 ```
+
+### Output
 
     File renamed from 'AhmedSaeed' to 'AhmadSaeed'.
     
@@ -1905,6 +1956,8 @@ except Exception as e:
     print(f"Error moving file: {e}")
 ```
 
+### Output
+
     File moved to 'UmerSaeed\Kashif_Hameed.txt'.
     
 
@@ -1946,6 +1999,8 @@ os.replace(src, dst)
 print("File replaced successfully.")
 ```
 
+### Output
+
     File replaced successfully.
     
 
@@ -1985,6 +2040,7 @@ os.replace(src, dst)
 
 print("Directory replaced successfully.")
 ```
+### Output
 
     Directory replaced successfully.
     
