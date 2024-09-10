@@ -1039,7 +1039,7 @@ The last component of the path, which is typically the filename or the last dire
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_path_split.png?raw=true)
 
-### Example
+### Example-1
 
 
 ```python
@@ -1052,9 +1052,10 @@ os.path.split('')
 
     ('', '')
 
+When an empty string is passed as the path, `os.path.split()` returns a tuple of two empty strings (`('', '')`). This is because there is no directory or file name in an empty string.
 
 
-### Example
+### Example-2
 
 
 ```python
@@ -1067,8 +1068,9 @@ os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03')
     ('C:/Users/Pakistan/Downloads/File_Management', 'Chapter-03')
 
 
+The function splits the path into the directory path (`C:/Users/Pakistan/Downloads/File_Management`) and the last component (`Chapter-03`). Here, `Chapter-03` is the last directory in the given path.
 
-### Example
+### Example-3
 
 
 ```python
@@ -1082,9 +1084,9 @@ os.path.split('C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_
     ('C:/Users/Pakistan/Downloads/File_Management/Chapter-03',
      'Tools_and_Libraries_for_File_Filtering.png')
 
+The function splits the path into the directory path (`C:/Users/Pakistan/Downloads/File_Management/Chapter-03`) and the file name (`Tools_and_Libraries_for_File_Filtering.png`). The last component in this path is a file, so it is returned as the second part of the tuple.
 
-
-### Example
+### Example-4
 
 
 ```python
@@ -1098,8 +1100,9 @@ print(tail)
     C:/Users/Pakistan/Downloads/File_Management
     Chapter-03
     
+This example is similar to Example 2, but here we store the result in `head` and `tail` variables and then print them separately. `head `is the directory path (`C:/Users/Pakistan/Downloads/File_Management`), and `tail` is the last component (`Chapter-03`).
 
-### Example
+### Example-5
 
 
 ```python
@@ -1113,6 +1116,8 @@ print(tail)
 
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     Tools_and_Libraries_for_File_Filtering.png
+
+ This example is similar to Example 3, but here we store the result in `head` and `tail` variables and then print them separately. `head` is the directory path (`C:/Users/Pakistan/Downloads/File_Management/Chapter-03`), and `tail` is the file name (`Tools_and_Libraries_for_File_Filtering.png`)
     
 
 ## c). `os.path.splitext()`
