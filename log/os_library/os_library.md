@@ -1190,7 +1190,8 @@ print(basename)
 ### Output
 
     Bilal_Iqbal.accdb
-    
+
+`os.path.basename()` function extracts the last part of the file path, which is `Bilal_Iqbal.accdb`. This is the name of the file located in the `D:/os_library/ directory`.
 
 ### Example
 
@@ -1204,7 +1205,8 @@ print(basename)
 ### Output
 
     UmerSaeed.csv
-    
+
+ Similarly, `os.path.basename()` extracts `UmerSaeed.csv` from the specified path `D:/os_library/UmerSaeed.csv`. This is the file name with the extension `.csv`.
 
 ### Example
 
@@ -1218,7 +1220,8 @@ print(basename)
 ### Output
 
     Tools_and_Libraries_for_File_Filtering.png
-    
+
+In this example, the function extracts `Tools_and_Libraries_for_File_Filtering.png` from the given file path. This file is located deep in the directory structure under `C:/Users/Pakistan/Downloads/File_Management/Chapter-03/`
 
 ## e). `os.path.dirname()`
 
