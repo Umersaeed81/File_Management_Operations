@@ -134,6 +134,6 @@ Both `shutil.copy()` and `shutil.copy2()` are powerful tools for managing files 
 
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
 
-![](Copying a File to a Target Folder with Pre-Check Validations Using `shutil.copy()`)
+![Copying a File to a Target Folder with Pre-Check Validations Using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_00.md)
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
