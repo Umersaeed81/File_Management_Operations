@@ -157,3 +157,17 @@ for path in paths:
       Used: 329.75 GB
       Free: 37.58 GB
     Drive H:/ not found.
+
+# Conclusion
+
+Effective disk management is essential for maintaining system performance and reliability. By utilizing Python's `shutil` module, you can gain valuable insights into disk usage and automate various disk management tasks. This chapter has covered the fundamental aspects of disk usage monitoring using `shutil.disk_usage()`, including:
+
+1. **Basic Disk Usage Information:** How to retrieve and interpret total, used, and free space for the main disk and specific directories.
+2. **Handling Exceptions:** Strategies for safely checking disk usage, including handling cases where directories might not exist or other errors occur.
+3. **Disk Usage for Multiple Drives:** Techniques for monitoring multiple drives, handling situations where a drive is not found or can't be accessed.
+
+
+
+
+
+
