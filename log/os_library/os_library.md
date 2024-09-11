@@ -28,6 +28,11 @@ A **directory** (often referred to as a folder) is a container that holds files 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Directory.png?raw=true)
 
+<p align="center">
+  <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Directory.png?raw=true" alt="Directory Image">
+</p>
+
+
 ## Understanding Subdirectories
 
 A **subdirectory** is a directory nested within another directory. Subdirectories offer a more granular level of organization, allowing users to further categorize data under specific themes or projects. For instance, within the "Projects" directory, you might have subdirectories like "Project_A" and "Project_B," each containing its own set of files. This hierarchical structure supports deeper organization, making it easier to maintain, navigate, and manage larger sets of data.
