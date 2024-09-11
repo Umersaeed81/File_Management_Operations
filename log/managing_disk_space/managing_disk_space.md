@@ -1,4 +1,5 @@
-# Disk Management Using `shutil`
+# Disk Management
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/disk_management_t.png?raw=true)
 
 Disk management is a critical aspect of maintaining a healthy computing environment. It involves monitoring, managing, and optimizing the storage capacity of drives to ensure they operate efficiently. In Python, the `shutil` module provides tools to handle disk usage statistics, making it easier to monitor available space, detect potential issues, and automate disk space management tasks.
 
