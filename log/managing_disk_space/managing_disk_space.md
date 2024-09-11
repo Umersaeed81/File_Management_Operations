@@ -33,6 +33,8 @@ Show how to check the total, used, and free space on the main disk (root directo
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Example-01.png?raw=true)
 
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Managing_Disk_Space.png?raw=true)
+
 ```python
 # import required libraries
 import shutil
