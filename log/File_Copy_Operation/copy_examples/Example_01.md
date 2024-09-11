@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Copying a File with Filename Conflict Handling and Pre-Check Validations Using shutil.copy()
+# Copy File with Conflict Resolution
 
 # Example-2
 
