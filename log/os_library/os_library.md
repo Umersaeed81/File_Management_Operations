@@ -26,7 +26,7 @@ Effective management of files and directories is essential for maintaining a wel
 
 A **directory** (often referred to as a folder) is a container that holds files and other directories. It serves as a primary means of organizing and storing data, providing a structured way to categorize related files. Directories enable users to logically group files, making it easier to locate and manage them. For example, a directory named "Projects" might contain multiple files related to various ongoing projects, providing a single location to manage and access them efficiently.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Directory.png?raw=true)
+
 
 <p align="center">
   <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/Directory.png?raw=true" alt="Directory Image">
