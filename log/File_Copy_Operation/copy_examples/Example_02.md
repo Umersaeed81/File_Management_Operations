@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Copying Multiple Files with Filename Conflict Handling and Pre-Check Validations Using shutil.copy()
+# Copy Multiple Files with Unique Naming and Metadata Update
 
 # Example-3
 
