@@ -28,7 +28,7 @@ The purpose of this code is to copy multiple files from different source directo
 - The code uses **shutil.copy()** to copy each file, updating the file’s metadata to reflect the current time of the copy operation. As a result, the last modification time will show the current time rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
-![](https://raw.githubusercontent.com/Umersaeed81/File_Management_Operations/main/log/File_Copy_Operation/copy_example_fig/Example-03.png)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_example_fig/Example-03.png?raw=true)
 
 ## Importing Required Modules
 
