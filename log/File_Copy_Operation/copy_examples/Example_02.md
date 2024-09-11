@@ -10,6 +10,8 @@ The purpose of this code is to copy multiple files (in this case, **Test.xlsx** 
 - The code uses **shutil.copy()** to copy each file, which updates the file’s metadata to the current time of the copy operation. As a result, the last modification time will reflect the current time rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_example_fig/Example-02.png?raw=true)
+
 ## Importing Required Modules
 
 
