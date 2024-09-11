@@ -1246,7 +1246,8 @@ print(dirname)
 ### Output
 
     D:/os_library
-    
+
+`os.path.dirname()` function extracts the directory path from the given file path. In this case, the file path is `D:/os_library/Bilal_Iqbal.accdb`, so the directory portion is `D:/os_library`. The function effectively removes the last component (the file name) from the
 
 ### Example
 
@@ -1263,18 +1264,7 @@ print(dirname)
     C:/Users/Pakistan/Downloads/File_Management/Chapter-03
     
 
-### Example
-
-
-```python
-import os
-file_path = "C:/Users/Pakistan/Downloads/File_Management/Chapter-03/Tools_and_Libraries_for_File_Filtering.png"
-dirname = os.path.dirname(file_path)
-print(dirname) 
-```
-### Output
-
-    C:/Users/Pakistan/Downloads/File_Management/Chapter-03
+Here, the file path is quite deep in the directory structure. The `os.path.dirname()` function extracts everything up to the last directory, which is `C:/Users/Pakistan/Downloads/File_Management/Chapter-03`. The last part (the file name `Tools_and_Libraries_for_File_Filtering.png`) is removed.
     
 
 ### Example
@@ -1290,7 +1280,8 @@ print(dirname)
 ### Output
 
     D:/
-    
+
+In this example, the input file_path is already a directory path (`D:/os_library`). When `os.path.dirname()` is applied to a directory path, it returns the parent directory of the given path. Therefore, the output is `D:/`, which is the parent directory of D:/os_library.
 
 ## f). `os.path.expanduser()`
 
