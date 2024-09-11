@@ -1,6 +1,24 @@
-# Example-2
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="vertical-align: top;">
+      <h1><a href="https://www.linkedin.com/in/engumersaeed/">Umer Saeed</a></h1>
+      Sr. RF Planning & Optimization Engineer<br>
+      BSc Telecommunications Engineering, School of Engineering<br>
+      MS Data Science, School of Business and Economics<br>
+      <strong>University of Management & Technology</strong><br>
+      <strong>Mobile:</strong> +923018412180<br>
+      <strong>Email:</strong> umersaeed81@hotmail.com<br>
+      <strong>Address:</strong> Dream Gardens, Defence Road, Lahore<br>
+    </td>
+    <td style="vertical-align: top; padding-left: 100px;">
+      <img src="https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true" alt="Bano Qabil Logo" width="500"/>
+    </td>
+  </tr>
+</table>
 
 # Copying a File with Filename Conflict Handling and Pre-Check Validations Using shutil.copy()
+
+# Example-2
 
 The purpose of this code is to copy a single file (in this case, **Test.xlsx**) to a target folder, with added functionality to handle filename conflicts. The code performs the following actions:
 - It checks if there is enough free space in the target directory before copying the file.
@@ -359,3 +377,5 @@ with pd.ExcelWriter("01_Example.xlsx",date_format = 'dd-mm-yyyy',datetime_format
     file_info_source_directory.to_excel(writer, sheet_name='Source',index=False)
     file_info_destination_folder.to_excel(writer, sheet_name='Destination',index=False)
 ```
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
