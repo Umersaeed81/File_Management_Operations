@@ -1,5 +1,3 @@
-<h1 align="center"> Data Science Technologies</h1>
-<h2 align="center">File Management Operations</h2>
 
 <table style="border-collapse: collapse;">
   <tr>
