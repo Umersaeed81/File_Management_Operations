@@ -1302,6 +1302,7 @@ os.path.expanduser('~')
 
     'C:\\Users\\Pakistan'
 
+The `os.path.expanduser('~')` function expands the tilde (`~`) to the current user's home directory. In this case, the user "Pakistan" has a home directory located at `C:\Users\Pakistan`. The function returns this path.
 
 
 ## Expanding the Home Directory Path Using os.path.expanduser
@@ -1316,6 +1317,7 @@ os.path.expanduser('~/Daily_Audits_26052024')
 
     'C:\\Users\\Pakistan/Daily_Audits_26052024'
 
+Here, `os.path.expanduser('~/Daily_Audits_26052024')` expands the tilde (`~`) to the user's home directory (`C:\Users\Pakistan`) and appends the relative path `Daily_Audits_26052024` to it. The resulting path is `C:\Users\Pakistan/Daily_Audits_26052024`. Notice that the forward slash is retained after the expansion.
 
 
 ## Expanding and Validating a User Directory Path with `os.path.expanduser` and `os.path.exists`
@@ -1337,7 +1339,10 @@ else:
 
     Expanded Path: C:\Users\Pakistan/Daily_Audits_26052024
     The path exists.
-    
+
+1. **Expanding the Path:** The `os.path.expanduser('~/Daily_Audits_26052024')` call expands the tilde to the user's home directory, resulting in `C:\Users\Pakistan/Daily_Audits_26052024`, which is printed as the "Expanded Path".
+2. **Checking If the Path Exists:** The `os.path.exists(expanded_path)` function checks if the expanded path exists in the file system. In this case, it returns `True`, indicating that the directory or file `Daily_Audits_26052024` exists in the home directory `C:\Users\Pakistan`. Therefore, the message "The path exists." is printed.
+
 
 ## 7. Retrieving File Information
 
