@@ -24,7 +24,7 @@ To use `shutil.disk_usage()`, you need to specify a directory path (e.g., `'/'` 
 
 The values returned by shutil.disk_usage() are in bytes, so to convert them to more human-readable units like gigabytes (GB), you divide by 1024<sup>3</sup>.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Managing_Disk_Space.png?raw=true)
+
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Managing_Disk_Space.png?raw=true)
@@ -33,9 +33,9 @@ The values returned by shutil.disk_usage() are in bytes, so to convert them to m
 
 Show how to check the total, used, and free space on the main disk (root directory) of the system.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Example-01.png?raw=true)
 
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Example-01.png?raw=true)
 
 
 ```python
@@ -60,7 +60,7 @@ print(f"Free: {usage.free / (1024**3):.2f} GB")
 
 Demonstrate how to find out the total, used, and free space for a specific folder or directory on your computer.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Example-02.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Example-02.png?raw=true)
 
 
 ```python
@@ -86,7 +86,7 @@ print(f"Free: {usage.free / (1024**3):.2f} GB")
 
 Show how to safely check disk usage for a directory, including handling cases where the directory might not exist or other errors occur.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Example-03.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Example-03.png?raw=true)
 
 
 ```python
@@ -120,7 +120,7 @@ except Exception as e:
 
 Explain how to check the total, used, and free space for multiple drives (like `C:`, `D:`, etc.) and handle situations where a drive is not found or can't be accessed.
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Example-04.png?raw=true)
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Example-04.png?raw=true)
 
 
 ```python
