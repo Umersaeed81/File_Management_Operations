@@ -136,6 +136,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 1. [Copying a File to a Target Folder with Pre-Check Validations Using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_00.md)
 2. [Copying a File with Filename Conflict Handling and Pre-Check Validations Using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_01.md)
+3. [Copying Multiple Files with Filename Conflict Handling and Pre-Check Validations Using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_02.md)
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
