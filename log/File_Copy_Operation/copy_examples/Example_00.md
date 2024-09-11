@@ -28,6 +28,7 @@ The purpose of this code is to copy a single file (in this case, **Test.xlsx**) 
 - If the target folder does not exist, it is created before copying the file.
 - Note that if a file with the same name already exists in the target folder, it will be overwritten.
 - The code uses **shutil.copy()**, which results in the file's metadata being updated to reflect the current time of the copy operation. Consequently, the last modification time will show the current time rather than the original file's modification time.
+- After processing all files, it reports the total number of files successfully copied.
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_example_fig/Example-00.png?raw=true)
 
