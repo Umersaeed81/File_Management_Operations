@@ -27,13 +27,16 @@
 # <h1 align="center"> Table of contents
 
 - ## [**Chapter 1: File Management Operations**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/File_Management_Operations.md)
-  
-- ## [**Chapter 2: File Metadata Extraction and Reporting**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md)
 
-- ## [**Chapter 3: Advanced File Filtering and Management Techniques**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Advanced_File_Filtering_and_Management_Techniques.md)
+- ## [**Chapter 2: Mastering File and Directory Management in Python](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/os_library/os_library.md)
+
+- ## [**Chapter 3: File Metadata Extraction and Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/Gathering_File_Metadata/File_Metadata_Extraction_and_Reporting.md)
+
+- ## [**Chapter 4: File Filtering from Directories and Subdirectories **](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/Advanced_File_Filtering_and_Management_Techniques.md)
+
+- ## [**Chapter 5: Disk Management**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/managing_disk_space.md)
   
- 
- - ## [**Chapter 4: File Copy Operation**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/File_Copy_Operation.md)
+ - ## [**Chapter 6: File Copy Operation**](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/File_Copy_Operation.md)
 
 
 
