@@ -26,6 +26,9 @@ The values returned by shutil.disk_usage() are in bytes, so to convert them to m
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Managing_Disk_Space.png?raw=true)
 
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Managing_Disk_Space.png?raw=true)
+
 ## 1. Basic Disk Usage Information
 
 Show how to check the total, used, and free space on the main disk (root directory) of the system.
@@ -33,7 +36,7 @@ Show how to check the total, used, and free space on the main disk (root directo
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Management_Operations/Example-01.png?raw=true)
 
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/managing_disk_space/Managing_Disk_Space.png?raw=true)
+
 
 ```python
 # import required libraries
