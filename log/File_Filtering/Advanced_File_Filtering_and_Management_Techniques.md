@@ -22,19 +22,32 @@
 
 Filtering files from directories and subdirectories is a fundamental task in data management that allows users to efficiently locate and manage files based on specific criteria. In a world where data is continuously growing and files are often spread across complex directory structures, having the capability to selectively filter files is invaluable. This chapter delves into various file filtering techniques that provide precision and flexibility in managing files from directories and their nested subdirectories. Understanding these methods is essential for anyone who deals with large datasets or needs to perform focused operations on specific files.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P00.png?raw=true)
+
 At its core, file filtering involves identifying and selecting files that meet certain criteria. This can range from simple requirements, such as matching specific file extensions, to more complex conditions that involve file sizes, modification dates, or patterns in filenames. The ability to filter files effectively enables more targeted data management, reduces processing times, and ensures that only the most relevant files are included in any operation, such as data analysis, backup, or migration.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P01.png?raw=true)
 
 The first technique covered in this chapter is **filtering files by their extensions**. This approach is particularly useful when dealing with directories containing various file types. By using filtering methods to isolate files with specific extensions—such as `.txt` for text files, `.csv` for data files, or `.jpg` for images—you can quickly focus on files that are relevant to your task. This method is frequently used in scenarios where different file types require different handling, such as separating image files from document files for processing or conversion.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P02.png?raw=true)
 
 Next, the chapter explores **recursive filtering**, which involves searching through all levels of subdirectories within a given directory. This technique is crucial in situations where files are organized in nested folder structures based on various criteria, such as year, department, or project type. Recursive filtering allows users to search through an entire directory tree without manually navigating through each subfolder. This is particularly beneficial for comprehensive data searches, where missing even a single relevant file could impact the accuracy and completeness of the operation.
 
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P03.png?raw=true)
+
 Another essential aspect of file filtering is **filtering by file attributes**, such as file size, creation date, or modification date. Filtering by size is especially useful when managing storage space or ensuring that only files of a certain size are processed, avoiding overly large files that might be cumbersome to handle or too small files that might not contain enough data. Similarly, filtering by modification or creation dates allows users to work with files that are most relevant to a specific timeframe, which is vital in tasks like data analysis, backups, or auditing, where recency or historical context matters.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P04.png?raw=true)
 
 The chapter also delves into the power of **regular expressions (regex) for file filtering**. Regular expressions provide a powerful and flexible way to match filenames based on complex patterns, such as names that include certain letters, numbers, or specific sequences of characters. This method is ideal for more intricate filtering requirements, where simple wildcard patterns might not suffice. Regular expressions allow for highly customizable and precise file selection, which is particularly valuable in professional environments where data files may follow complex or non-standard naming conventions.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P05.png?raw=true)
+
 Combining multiple filtering techniques, such as **name patterns, size restrictions, and regex**, offers a more refined approach to file management. By applying multiple filters simultaneously, you can narrow down your file selection to those that meet all specified conditions. This multi-layered filtering is especially useful in advanced data processing scenarios where files need to adhere to several criteria before being processed or analyzed, ensuring both efficiency and accuracy in file operations.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Filtering/File_Filtering_P06.png?raw=true)
 
 # Importance of File Filtering from Directories and Subdirectories
 
