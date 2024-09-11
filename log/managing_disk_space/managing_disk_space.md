@@ -2,10 +2,6 @@
 
 In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
 
-
-# Managing Disk Space
-
-In addition to performing basic file operations, it is crucial to monitor and manage disk space effectively. Understanding how much free space is available on a disk can help prevent issues related to insufficient storage during file operations or data processing tasks. This section introduces a Python function to retrieve the available free space on a specified directory, which is essential for effective file management.
 ## Understanding `shutil.disk_usage`
 
 The `shutil` module in Python provides a high-level interface for file operations, including disk space management. The `shutil.disk_usage()` function is particularly useful for retrieving disk usage statistics about a given path. It returns a tuple with three values:
