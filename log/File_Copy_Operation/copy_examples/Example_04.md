@@ -20,7 +20,7 @@
 
 # Example-5
 
-The purpose of this code is to copy all files from a specified source directory to a target folder. It performs the following tasks:
+The purpose of this code is to copy **all files** from a specified **source directory** to a target folder. It performs the following tasks:
 - It verifies that there is enough free space in the target directory for each file before copying.
 - It handles filename conflicts by generating unique filenames in the target folder if files with the same names already exist, preventing overwriting of existing files.
 - It checks the existence of each source file and its directory, displaying appropriate error messages if they are not found.
