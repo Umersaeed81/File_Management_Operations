@@ -18,7 +18,6 @@
 
 # Copy File with Conflict Resolution
 
-# Example-2
 
 The purpose of this code is to copy a single file (in this case, **Test.xlsx**) to a target folder, with added functionality to handle filename conflicts. The code performs the following actions:
 - It checks if there is enough free space in the target directory before copying the file.
