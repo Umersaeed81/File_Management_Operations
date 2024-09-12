@@ -18,7 +18,7 @@
 
 # CSV File Copy with Conflict Resolution and Space Check
 
-# Example-6
+
 
 This code is designed to copy files with a specific extension (in this case, **.csv**) from a source directory to a target folder. Here’s a breakdown of its functionality:
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
