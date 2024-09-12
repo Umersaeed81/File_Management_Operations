@@ -134,11 +134,13 @@ Both `shutil.copy()` and `shutil.copy2()` are powerful tools for managing files 
 
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
 
+## Simple File Copy Operations in Python: Handling Free Space, Conflicts, and Metadata
+
 1. [Copy Single File with Space Check and Metadata Update](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_00.md)
 2. [Copy File with Conflict Resolution](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_01.md)
 3. [Copy Multiple Files with Unique Naming and Metadata Update](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_02.md)
 4. [Multi-Source File Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_03.md)
 5. [Copy All Files from Single Directory with Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
 
-
+## CC
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
