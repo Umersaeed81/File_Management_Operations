@@ -18,7 +18,7 @@
 
 # File Copy Utility with Multiple Keyword and Extensions: Managing Conflicts, Space, and Metadata
 
-# Example-33
+
 
 This example demonstrates the process of copying files from a source directory to a destination directory, focusing on files that contain a specific keyword (in this case "US","AS") in their filenames and have a particular file extension (in this case **.xlsx**,**.txt**). The script includes the following steps:
 
