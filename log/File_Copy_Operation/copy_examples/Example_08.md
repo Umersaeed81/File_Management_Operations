@@ -18,7 +18,7 @@
 
 # Multi-Prefix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting
 
-# Example-23
+
 
 This example illustrates the process of copying files from a source directory to a destination directory based on multiple filename prefixes (in this case, "US" and "AS"). It involves several steps to ensure efficient and error-free file transfer:
 
