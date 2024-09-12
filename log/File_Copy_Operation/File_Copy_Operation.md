@@ -145,7 +145,7 @@ In practical applications, copy operations can vary from simple file duplication
 ## File Copy Utility with Conflict Resolution and Space Check
 
 5. [Copy All Files with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
-6. [Heading: Copy Files Under 500KB with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
+6. [Copy Files Under 500KB with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
 ## Copy Files by Type with Conflict Resolution and Space Check
 
