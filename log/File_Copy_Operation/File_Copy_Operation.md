@@ -149,6 +149,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 6. [CSV File Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
 7. [Multiple File Types Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
+20. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
 
 
@@ -183,7 +184,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 ## Copy All Files from Directory with Size Limit
 
-20. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
+
 
 
 
