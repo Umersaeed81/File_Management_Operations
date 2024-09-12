@@ -28,7 +28,7 @@ The purpose of this code is to copy only **.txt** files from a specified source 
 - The code uses `shutil.copy()` to copy each file, updating the file's metadata so that the last modification time reflects the current time of the copy operation, rather than the original file's modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
-![](![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_example_fig/Example-20.png?raw=true))
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_example_fig/Example-20.png?raw=true)
 
 ## Importing Required Modules
 
