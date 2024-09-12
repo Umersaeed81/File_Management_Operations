@@ -21,11 +21,12 @@
 # Example-5
 
 The purpose of this code is to copy **all files** from a specified **source directory** to a target folder. It performs the following tasks:
-- It verifies that there is enough free space in the target directory for each file before copying.
-- It handles filename conflicts by generating unique filenames in the target folder if files with the same names already exist, preventing overwriting of existing files.
-- It checks the existence of each source file and its directory, displaying appropriate error messages if they are not found.
-- If the target folder does not exist, it is created.
-- The code uses **shutil.copy()** to copy each file, updating the file’s metadata to reflect the current time of the copy operation. As a result, the last modification time will show the current time rather than the original file’s modification time.
+- The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
+- If no files are found in the source directory to copy, it displays a message indicating this condition.
+- Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
+- If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
+- If the target folder does not exist, it is automatically created before copying files.
+- The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
 ![](https://raw.githubusercontent.com/Umersaeed81/File_Management_Operations/main/log/File_Copy_Operation/copy_example_fig/Example-04.png)
