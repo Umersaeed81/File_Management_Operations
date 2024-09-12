@@ -17,7 +17,7 @@
 </table>
 
 
-# Multiple File Types Copy with Conflict Resolution and Space Check
+# Copy Multiple File Types (.xlsx and .txt) with Conflict Resolution and Space Check
 
 
 
