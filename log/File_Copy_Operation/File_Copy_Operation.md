@@ -177,6 +177,10 @@ In practical applications, copy operations can vary from simple file duplication
 
 
 
+## File Copy with Conditional Keyword and Extension Check: Conflict Resolution and Space Management
+18. [Conditional File Copy with Single Keyword and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
+19. [File Copy Utility with Multiple Keyword and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
+
 
 
 
