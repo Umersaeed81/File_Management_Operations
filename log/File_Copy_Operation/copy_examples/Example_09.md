@@ -18,7 +18,7 @@
 
 # Single Suffix File Copy: Managing Conflicts, Space, and Metadata
 
-# Example-13
+
 
 In this example, the script is designed to copy files from a source directory to a destination directory based on a specific suffix (**US** in this case) in the filenames. Here's a detailed breakdown of the process:
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
