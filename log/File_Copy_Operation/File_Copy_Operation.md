@@ -148,9 +148,10 @@ In practical applications, copy operations can vary from simple file duplication
 
 ## Conditional File Copy Based on File Extension with Conflict Resolution and Space Check
 
-6. [CSV File Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
-7. [Multiple File Types Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
-8. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
+6. [Copy Specific File Type (.csv) with Conflict Resolution and Space Check
+](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
+7. [Copy Multiple File Types (.xlsx and .txt) with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
+8. [Copy All Files with Size Limit (Less than 500KB) and Conflict Resolution](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
 
 
