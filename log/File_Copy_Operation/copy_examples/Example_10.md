@@ -18,7 +18,7 @@
 
 # Multi-Suffix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting
 
-# Example-25
+
 
 This example illustrates the process of copying files from a source directory to a destination directory based on multiple filename suffix (in this case, "US" and "AS"). It involves several steps to ensure efficient and error-free file transfer:
 
