@@ -19,7 +19,7 @@
 
 # Multiple File Types Copy with Conflict Resolution and Space Check
 
-# Example-9
+
 
 This code extends previous examples by allowing the copying of multiple file types (in this case  **.xlsx** (Excel files) and **.txt** (text files))  from the source directory to the destination directory. It is designed to:
 
