@@ -143,10 +143,11 @@ In practical applications, copy operations can vary from simple file duplication
 
 
 ## Copy All Files from Director
+
 5. [Copy All Files from Single Directory with Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
 20. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
-## Conditional File Copy Based on File Extension with Conflict Resolution and Space Check
+## Copy Files by Type with Conflict Resolution and Space Check
 
 6. [Copy Specific File Type (.csv) with Conflict Resolution and Space Check
 ](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
