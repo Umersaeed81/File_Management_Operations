@@ -150,40 +150,40 @@ In practical applications, copy operations can vary from simple file duplication
 
 6. [CSV File Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
 7. [Multiple File Types Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
-20. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
+8. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
 
 
 ## Conditional File Copy Based on Filename Prefix with Conflict Resolution and Space Check
-8. [Single Prefix File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
-9. [Multi-Prefix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
+9. [Single Prefix File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
+10. [Multi-Prefix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
 
 ## Conditional File Copy Based on Filename Suffix with Conflict Resolution and Space Check
-10. [Single Suffix File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_09.md)
-11. [Multi-Suffix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_10.md)
+11. [Single Suffix File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_09.md)
+12. [Multi-Suffix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_10.md)
 
 ## Conditional File Copy Based on Filename Keyword with Conflict Resolution and Space Check
-12. [Single Keyword File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_11.md)
-13. [Multi-Keyword File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_12.md)
+13. [Single Keyword File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_11.md)
+14. [Multi-Keyword File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_12.md)
 
 ## File Copy with Conditional Prefix and Extension Check: Conflict Resolution and Space Management
-14. [Conditional File Copy with Single Prefix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
-15. [File Copy Utility with Multiple Prefixes and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
+15. [Conditional File Copy with Single Prefix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
+16. [File Copy Utility with Multiple Prefixes and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
     
 
 
 
 ## File Copy with Conditional Suffix and Extension Check: Conflict Resolution and Space Management
-16. [Conditional File Copy with Single Suffix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
-17. [File Copy Utility with Multiple Suffix and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
+17. [Conditional File Copy with Single Suffix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
+18. [File Copy Utility with Multiple Suffix and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
 
 
 
 ## File Copy with Conditional Keyword and Extension Check: Conflict Resolution and Space Management
-18. [Conditional File Copy with Single Keyword and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
-19. [File Copy Utility with Multiple Keyword and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
+19. [Conditional File Copy with Single Keyword and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
+20. [File Copy Utility with Multiple Keyword and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
 
-## Copy All Files from Directory with Size Limit
+
 
 
 
