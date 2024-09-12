@@ -181,7 +181,9 @@ In practical applications, copy operations can vary from simple file duplication
 18. [Conditional File Copy with Single Keyword and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
 19. [File Copy Utility with Multiple Keyword and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
 
+## Copy All Files from Directory with Size Limit
 
+20. [Copy All Files from Single Directory with Size Limit and Unique Names](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
 
 
