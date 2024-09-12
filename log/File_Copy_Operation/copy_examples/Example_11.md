@@ -18,7 +18,7 @@
 
 # Single Keyword File Copy: Managing Conflicts, Space, and Metadata
 
-# Example-15
+
 
 This example is focused on copying files from a source directory to a destination directory based on whether the files contain a specific keyword (in this case, **US**) anywhere in their filenames. Here's a detailed summary:
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
