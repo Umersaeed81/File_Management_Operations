@@ -168,4 +168,19 @@ In practical applications, copy operations can vary from simple file duplication
 14. [Conditional File Copy with Single Prefix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
 15. [File Copy Utility with Multiple Prefixes and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
     
+
+
+
+## File Copy with Conditional Suffix and Extension Check: Conflict Resolution and Space Management
+16. [Conditional File Copy with Single Suffix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
+17. [File Copy Utility with Multiple Suffix and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
+
+
+
+
+
+
+
+
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
