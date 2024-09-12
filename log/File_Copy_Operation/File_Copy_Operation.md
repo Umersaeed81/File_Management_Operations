@@ -150,5 +150,9 @@ In practical applications, copy operations can vary from simple file duplication
 6. [CSV File Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
 7. [Multiple File Types Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
 
-   
+## UMER
+8. [Filename Prefix-Based File Copy with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
+9. [Multi-Prefix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
+
+    
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
