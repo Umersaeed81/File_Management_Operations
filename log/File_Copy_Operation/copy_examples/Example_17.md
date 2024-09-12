@@ -30,6 +30,7 @@ This example demonstrates the process of copying files from a source directory t
 - The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_example_fig/Example-17.png)
 
 ## Importing Required Modules
 
@@ -167,20 +168,7 @@ file_info_source_directory
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -351,20 +339,7 @@ file_info_destination_folder
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
