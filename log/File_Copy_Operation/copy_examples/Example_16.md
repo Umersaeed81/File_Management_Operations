@@ -18,7 +18,7 @@
 
 # File Copy Utility with Multiple Suffix and Extensions: Managing Conflicts, Space, and Metadata
 
-# Example-31 
+
 
 This example is designed to copy files from a source directory to a destination directory, specifically targeting files that have a keyword in the suffix (in this case, "US","AS") and a specific file extension (in this case, **.xlsx**,**.txt**). The key steps are:
 
