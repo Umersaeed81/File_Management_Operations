@@ -18,7 +18,7 @@
 
 # Copy Files with "US" or "AS" Prefix Under 500KB
 
-# Example-53
+
 
 The purpose of this code is to copy files with a prefix of either 'US' or 'AS' and a size smaller than 500KB from a specified source directory to a target folder. Here’s a breakdown of its functionality:
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
