@@ -203,7 +203,6 @@ In practical applications, copy operations can vary from simple file duplication
 ## Copy Files by Keyword, Extension, and Size with Conflict Resolution and Space Check
 31. [Copy Specific Keyword ("US") and Extension (.xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
 32. [Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
-
 33. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_32.md) 
 34. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_33.md)    
 
