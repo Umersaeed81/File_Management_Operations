@@ -144,15 +144,15 @@ In practical applications, copy operations can vary from simple file duplication
 
 ## File Copy Utility with Conflict Resolution and Space Check
 
-5. [Copy All Files with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
-6. [Copy Files Under 500KB with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
+5. [Copy All Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
+6. [Copy Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
 ## Copy Files by Type and size with Conflict Resolution and Space Check
 
-7. [Copy Specific File Type (.csv) with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
-8. [Copy Multiple File Types (.xlsx and .txt) with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
-9. [Copy Text Files (.txt) with Size Limit (Less than 500KB), Conflict Resolution, and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_20.md)
-10. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_21.md)
+7. [Copy Specific File Type (.csv)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
+8. [Copy Multiple File Types (.xlsx and .txt)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
+9. [Copy Text Files (.txt) with Size Limit (Less than 500KB)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_20.md)
+10. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_21.md)
 
 
 
