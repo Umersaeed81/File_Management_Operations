@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Copy All Files with Size Limit (Less than 500KB) and Conflict Resolution
+# Copy Files Under 500KB
 
 
 
