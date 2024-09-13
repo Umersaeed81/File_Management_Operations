@@ -161,8 +161,8 @@ In practical applications, copy operations can vary from simple file duplication
 
 11. [Copy Specific Prefix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
 12. [Copy Multiple Prefixes ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
-13. [Copy "US" Prefixed Files Under 500KB](tt)
-14. [Copy Files with "US" or "AS" Prefix Under 500KB](tt1)
+13. [Copy "US" Prefixed Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_22.md)
+14. [Copy Files with "US" or "AS" Prefix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_23.md)
 
 ## Conditional File Copy Based on Filename Suffix with Conflict Resolution and Space Check
 15. [Single Suffix File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_09.md)
