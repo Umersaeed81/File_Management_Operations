@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Copy Specific File Type (.csv) with Conflict Resolution and Space Check
+# Copy Specific File Type (.csv)
 
 
 This code is designed to copy files with a specific extension (in this case, **.csv**) from a source directory to a target folder. Here’s a breakdown of its functionality:
