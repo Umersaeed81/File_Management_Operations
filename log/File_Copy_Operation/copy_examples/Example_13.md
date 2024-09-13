@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Conditional File Copy with Single Prefix and Extension: Space Check and Conflict Handling
+# Copy Specific Prefix ("US") and Extension (.txt) Files
 
 
 
