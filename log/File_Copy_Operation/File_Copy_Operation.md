@@ -147,10 +147,9 @@ In practical applications, copy operations can vary from simple file duplication
 5. [Copy All Files with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
 6. [Copy Files Under 500KB with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
 
-## Copy Files by Type with Conflict Resolution and Space Check
+## Copy Files by Type and size with Conflict Resolution and Space Check
 
-7. [Copy Specific File Type (.csv) with Conflict Resolution and Space Check
-](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
+7. [Copy Specific File Type (.csv) with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
 8. [Copy Multiple File Types (.xlsx and .txt) with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
 9. [Copy Text Files (.txt) with Size Limit (Less than 500KB), Conflict Resolution, and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_20.md)
 10. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB with Conflict Resolution and Space Check](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_21.md)
@@ -158,7 +157,8 @@ In practical applications, copy operations can vary from simple file duplication
 
 
 
-## Conditional File Copy Based on Filename Prefix with Conflict Resolution and Space Check
+## Copy Files by Prefix and Size with Conflict Resolution and Space Check
+
 11. [Single Prefix File Copy: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
 12. [Multi-Prefix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
 
