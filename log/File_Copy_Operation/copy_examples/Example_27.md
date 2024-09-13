@@ -421,6 +421,4 @@ with pd.ExcelWriter("56_Example.xlsx",date_format = 'dd-mm-yyyy',datetime_format
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
 
 
-```python
 
-```
