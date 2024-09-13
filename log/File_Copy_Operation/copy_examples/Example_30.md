@@ -28,9 +28,7 @@ This example focuses on copying files from a source directory to a destination d
 - The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
-```python
 
-```
 
 ## Importing Required Modules
 
@@ -393,6 +391,4 @@ with pd.ExcelWriter("48_Example.xlsx",date_format = 'dd-mm-yyyy',datetime_format
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
 
 
-```python
 
-```
