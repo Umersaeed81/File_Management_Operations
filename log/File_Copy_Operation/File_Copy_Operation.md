@@ -187,24 +187,24 @@ In practical applications, copy operations can vary from simple file duplication
 ## File Copy with Conditional Prefix and Extension Check: Conflict Resolution and Space Management
 23. [Conditional File Copy with Single Prefix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
 24. [File Copy Utility with Multiple Prefixes and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
- 25. [tt1](gg1)
- 26. [tt2](gg2)   
+ 25. [tt1](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_28.md)
+ 26. [tt2]((https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_29.md)
 
 
 
 ## File Copy with Conditional Suffix and Extension Check: Conflict Resolution and Space Management
 27. [Conditional File Copy with Single Suffix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
 28. [File Copy Utility with Multiple Suffix and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
-29. [tt3](gg1)
-30. [tt4](gg2)   
+29. [tt3](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_30.md)
+30. [tt4](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_31.md)   
 
 
 
 ## File Copy with Conditional Keyword and Extension Check: Conflict Resolution and Space Management
 31. [Conditional File Copy with Single Keyword and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
 32. [File Copy Utility with Multiple Keyword and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
-33. [tt5](gg1)
-34. [tt6](gg2)   
+33. [tt5](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_32.md) 
+34. [tt6](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_33.md)    
 
 
 
