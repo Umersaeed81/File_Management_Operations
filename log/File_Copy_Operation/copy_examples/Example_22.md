@@ -18,7 +18,7 @@
 
 # Copy "US" Prefixed Files Under 500KB
 
-# Example-41
+
 
 The purpose of this code is to copy files from a specified source directory that have a prefix of "US" and a size less than 500KB to a target folder. Here’s a breakdown of its functionality:
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
