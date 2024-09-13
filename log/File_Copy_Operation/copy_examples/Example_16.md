@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# File Copy Utility with Multiple Suffix and Extensions: Managing Conflicts, Space, and Metadata
+# Copy Multiple Suffixes ("US" or "AS") and Extensions (.xlsx or .txt) Files
 
 
 
