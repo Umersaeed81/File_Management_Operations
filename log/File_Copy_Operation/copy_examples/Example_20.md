@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Copy Text Files (.txt) with Size Limit (Less than 500KB), Conflict Resolution, and Space Check
+# Copy Text Files (.txt) with Size Limit (Less than 500KB)
 
 The purpose of this code is to copy only **.txt** files from a specified source directory to a target folder, with a size limit of less than 500KB. It performs the following tasks:
 
