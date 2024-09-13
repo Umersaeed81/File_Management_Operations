@@ -184,11 +184,11 @@ In practical applications, copy operations can vary from simple file duplication
 
 
 
-## File Copy with Conditional Prefix and Extension Check: Conflict Resolution and Space Management
-23. [Conditional File Copy with Single Prefix and Extension: Space Check and Conflict Handling](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
-24. [File Copy Utility with Multiple Prefixes and Extensions: Managing Conflicts, Space, and Metadata](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
- 25. [tt1](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_28.md)
- 26. [tt2](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_29.md)
+## Copy Files by Prefix, Extension, and Size with Conflict Resolution and Space Check
+23. [Copy Specific Prefix ("US") and Extension (.txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
+24. [Copy Multiple Prefixes ("US" or "AS") and Extensions (.txt or .xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
+ 25. [Copy "US" Prefixed and .txt Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_28.md)
+ 26. [Copy Files with "US" or "AS" Prefix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_29.md)
 
 
 
