@@ -17,9 +17,9 @@
 </table>
 
 # Copy Files with Keyword "US" Under 500KB
+This example is focused on copying files from a source directory to a destination directory based on whether the files contain specific keywords (in this case, "US") anywhere in their filenames and are smaller than 500KB in size.
 
 ## Importing Required Modules
-
 
 ```python
 import os
