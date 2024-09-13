@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Example-49
+# Copy "US" Suffix and .txt Files Under 500KB
 
 This example focuses on copying files from a source directory to a destination directory based on whether the files start with a specific suffix (in this case, "US"), have a specific file extension (in this case, .txt), and are smaller than 500KB in size.  Here’s a detailed summary:
 
