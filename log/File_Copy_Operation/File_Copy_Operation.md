@@ -195,7 +195,7 @@ In practical applications, copy operations can vary from simple file duplication
 ## Copy Files by Suffix, Extension, and Size with Conflict Resolution and Space Check
 27. [Copy Specific Suffix ("US") and Extension (.csv) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
 28. [Copy Multiple Suffixes ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
-29. [Copy "US" Suffix and .txt Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_30.md)
+29. [Copy "US" Suffix and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_30.md)
 30. [Copy Files with "US" or "AS" Suffix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_31.md)   
 
 
