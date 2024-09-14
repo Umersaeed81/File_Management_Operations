@@ -20,7 +20,7 @@
 
 
 
-The purpose of this code is to copy **all files** from a specified source directory to a target folder, with a size limit of less than 500KB. It performs the following tasks:
+The purpose of this code is to copy **all files** from a specified source directory to a target folder, with a **size limit** of less than **500KB**. It performs the following tasks:
 
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
