@@ -17,11 +17,11 @@
 </table>
 
 
-# Copy Multiple File Types (.xlsx and .txt)
+# Copy Multiple File Types (.xlsx or .txt)
 
 
 
-This code extends previous examples by allowing the copying of multiple file types (in this case  **.xlsx** (Excel files) and **.txt** (text files))  from the source directory to the destination directory. It is designed to:
+This code extends previous examples by allowing the copying of multiple file types (in this case  **.xlsx** (Excel files) or **.txt** (text files))  from the source directory to the destination directory. It is designed to:
 
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
