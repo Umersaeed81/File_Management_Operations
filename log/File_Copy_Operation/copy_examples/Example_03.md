@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Multi-Source File Copy with Conflict Resolution and Space Check
+# Copy Multiple Files from Multiple Sources
 
 
 
