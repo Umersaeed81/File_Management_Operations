@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Multi-Suffix File Copy: Managing Disk Space, Filename Conflicts, and Metadata Reporting
+# Copy Multiple Suffix ("US" or "AS") Files
 
 
 
