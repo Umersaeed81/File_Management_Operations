@@ -20,7 +20,7 @@
 
 
 
-This example focuses on copying files from a source directory to a destination directory based on whether the files start with a specific prefix (in this case, **"US"** or **"AS"**) and have a specific file extension (in this case, **.txt**, **.xlsx**). Here’s a detailed summary:
+This example focuses on copying files from a source directory to a destination directory based on whether the files start with a specific prefix (in this case, **"US"** or **"AS"**) and have a specific file extension (in this case, **.txt** or **.xlsx**). Here’s a detailed summary:
 
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
