@@ -20,7 +20,7 @@
 
 
 
-This example focuses on copying files from a source directory to a destination directory based on whether the files end with a specific suffix (in this case, "US" or "AS"), have a specific file extension (in this case, .txt or .xlsx), and are smaller than 500KB in size.
+This example focuses on copying files from a source directory to a destination directory based on whether the files end with a specific suffix (in this case, **"US"** or **"AS"**), have a specific file extension (in this case, **.txt** or **.xlsx**), and are **smaller than 500KB in size**.
 
 Here’s a detailed summary:
 
