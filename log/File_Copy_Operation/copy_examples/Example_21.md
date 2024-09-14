@@ -18,7 +18,7 @@
 
 # Copy Text and Excel Files (.txt, .xlsx) Under 500KB
 
-This code selectively copies files with either **.txt** or **.xlsx** extensions from a specified source directory to a target folder, but only if they are smaller than 500KB in size. It performs the following tasks:
+This code selectively copies files with either **.txt** or **.xlsx** extensions from a specified source directory to a target folder, but only if they are **smaller than 500KB** in **size**. It performs the following tasks:
 
 - The code checks for the existence of the source directory. If the source directory is not found, it displays an error message.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
