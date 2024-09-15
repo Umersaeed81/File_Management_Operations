@@ -134,9 +134,9 @@ Both `shutil.copy()` and `shutil.copy2()` are powerful tools for managing files 
 
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
 
-[Cppy from Directory using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Copy_From_Directory_Examples.md)
+- [Cppy from Directory using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Copy_From_Directory_Examples.md)
 
-[Copy from Directory and Subdirectory using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Copy_From_Directory_SubDirectory_Examples.md)
+- [Copy from Directory and Subdirectory using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Copy_From_Directory_SubDirectory_Examples.md)
 
 
 
