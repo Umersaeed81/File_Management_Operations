@@ -27,9 +27,7 @@ The purpose of this code is to copy **all files( (of any type)** from a specifie
 - The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
 
-```python
 
-```
 
 ## Importing Required Modules
 
