@@ -18,7 +18,7 @@
 
 # Copy Multiple Suffix ("US" or "AS") Files
 
-This example illustrates the process of copying files from a source directory to a destination directory based on multiple filename suffix (in this case, **"US"** or **"AS"**). It involves several steps to ensure efficient and error-free file transfer:
+This example illustrates the process of copying files from the subdirectories of a specified source directory, but not from the source directory itself, to a destination directory based on multiple filename suffix (in this case, **"US"** or **"AS"**). It involves several steps to ensure efficient and error-free file transfer:
 
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
