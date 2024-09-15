@@ -21,7 +21,7 @@
 
 
 
-This example is designed to copy files from a source directory to a destination directory, specifically targeting files that have a keyword in the suffix (in this case, **"US"**) and a specific file extension (in this case, **.csv**). The key steps are:
+This example is designed to copy files from the subdirectories of a specified source directory, but not from the source directory itself, to a destination directory, specifically targeting files that have a keyword in the suffix (in this case, **"US"**) and a specific file extension (in this case, **.csv**). The key steps are:
 
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
