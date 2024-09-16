@@ -25,6 +25,8 @@
   <li><a href="#toc-4">Function to Generate a Unique Filename in the Destination Directory</a></li>
   <li><a href="#toc-5">Checking and Copying the File to the Destination</a></li>
   <li><a href="#toc-6">Gathering and Formatting File Metadata</a></li>
+  <li><a href="#toc-7"> Export Source and Destination File Information</a></li>
+ 
 
 
 <h1>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h1>
