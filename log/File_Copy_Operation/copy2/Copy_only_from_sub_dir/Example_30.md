@@ -54,8 +54,8 @@ from glob import glob
 from itertools import product
 ```
 
-## Setting Source File and Destination Folder Paths
 
+<h2 id="toc-2">Setting Source File and Destination Folder Paths</h2>
 
 ```python
 # Define the source and destination directory paths
@@ -63,8 +63,8 @@ source_directory = 'D:/Copy/Umer_Saeed/'
 destination_folder = 'D:/Copy/Ali_Saeed/'
 ```
 
-## Function to Get Free Disk Space
 
+<h2 id="toc-3">Function to Get Free Disk Space</h2>
 
 ```python
 def get_free_space(directory):
@@ -75,8 +75,8 @@ def get_free_space(directory):
     return free_space
 ```
 
-## Function to Generate a Unique Filename in the Destination Directory
 
+<h2 id="toc-4">Function to Generate a Unique Filename in the Destination Directory</h2>
 
 ```python
 # Function to generate unique filename
@@ -91,8 +91,8 @@ def generate_unique_filename(source_file, destination_directory):
     return destination_file_path
 ```
 
-# Checking and Copying the File to the Destination
 
+<h2 id="toc-5">Checking and Copying the File to the Destination</h2>
 
 ```python
 # Check if the source directory exists
@@ -146,8 +146,8 @@ else:
     Total number of files copied: 7
     
 
-## Gathering and Formatting File Metadata
 
+<h2 id="toc-5">Gathering and Formatting File Metadata</h2>
 
 ```python
 def get_file_info(path):
@@ -499,8 +499,8 @@ file_info_destination_folder
 
 
 
-## Export Source and Destination File Information 
 
+<h2 id="toc-6">Export Source and Destination File Information </h2>
 
 ```python
 # set path
