@@ -25,7 +25,7 @@ The purpose of this code is to copy **all files(of any type)** from the subdirec
 - Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
 - If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
 - If the target folder does not exist, it is automatically created before copying files.
-- The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
+- The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - After processing all files, it reports the total number of files successfully copied.
   
 ## Importing Required Modules
