@@ -17,7 +17,7 @@
 </table>
 
 <h2>Table of Contents</h2>
-<ol>
+<ul>
   <li><a href="#toc-1">Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</a></li>
   <li><a href="#toc-2">Importing Required Modules</a></li>
   <li><a href="#toc-3">Setting Source File and Destination Folder Paths</a></li>
@@ -25,8 +25,6 @@
   <li><a href="#toc-5">Function to Generate a Unique Filename in the Destination Directory</a></li>
   <li><a href="#toc-6">Checking and Copying the File to the Destination</a></li>
   <li><a href="#toc-7">Gathering and Formatting File Metadata</a></li>
-</ol>
-
 
 # Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB
 
