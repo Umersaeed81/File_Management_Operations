@@ -42,7 +42,7 @@ The script includes the following steps:
 
 
 
-<h2 id="toc-2">Importing Required Modules</h2>
+<h2 id="toc-1">Importing Required Modules</h2>
 
 
 ```python
