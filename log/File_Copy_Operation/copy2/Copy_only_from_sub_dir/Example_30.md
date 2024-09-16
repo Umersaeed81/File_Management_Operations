@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-<h1>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h1>
+<h2>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h2>
 <ul>
   <li><a href="#toc-2">Importing Required Modules</a></li>
   <li><a href="#toc-3">Setting Source File and Destination Folder Paths</a></li>
