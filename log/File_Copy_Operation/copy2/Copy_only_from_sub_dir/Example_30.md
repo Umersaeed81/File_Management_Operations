@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-<h1>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h1>
+
 
 <ul>
   <li><a href="#toc-1">Importing Required Modules</a></li>
@@ -27,7 +27,7 @@
   <li><a href="#toc-6">Gathering and Formatting File Metadata</a></li>
 
 
-
+<h1>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h1>
 
 This example demonstrates the process of copying files from the subdirectories of a specified source directory, but not from the source directory itself, to a destination directory, focusing on files that contain a specific keyword (in this case **"US"** or **"AS"**) in their filenames, have a particular file extension (in this case **.xlsx** or **.txt**), and are **smaller than 500KB in size**.
 
