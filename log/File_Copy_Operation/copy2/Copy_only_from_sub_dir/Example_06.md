@@ -26,7 +26,7 @@ This code selectively copies files with either **.txt** or **.xlsx** extensions 
 - Before copying each file, it verifies that there is sufficient free space in the target directory's drive to accommodate the file. If there is not enough free space, it displays an error message.
 - If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
 - If the target folder does not exist, it is automatically created before copying files.
-- The code uses `shutil.copy()` to copy each file, updating the file's metadata so that the last modification time reflects the current time of the copy operation, rather than the original file's modification time.
+- The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - After processing all files, it reports the total number of files successfully copied.
 
 ## Importing Required Modules
