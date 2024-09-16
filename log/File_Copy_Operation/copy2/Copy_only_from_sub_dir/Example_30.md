@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB)()
+# [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB)(https://github.com/Umersaeed81/File_Management_Operations/edit/main/log/File_Copy_Operation/copy2/Copy_only_from_sub_dir/Example_30.md)
 
 
 This example demonstrates the process of copying files from the subdirectories of a specified source directory, but not from the source directory itself, to a destination directory, focusing on files that contain a specific keyword (in this case **"US"** or **"AS"**) in their filenames, have a particular file extension (in this case **.xlsx** or **.txt**), and are **smaller than 500KB in size**.
