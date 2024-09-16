@@ -18,12 +18,12 @@
 
 <h2>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h2>
 <ul>
-  <li><a href="#toc-2">Importing Required Modules</a></li>
-  <li><a href="#toc-3">Setting Source File and Destination Folder Paths</a></li>
-  <li><a href="#toc-4">Function to Get Free Disk Space</a></li>
-  <li><a href="#toc-5">Function to Generate a Unique Filename in the Destination Directory</a></li>
-  <li><a href="#toc-6">Checking and Copying the File to the Destination</a></li>
-  <li><a href="#toc-7">Gathering and Formatting File Metadata</a></li>
+  <li><a href="#toc-1">Importing Required Modules</a></li>
+  <li><a href="#toc-2">Setting Source File and Destination Folder Paths</a></li>
+  <li><a href="#toc-3">Function to Get Free Disk Space</a></li>
+  <li><a href="#toc-4">Function to Generate a Unique Filename in the Destination Directory</a></li>
+  <li><a href="#toc-5">Checking and Copying the File to the Destination</a></li>
+  <li><a href="#toc-6">Gathering and Formatting File Metadata</a></li>
 
 # Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB
 
@@ -42,7 +42,7 @@ The script includes the following steps:
 
 
 
-## Importing Required Modules
+<h2 id="toc-2">Importing Required Modules</h2>
 
 
 ```python
