@@ -150,7 +150,7 @@ else:
     
 
 
-<h2 id="toc-5">Gathering and Formatting File Metadata</h2>
+<h2 id="toc-6">Gathering and Formatting File Metadata</h2>
 
 ```python
 def get_file_info(path):
@@ -503,7 +503,7 @@ file_info_destination_folder
 
 
 
-<h2 id="toc-6">Export Source and Destination File Information </h2>
+<h2 id="toc-7">Export Source and Destination File Information </h2>
 
 ```python
 # set path
