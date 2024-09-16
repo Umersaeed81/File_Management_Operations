@@ -18,8 +18,6 @@
 
 # Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files
 
-# Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files
-
 This example demonstrates the process of copying files from the subdirectories of a specified source directory, but not from the source directory itself, to a destination directory, focusing on files that contain a specific keyword (in this case **"US"** or **"AS"**) in their filenames and have a particular file extension (in this case **.xlsx** or **.txt**). The script includes the following steps:
 
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
