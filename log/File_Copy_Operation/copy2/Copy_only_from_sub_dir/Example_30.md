@@ -31,9 +31,7 @@ The script includes the following steps:
 - The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - After processing all files, it reports the total number of files successfully copied.
 
-[## Umer](https://example.com)
 
-[## Ali](https://example.com)
 
 ## Importing Required Modules
 
