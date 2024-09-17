@@ -19,9 +19,7 @@
 # Copy Specific File Type (.csv)
 
 
-```python
 
-```
 
 ## Importing Required Modules
 
