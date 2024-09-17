@@ -66,7 +66,7 @@ Copying files to different locations enables easy distribution of data among tea
 
 Implementing copy operations effectively requires adhering to certain best practices:
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Best_Practices_for_Copy%20Operations.png?raw=true)
+
 
 ### Verify Copies
 
@@ -92,11 +92,13 @@ Automate copy operations using scripts or specialized software to handle repetit
 
 Anticipate potential errors during copy operations, such as network failures or insufficient storage space. Implement error handling mechanisms to retry operations, alert administrators, or clean up partial copies.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Best_Practices_for_Copy%20Operations.png?raw=true)
+
 # Common Challenges and Solutions
 
 Copy operations can encounter various challenges. Here are some common issues and their solutions:
 
-![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Common_Challenges_and_Solutions.png?raw=true)
+
 
 ### Insufficient Storage Space 
 
@@ -115,6 +117,7 @@ Network interruptions or system crashes can halt copy operations. Use tools that
 ### Data Corruption
 Data corruption can occur during the copy process, especially for large files or network transfers. Verify the integrity of copied files using checksums or hashes to detect and address corruption.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Common_Challenges_and_Solutions.png?raw=true)
 
 # Tools and Libraries for File Copy
 
