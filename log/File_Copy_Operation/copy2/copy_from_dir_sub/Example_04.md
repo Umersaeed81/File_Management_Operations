@@ -19,9 +19,6 @@
 # Copy Multiple File Types (.xlsx or .txt)
 
 
-```python
-
-```
 
 ## Importing Required Modules
 
