@@ -18,6 +18,14 @@
 
 # Copy Files with Keyword "US" Under 500KB
 
+This example is focused on copying files from a source directory and its subdirectories to a destination directory based on whether the files contain specific keywords (in this case, **"US"**) anywhere in their filenames and are **smaller than 500KB in size**. Here’s a breakdown of its functionality:
+- The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
+- If no files are found in the source directory to copy, it displays a message indicating this condition.
+- Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
+- If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
+- If the target folder does not exist, it is automatically created before copying files.
+- The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
+- After processing all files, it reports the total number of files successfully copied.
 
 
 
