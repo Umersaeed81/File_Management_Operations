@@ -143,7 +143,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 - [Copy from Subdirectory only using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Copy_only_from_sub_dir.md)
 
-- [Cppy from Directory using `shutil.copy2()`](www.umt.edu.pk)
+- [Cppy from Directory using `shutil.copy2()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir/copy2_only_dir.md)
 
 - [Copy from Directory and Subdirectory using `shutil.copy2()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir_sub/Copy2_From_Directory_SubDirectory_Examples.md)
 
