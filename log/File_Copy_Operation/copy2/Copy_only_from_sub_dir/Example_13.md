@@ -30,6 +30,8 @@ The purpose of this code is to copy files from the subdirectories of a specified
     - **File Metadata:** Metadata for the files in both the source and destination directories is gathered. This includes file name, size, last modification time, file extension, and the full file path.
     - **Excel Export:** The collected metadata is exported to an Excel file with two sheets: one for the source directory and another for the destination directory. 
 
+## Importing Required Modules
+
 ```python
 import os
 import math
