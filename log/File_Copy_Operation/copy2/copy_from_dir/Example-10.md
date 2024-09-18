@@ -24,7 +24,7 @@ This code selectively copies files with either **.txt** or **.xlsx** extensions 
 - **Space Check:** Before copying each file, it verifies that there is sufficient free space in the target directory's drive to accommodate the file. If there is not enough free space, it displays an error message.
 - **Unique Filename Generation:** If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
 - **Automatic Target Folder Creation:** If the target folder does not exist, it is automatically created before copying files.
-- The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
+-  **File Copying:** The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - **File Copy Report:** After processing all files, it reports the total number of files successfully copied.
 - **Metadata Collection and Export:**
     - **File Metadata:** Metadata for the files in both the source and destination directories is gathered. This includes file name, size, last modification time, file extension, and the full file path.
