@@ -30,7 +30,9 @@ The script includes the following steps:
 - If the target folder does not exist, it is automatically created before copying files.
 - The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
 - After processing all files, it reports the total number of files successfully copied.
-
+- **Metadata Collection and Export:**
+    - **File Metadata:** Metadata for the files in both the source and destination directories is gathered. This includes file name, size, last modification time, file extension, and the full file path.
+    - **Excel Export:** The collected metadata is exported to an Excel file with two sheets: one for the source directory and another for the destination directory.
 
 ## Importing Required Modules
 
