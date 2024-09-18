@@ -21,7 +21,7 @@
 This code is designed to copy files with a specific extension (in this case, **.csv**) from a source directory and its subdirectories to a target folder. Here’s a breakdown of its functionality:
 - The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
-- Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
+- **Space Check:** Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
 - If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
 - If the target folder does not exist, it is automatically created before copying files.
 - The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
