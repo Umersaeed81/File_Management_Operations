@@ -22,10 +22,10 @@
 
 The purpose of this code is to copy only **.txt** files from a specified source directory and its subdirectories to a target folder, with a **size limit** of less than **500KB**. It performs the following tasks:
 
-- The code checks for the existence of the source directory. If the source directory is not found, it displays an error message.
+- **Source Directory Check:** The code checks for the existence of the source directory. If the source directory is not found, it displays an error message.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
 - **Space Check:** Before copying each file, it verifies that there is sufficient free space in the target directory's drive to accommodate the file. If there is not enough free space, it displays an error message.
-- If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
+- **Unique Filename Generation:** If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
 - If the target folder does not exist, it is automatically created before copying files.
 - The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - After processing all files, it reports the total number of files successfully copied.
