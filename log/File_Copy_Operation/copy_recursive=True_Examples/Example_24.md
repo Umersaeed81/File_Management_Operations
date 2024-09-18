@@ -20,13 +20,12 @@
 
 This example is designed to copy files from a source directory and its subdirectories to a destination directory, specifically targeting files that have a keyword in the suffix (in this case, **"US"** or **"AS"**) and a specific file extension (in this case, **.xlsx**,**.txt**). The key steps are:
 
-- **Source Directory Check:** The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
-- If no files are found in the source directory to copy, it displays a message indicating this condition.
+- **Source Directory Check:** The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed. If no files are found in the source directory to copy, it displays a message indicating this condition.
 - **Space Check:** Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
 - **Unique Filename Generation:** If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
-- If the target folder does not exist, it is automatically created before copying files.
+- **Automatic Target Folder Creation:** If the target folder does not exist, it is automatically created before copying files.
 - The code uses `shutil.copy()` to copy each file. This function updates the file's metadata, so the last modification time reflects the current time of the copy operation rather than the original file’s modification time.
-- After processing all files, it reports the total number of files successfully copied.
+- **File Copy Report:** After processing all files, it reports the total number of files successfully copied.
 - **Metadata Collection and Export:**
     - **File Metadata:** Metadata for the files in both the source and destination directories is gathered. This includes file name, size, last modification time, file extension, and the full file path.
     - **Excel Export:** The collected metadata is exported to an Excel file with two sheets: one for the source directory and another for the destination directory.
