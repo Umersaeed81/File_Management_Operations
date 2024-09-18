@@ -22,10 +22,10 @@ This example demonstrates the process of copying files from a source directory t
 
 The script includes the following steps:
 
-- The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
+- **Source Directory Check:** The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.
 - If no files are found in the source directory to copy, it displays a message indicating this condition.
 - **Space Check:** Before copying each file, it verifies that there is enough free space in the target directory's drive to accommodate the file. If there is not enough free space, an error message is displayed.
-- If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
+- **Unique Filename Generation:** If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
 - If the target folder does not exist, it is automatically created before copying files.
 - The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - After processing all files, it reports the total number of files successfully copied.
