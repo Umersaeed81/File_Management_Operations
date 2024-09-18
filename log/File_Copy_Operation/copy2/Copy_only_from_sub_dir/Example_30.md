@@ -17,19 +17,11 @@
 </table>
 
 
-<h2>Table of Contents</h2>
-<ul>
-  <li><a href="#toc-1">Importing Required Modules</a></li>
-  <li><a href="#toc-2">Setting Source File and Destination Folder Paths</a></li>
-  <li><a href="#toc-3">Function to Get Free Disk Space</a></li>
-  <li><a href="#toc-4">Function to Generate a Unique Filename in the Destination Directory</a></li>
-  <li><a href="#toc-5">Checking and Copying the File to the Destination</a></li>
-  <li><a href="#toc-6">Gathering and Formatting File Metadata</a></li>
-  <li><a href="#toc-7"> Export Source and Destination File Information</a></li>
+
  
 
 
-<h1>Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB</h1>
+# Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB
 
 This example demonstrates the process of copying files from the subdirectories of a specified source directory, but not from the source directory itself, to a destination directory, focusing on files that contain a specific keyword (in this case **"US"** or **"AS"**) in their filenames, have a particular file extension (in this case **.xlsx** or **.txt**), and are **smaller than 500KB in size**.
 
@@ -47,7 +39,7 @@ The script includes the following steps:
     - **Excel Export:** The collected metadata is exported to an Excel file with two sheets: one for the source directory and another for the destination directory.
 
 
-<h2 id="toc-1">Importing Required Modules</h2>
+## Importing Required Modules
 
 
 ```python
@@ -60,7 +52,7 @@ from itertools import product
 ```
 
 
-<h2 id="toc-2">Setting Source File and Destination Folder Paths</h2>
+## Setting Source File and Destination Folder Paths
 
 ```python
 # Define the source and destination directory paths
@@ -69,7 +61,7 @@ destination_folder = 'D:/Copy/Ali_Saeed/'
 ```
 
 
-<h2 id="toc-3">Function to Get Free Disk Space</h2>
+## Function to Get Free Disk Space
 
 ```python
 def get_free_space(directory):
@@ -81,7 +73,7 @@ def get_free_space(directory):
 ```
 
 
-<h2 id="toc-4">Function to Generate a Unique Filename in the Destination Directory</h2>
+## Function to Generate a Unique Filename in the Destination Directory
 
 ```python
 # Function to generate unique filename
@@ -97,7 +89,7 @@ def generate_unique_filename(source_file, destination_directory):
 ```
 
 
-<h2 id="toc-5">Checking and Copying the File to the Destination</h2>
+## Checking and Copying the File to the Destination
 
 ```python
 # Check if the source directory exists
@@ -152,7 +144,7 @@ else:
     
 
 
-<h2 id="toc-6">Gathering and Formatting File Metadata</h2>
+## Gathering and Formatting File Metadata
 
 ```python
 def get_file_info(path):
@@ -505,7 +497,7 @@ file_info_destination_folder
 
 
 
-<h2 id="toc-7">Export Source and Destination File Information </h2>
+## Export Source and Destination File Information
 
 ```python
 # set path
