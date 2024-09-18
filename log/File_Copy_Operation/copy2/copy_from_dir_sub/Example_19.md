@@ -27,7 +27,9 @@ This example focuses on copying files from a source directory and its subdirecto
 - If the target folder does not exist, it is automatically created before copying files.
 - The code uses `shutil.copy2()` to copy each file. This function preserves the file's metadata, including the original file's modification time, and updates the file's access time to reflect the current time of the copy operation.
 - After processing all files, it reports the total number of files successfully copied.
-
+- **Metadata Collection and Export:**
+    - **File Metadata:** Metadata for the files in both the source and destination directories is gathered. This includes file name, size, last modification time, file extension, and the full file path.
+    - **Excel Export:** The collected metadata is exported to an Excel file with two sheets: one for the source directory and another for the destination directory.
 
 
 
