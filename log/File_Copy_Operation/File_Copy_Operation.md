@@ -21,18 +21,32 @@
 
 The copy operation is one of the most fundamental and widely used file management tasks. It involves creating an exact replica of a file or directory from one location to another. This seemingly simple task is a cornerstone of data management, underpinning many critical functions in both personal and professional contexts. Whether you're a software developer, a system administrator, or an everyday computer user, understanding and efficiently implementing copy operations is essential for maintaining the integrity and accessibility of your data.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_01.png?raw=true)
+
 At its core, the copy operation ensures that data can be duplicated safely and reliably. This is crucial for a variety of scenarios, including data backup, where maintaining a secondary copy of your files can prevent data loss due to hardware failure, accidental deletion, or corruption. Regular backups are a best practice for anyone who relies on digital data, providing peace of mind and a safeguard against unforeseen data loss.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_02.png?raw=true)
 
 Data migration is another significant use case for copy operations. When upgrading to a new system, moving data to a different storage device, or consolidating data from multiple sources, copying files accurately is paramount. This process needs to be carried out meticulously to ensure that all data is transferred without errors or omissions. Effective data migration not only involves copying files but also ensuring that the data remains organized and accessible in the new location.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_03.png?raw=true)
+
 Ensuring data redundancy is also a critical aspect of the copy operation. By maintaining multiple copies of important files in different locations, you can protect against data loss. This redundancy is particularly vital in business environments where data availability and integrity are critical for operations. For example, in environments that require high availability, such as financial systems or healthcare databases, redundant copies of data can mean the difference between continuity and disaster.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_04.png?raw=true)
 
 Beyond these technical necessities, copy operations also play a vital role in everyday workflows. Developers frequently use copies of files to test new code or features without risking the original data. This allows for safe experimentation and development, facilitating innovation while maintaining data integrity. Similarly, in collaborative environments, sharing copies of files ensures that all team members have access to the latest information without interfering with the primary data source.
 
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_05.png?raw=true)
+
 Moreover, the ability to perform copy operations efficiently is an asset in terms of time management and productivity. Advanced copy tools and techniques can significantly reduce the time required to duplicate large volumes of data, thus minimizing downtime and enhancing operational efficiency. For instance, tools that support parallel copying or compression can expedite the process, making large-scale data transfers more manageable and less time-consuming.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_06.png?raw=true)
 
 
 In addition to these practical benefits, understanding the intricacies of copy operations, such as handling file permissions, managing conflicts, and verifying data integrity, is crucial for maintaining a secure and organized file system. Properly managing these aspects ensures that copied files remain accessible and secure, preserving the original data's structure and permissions.
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_pg_07.png?raw=true)
 
 This chapter delves into the importance of the copy operation, its various use cases, and best practices for performing copy operations effectively. By mastering this essential task, you can ensure data safety, improve workflow efficiency, and support robust data management practices across various scenarios.
 
