@@ -151,42 +151,35 @@ Both `shutil.copy()` and `shutil.copy2()` are powerful tools for managing files 
 
 In practical applications, copy operations can vary from simple file duplication to complex conditions-based copying. Below are several examples demonstrating various scenarios of file copy operations.
 
+## Using `shutil.copyfile()`
 
-- [Cppy from Directory using `shutil.copyfile()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/copy_file_from_dir_only.md)
+- [Cppy from Directory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/copy_file_from_dir_only.md)
 
-- [Copy from Directory and Subdirectory using `shutil.copyfile()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/copyfile_from_dir_sub_dir.md) 
+- [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/copyfile_from_dir_sub_dir.md) 
 
-
-
-
-- [Copy from Subdirectory only using `shutil.copyfile()`](sst.edu.pk)
+- [Copy from Subdirectory`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/copyfile_from_sub_dir.md)
 
 
 
+## Using `shutil.copy()`
 
+- [Cppy from Directory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Copy_From_Directory_Examples.md)
 
+- [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Copy_From_Directory_SubDirectory_Examples.md)
 
-
-
-
-
+- [Copy from Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Copy_only_from_sub_dir.md)
 
 
 
 
+## Using `shutil.copy2()`
 
 
-- [Cppy from Directory using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Copy_From_Directory_Examples.md)
+- [Cppy from Directory ](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir/copy2_only_dir.md)
 
-- [Copy from Directory and Subdirectory using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Copy_From_Directory_SubDirectory_Examples.md)
+- [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir_sub/Copy2_From_Directory_SubDirectory_Examples.md)
 
-- [Copy from Subdirectory only using `shutil.copy()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Copy_only_from_sub_dir.md)
-
-- [Cppy from Directory using `shutil.copy2()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir/copy2_only_dir.md)
-
-- [Copy from Directory and Subdirectory using `shutil.copy2()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir_sub/Copy2_From_Directory_SubDirectory_Examples.md)
-
-- [Copy from Subdirectory only using `shutil.copy2()`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/Copy_only_from_sub_dir/Copy2_sub_dir_only.md)
+- [Copy from Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/Copy_only_from_sub_dir/Copy2_sub_dir_only.md)
 
 
 
