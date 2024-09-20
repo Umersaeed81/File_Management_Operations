@@ -178,6 +178,7 @@ shutil.copy2('source.txt', 'destination.txt')
 - Copies file content and all metadata (permissions, timestamps, etc.).
 - Ideal for scenarios where maintaining the file's original state is important.
 
+## Differences Between `copyfile()`, `copy()`, and `copy2()`
 
 | Feature            | `shutil.copyfile()` | `shutil.copy()`  | `shutil.copy2()` |
 |--------------------|---------------------|------------------|------------------|
