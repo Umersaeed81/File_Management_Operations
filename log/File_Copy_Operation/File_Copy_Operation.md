@@ -143,7 +143,6 @@ Python's `shutil` module offers several methods to handle file copying. Each met
 ```python
 import shutil
 shutil.copyfile('source.txt', 'destination.txt')
-
 ```
 
 ### Key Points
@@ -151,6 +150,43 @@ shutil.copyfile('source.txt', 'destination.txt')
 - Copies only the file content.
 - Does not copy file metadata (e.g., timestamps, permissions).
 - Source and destination must be files, not directories.
+
+
+## 2. `shutil.copy()`
+`shutil.copy()` is a more flexible method that copies both the file content and its permission bits (mode). It is useful when permissions need to be preserved, but other metadata like timestamps are not critical.
+
+```python
+import shutil
+shutil.copy('source.txt', 'destination.txt')
+```
+
+### Key Points:
+
+- Copies file content and permission bits.
+- Source can be a file, and the destination can be a directory.
+
+## 3. `shutil.copy2()`
+
+`shutil.copy2()` is the most comprehensive method in the `shutil` module, as it copies both the file content and all available metadata (e.g., permissions, last access time, last modification time). Use this method when you need an exact replica of the original file, including all its metadata.
+
+```python
+import shutil
+shutil.copy2('source.txt', 'destination.txt')
+```
+### Key Points:
+
+- Copies file content and all metadata (permissions, timestamps, etc.).
+- Ideal for scenarios where maintaining the file's original state is important.
+
+
+| Feature            | `shutil.copyfile()` | `shutil.copy()`  | `shutil.copy2()` |
+|--------------------|---------------------|------------------|------------------|
+| Copies Content     | Yes                 | Yes              | Yes              |
+| Copies Permissions | No                  | Yes              | Yes              |
+| Copies Timestamps  | No                  | No               | Yes              |
+| Source Type        | File                | File             | File             |
+| Destination Type   | File                | File/Directory   | File/Directory   |
+
 
 # Examples of File Copy Operations
 
