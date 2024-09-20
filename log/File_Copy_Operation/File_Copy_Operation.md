@@ -157,7 +157,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 - [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/copyfile_from_dir_sub_dir.md) 
 
-- [Copy from Subdirectory`](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/copyfile_from_sub_dir.md)
+- [Copy from Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/copyfile_from_sub_dir.md)
 
 
 
