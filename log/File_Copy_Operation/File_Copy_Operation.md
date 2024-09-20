@@ -153,7 +153,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 ## Using `shutil.copyfile()`
 
-- [Cppy from Directory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/copy_file_from_dir_only.md)
+- [Copy from Directory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/copy_file_from_dir_only.md)
 
 - [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/copyfile_from_dir_sub_dir.md) 
 
@@ -163,7 +163,7 @@ In practical applications, copy operations can vary from simple file duplication
 
 ## Using `shutil.copy()`
 
-- [Cppy from Directory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Copy_From_Directory_Examples.md)
+- [Copy from Directory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Copy_From_Directory_Examples.md)
 
 - [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Copy_From_Directory_SubDirectory_Examples.md)
 
@@ -175,7 +175,7 @@ In practical applications, copy operations can vary from simple file duplication
 ## Using `shutil.copy2()`
 
 
-- [Cppy from Directory ](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir/copy2_only_dir.md)
+- [Copy from Directory ](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir/copy2_only_dir.md)
 
 - [Copy from Directory and Subdirectory](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy2/copy_from_dir_sub/Copy2_From_Directory_SubDirectory_Examples.md)
 
