@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-# Copy Text and Excel Files (.txt, .xlsx) Under 500KB
+# Copy Text and Excel Files (.txt or .xlsx) Under 500KB
 
 
 This code selectively copies files with either **.txt** or **.xlsx** extensions from a specified source directory and its subdirectories to a target folder, but only if they are **smaller than 500KB** in **size**. It performs the following tasks:
