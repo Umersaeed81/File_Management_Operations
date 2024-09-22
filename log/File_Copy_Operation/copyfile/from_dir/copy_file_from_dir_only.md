@@ -90,4 +90,6 @@
 33. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_33.md)
 34. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_34.md)
 
+## Copying Files Based on Numeric and Alphabetic Patterns in Filenames
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
