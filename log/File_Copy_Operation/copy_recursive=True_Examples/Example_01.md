@@ -16,7 +16,7 @@
   </tr>
 </table>
 
-## Copy All Files
+# Copy All Files
 
 The purpose of this code is to copy **all files( (of any type)** from a specified **source directory** and its **subdirectories** to a target folder. It performs the following tasks:
 - **Source Directory Check:** The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed. If no files are found in the source directory to copy, it displays a message indicating this condition.
