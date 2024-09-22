@@ -82,4 +82,6 @@
 29. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_29.md)
 30. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_30.md)
 
+## Copying Files Based on Numeric and Alphabetic Patterns in Filenames
+
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
