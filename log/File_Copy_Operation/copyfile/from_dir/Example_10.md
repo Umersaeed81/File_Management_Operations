@@ -16,8 +16,20 @@
   </tr>
 </table>
 
-# Copy Text and Excel Files (.txt, .xlsx) Under 500KB
+# Copy Text and Excel Files (.txt or .xlsx) Under 500KB
 
+
+This code selectively copies files with either **.txt** or **.xlsx** extensions from a specified source directory to a target folder, but only if they are **smaller than 500KB** in **size**. It performs the following tasks:
+
+- **Source Directory Check:** The code checks for the existence of the source directory. If the source directory is not found, an error message is displayed.If no files are found in the source directory to copy, it displays a message indicating this condition.
+- **Space Check:** Before copying each file, it verifies that there is sufficient free space in the target directory's drive to accommodate the file. If there is not enough free space, it displays an error message.
+- **Unique Filename Generation:** If a file with the same name already exists in the target folder, it generates a unique filename to prevent overwriting existing files.
+- **Automatic Target Folder Creation:** If the target folder does not exist, it is automatically created before copying files.
+-  **File Copying:** The code uses `shutil.copy()` to copy each file, updating the file's metadata so that the last modification time reflects the current time of the copy operation, rather than the original file's modification time.
+- **File Copy Report:** After processing all files, it reports the total number of files successfully copied.
+- **Metadata Collection and Export:**
+    - **File Metadata:** Metadata for the files in both the source and destination directories is gathered. This includes file name, size, last modification time, file extension, and the full file path.
+    - **Excel Export:** The collected metadata is exported to an Excel file with two sheets: one for the source directory and another for the destination directory.
 
 
 ## Importing Required Modules
