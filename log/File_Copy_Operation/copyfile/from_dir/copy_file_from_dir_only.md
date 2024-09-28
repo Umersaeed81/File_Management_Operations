@@ -90,7 +90,8 @@
 33. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_33.md)
 34. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_34.md)
 
-## Copying Files Based on Numeric and Alphabetic Patterns in Filenames
+## Copying Files Based on Numeric and Alphabetic Patterns in Filenames with Conflict Resolution and Space Check
+
 35. [Copying Files with Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_35.md)
 36. [Copying Files Without Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_36.md)
 37. [Copying Files with Both Alphabetic and Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_37.md)
@@ -105,5 +106,8 @@
 42. [Copying Files with Dates in Their Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_42.md)
 43. [Copying Files with Dates in YYYYMMDD Format in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir/Example_43.md)
 
+## File Copy Utility Based on Filename Length with Conflict Resolution and Space Check
+44. []()
+45. []()
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
