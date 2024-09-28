@@ -419,3 +419,5 @@ with pd.ExcelWriter("38_Example.xlsx",date_format = 'dd-mm-yyyy',datetime_format
     file_info_source_directory.to_excel(writer, sheet_name='Source',index=False)
     file_info_destination_folder.to_excel(writer, sheet_name='Destination',index=False)
 ```
+
+![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
