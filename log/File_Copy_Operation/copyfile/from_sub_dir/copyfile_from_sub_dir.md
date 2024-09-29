@@ -21,8 +21,9 @@
 ## File Copy Utility with Conflict Resolution and Space Check
 
 1. [Copy All Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/Example_01.md)
-2. [Copy Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/Example_02.md)
-3. [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/Example_42.md)
+2. [Copying Files from Specific Subdirectories to a Target Folder](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/Example_43.md)
+3. [Copy Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/Example_02.md)
+4. [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_sub_dir/Example_42.md)
 
 ## Copy Files by Type and size with Conflict Resolution and Space Check
 
