@@ -91,5 +91,28 @@
 34. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_33.md)    
 
 ## Copying Files Based on Numeric and Alphabetic Patterns in Filenames
+37. [Copying Files with Numeric Characters in Filenames]()
+38. [Copying Files Without Numeric Characters in Filenames]()
+39. [Copying Files with Both Alphabetic and Numeric Characters in Filenames]()
+
+
+
+## Copying Files Based on Date Criteria with Conflict Resolution and Space Check
+40. [Copying Recently Created Files]()
+41. [Copying Files Created Within a Specified Date Range]()
+42. [Copying Files Modified Within the Last 24 Hours]()
+43. [Copying Recently Modified Files Within the Last Day]()
+44. [Copying Files with Dates in Their Filenames]()
+45. [Copying Files with Dates in YYYYMMDD Format in Filenames]()
+
+## File Copy Utility Based on Filename Length with Conflict Resolution and Space Check
+46. [Copying Files Based on Filename Length Excluding Extension]()
+47. [Copying Files Based on Filename Length Including Extension]()
+
+
+
+
+
+
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
