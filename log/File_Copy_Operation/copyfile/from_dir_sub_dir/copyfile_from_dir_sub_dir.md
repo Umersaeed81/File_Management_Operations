@@ -24,6 +24,7 @@
 2. [Copying Files from the Main Folder and Specific Subdirectories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/Example_43.md)
 3. [Copy Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/Example_02.md)
 4. [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/Example_42.md)
+5. [Copying Files from Multiple Directories and Their Subdirectories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copyfile/from_dir_sub_dir/Example_44.md)
 
 ## Copy Files by Type and size with Conflict Resolution and Space Check
 
