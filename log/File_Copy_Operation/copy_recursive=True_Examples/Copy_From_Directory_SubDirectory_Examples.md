@@ -22,87 +22,88 @@
 
 1. [Copy All Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_01.md)
 2. [Copy Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_02.md)
+3. [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_42.md)
+4. [Copying Files from the Main Folder and Specific Subdirectories to a Target Folder](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_43.md)
+5. [Copying Files from Multiple Directories and Their Subdirectories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_44.md)
 
 ## Copy Files by Type and size with Conflict Resolution and Space Check
 
-3. [Copy Specific File Type (.csv)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_03.md)
-4. [Copy Multiple File Types (.xlsx or .txt)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_04.md)
-5. [Copy Text Files (.txt) with Size Limit (Less than 500KB)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_05.md)
-6. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_06.md)
+6. [Copy Specific File Type (.csv)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_03.md)
+7. [Copy Multiple File Types (.xlsx or .txt)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_04.md)
+8. [Copy Text Files (.txt) with Size Limit (Less than 500KB)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_05.md)
+9. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_06.md)
 
 
 
 
 ## Copy Files by Prefix and Size with Conflict Resolution and Space Check
 
-7. [Copy Specific Prefix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_07.md)
-8. [Copy Multiple Prefixes ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_08.md)
-9. [Copy "US" Prefixed Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_09.md)
-10. [Copy Files with "US" or "AS" Prefix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_10.md)
+10. [Copy Specific Prefix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_07.md)
+11. [Copy Multiple Prefixes ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_08.md)
+12. [Copy "US" Prefixed Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_09.md)
+13. [Copy Files with "US" or "AS" Prefix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_10.md)
 
 ## Copy Files by Suffix and Size with Conflict Resolution and Space Check
-11. [Copy Specific Suffix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_11.md)
-12. [Copy Multiple Suffix ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_12.md)
-13. [Copy "US" Suffix Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_13.md)
-14. [Copy Files with "US" or "AS" Suffix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_14.md)
+14. [Copy Specific Suffix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_11.md)
+15. [Copy Multiple Suffix ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_12.md)
+16. [Copy "US" Suffix Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_13.md)
+17. [Copy Files with "US" or "AS" Suffix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_14.md)
 
 
 
 
 
 ## Copy Files by Filename Keyword and Size with Conflict Resolution and Space Check
-15. [Copy Files with Keyword "US"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_15.md)
-16. [Copy Files with Keyword "US" or "AS"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_16.md)
-17. [Copy Files with Keyword "US" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_17.md)
-18. [Copy Files with Keywords "US" or "AS" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_18.md)
+18. [Copy Files with Keyword "US"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_15.md)
+19. [Copy Files with Keyword "US" or "AS"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_16.md)
+20. [Copy Files with Keyword "US" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_17.md)
+21. [Copy Files with Keywords "US" or "AS" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_18.md)
 
 
 
 
 
 ## Copy Files by Prefix, Extension, and Size with Conflict Resolution and Space Check
-19. [Copy Specific Prefix ("US") and Extension (.txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_19.md)
-20. [Copy Multiple Prefixes ("US" or "AS") and Extensions (.txt or .xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_20.md)
-21. [Copy "US" Prefixed and .txt Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_21.md)
-22. [Copy Files with "US" or "AS" Prefix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_22.md)
+22. [Copy Specific Prefix ("US") and Extension (.txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_19.md)
+23. [Copy Multiple Prefixes ("US" or "AS") and Extensions (.txt or .xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_20.md)
+24. [Copy "US" Prefixed and .txt Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_21.md)
+25. [Copy Files with "US" or "AS" Prefix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_22.md)
 
 
 
 ## Copy Files by Suffix, Extension, and Size with Conflict Resolution and Space Check
-23. [Copy Specific Suffix ("US") and Extension (.csv) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_23.md)
-24. [Copy Multiple Suffixes ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_24.md)
-25. [Copy "US" Suffix and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_25.md)
-26. [Copy Files with "US" or "AS" Suffix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_26.md)
+26. [Copy Specific Suffix ("US") and Extension (.csv) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_23.md)
+27. [Copy Multiple Suffixes ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_24.md)
+28. [Copy "US" Suffix and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_25.md)
+29. [Copy Files with "US" or "AS" Suffix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_26.md)
 
 
 
 ## Copy Files by Keyword, Extension, and Size with Conflict Resolution and Space Check
-27. [Copy Specific Keyword ("US") and Extension (.xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_27.md)
-28. [Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_28.md)
-29. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_29.md)
-30. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_30.md)
+30. [Copy Specific Keyword ("US") and Extension (.xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_27.md)
+31. [Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_28.md)
+32. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_29.md)
+33. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_30.md)
 
 
 ## Copying Files Based on Numeric and Alphabetic Patterns in Filenames with Conflict Resolution and Space Check
-33. [Copying Files with Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_31.md)
-34. [Copying Files Without Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_32.md)
-35. [Copying Files with Both Alphabetic and Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_33.md)
+34. [Copying Files with Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_31.md)
+35. [Copying Files Without Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_32.md)
+36. [Copying Files with Both Alphabetic and Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_33.md)
 
 ## Copying Files Based on Date Criteria with Conflict Resolution and Space Check
-36. [Copying Recently Created Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_34.md)
-37. [Copying Files Created Within a Specified Date Range](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_35.md)
-38. [Copying Files Modified Within the Last 52 Hours](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_36.md)
-39. [Copying Recently Modified Files Within the Last 4 Days](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_37.md)
-40. [Copying Files with Dates in Their Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_38.md)
-41. [Copying Files with Dates in YYYYMMDD Format in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_39.md)
+37. [Copying Recently Created Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_34.md)
+38. [Copying Files Created Within a Specified Date Range](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_35.md)
+39. [Copying Files Modified Within the Last 52 Hours](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_36.md)
+40. [Copying Recently Modified Files Within the Last 4 Days](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_37.md)
+41. [Copying Files with Dates in Their Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_38.md)
+42. [Copying Files with Dates in YYYYMMDD Format in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_39.md)
 
 ## File Copy Utility Based on Filename Length with Conflict Resolution and Space Check
-42. [Copying Files Based on Filename Length Excluding Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_40.md)
-43. [Copying Files Based on Filename Length Including Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_41.md)
+43. [Copying Files Based on Filename Length Excluding Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_40.md)
+44. [Copying Files Based on Filename Length Including Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_41.md)
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
 
 
-- [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_42.md)
-- [Copying Files from the Main Folder and Specific Subdirectories to a Target Folder](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_43.md)
-- [Copying Files from Multiple Directories and Their Subdirectories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_44.md)
+
