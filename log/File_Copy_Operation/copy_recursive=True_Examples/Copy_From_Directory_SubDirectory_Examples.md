@@ -84,9 +84,9 @@
 
 
 ## Copying Files Based on Numeric and Alphabetic Patterns in Filenames with Conflict Resolution and Space Check
-33. [Copying Files with Numeric Characters in Filenames]()
-34. [Copying Files Without Numeric Characters in Filenames]()
-35. [Copying Files with Both Alphabetic and Numeric Characters in Filenames]()
+33. [Copying Files with Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_31.md)
+34. [Copying Files Without Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_32.md)
+35. [Copying Files with Both Alphabetic and Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_33.md)
 
 ## Copying Files Based on Date Criteria with Conflict Resolution and Space Check
 36. [Copying Recently Created Files]()
