@@ -30,65 +30,67 @@
 
 5. [Copy All Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_04.md)
 6. [Copy Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_19.md)
+7. [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_46.md)
+8. [Copying Files from Multiple Specified Directories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_47.md)
 
 ## Copy Files by Type and size with Conflict Resolution and Space Check
 
-7. [Copy Specific File Type (.csv)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
-8. [Copy Multiple File Types (.xlsx or .txt)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
-9. [Copy Text Files (.txt) with Size Limit (Less than 500KB)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_20.md)
-10. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_21.md)
+9. [Copy Specific File Type (.csv)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_05.md)
+10. [Copy Multiple File Types (.xlsx or .txt)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_06.md)
+11. [Copy Text Files (.txt) with Size Limit (Less than 500KB)](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_20.md)
+12. [Copy Text and Excel Files (.txt, .xlsx) Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_21.md)
 
 
 
 
 ## Copy Files by Prefix and Size with Conflict Resolution and Space Check
 
-11. [Copy Specific Prefix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
-12. [Copy Multiple Prefixes ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
-13. [Copy "US" Prefixed Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_22.md)
-14. [Copy Files with "US" or "AS" Prefix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_23.md)
+13. [Copy Specific Prefix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_07.md)
+14. [Copy Multiple Prefixes ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_08.md)
+15. [Copy "US" Prefixed Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_22.md)
+16. [Copy Files with "US" or "AS" Prefix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_23.md)
 
 ## Copy Files by Suffix and Size with Conflict Resolution and Space Check
-15. [Copy Specific Suffix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_09.md)
-16. [Copy Multiple Suffix ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_10.md)
-17. [Copy "US" Suffix Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_24.md)
-18. [Copy Files with "US" or "AS" Suffix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_25.md)
+17. [Copy Specific Suffix ("US") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_09.md)
+18. [Copy Multiple Suffix ("US" or "AS") Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_10.md)
+19. [Copy "US" Suffix Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_24.md)
+20. [Copy Files with "US" or "AS" Suffix Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_25.md)
 
 
 
 
 
 ## Copy Files by Filename Keyword and Size with Conflict Resolution and Space Check
-19. [Copy Files with Keyword "US"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_11.md)
-20. [Copy Files with Keyword "US" or "AS"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_12.md)
-21. [Copy Files with Keyword "US" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_26.md)
-22. [Copy Files with Keywords "US" or "AS" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_27.md)
+21. [Copy Files with Keyword "US"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_11.md)
+22. [Copy Files with Keyword "US" or "AS"](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_12.md)
+23. [Copy Files with Keyword "US" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_26.md)
+24. [Copy Files with Keywords "US" or "AS" Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_27.md)
 
 
 
 
 
 ## Copy Files by Prefix, Extension, and Size with Conflict Resolution and Space Check
-23. [Copy Specific Prefix ("US") and Extension (.txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
-24. [Copy Multiple Prefixes ("US" or "AS") and Extensions (.txt or .xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
- 25. [Copy "US" Prefixed and .txt Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_28.md)
- 26. [Copy Files with "US" or "AS" Prefix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_29.md)
+25. [Copy Specific Prefix ("US") and Extension (.txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_13.md)
+26. [Copy Multiple Prefixes ("US" or "AS") and Extensions (.txt or .xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_14.md)
+27. [Copy "US" Prefixed and .txt Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_28.md)
+28. [Copy Files with "US" or "AS" Prefix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_29.md)
 
 
 
 ## Copy Files by Suffix, Extension, and Size with Conflict Resolution and Space Check
-27. [Copy Specific Suffix ("US") and Extension (.csv) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
-28. [Copy Multiple Suffixes ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
-29. [Copy "US" Suffix and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_30.md)
-30. [Copy Files with "US" or "AS" Suffix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_31.md)   
+29. [Copy Specific Suffix ("US") and Extension (.csv) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_15.md)
+30. [Copy Multiple Suffixes ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_16.md)
+31. [Copy "US" Suffix and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_30.md)
+32. [Copy Files with "US" or "AS" Suffix and .txt or .xlsx Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_31.md)   
 
 
 
 ## Copy Files by Keyword, Extension, and Size with Conflict Resolution and Space Check
-31. [Copy Specific Keyword ("US") and Extension (.xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
-32. [Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
-33. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_32.md) 
-34. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_33.md)    
+33. [Copy Specific Keyword ("US") and Extension (.xlsx) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_17.md)
+34. [Copy Multiple Keywords ("US" or "AS") and Extensions (.xlsx or .txt) Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_18.md)
+35. [Copy "US" Keyword and .xlsx Files Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_32.md) 
+36. [Copy Files with "US" or "AS" Keyword and .xlsx or .txt Extension Under 500KB](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_33.md)    
 
 ## Copying Files Based on Numeric and Alphabetic Patterns in Filenames
 37. [Copying Files with Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_examples/Example_35.md)
