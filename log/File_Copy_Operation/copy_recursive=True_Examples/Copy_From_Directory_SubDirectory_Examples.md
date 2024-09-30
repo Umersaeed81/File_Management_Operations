@@ -89,12 +89,12 @@
 35. [Copying Files with Both Alphabetic and Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_33.md)
 
 ## Copying Files Based on Date Criteria with Conflict Resolution and Space Check
-36. [Copying Recently Created Files]()
-37. [Copying Files Created Within a Specified Date Range]()
-38. [Copying Files Modified Within the Last 24 Hours]()
-39. [Copying Recently Modified Files Within the Last Day]()
-40. [Copying Files with Dates in Their Filenames]()
-41. [Copying Files with Dates in YYYYMMDD Format in Filenames]()
+36. [Copying Recently Created Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_34.md)
+37. [Copying Files Created Within a Specified Date Range](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_35.md)
+38. [Copying Files Modified Within the Last 52 Hours](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_36.md)
+39. [Copying Recently Modified Files Within the Last 4 Days](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_37.md)
+40. [Copying Files with Dates in Their Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_38.md)
+41. [Copying Files with Dates in YYYYMMDD Format in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_39.md)
 
 ## File Copy Utility Based on Filename Length with Conflict Resolution and Space Check
 42. [Copying Files Based on Filename Length Excluding Extension]()
