@@ -83,21 +83,21 @@
 
 
 ## Copying Files Based on Numeric and Alphabetic Patterns in Filenames with Conflict Resolution and Space Check
-34. [Copying Files with Numeric Characters in Filenames]()
-35. [Copying Files Without Numeric Characters in Filenames]()
-36. [Copying Files with Both Alphabetic and Numeric Characters in Filenames]()
+34. [Copying Files with Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_31.md)
+35. [Copying Files Without Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_32.md)
+36. [Copying Files with Both Alphabetic and Numeric Characters in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_33.md)
 
 ## Copying Files Based on Date Criteria with Conflict Resolution and Space Check
-37. [Copying Recently Created Files]()
-38. [Copying Files Created Within a Specified Date Range]()
-39. [Copying Files Modified Within the Last 24 Hours]()
-40. [Copying Recently Modified Files Within the Last Day]()
-41. [Copying Files with Dates in Their Filenames]()
-42. [Copying Files with Dates in YYYYMMDD Format in Filenames]()
+37. [Copying Recently Created Files](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_34.md)
+38. [Copying Files Created Within a Specified Date Range](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_35.md)
+39. [Copying Files Modified Within the Last 52 Hours](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_36.md)
+40. [Copying Recently Modified Files Within the Last 4 Days](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_37.md)
+41. [Copying Files with Dates in Their Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_38.md)
+42. [Copying Files with Dates in YYYYMMDD Format in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_39.md)
 
 ## File Copy Utility Based on Filename Length with Conflict Resolution and Space Check
-43. [Copying Files Based on Filename Length Excluding Extension]()
-44. [Copying Files Based on Filename Length Including Extension]()
+43. [Copying Files Based on Filename Length Excluding Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_40.md)
+44. [Copying Files Based on Filename Length Including Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/Copy_only_from_sub_dir/Example_41.md)
 
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
