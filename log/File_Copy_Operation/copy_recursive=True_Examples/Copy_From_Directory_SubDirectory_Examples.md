@@ -97,7 +97,7 @@
 41. [Copying Files with Dates in YYYYMMDD Format in Filenames](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_39.md)
 
 ## File Copy Utility Based on Filename Length with Conflict Resolution and Space Check
-42. [Copying Files Based on Filename Length Excluding Extension]()
-43. [Copying Files Based on Filename Length Including Extension]()
+42. [Copying Files Based on Filename Length Excluding Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_40.md)
+43. [Copying Files Based on Filename Length Including Extension](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_41.md)
 
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
