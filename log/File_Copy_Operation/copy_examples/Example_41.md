@@ -1,4 +1,4 @@
-# Copying Recently Modified Files Within the Last 4 Day
+# Copying Recently Modified Files Within the Last 4 Days
 
 The objective of this code is to filter files only from the source directory (excluding subdirectories) that were modified within the last 4 days and copy those files to a specified destination folder.
 
