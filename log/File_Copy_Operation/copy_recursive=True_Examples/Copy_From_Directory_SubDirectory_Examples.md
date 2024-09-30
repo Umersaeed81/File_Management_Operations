@@ -103,6 +103,6 @@
 ![](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/banoqabil.png?raw=true)
 
 
-[Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_42.md)
-[Copying Files from the Main Folder and Specific Subdirectories to a Target Folder](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_43.md)
-[Copying Files from Multiple Directories and Their Subdirectories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_44.md)
+- [Copying Files Based on Size Rang](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_42.md)
+- [Copying Files from the Main Folder and Specific Subdirectories to a Target Folder](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_43.md)
+- [Copying Files from Multiple Directories and Their Subdirectories](https://github.com/Umersaeed81/File_Management_Operations/blob/main/log/File_Copy_Operation/copy_recursive%3DTrue_Examples/Example_44.md)
