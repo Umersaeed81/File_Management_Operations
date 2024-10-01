@@ -17,7 +17,7 @@
 </table>
 
 
-## Copying Files from Multiple Specified Directories
+# Copying Files from Multiple Specified Directories
 
 The objective of this code is to copy all files (of any type) from multiple specified directories ('D:/Copy/Umer_Saeed' and 'D:/Ali_Saeed') to a target folder
 
